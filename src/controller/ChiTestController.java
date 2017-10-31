@@ -3,6 +3,7 @@ package controller;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.File;
+import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.stream.Collectors;
 
@@ -17,11 +18,15 @@ public class ChiTestController {
 	private final MainFrame mainFrame = MainFrame.getInstance();
 	
 	private LinkedHashMap<String, String> clusterFilePaths;
+	private ArrayList<String> filesStrings;
+	
+	
+	
 	
 	private ChiTestController() {
 		
 		clusterFilePaths = new LinkedHashMap<String, String>();
-		
+		this.filesStrings = new ArrayList<>();
 		initListeners();
 		
 	}
@@ -46,10 +51,16 @@ public class ChiTestController {
 						String filePath = FileGetter.getInstance().getCanonicalPath(file);
 						String fileName = filePath.substring(filePath.lastIndexOf("\\") + 1, filePath.lastIndexOf("."));
 						
+						filesStrings.add(filePath);
+						
 						clusterFilePaths.put(fileName, filePath);
 						
+						
 					}
-					mainFrame.getTextFieldUploaderFileWeights().setText(clusterFilePaths.values().stream().map(path -> path).collect(Collectors.joining(",")));
+					
+					
+					mainFrame.getTextFieldChiFiles().setText(clusterFilePaths.values().stream().map(path -> path).collect(Collectors.joining(",")));
+					//mainFrame.getTextFieldUploaderFileWeights().setText(clusterFilePaths.values().stream().map(path -> path).collect(Collectors.joining(",")));
 					if(!clusterFilePaths.isEmpty())
 						mainFrame.getButtonChiStart().setEnabled(true);
 					
@@ -63,6 +74,9 @@ public class ChiTestController {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				
+				System.out.println("hello world");
+				PythonExecutor pe = new PythonExecutor(filesStrings);
+				pe.Execute();
 				// TODO
 				
 			}
