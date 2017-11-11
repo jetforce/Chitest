@@ -47,11 +47,34 @@ def readCSV(filename):
 	with open(filename) as csvfile:
 	    readCSV = csv.reader(csvfile, delimiter=',')
 	    for row in readCSV:
+	    	for i in range(0,len(row)):
+	    		if(RepresentsInt(row[i])):
+	    			#print "REPRESENTS " + row[i]
+	    			temp = int(row[i])
+	    			row[i] = str(temp)
+
+	    		elif(RepresentsFloat(row[i])): 	
+	    			#print "REPRESENTS " + row[i]
+	    			temp = float(row[i])
+	    			temp = int(temp)
+	    			row[i] = str(temp)
 	        rows.append(row)
 	return rows
 
 
+def RepresentsInt(s):
+    try: 
+        int(s)
+        return True
+    except ValueError:
+        return False
 
+def RepresentsFloat(s):
+    try: 
+        float(s)
+        return True
+    except ValueError:
+        return False
 
 
 def getPercentColumn(body, colIdx):
@@ -185,32 +208,33 @@ def readTableToFloat(table):
 	return table.rows[0], rows
 
 
-def doFile(table,fileNum,results,converter,z):
+def doFile(table,fileNum,results,converter,z,header):
 
 
 	header, rows = readTableToFloat(table)
 	header , rows = sortTableColumns(header,rows)
 
 
-
+	"""
 	print "diz are da header"
 	print header
 	
 	print "diz are the rows"
 	print rows
-
+	"""
 
 	numpiRows = np.asarray(rows)
 	labelCols = numpiRows[:,0]
 	numpiRows=np.delete(numpiRows, 0, axis=1)
 
 	totals =  getSumRows(numpiRows)
-	print "total: "+str(totals)
-
-
+	#print "total: "+str(totals)
 
 	proportions = getProportions(numpiRows, totals)
-	print "proportions "+ str(proportions)
+	
+	#print "proportions "+ str(proportions)
+	
+
 	errors = getStandardError(proportions,totals)
 
 	upperBounds = proportions + errors*z
@@ -220,27 +244,30 @@ def doFile(table,fileNum,results,converter,z):
 	PopulationCount = np.sum(colSum)
 	PopQuestionProp = colSum / PopulationCount
 
-
-
 	expected = np.copy(numpiRows)
 	grandTotal = np.sum(colSum) 
+	
+	"""
 	print "totals"
 	print totals
 	print "colsum"
 	print colSum
 	print expected
+	"""
+
 	for i in range(0,len(expected)):
 		for y in range(0,len(expected[i])):
-		
-			print colSum[y]
+			#print colSum[y]
 			expected [i][y] = totals[i][0] * colSum[y] / grandTotal
 
-
+	"""
 	print "Expected"
 	print expected
-
+	"""
 	chi = (numpiRows - expected) * (numpiRows - expected) / expected
 	chistat = np.sum(chi)
+
+	"""
 	print "Chi-Square"
 	print chi
 	print "Chi -stat"
@@ -251,14 +278,24 @@ def doFile(table,fileNum,results,converter,z):
 	print "Pop Proportions "+ str(PopQuestionProp) 
 	print "Lower "+ str(lowerBounds)
 	print "Upper "+str(upperBounds)
+	"""
 
 	if(chistat > z):
 		thequestion = converter.convert(fileNum)
-		results.append([thequestion,chistat])
+		results.append([H,thequestion,chistat])
 
 
-def group(index, rows):
+def group(index, rows,V, header):
 	groups = {}
+
+	#1 Because first index is question name
+	if header not in V.keys():
+		print "Warning "+ header +" "+"not in Variable description"
+	else:
+		for i in range(1,len(V[header])):
+			entry =  V[header][i][0]
+			groups[V[header][i][0]] = []
+
 
 	for i in range(0, len(rows)):
 
@@ -269,17 +306,20 @@ def group(index, rows):
 			if entry in groups:
 				groups[entry].append(i)
 			else:
+				print "Warning  "+ str(entry) +" is not declared in variable description for question "+ header
 				groups[entry] = []
 				groups[entry].append(i)
 
 	return groups
 
 
-def getTable(col,clusters):
+def getTable(col,clusters,V, header):
 
 	groups = []
 	for c in clusters:
-		groups.append(group(col,c))
+
+		groups.append(group(col,c,V,header))
+
 
 	keys = []
 
@@ -293,34 +333,52 @@ def getTable(col,clusters):
 	return Table(groups,keys)
 
 
+def getVariableList(filename):
+	variables = {}	
+
+	
+	with open(filename) as csvfile:
+	    readCSV = csv.reader(csvfile, delimiter=',')
+	    for row in readCSV:
+
+	    	if( row[0] == 'v'):
+	    		variables[row[1]]= [row[2]]
+	    		lastVar = row[1]    	
+	    	else:
+	    		variables[lastVar].append((row[0], row[1]))		
+	        
+	return variables
 
 
-header = readHeader('mine.csv')
+vList = getVariableList('Response-Grouping.csv')
+header = readHeader('CleanDataToMine.csv')
 clusternames = sys.argv[1:]
 
 print clusternames
-
 clusters = []
 for clustername in clusternames:
 	clusterRow = readCSV(clustername)
+	#print clusterRow
 	clusters.append(clusterRow)
 
+
+
 results = []
-
-
 converter = ColConverter()
-
-
-
-
 
 
 z=[1.960]
 zstr = ['1960']
 for y in range(0,len(z)):
-	results = [["Feature","Chi"]]
-	for i in range(3,570):
-		doFile(getTable(i,clusters),i,results,converter,z[y])
+	results = [["Question","Feature","Chi"]]
+	for i in range(3,len(header)):
+		if header[i] not in vList.keys():
+			print "Warning "+ header[i] +" "+" question name not in Variable description will be assigned to null"
+			H = "null"
+		else:
+			H = vList[header[i]][0]
+
+		doFile(getTable(i,clusters,vList,header[i]),i,results,converter,z[y],H)
 	print results
 	filename = "ChiZ"+zstr[y]+".csv"
 	writeOnCSV(results,filename)
