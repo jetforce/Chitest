@@ -16,7 +16,7 @@ public class PythonExecutor {
 	
 	public void Execute(){
 		
-		String cmd = "python readChi.py";
+		String cmd = "python readChi.py save.csv";
 		
 		for(String s: this.filenames){
 			cmd = cmd + " "+s;	

@@ -25,7 +25,6 @@ def readHeader(filename):
 	    		return row
 
 
-
 def readCSVtoDouble(filename):
 	num=0
 	rows = []
@@ -42,23 +41,26 @@ def readCSVtoDouble(filename):
 	return header, rows
 
 
-def readCSV(filename):
+def readCSV(filename,isHead = True):
 	rows = []
+	count = 0
 	with open(filename) as csvfile:
 	    readCSV = csv.reader(csvfile, delimiter=',')
 	    for row in readCSV:
-	    	for i in range(0,len(row)):
-	    		if(RepresentsInt(row[i])):
-	    			#print "REPRESENTS " + row[i]
-	    			temp = int(row[i])
-	    			row[i] = str(temp)
+	    	if(not (count==0 and isHead)):
+		    	for i in range(0,len(row)):
+		    		if(RepresentsInt(row[i])):
+		    			#print "REPRESENTS " + row[i]
+		    			temp = int(row[i])
+		    			row[i] = str(temp)
 
-	    		elif(RepresentsFloat(row[i])): 	
-	    			#print "REPRESENTS " + row[i]
-	    			temp = float(row[i])
-	    			temp = int(temp)
-	    			row[i] = str(temp)
-	        rows.append(row)
+		    		elif(RepresentsFloat(row[i])): 	
+		    			#print "REPRESENTS " + row[i]
+		    			temp = float(row[i])
+		    			temp = int(temp)
+		    			row[i] = str(temp)
+		        rows.append(row)
+	        count =  count +1
 	return rows
 
 
@@ -100,8 +102,6 @@ def getProportions(rows, totals):
 	
 
 	proportions = np.copy(rows)
-
-
 	proportions = proportions / totals.reshape(-1,1)
 
 	index=0
@@ -170,41 +170,11 @@ def doAccumulate(header, rows):
 	return newheader, newrow
 
 
-def groupRows(rows):
-	#print rows
-
-	pirow = np.asarray(rows)
-
-	pirow = pirow[pirow[:,0].argsort()]
-
-	#print pirow
-
-	group1 = pirow[0] + pirow[1] + pirow[2]
-	group2 = pirow[3] + pirow[4] + pirow[5]
-	group3 = pirow[6] + pirow[7] + pirow[8]
-
-	group1 = group1.tolist()
-	group2 = group2.tolist()
-	group3 = group3.tolist()
-
-	group1[0] = 9.11
-	group2[0] = 12.14
-	group3[0] = 15.17
-
-	newrows = [group1,group2,group3]
-
-	#print newrows
-	return newrows
-
-
 
 def readTableToFloat(table):
-
 	rows = []
-
 	for x in range(1,len(table.rows)):
 		rows.append([float(i) for i in table.rows[x]])
-
 	return table.rows[0], rows
 
 
@@ -215,13 +185,13 @@ def doFile(table,fileNum,results,converter,z,header):
 	header , rows = sortTableColumns(header,rows)
 
 
-	"""
-	print "diz are da header"
-	print header
+
+	# print "diz are da header"
+	# print header
 	
-	print "diz are the rows"
-	print rows
-	"""
+	# print "diz are the rows"
+	# print rows
+	
 
 	numpiRows = np.asarray(rows)
 	labelCols = numpiRows[:,0]
@@ -247,13 +217,14 @@ def doFile(table,fileNum,results,converter,z,header):
 	expected = np.copy(numpiRows)
 	grandTotal = np.sum(colSum) 
 	
-	"""
-	print "totals"
-	print totals
-	print "colsum"
-	print colSum
-	print expected
-	"""
+	
+	# print "totals"
+	# print totals
+	# print "colsum"
+	# print colSum
+	# print "expected"
+	# print expected
+	
 
 	for i in range(0,len(expected)):
 		for y in range(0,len(expected[i])):
@@ -264,8 +235,13 @@ def doFile(table,fileNum,results,converter,z,header):
 	print "Expected"
 	print expected
 	"""
-	chi = (numpiRows - expected) * (numpiRows - expected) / expected
+	chi = ((numpiRows - expected) * (numpiRows - expected)) / expected
+	# print "Expected"
+	# print expected
+	# print numpiRows
+
 	chistat = np.sum(chi)
+	# print chistat
 
 	"""
 	print "Chi-Square"
@@ -317,12 +293,9 @@ def getTable(col,clusters,V, header):
 
 	groups = []
 	for c in clusters:
-
 		groups.append(group(col,c,V,header))
 
-
 	keys = []
-
 	for g in groups:
 
 		for key in g:
@@ -350,9 +323,12 @@ def getVariableList(filename):
 	return variables
 
 
-vList = getVariableList('Response-Grouping.csv')
-header = readHeader('CleanDataToMine.csv')
-clusternames = sys.argv[1:]
+vList = getVariableList('Updated-Variables.csv')
+header = readHeader('dataset/a.csv')
+
+#print header
+
+clusternames = sys.argv[2:]
 
 print clusternames
 clusters = []
@@ -371,16 +347,16 @@ z=[1.960]
 zstr = ['1960']
 for y in range(0,len(z)):
 	results = [["Question","Feature","Chi"]]
-	for i in range(3,len(header)):
+	for i in range(1,len(header)):
 		if header[i] not in vList.keys():
 			print "Warning "+ header[i] +" "+" question name not in Variable description will be assigned to null"
 			H = "null"
 		else:
 			H = vList[header[i]][0]
-
+		#print "col "+str(i)+" "+ header[i]	
 		doFile(getTable(i,clusters,vList,header[i]),i,results,converter,z[y],H)
-	print results
-	filename = "ChiZ"+zstr[y]+".csv"
+	#print results
+	filename = sys.argv[1]
 	writeOnCSV(results,filename)
 
 
