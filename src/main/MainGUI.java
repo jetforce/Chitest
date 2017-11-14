@@ -3,6 +3,7 @@ package main;
 import javax.swing.SwingUtilities;
 
 import controller.ChiTestController;
+import controller.DescriptorController;
 import controller.KMeansController;
 import controller.SOMController;
 import controller.UploaderController;
@@ -18,6 +19,7 @@ public class MainGUI {
 			public void run() {
 				
 				MainFrame.getInstance().setVisible(true);
+				DescriptorController.getInstance();
 				SOMController.getInstance();
 				KMeansController.getInstance();
 				UploaderController.getInstance();

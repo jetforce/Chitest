@@ -62,7 +62,7 @@ public class KMeansController {
 				ArrayList<String> contents = CSVIO.read(filepath);
 				if(!contents.isEmpty()) {
 					
-					if(mainFrame.getCheckBoxKMeansHeader().isSelected())
+					if(mainFrame.getCheckboxKMeansHeader().isSelected())
 						contents.remove(0);
 					
 					ArrayList<Instance> instances = new ArrayList<Instance>();
