@@ -16,6 +16,11 @@ When I am somewhere by myself,b6d,25.703298956192871
 A mobile phone that is not a smartphone,b6f,9.2675013393465751
 A smartphone [iPhone; Samsung Galaxy; Cherry Mobile; Star Mobile; etc],b6g,27.067331337211343
 A laptop or notebook computer,b7b,3.9846049677055282
+A mobile phone that is not a smartphone,b7e,6.2703457644403153
+A smartphone [iPhone; Samsung Galaxy; Cherry Mobile; Star Mobile; etc],b7f,18.523317163889111
+A desktop computer,b8a,2.2133808316047094
+I use freeWIFI (at home; in school; coffee shop or cafés; malls; etc.),b8f,12.124655864243309
+I use prepaid offers (e.g. GOSurf; GIGASurf; etc.),b9b,45.064533828452937
 My parents,b9d,7.0216621970802553
 Friends who are the same age as I am,b10b2,18.460245372679367
 Hours,b10d,25.083196006353376
@@ -115,6 +120,16 @@ I know how to install apps on a mobile device (e.g. phone or tablet),e1r,45.2278
 I know how to safeguard my online expenses while using mobile apps,e1u,47.205587853495217
 I know how to make an in-app purchase,e1v,22.201827391920318
 I know how to download and carck to full version some paid apps without paying a fee (e.g. torrent; etc.),e1w,14.451244139601167
+Deactivate the function showing my geographical position (on Facebook; Google Maps; etc.),e1x,35.257606698361144
+Connect to a Wi-Fi network,e1x1,29.694904390180717
+Block push notifications from different apps,e3a,39.267730023962457
+Have the same documents; contacts or apps on all devices that I use (e.g. smartphone; tablet; PC),e3b,28.927822660528928
+Block pop ups which promote apps; games or services I have to pay for (unrequested windows that appear during web surfing),e3c,14.429667589261904
+Protect a smartphone with a PIN/with a screen pattern,e3d,44.838202872419963
+Update my status on the social networking site I use the most,e3e,53.006396007915228
+Find information on how to use smartphones safely,e3f,49.239061338313682
+Compare similar apps to choose the one that is most reliable,e3g,51.745345724273406
+Take a picture or a video with my smartphone and post it onto social media,e3h,16.346234313496279
 Twitter,e3i,13.800641204565462
 Viber,e3j,2.2005857199332275
 Facebook,d1e,35.389127232596685
@@ -137,25 +152,62 @@ Minecraft,d14f,20.332355674177357
 DOTA 2,d15a,3.8218685215982999
 League of Legends,d15b,7.3011445994124529
 null,d15e,8.7679032005266286
+A photo that clearly shows your face,d7c,7.6866559694258658
+Your last name,d8,4.2634429948960459
+Your address,d9a,14.236903136302857
+Your phone number,d9b,6.7504415647835856
+Your school,d9c,39.53260811057585
+Your correct age,d9d,5.9970327281459346
+Places you've dined and visited,d9f,2.8196663834980549
+Pictures showing whole body,d9g,2.8659452053115055
 Looked for new friends or contacts on the internet,d9k,2.5390722981614071
 Sent my personal information (e.g.; my full name; address or phone number) to someone I have never met face-to-face,d10,2.0155128442260053
 Added people to my friends or contacts I have never met face-to-face,f1a,1.9965386454571243
 Post my current location and those I had been to,f1d,3.0098618806500359
 Post messages or love quotes that pertain to the boy/girl whom I have a crush on,f1f,7.367997219539081
 Engage in chat activities with a person whom I only met on internet,f1h,4.246794361196601
+null,f1k,18.637071339498107
 null,f6g,2.8544688345417661
+null,f6h,12.232184175618682
 A friend around my age,f14l,5.3595241230924398
 Boyfriend/Girlfriend,f14c,4.745510220971612
 Godfather/Godmother,f14d,3.4953239523019994
 I ignored the problem or hoped the problem would go away by itself,f14i,2.9353720937743679
 Other actions taken,f16i,2.3177347242921011
+null,f18,7.5912310050299308
+null,f19,12.262327325875093
 On a social networking site (e.g. Facebook; Twitter etc.),f21a,1.9917582417582429
+Nasty or hurtful messages were sent to me,f21h,13.965655500810913
 null,f23,2.3459167950693374
+null,f25,4.0975870574786315
 By mobile phone calls,f26a,4.9391513465322179
 On a media sharing platform (YouTube; Instagram; Flickr),f27c,6.7097301232561284
+null,f27h,35.214300941018998
 null,f27i,6.5382723356041463
+Via a mobile phone; computer; tablet or anyother online device,f31a,4.5715067667508231
+An image or video that shows sexual acts in a violent way,f33b,2.3264844700256342
+null,f33d,13.229778771671242
 null,f33e,3.549079527259126
+By IM (MSN; WhatsApp; Skype; etc.),f37c,2.9409647223288196
+In an online game,f37e,5.6571428571428575
+In a gaming community (also on the Xbox and other game consoles),f37f,7.3655955480919575
+By 'pop up' (something appears by accident),f37g,2.92354944367559
 null,f37i,2.1160153210844457
+Ways of physically harming or hurting themselves,f40b,5.3406559672317773
+Ways to be very thin (such as being anorexic or bulimic),f41a,12.527509931771478
+Hate messages that attack certain groups or individuals (e.g.; people of different colour or religion or nationality),f41b,9.2693614958189876
+Their experiences of taking drugs,f41c,6.7374585550149853
+Gory or violent images,f41d,11.709634125631053
+Ways of courtship,f41e,50.657305820300138
+Ways how to find a relationship,f41f,6.1384340891232565
+About cheating,f41j,8.3380794269432439
+About drinking alcohol,f41l,3.4270188439922116
+About bullying,f41n,20.563882023165927
+Somebody used my personal information in a way I didn't like,f41o,6.0009533113780575
+The device (e.g.; phone; tablet; computer) I use got a virus or spyware,f41p,5.3531850890177308
+Somebody used my password to access my information or to pretend to be me,f43b,2.2142649876244951
+I spent too much money on online games or in-app purchases,f43d,2.3896003151910818
+I was asked to make an in-app purchase when playing an online game (e.g.; to do well in the game),f43e,4.3903356785847372
 I have gone without eating or sleeping because of the time I spent on the internet,f43g,16.080323676785266
 I have experienced conflicts with family or friends because of the time I spent on the internet,f43h,6.8437516448730351
 My grades have dropped because of the time I spent on the internet,f45a,4.401183869031323
@@ -187,6 +239,14 @@ Use instant messaging,i6e,17.834898812771151
 Read/watch news online,i6f,7.9250202479026761
 Use the internet for school work,i6g,8.9959291075604444
 Put (or post) photos; videos or music online to share with others (including social networking or instant messaging),i6i,19.621017441676091
+null,i6j,4.0706007914601638
+null,i6k,2.2714115025309649
+null,i7b,4.4570568028250426
+null,i7c,12.351896000745755
+null,i7d,13.649405972146191
+null,i7e,5.3157367091192711
+null,i7f,24.086403675243652
+null,i7g,3.025148468286142
 null,i8a,1.9855239918148773
 Suggested ways to use the internet safely,i8f,19.628395645245885
 Encouraged me to explore and learn things on the internet,j1,12.079536160932573
@@ -225,6 +285,9 @@ Because of how I look or behave,a22f,2.9923810156608703
 Because of my opinions or beliefs,a22h,4.1946904098921918
 Because my parents are not around (i.e.; OFW),a22j,3.6037605199778238
 Due to conflict / war in our area,a22k,2.1340545562338207
+Had so much alcohol that I got really drunk,a24a,3.4591453122933369
+Missed school lessons without my parent(s)/carer(s) knowing,a24b,6.833298393339887
+Met personally with someone whom I met online (i.e.; eyeball),a25d,2.8325254289411705
 I can solve difficult problems if I try hard enough,a25e,3.0671783442288234
 If someone opposes me; I can find ways to get what I want,a25f,4.9544883299745841
 It's easy for me to stick to my aims and achieve my goals,a26a,5.5226827784501697
@@ -232,9 +295,11 @@ I am confident that I can deal with unexpected problems,a26b,5.9378297904154902
 I can stay calm when things get difficult because I am good at coping,a26c,4.3443872846987004
 When I use the internet; I learn about different things that I could study; do or become what I want to be as productive as possible.,a27,12.738890229264523
 When I use the internet; I feel I want to achieve more in life.,a28,5.6968440710617294
-I have sent sexual information about myself (like what my body looks like without clothes on or sexual things I have done) when I did not want,g2c,3.2450982968881408
-I have talked about sexual acts with someone on the internet when I did not want to,g2d,2.5277777777777777
-I have sent someone a photo or video showing my private parts when I did not want to [translate as appropriate],g3b,5.5407407407407421
+I have seen or received a sexual message; image or video about someone else that I did not want,g1a,10.128462277765076
+I have been asked for sexual information about myself (like what my body looks like without clothes on or sexual things I have done) when I did not want to answer such questions,g1b,6.9607711437695112
+I have been asked to talk about sexual acts with someone on the internet when I did not want to,g1c,5.6373936324583482
+I have been asked by someone on the internet to do something sexual when I did not want to,g2a,2.1147768225666823
+I have been asked on the internet for a photo or video showing my private parts [translate as appropriate] when I did not want to,g2b,5.8743795668608971
 null,g3c,7.2929470136574004
 Friend or acquaintance,g9e,2.5203322695988168
 Prefer not to say,g9i,2.7618951181917395

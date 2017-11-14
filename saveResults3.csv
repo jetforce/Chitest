@@ -3,6 +3,7 @@ Someone or somewhere else: please state____,a3j,2.6789136994833189
 I help out at home,a4d,11.000666991715255
 I am currently in a vacation,a4e,2.1728847588141593
 A desktop computer,b7a,4.3253440771888103
+A mobile phone that is not a smartphone,b7e,2.0869707081942899
 Relatives,b10b1,2.4917006328951428
 Hours,b10d,11.956598651618695
 Hours,b10e,13.242159879340315
@@ -35,6 +36,9 @@ I know how to report abusive posts or things that I find offending in social med
 I know how to safeguard my online expenses while using mobile apps,e1u,3.041664533692737
 I know how to make an in-app purchase,e1v,6.3871789804492716
 I know how to download and carck to full version some paid apps without paying a fee (e.g. torrent; etc.),e1w,2.877424443933351
+Deactivate the function showing my geographical position (on Facebook; Google Maps; etc.),e1x,2.4471903415740401
+Find information on how to use smartphones safely,e3f,2.3052044678490713
+Compare similar apps to choose the one that is most reliable,e3g,2.0733578910208461
 Skype,d1d,2.2691640915597211
 Facebook,d1e,3.9992887554983643
 null,d2b,4.3725010425021837
@@ -45,24 +49,41 @@ WeChat,d14b,9.1384722012198196
 Instagram,d14c,7.6883522209073227
 YouTube/Hangout (Google),d14e,3.7010496268010207
 Minecraft,d14f,3.7645162515836228
+Your correct age,d9d,2.2990461258641153
+An age that is not your real age,d9e,2.3086758802517702
 Added people to my friends or contacts I have never met face-to-face,f1a,2.2878126853363878
+null,f1k,2.106495778135816
 null,f2,3.6601307189542491
+I've met face to face with a person I just got acquainted on internet but is already known by my friends or relatives,f4,6.5370843989769813
+I've personally met with an older person,f6b,2.8749999999999996
+I've met face to face with a person I just got acquainted on internet and she/he was accompanied by another girl/boy,f6c,2.8009153318077802
+I've met with another man like myself whom i just got acquainted with on internet,f6e,3.3986842105263158
+null,f6h,2.8829904326632425
 null,f8,2.9893719806763288
 null,f14h,7.4891566265060243
 I felt a bit guilty about what went wrong,f16a,4.224475997295472
+null,f19,2.0211936090225562
+I was left out or excluded from a group or activity on the internet,f22a,2.4790949335956713
+null,f25,3.8695945945945951
 By instant messaging (MSN; WhatsApp; Skype; [add local examples]),f32i,3.9317343413088088
+Something else sexual or embarrassing,f33c,2.5985375423577675
+I was asked to make an in-app purchase when playing an online game (e.g.; to do well in the game),f43e,2.1369136517418994
 Your mother or father (including step/foster mother or father),f45f,10.357319730693897
 null,h2g,3.2370468333249152
 My parent(s)/carer(s) praises me for behaving well,i3c,2.148476979270336
 Watch video clips (e.g.; on YouTube),i6b,2.5030655179322769
 Read/watch news online,i6f,1.9793095789392512
 Put (or post) photos; videos or music online to share with others (including social networking or instant messaging),i6i,6.4740458785061499
+null,i7a,3.4781688853051524
+null,i7b,4.3567860710717863
+null,i7c,2.2076617464939585
 Talked to me about what I do on the internet,j5c,2.2057694219394599
 Explained why some websites are good or bad,j5d,2.0882818481747325
 My friends really try to help me,j5h,3.3176571463568991
 I feel safe in the area where I live,k2f,3.0288898752814823
 null,a15,4.5169657987740583
 null,a16,5.3730759968892245
+null,a17,4.5438273229797321
 I get very angry and often lose my temper,a18,2.6175206570922698
 I usually do as I am told,a19,3.4622520373093542
 I am often unhappy; sad or tearful,a20g,3.0686807470095525
@@ -73,11 +94,12 @@ I have at least one good friend,a20q,3.5457039080147847
 I am helpful if someone is hurt; upset or feeling ill,a20s,3.7798767232784822
 People seem to think they’re better than me,a21a,3.0517009859724129
 Because of my sexual orientation,a22e,4.7882425851175849
+Been in trouble with my teachers for bad behaviour,a25b,2.6168095996018756
+Met personally with someone whom I met online (i.e.; eyeball),a25d,2.5475064816226931
 I can solve difficult problems if I try hard enough,a25e,2.223848228414675
 It's easy for me to stick to my aims and achieve my goals,a26a,4.9516351478019489
 I am confident that I can deal with unexpected problems,a26b,2.6124728366379331
 I can stay calm when things get difficult because I am good at coping,a26c,4.0968895112318862
 When I use the internet; I learn about different things that I could study; do or become what I want to be as productive as possible.,a27,2.8911394692264252
-I have done something sexual on the internet when I did not want to,g3a,2.2947845804988662
 Teacher/ educator,g9f,2.3967078189300413
 Other adult you trust e.g. coach; neighbour; doctor; or babysitter,g9g,5.8314873417721502

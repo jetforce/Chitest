@@ -3,6 +3,8 @@ Someone or somewhere else: please state____,a3j,4.1830716442250715
 At school or college,b1,3.8095479313926246
 In the home of friends or relatives,b6a,2.3070996773887371
 A smartphone [iPhone; Samsung Galaxy; Cherry Mobile; Star Mobile; etc],b6g,3.2667287672075109
+A desktop computer,b8a,2.5918662744548722
+I use a postpaid plan (i.e.; with contracts),b8e,2.9829222011385204
 Hours,b10d,9.0273972772025424
 Hours,b10e,6.7104770547611752
 I learned something new by searching online,c1,3.6263387027850591
@@ -20,6 +22,8 @@ I know how to create something new from video or music that I found online,e1p,2
 I know how to safeguard my online expenses while using mobile apps,e1u,2.0160569710048262
 I know how to make an in-app purchase,e1v,10.568924256802234
 I know how to download and carck to full version some paid apps without paying a fee (e.g. torrent; etc.),e1w,24.793578987243208
+Block pop ups which promote apps; games or services I have to pay for (unrequested windows that appear during web surfing),e3c,2.401066056477934
+Compare similar apps to choose the one that is most reliable,e3g,3.9913238873977903
 Viber,e3j,5.7881737753004359
 YouTube,d1c,2.058588811416203
 Wikipedia,d1g,5.5043773386631303
@@ -30,13 +34,22 @@ Twitter,d14d,25.973815917474777
 YouTube/Hangout (Google),d14e,5.3760022040081674
 Minecraft,d14f,3.2516750583091669
 Others,d15d,2.4368642993322509
+Your correct age,d9d,2.6605304402144134
+I've met with a foreigner (different nationality),f6a,4.6118326118326118
+I've met with LGBT person (lesbian; gay; bisexual; transgender) whom i just got acquainted with on internet,f6f,3.4523076923076919
+null,f6h,3.2062280373713303
 Godfather/Godmother,f14d,5.3106667954538151
 By messages sent to me on my phone (SMS/TEXT or MMS),f20b,2.8109589041095888
 By messages sent by the phone (SMS/Text or MMS),f26b,2.1969230769230768
 Some other way,f27f,2.1255060728744941
+null,f27h,4.2455730337078643
+Via a mobile phone; computer; tablet or anyother online device,f31a,2.6507809489938059
 By popups on the internet (unrequested windows that appear during web surfing),f32h,10.137037037037034
 By text (SMS); images (MMS); or otherwise on my mobile phone,f32j,4.3650802139037417
 In an advert,f32l,4.0539998482497417
+A sexual image or video that shows someone's 'private parts' [translate as appropriate],f32o,4.1606825453252752
+An image or video that shows sexual acts or people having sex,f33a,6.1707878090856827
+On a media sharing platform (YouTube; Instagram; Flickr),f37b,2.842835800140485
 My grades have dropped because of the time I spent on the internet,f45a,2.3563636363636364
 I have tried unsuccessfully to spend less time on the internet,f45b,4.6426266310155997
 null,f45d,5.4854875644167915
@@ -55,6 +68,7 @@ I often volunteer to help others (e.g.; parents; carers; teachers; children),a20
 Other children are treated better than me,a20w,3.7985855528347896
 Because of my skin colour,a21d,2.0585504129807926
 null,a22g,2.4823293120142362
+Had so much alcohol that I got really drunk,a24a,2.6148605297219509
 I can solve difficult problems if I try hard enough,a25e,5.3994748067146272
 If someone opposes me; I can find ways to get what I want,a25f,7.4956074214187804
 It's easy for me to stick to my aims and achieve my goals,a26a,3.1906465635524586

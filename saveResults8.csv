@@ -16,6 +16,11 @@ When I am on my way somewhere (e.g. on the street; in a bus or car),b6c,6.669840
 When I am somewhere by myself,b6d,29.677249548904911
 A mobile phone that is not a smartphone,b6f,15.415410481938167
 A smartphone [iPhone; Samsung Galaxy; Cherry Mobile; Star Mobile; etc],b6g,26.065359806596472
+A mobile phone that is not a smartphone,b7e,3.3976674659804855
+A smartphone [iPhone; Samsung Galaxy; Cherry Mobile; Star Mobile; etc],b7f,10.403709857800363
+A desktop computer,b8a,3.5011706457364058
+I use freeWIFI (at home; in school; coffee shop or cafés; malls; etc.),b8f,15.555636497236726
+I use prepaid offers (e.g. GOSurf; GIGASurf; etc.),b9b,30.68706953733782
 My parents,b9d,9.6781244595295544
 Friends who are the same age as I am,b10b2,21.82583862688308
 Hours,b10d,29.839287892329679
@@ -118,6 +123,16 @@ I know how to install apps on a mobile device (e.g. phone or tablet),e1r,18.2588
 I know how to safeguard my online expenses while using mobile apps,e1u,30.192262004321318
 I know how to make an in-app purchase,e1v,8.6396933603173824
 I know how to download and carck to full version some paid apps without paying a fee (e.g. torrent; etc.),e1w,9.6569664734907352
+Deactivate the function showing my geographical position (on Facebook; Google Maps; etc.),e1x,17.401742797535295
+Connect to a Wi-Fi network,e1x1,16.730188931033414
+Block push notifications from different apps,e3a,19.666953972263705
+Have the same documents; contacts or apps on all devices that I use (e.g. smartphone; tablet; PC),e3b,16.987409099385864
+Block pop ups which promote apps; games or services I have to pay for (unrequested windows that appear during web surfing),e3c,9.0827006840520887
+Protect a smartphone with a PIN/with a screen pattern,e3d,17.364192024696475
+Update my status on the social networking site I use the most,e3e,35.63112311941785
+Find information on how to use smartphones safely,e3f,18.889899010145164
+Compare similar apps to choose the one that is most reliable,e3g,26.769381350885471
+Take a picture or a video with my smartphone and post it onto social media,e3h,9.4445201237716461
 Twitter,e3i,10.053800694301813
 Facebook,d1e,25.503556550356041
 Instagram,d1f,13.690459243890531
@@ -137,19 +152,51 @@ Minecraft,d14f,21.578444238928604
 Others,d15d,3.9612622810437417
 null,d15e,9.5174972198760681
 null,d7a,2.46054390213805
+A photo that clearly shows your face,d7c,7.3932015107715268
+Your address,d9a,5.1230099456679348
+Your school,d9c,22.152354895049275
+Your correct age,d9d,10.57254757565126
+An age that is not your real age,d9e,3.2291054662758376
+Places you've dined and visited,d9f,8.3265065295560774
+Pictures showing whole body,d9g,3.6313880921168629
 Post my current location and those I had been to,f1d,2.1099831733652019
 Post messages or love quotes that pertain to the boy/girl whom I have a crush on,f1f,5.093117696996444
 Engage in chat activities with a person whom I only met on internet,f1h,3.3876343954112986
+null,f1k,6.8455800654189174
+I've met with another man like myself whom i just got acquainted with on internet,f6e,3.0195287568528397
+null,f6h,8.2791118132465051
 Grandfather/Grandmother,f14j,2.1900633891053376
 A friend around my age,f14l,3.5710460905930002
 Boyfriend/Girlfriend,f14c,3.1005048950527723
 Godfather/Godmother,f14d,2.6783690540724185
 Other actions taken,f16i,2.2593413448004083
 null,f16k,3.0563249003702966
+null,f19,2.1118175486624513
 By messages sent to me on my phone (SMS/TEXT or MMS),f20b,3.4764649706457922
+Nasty or hurtful messages were sent to me,f21h,2.0897610365284041
+I was left out or excluded from a group or activity on the internet,f22a,1.9802727328817322
 On a media sharing platform (YouTube; Instagram; Flickr),f27c,2.6798897330733542
+null,f27h,41.376621887910005
+On television; film,f29,2.0795157668003172
 On a social networking site (e.g. Facebook; Twitter; [add local examples]),f32d,2.1850588974500216
+null,f33d,13.90229919378919
 null,f33e,2.2332506203473947
+In an online game,f37e,2.9118225524475525
+In a gaming community (also on the Xbox and other game consoles),f37f,4.1245411478652523
+Ways of physically harming or hurting themselves,f40b,3.9203289004694715
+Ways of committing suicide,f40c,2.4000000000000004
+Ways to be very thin (such as being anorexic or bulimic),f41a,6.2226195977903611
+Hate messages that attack certain groups or individuals (e.g.; people of different colour or religion or nationality),f41b,8.9168554499474624
+Their experiences of taking drugs,f41c,6.8239939528464486
+Gory or violent images,f41d,8.715581078498662
+Ways of courtship,f41e,38.313807991483884
+Ways how to find a relationship,f41f,5.229456719391707
+About cheating,f41j,6.2528798613474219
+About drinking alcohol,f41l,2.9581810995609401
+About smoking,f41m,2.2298061701852285
+About bullying,f41n,11.882323111096344
+The device (e.g.; phone; tablet; computer) I use got a virus or spyware,f41p,7.8594110284870311
+I was asked to make an in-app purchase when playing an online game (e.g.; to do well in the game),f43e,4.0906803273238808
 I have gone without eating or sleeping because of the time I spent on the internet,f43g,16.035328397787264
 I have experienced conflicts with family or friends because of the time I spent on the internet,f43h,3.4804046851344803
 I have tried unsuccessfully to spend less time on the internet,f45b,3.4223594776442861
@@ -185,6 +232,11 @@ Use instant messaging,i6e,11.389185855337058
 Read/watch news online,i6f,9.7294155517336485
 Use the internet for school work,i6g,3.1803928785662858
 Put (or post) photos; videos or music online to share with others (including social networking or instant messaging),i6i,12.617414799263926
+null,i6j,1.9781747216477905
+null,i7c,8.8656872700527387
+null,i7d,3.1936443494876094
+null,i7f,10.759701499875883
+null,i7g,2.1998230112430353
 Suggested ways to use the internet safely,i8f,13.510143659527527
 Encouraged me to explore and learn things on the internet,j1,14.413648058487942
 Made rules about what I can do on the internet at school,j5a,9.3517230848553279
@@ -207,6 +259,7 @@ Helped me in the past when something has bothered me on the internet,k2d,5.75842
 null,k2e,12.413687112601805
 null,k4b,10.068539983179022
 null,a16,7.6013980186524464
+null,a17,4.8242705627425613
 I get very angry and often lose my temper,a18,4.5896810932951828
 I worry a lot,a20d,5.8761260367112378
 I am nervous in certain new situations; I easily lose confidence,a20e,3.049712366808969
@@ -218,6 +271,9 @@ I often volunteer to help others (e.g.; parents; carers; teachers; children),a20
 I usually share with others (food; games; pens etc.),a20v,4.6053614093014481
 Because of how I look or behave,a22f,3.1580081800608379
 Because of my opinions or beliefs,a22h,3.4748878802909857
+Had so much alcohol that I got really drunk,a24a,4.8321378268399009
+Missed school lessons without my parent(s)/carer(s) knowing,a24b,8.782323080257969
+Met personally with someone whom I met online (i.e.; eyeball),a25d,2.350541065776973
 I can solve difficult problems if I try hard enough,a25e,7.6000019887908703
 If someone opposes me; I can find ways to get what I want,a25f,6.7776580085797899
 It's easy for me to stick to my aims and achieve my goals,a26a,2.8442246137118321
@@ -225,6 +281,10 @@ I am confident that I can deal with unexpected problems,a26b,7.3683843703491414
 I can stay calm when things get difficult because I am good at coping,a26c,5.0730230086265475
 When I use the internet; I learn about different things that I could study; do or become what I want to be as productive as possible.,a27,6.5290315401076624
 When I use the internet; I feel I want to achieve more in life.,a28,4.9376662089780989
-I have sent sexual information about myself (like what my body looks like without clothes on or sexual things I have done) when I did not want,g2c,1.9620504926108382
-I have sent someone a photo or video showing my private parts when I did not want to [translate as appropriate],g3b,2.5400067544748395
+I was sent a message that I did not want with advertisements for or links to X-rated websites [use local term for 'X-rated'],a29a,4.3644307288394613
+I opened a message or a link in a message that showed pictures of naked people or of people having sex that I did not want,a29b,3.4003080224478941
+I have seen or received a sexual message; image or video about someone else that I did not want,g1a,18.622033863332103
+I have been asked to talk about sexual acts with someone on the internet when I did not want to,g1c,3.389870402893735
+I have been asked by someone on the internet to do something sexual when I did not want to,g2a,2.4699396453988376
+I have been asked on the internet for a photo or video showing my private parts [translate as appropriate] when I did not want to,g2b,2.1692174733120351
 null,g3c,3.7944548526265969

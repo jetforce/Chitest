@@ -263,7 +263,6 @@ def doFile(table,fileNum,results,converter,z,header):
 
 def group(index, rows,V, header):
 	groups = {}
-
 	#1 Because first index is question name
 	if header not in V.keys():
 		print "Warning "+ header +" "+"not in Variable description"
@@ -325,7 +324,7 @@ def getVariableList(filename):
 
 vList = getVariableList('Updated-Variables.csv')
 header = readHeader('dataset/a.csv')
-
+#print header
 #print header
 
 clusternames = sys.argv[2:]
@@ -347,7 +346,7 @@ z=[1.960]
 zstr = ['1960']
 for y in range(0,len(z)):
 	results = [["Question","Feature","Chi"]]
-	for i in range(1,len(header)):
+	for i in range(1,569):
 		if header[i] not in vList.keys():
 			print "Warning "+ header[i] +" "+" question name not in Variable description will be assigned to null"
 			H = "null"

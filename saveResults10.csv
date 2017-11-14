@@ -3,6 +3,11 @@ Step or foster mother,a3a,3.5222672064777329
 I help out at home,a4d,10.005952116131411
 When I am somewhere by myself,b6d,2.8028320885463751
 A desktop computer,b7a,14.320532099479466
+A mobile phone that is not a smartphone,b7e,3.6240740740740729
+A smartphone [iPhone; Samsung Galaxy; Cherry Mobile; Star Mobile; etc],b7f,2.2980086580086576
+A desktop computer,b8a,5.3472222222222232
+I use a postpaid plan (i.e.; with contracts),b8e,3.1683673469387754
+I pay for internet I use (e.g. in a cybercafé or internet cafe; PisoNet),b9a,2.3390370405456609
 My parents,b9d,2.0613373554550027
 My siblings,b10a,2.0613373554550027
 null,b11,2.6917647058823531
@@ -64,6 +69,15 @@ I know how to edit or make basic changes to online content that others have crea
 I know how to safeguard my online expenses while using mobile apps,e1u,4.8134174670906296
 I know how to make an in-app purchase,e1v,10.426303854875282
 I know how to download and carck to full version some paid apps without paying a fee (e.g. torrent; etc.),e1w,15.658862876254179
+Deactivate the function showing my geographical position (on Facebook; Google Maps; etc.),e1x,2.4002489884842828
+Connect to a Wi-Fi network,e1x1,1.9833333333333334
+Block push notifications from different apps,e3a,9.1435428188369396
+Have the same documents; contacts or apps on all devices that I use (e.g. smartphone; tablet; PC),e3b,11.292672413793104
+Block pop ups which promote apps; games or services I have to pay for (unrequested windows that appear during web surfing),e3c,7.7037037037037033
+Protect a smartphone with a PIN/with a screen pattern,e3d,9.6285288384359617
+Update my status on the social networking site I use the most,e3e,8.9174225245653815
+Find information on how to use smartphones safely,e3f,6.3759140883323893
+Compare similar apps to choose the one that is most reliable,e3g,5.4154995331465923
 Twitter,e3i,2.8396210163652027
 Viber,e3j,3.2426303854875282
 Facebook,d1e,2.3613526570048307
@@ -74,12 +88,26 @@ Tumblr,d1h,3.0588235294117645
 I find it easier to be myself online than when I am with people face-to-face,d1i,2.7340830709251764
 I know what to do if someone acts online in a way I don't like,d2a,2.7375712232431608
 null,d2b,2.4172466422466425
+A photo that clearly shows your face,d7c,4.3902296777296765
+Your last name,d8,6.1314814814814822
+Your address,d9a,2.4945868945868939
+Your school,d9c,5.7723668144720781
+Your correct age,d9d,7.0228246826487286
+An age that is not your real age,d9e,3.6375048101803307
+Pictures showing whole body,d9g,3.1070216548157723
 null,d9j,6.1267243867243861
 Added people to my friends or contacts I have never met face-to-face,f1a,4.8861726508785335
 Post messages or love quotes that pertain to the boy/girl whom I have a crush on,f1f,2.3575912578470124
 Engage in chat activities with a person whom I only met on internet,f1h,4.0509044526901663
 Receive offers or gifts online,f1j,4.0195378151260508
+null,f1k,8.5046296296296298
+I've met face to face with a person I just got acquainted on internet but is already known by my friends or relatives,f4,3.7500000000000004
+I've met face to face with a person I just got acquainted on internet and who is totally unknown to anyone I personally know,f5,3.0
+I've met with a foreigner (different nationality),f6a,6.0
+I've personally met with an older person,f6b,2.4000000000000004
+I've met with LGBT person (lesbian; gay; bisexual; transgender) whom i just got acquainted with on internet,f6f,5.0
 null,f6g,2.2222222222222219
+null,f6h,8.5249920534011459
 null,f8,5.3981481481481479
 My mother or father (or step/foster mother or father),f12,5.3981481481481479
 Cousin,f14a,4.2777777777777777
@@ -90,11 +118,38 @@ null,f14h,10.999999999999998
 I ignored the problem or hoped the problem would go away by itself,f14i,3.5416666666666665
 I felt a bit guilty about what went wrong,f16a,5.3125000000000009
 I blocked the person from contacting me,f16g,2.5
+null,f18,4.9500000000000002
+null,f19,2.9249999999999998
+Nasty or hurtful messages were sent to me,f21h,5.6228571428571437
+I was left out or excluded from a group or activity on the internet,f22a,3.2727272727272729
+null,f22e,2.3676498865892803
+null,f25,5.9625000000000004
+null,f27h,11.568363844393593
+Via a mobile phone; computer; tablet or anyother online device,f31a,3.9583333333333339
 On an online video sharing platform (e.g. YouTube; [add local examples]),f31b,2.109375
 On a social networking site (e.g. Facebook; Twitter; [add local examples]),f32d,4.3229166666666679
 By popups on the internet (unrequested windows that appear during web surfing),f32h,2.25
 By text (SMS); images (MMS); or otherwise on my mobile phone,f32j,2.0192307692307696
+A sexual image or video that shows someone's 'private parts' [translate as appropriate],f32o,6.0808080808080804
+An image or video that shows sexual acts or people having sex,f33a,4.5500000000000007
+Something else sexual or embarrassing,f33c,2.8636363636363642
+null,f33d,3.9419964182159308
 null,f33e,3.2625000000000002
+On a social networking site (e.g.; Facebook; Twitter etc.),f37a,3.8888888888888888
+In a gaming community (also on the Xbox and other game consoles),f37f,6.1904761904761898
+null,f37h,2.3809523809523805
+Ways of physically harming or hurting themselves,f40b,2.0522568464144557
+Ways to be very thin (such as being anorexic or bulimic),f41a,3.191215034965035
+Hate messages that attack certain groups or individuals (e.g.; people of different colour or religion or nationality),f41b,5.3226773226773236
+Their experiences of taking drugs,f41c,3.2759538598047921
+Ways of courtship,f41e,7.7803030303030303
+Ways how to find a relationship,f41f,3.0699796657243468
+About cheating,f41j,4.5055900621118008
+About drinking alcohol,f41l,4.4351526364477341
+About bullying,f41n,3.4239798662875587
+Somebody used my personal information in a way I didn't like,f41o,5.4853729603729597
+I spent too much money on online games or in-app purchases,f43d,3.4944444444444445
+I was asked to make an in-app purchase when playing an online game (e.g.; to do well in the game),f43e,3.3484848484848486
 I have gone without eating or sleeping because of the time I spent on the internet,f43g,4.7779637242552848
 My grades have dropped because of the time I spent on the internet,f45a,6.7605009724574945
 I have tried unsuccessfully to spend less time on the internet,f45b,6.096930634015032
@@ -123,6 +178,11 @@ Play games with other people online,i6c,3.3967926351827282
 Read/watch news online,i6f,2.2215344464148297
 Use the internet for school work,i6g,2.5594237695078035
 Put (or post) photos; videos or music online to share with others (including social networking or instant messaging),i6i,4.4810806602304583
+null,i6j,2.5099416087788184
+null,i6k,2.2239609652197063
+null,i7a,1.9686043123543129
+null,i7c,3.784687693259122
+null,i7f,2.8098094699113378
 null,i8a,3.6265316205533598
 null,i8d,2.7649039413745298
 Helped me when I found something difficult to do or find on the internet,j5b,3.5547395379556499
@@ -139,6 +199,7 @@ You can trust people around here,k4a,3.7480521277822625
 null,a14,2.1966711650922175
 null,a15,3.3710904866332498
 null,a16,5.5509609025234026
+null,a17,3.5054500155714727
 null,a17a,2.7927396133278495
 I get very angry and often lose my temper,a18,2.1806771241915159
 I usually do as I am told,a19,2.5263157894736841
@@ -155,11 +216,17 @@ Because of how I look or behave,a22f,4.3247126436781604
 null,a22g,4.7381234150464921
 Because of my opinions or beliefs,a22h,3.245967741935484
 null,a22n,5.0132982225148126
+Had so much alcohol that I got really drunk,a24a,6.0568181818181817
+Missed school lessons without my parent(s)/carer(s) knowing,a24b,2.906964251579804
+Been in trouble with my teachers for bad behaviour,a25b,6.4384061316834433
+Met personally with someone whom I met online (i.e.; eyeball),a25d,2.6276572430418579
 I can solve difficult problems if I try hard enough,a25e,3.3350935868098333
 If someone opposes me; I can find ways to get what I want,a25f,4.575512794262794
 When I use the internet; I learn about different things that I could study; do or become what I want to be as productive as possible.,a27,8.6646015010690789
 When I use the internet; I feel I want to achieve more in life.,a28,6.5989064708008813
-I have talked about sexual acts with someone on the internet when I did not want to,g2d,5.0000000000000009
+I have been asked for sexual information about myself (like what my body looks like without clothes on or sexual things I have done) when I did not want to answer such questions,g1b,2.7172765957446812
+I have been asked on the internet for a photo or video showing my private parts [translate as appropriate] when I did not want to,g2b,2.511437908496732
+I have talked about sexual acts with someone on the internet when I did not want to,g2d,2.1415607985480944
 null,g3c,5.1180555555555536
 null,g3d,4.5866666666666669
 Friend or acquaintance,g9e,2.549206349206349
