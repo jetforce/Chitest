@@ -1,305 +1,569 @@
-Question,Feature,Chi
-I am a school student,a3k,15.956533750633227
-I am a student in college,a3l,6.3744214378363697
-I am attending training in technical/vocational course,a4a,3.7945131460713375
-I do paid employment,a4g,6.6973601888600935
-I help out at home,a4d,16.010373688770912
-I am currently in a vacation,a4e,4.7826596761589437
-Schooling,a4f,9.1629213267191716
-null,a4i,311.30654023731933
-Age,a5,5.1342774350762452
-At school or college,b1,35.609444617691182
-At home,b3,19.266017497980204
-In the home of friends or relatives,b6a,11.533012763282448
-When I am on my way somewhere (e.g. on the street; in a bus or car),b6c,10.250055220640668
-When I am somewhere by myself,b6d,25.703298956192871
-A mobile phone that is not a smartphone,b6f,9.2675013393465751
-A smartphone [iPhone; Samsung Galaxy; Cherry Mobile; Star Mobile; etc],b6g,27.067331337211343
-A laptop or notebook computer,b7b,3.9846049677055282
-A mobile phone that is not a smartphone,b7e,6.2703457644403153
-A smartphone [iPhone; Samsung Galaxy; Cherry Mobile; Star Mobile; etc],b7f,18.523317163889111
-A desktop computer,b8a,2.2133808316047094
-I use freeWIFI (at home; in school; coffee shop or cafés; malls; etc.),b8f,12.124655864243309
-I use prepaid offers (e.g. GOSurf; GIGASurf; etc.),b9b,45.064533828452937
-My parents,b9d,7.0216621970802553
-Friends who are the same age as I am,b10b2,18.460245372679367
-Hours,b10d,25.083196006353376
-Hours,b10e,46.793040981182941
-I learned something new by searching online,c1,7.4411644242226673
-I used the internet for schoolwork,c2,17.304359047665393
-I looked for information about work or study opportunities,c4a,13.581468878836228
-Checked maps,c4c,1.9606110494572582
-I looked for information about the place I want to go visit/eat,c4b,9.9566480897767136
-I used the internet to help somebody else,c4d,3.693305256739305
-I used the internet to talk to people from places or backgrounds different from mine,c4f,9.4766985070505676
-I looked for the news online,c4g,20.628567562538304
-I discussed political or social problems with other people online,c4e,8.3066310129966414
-I created my own video or music and uploaded it to share,c4l,2.9747617750047448
-I used instant messaging [insert local examples e.g. Viber; WhatsApp],c4n,8.8512520429441413
-I visited a social network site (e.g.; Facebook [add local examples]),c4o1,27.077917425840493
-I helped someone else who needed or wanted to go online,c4r,7.0297213353093033
-I talked to family or friends who live further away (e.g. by Skype; Viber; FaceTime),c4p,8.5119729627716136
-I commented on the updates that friends or family have put online,c4t,31.610997283590244
-I re-posted or shared a social media post online,c4q,14.839267798779554
-I showed my friends or family something that I saw online,c4u,9.3578762236475299
-I visited a chatroom to meet new people [insert local examples],c4t1,6.3606394371246511
-I watched video clips (e.g. on YouTube [insert local examples]),c4v,3.4626594763993435
-I listened to music online (by downloading or streaming),c4y,9.5676874472489803
-I joined a fan site (of a celebrity or popular band),c4bb,7.0095374338896432
-I posted photos or comments online (e.g. on Facebook or a blog),c4cc,27.262165617336258
-I looked for health information for myself or someone I know,c4cc1,6.8790131447410712
-I participated in a site where people share my interests or hobbies,c4gg,7.1464441577583617
-I browsed for things to buy,c4ee,8.8048994758250068
-I checked out what things cost by looking online,c4ff,7.901120419816424
-My mother or father (or step/foster mother or father),c4hh1,7.3137911541789915
-My brother or sister (or step/foster/half siblings),c4hh2,16.976523129638466
-A friend around my age,c6a,45.341644511253214
-A teacher,c6b,9.7314630331271985
-Another adult I trust,c6c,7.9754998357934745
-Someone I first met on the internet; but who is friends or family of other people I know in person,c6d,10.993800311008362
-Someone I first met on the internet; but who has no other connection to my life outside of the internet,c6e,9.0420592935985518
-A relative or friend who is an OFW (overseas Filipino worker),c6f,8.6293957373914481
-Someone else,c6g,6.9450971370262433
-My mother or father (or step/foster mother or father),c6g1,6.8080825765409063
-My brother or sister (or step/foster/half siblings),c6h,25.055236982834977
-A friend around my age,c7a,64.010476901797745
-A teacher,c7b,4.0004273226117091
-Another adult I trust,c7c,14.255153168592647
-Someone I first met on the internet; but who is friends or family of other people I know in person,c7d,11.889034752676528
-Someone I first met on the internet; but who has no other connection to my life outside of the internet,c7e,8.4550278239701822
-A relative or friend who is an OFW (overseas Filipino worker),c7f,12.165154215052659
-Someone else,c7g,7.4788408275449934
-My mother or father (or step/foster mother or father),c7g1,2.7272137008550974
-My brother or sister (or step/foster/half siblings),c7h,6.9811422078506737
-A friend around my age,c8a,34.298322867230851
-A teacher,c8b,3.7149791662599552
-Another adult I trust,c8c,7.0290543586680423
-Someone I first met on the internet; but who is friends or family of other people I know in person,c8d,6.655514472333234
-Someone I first met on the internet; but who has no other connection to my life outside of the internet,c8e,10.312580694017665
-A relative or friend who is an OFW (overseas Filipino worker),c8f,3.9347210922579259
-Someone else,c8g,5.5850684364279619
-A friend around my age,c9a,6.5112196316420432
-Another adult I trust,c9c,3.2945845177121775
-Someone I first met on the internet; but who is friends or family of other people I know in person,c9d,2.4942692916563756
-Someone I first met on the internet; but who has no other connection to my life outside of the internet,c9e,2.4425709861415865
-Someone else,c9g,2.7181555146353302
-Making presentations,c9g1,17.403611769198633
-Writing things,c9h,5.7044921510862023
-Making pictures,c10a,17.86158881029105
-Practising something I am learning (e.g. maths or a language or music),c10b,4.5080836554638042
-Checking out information on the school website,c10c,23.366921686784309
-Doing group work with other students,c10d,33.450180800429429
-Chatting online at school,c10e,34.65494395454553
-Communicating with teachers (e.g. submitting homework or asking a question),c10f,21.854545629615821
-Contributing to a school blog or online discussion,c10g,6.2061381021832895
-I know how to save a photo that I find online,c10h,61.031009238550979
-I know how to change my privacy settings (e.g. on a social networking site),c10i,43.185520666654881
-I know how to use a programming language (e.g. HTML; XML; etc.),e1a,23.311921304938082
-I know how to hide my IP address,e1c,8.0126004594584295
-I know how to set network settings (LAN; wi-fi; device-connection),e1f1,23.444259124728024
-I know how to hack certain files,e1f2,3.4083301332972855
-I know how to set the firewall,e1f3,5.2949917439524157
-I find it easy to find a website I have visited before,e1f4,25.026789521459072
-I find it easy to check if the information I find online is true,e1f5,26.402881338574232
-I find it easy to choose the best keywords for online searches,e1i,48.317330386478304
-Sometimes I end up on websites without knowing how I got there,e1g,21.820232357696661
-I know how to use incognito in browsing,e1h,16.603917294486592
-I know which information I should and shouldn't share online,e1k,28.643223084682884
-I know how to remove people from my contact lists,e1k1,34.431082294396361
-I know how to block,e1l,70.078590268716596
-I know when I should and shouldn't share information online,e1m,36.617232515186892
-I know how to behave according to the situation online,e1m1,31.160728516222701
-I know how to change who I share content with (e.g. friends; friends of friends or everyone),e1n,45.111770328099638
-I know how to report abusive posts or things that I find offending in social media (e.g. Facebook report abuse),e1o,30.638379937154284
-I know how to create something new from video or music that I found online,e1p,8.9062302216502065
-I know how to post online video or music that I have created myself,e1p1,5.4345925369483421
-I know which different types of licences apply to online content,e1t,11.640213376476693
-I know how to edit or make basic changes to online content that others have created,e1q,17.253192014608199
-I know how to design a website,e1s,2.9244480032444873
-I know how to install apps on a mobile device (e.g. phone or tablet),e1r,45.227804126886532
-I know how to safeguard my online expenses while using mobile apps,e1u,47.205587853495217
-I know how to make an in-app purchase,e1v,22.201827391920318
-I know how to download and carck to full version some paid apps without paying a fee (e.g. torrent; etc.),e1w,14.451244139601167
-Deactivate the function showing my geographical position (on Facebook; Google Maps; etc.),e1x,35.257606698361144
-Connect to a Wi-Fi network,e1x1,29.694904390180717
-Block push notifications from different apps,e3a,39.267730023962457
-Have the same documents; contacts or apps on all devices that I use (e.g. smartphone; tablet; PC),e3b,28.927822660528928
-Block pop ups which promote apps; games or services I have to pay for (unrequested windows that appear during web surfing),e3c,14.429667589261904
-Protect a smartphone with a PIN/with a screen pattern,e3d,44.838202872419963
-Update my status on the social networking site I use the most,e3e,53.006396007915228
-Find information on how to use smartphones safely,e3f,49.239061338313682
-Compare similar apps to choose the one that is most reliable,e3g,51.745345724273406
-Take a picture or a video with my smartphone and post it onto social media,e3h,16.346234313496279
-Twitter,e3i,13.800641204565462
-Viber,e3j,2.2005857199332275
-Facebook,d1e,35.389127232596685
-Instagram,d1f,16.496931808530455
-Spotify,d1b,8.2112330943733625
-Wikipedia,d1g,15.464091721987623
-Tumblr,d1h,4.2286824072475175
-I talk about different things online than I do when speaking to people face-to-face,d1j,5.2593841299869464
-I talk about private things online which I do not talk about with people face-to-face,d2d,4.7320687529848842
-I know what to do if someone acts online in a way I don't like,d2a,20.563670784489304
-null,d2b,11.665363720043626
-Facebook/Messenger,d12,27.641107045974429
-Skype,d13,5.1974389521878761
-Viber,d14a,6.8671505549801983
-WeChat,d14b,3.4250066268475594
-Instagram,d14c,16.219034303651998
-Twitter,d14d,20.093000056259989
-YouTube/Hangout (Google),d14e,11.715176381246442
-Minecraft,d14f,20.332355674177357
-DOTA 2,d15a,3.8218685215982999
-League of Legends,d15b,7.3011445994124529
-null,d15e,8.7679032005266286
-A photo that clearly shows your face,d7c,7.6866559694258658
-Your last name,d8,4.2634429948960459
-Your address,d9a,14.236903136302857
-Your phone number,d9b,6.7504415647835856
-Your school,d9c,39.53260811057585
-Your correct age,d9d,5.9970327281459346
-Places you've dined and visited,d9f,2.8196663834980549
-Pictures showing whole body,d9g,2.8659452053115055
-Looked for new friends or contacts on the internet,d9k,2.5390722981614071
-Sent my personal information (e.g.; my full name; address or phone number) to someone I have never met face-to-face,d10,2.0155128442260053
-Added people to my friends or contacts I have never met face-to-face,f1a,1.9965386454571243
-Post my current location and those I had been to,f1d,3.0098618806500359
-Post messages or love quotes that pertain to the boy/girl whom I have a crush on,f1f,7.367997219539081
-Engage in chat activities with a person whom I only met on internet,f1h,4.246794361196601
-null,f1k,18.637071339498107
-null,f6g,2.8544688345417661
-null,f6h,12.232184175618682
-A friend around my age,f14l,5.3595241230924398
-Boyfriend/Girlfriend,f14c,4.745510220971612
-Godfather/Godmother,f14d,3.4953239523019994
-I ignored the problem or hoped the problem would go away by itself,f14i,2.9353720937743679
-Other actions taken,f16i,2.3177347242921011
-null,f18,7.5912310050299308
-null,f19,12.262327325875093
-On a social networking site (e.g. Facebook; Twitter etc.),f21a,1.9917582417582429
-Nasty or hurtful messages were sent to me,f21h,13.965655500810913
-null,f23,2.3459167950693374
-null,f25,4.0975870574786315
-By mobile phone calls,f26a,4.9391513465322179
-On a media sharing platform (YouTube; Instagram; Flickr),f27c,6.7097301232561284
-null,f27h,35.214300941018998
-null,f27i,6.5382723356041463
-Via a mobile phone; computer; tablet or anyother online device,f31a,4.5715067667508231
-An image or video that shows sexual acts in a violent way,f33b,2.3264844700256342
-null,f33d,13.229778771671242
-null,f33e,3.549079527259126
-By IM (MSN; WhatsApp; Skype; etc.),f37c,2.9409647223288196
-In an online game,f37e,5.6571428571428575
-In a gaming community (also on the Xbox and other game consoles),f37f,7.3655955480919575
-By 'pop up' (something appears by accident),f37g,2.92354944367559
-null,f37i,2.1160153210844457
-Ways of physically harming or hurting themselves,f40b,5.3406559672317773
-Ways to be very thin (such as being anorexic or bulimic),f41a,12.527509931771478
-Hate messages that attack certain groups or individuals (e.g.; people of different colour or religion or nationality),f41b,9.2693614958189876
-Their experiences of taking drugs,f41c,6.7374585550149853
-Gory or violent images,f41d,11.709634125631053
-Ways of courtship,f41e,50.657305820300138
-Ways how to find a relationship,f41f,6.1384340891232565
-About cheating,f41j,8.3380794269432439
-About drinking alcohol,f41l,3.4270188439922116
-About bullying,f41n,20.563882023165927
-Somebody used my personal information in a way I didn't like,f41o,6.0009533113780575
-The device (e.g.; phone; tablet; computer) I use got a virus or spyware,f41p,5.3531850890177308
-Somebody used my password to access my information or to pretend to be me,f43b,2.2142649876244951
-I spent too much money on online games or in-app purchases,f43d,2.3896003151910818
-I was asked to make an in-app purchase when playing an online game (e.g.; to do well in the game),f43e,4.3903356785847372
-I have gone without eating or sleeping because of the time I spent on the internet,f43g,16.080323676785266
-I have experienced conflicts with family or friends because of the time I spent on the internet,f43h,6.8437516448730351
-My grades have dropped because of the time I spent on the internet,f45a,4.401183869031323
-I have tried unsuccessfully to spend less time on the internet,f45b,11.227680982678045
-I think the amount of time I spend on the internet causes problems for me,f45c,18.752517891720263
-null,f45d,48.282792455767606
-Your mother or father (including step/foster mother or father),f45f,10.408836385696107
-Cousin,h2a,6.5616551556073803
-Aunt/Uncle,h2b,2.1963053025583084
-A friend around my age,h2j,36.558500767554023
-Boyfriend/Girlfriend,h2k,12.093970864622397
-Classmate,h2l,11.832003418825122
-Another adult you trust,h2p,11.58192000015341
-null,h2g,6.6436414753682502
-I feel safe at home,i2a,3.2937887916690642
-My parent(s)/carer(s) sets rules about what I can do at home,i2b,2.2497632413013591
-Suggests ways to use the internet safely,i3a,5.5296056737300043
-Talks to me about what I do on the internet,i4a,3.128533564131541
-Talks to me about what to do if something online bothers or upsets me,i4e,6.1272599990739813
-Helps me when something is difficult to do or find on the internet,i4f,2.6083886616914338
-Explains why some websites are appropriate or inappropriate,i4g,2.1997079334793268
-Helps me when something bothers me on the internet,i4h,2.997511144932286
-Helped my parent/carer to do something they found difficult on the internet,i4k,9.1843567438013398
-Use a web or phone camera (e.g.; for Skype or video chat),i5e,8.1573401626192776
-Download music or films,i5f,17.512464634623289
-Visit a social networking site (e.g.; Facebook; [insert local terms]),i6a,17.944092882771113
-Visit a chat room,i6d,12.382883265064839
-Use instant messaging,i6e,17.834898812771151
-Read/watch news online,i6f,7.9250202479026761
-Use the internet for school work,i6g,8.9959291075604444
-Put (or post) photos; videos or music online to share with others (including social networking or instant messaging),i6i,19.621017441676091
-null,i6j,4.0706007914601638
-null,i6k,2.2714115025309649
-null,i7b,4.4570568028250426
-null,i7c,12.351896000745755
-null,i7d,13.649405972146191
-null,i7e,5.3157367091192711
-null,i7f,24.086403675243652
-null,i7g,3.025148468286142
-null,i8a,1.9855239918148773
-Suggested ways to use the internet safely,i8f,19.628395645245885
-Encouraged me to explore and learn things on the internet,j1,12.079536160932573
-Made rules about what I can do on the internet at school,j5a,10.661744864985296
-Helped me when I found something difficult to do or find on the internet,j5b,8.9251084574147068
-Talked to me about what I do on the internet,j5c,5.2822066789177802
-Explained why some websites are good or bad,j5d,12.505316091172109
-Suggested ways to behave towards other people online,j5e,20.936608733336172
-Helped me in the past when something has bothered me on the internet,j5f,9.2092125754898078
-In general; talked to me about what I would do if something on the internet ever bothered me,j5g,10.643939539468169
-My friends really try to help me,j5h,6.8061867759798398
-I can count on my friends when things go wrong,j5i,14.797953165184788
-I can talk about my problems with my friends,k1a,19.188117545627968
-I get worried when I ﬁnd out my friends are having fun without me ,k1b,3.490949952746031
-Suggested ways to use the internet safely,k1c,18.956881261375436
-Encouraged me to explore and learn things on the internet,k1d,15.359470719043948
-Helped me when I found something difficult to do on the internet,k2a,21.908093699865454
-Explained why some websites are good or bad,k2b,18.781523384522952
-Suggested ways to behave towards other people on the internet,k2c,10.666705409922923
-Helped me in the past when something has bothered me on the internet,k2d,16.939526609697474
-null,k2e,25.524211050777428
-I feel safe in the area where I live,k2f,2.3482476919693172
-null,k4b,3.0645452294474915
-null,a17a,4.6329838404490475
-I get very angry and often lose my temper,a18,4.2106427701931111
-I fight a lot; I can make other people do what I want,a20a,3.2980473319039572
-I worry a lot,a20d,6.6066719174250892
-I get a lot of headaches; stomach-aches or sickness,a20f,4.3595809020076075
-I have many fears and I am easily scared,a20h,2.5151635694307157
-I think before I do things,a20l,17.308171809748082
-Other children or young people pick on me,a20o,10.862842063311941
-I try to be nice to other people. I care about their feelings,a20t,4.1691569584126809
-People seem to think I am not smart,a20x,5.5309052688745739
-I get called names or insulted by other children,a21b,3.4306709003290949
-Because of how I look or behave,a22f,2.9923810156608703
-Because of my opinions or beliefs,a22h,4.1946904098921918
-Because my parents are not around (i.e.; OFW),a22j,3.6037605199778238
-Due to conflict / war in our area,a22k,2.1340545562338207
-Had so much alcohol that I got really drunk,a24a,3.4591453122933369
-Missed school lessons without my parent(s)/carer(s) knowing,a24b,6.833298393339887
-Met personally with someone whom I met online (i.e.; eyeball),a25d,2.8325254289411705
-I can solve difficult problems if I try hard enough,a25e,3.0671783442288234
-If someone opposes me; I can find ways to get what I want,a25f,4.9544883299745841
-It's easy for me to stick to my aims and achieve my goals,a26a,5.5226827784501697
-I am confident that I can deal with unexpected problems,a26b,5.9378297904154902
-I can stay calm when things get difficult because I am good at coping,a26c,4.3443872846987004
-When I use the internet; I learn about different things that I could study; do or become what I want to be as productive as possible.,a27,12.738890229264523
-When I use the internet; I feel I want to achieve more in life.,a28,5.6968440710617294
-I have seen or received a sexual message; image or video about someone else that I did not want,g1a,10.128462277765076
-I have been asked for sexual information about myself (like what my body looks like without clothes on or sexual things I have done) when I did not want to answer such questions,g1b,6.9607711437695112
-I have been asked to talk about sexual acts with someone on the internet when I did not want to,g1c,5.6373936324583482
-I have been asked by someone on the internet to do something sexual when I did not want to,g2a,2.1147768225666823
-I have been asked on the internet for a photo or video showing my private parts [translate as appropriate] when I did not want to,g2b,5.8743795668608971
-null,g3c,7.2929470136574004
-Friend or acquaintance,g9e,2.5203322695988168
-Prefer not to say,g9i,2.7618951181917395
+Question,Feature,Chi,Higher Or Lower Yes for Y/N,Degrees of Freedom
+Mother,a1,0.4129004743597513,Higher,1
+Father,a2,0.41083995998233874,Higher,1
+Step or foster mother,a3a,0.80612026810301707,Higher,1
+Step or foster father,a3b,0.30690883713052541,Lower,1
+Grandparent(s) or other relatives,a3c,1.2336611442759502,Higher,1
+Siblings (including half; step or foster siblings),a3d,0.30820255375890498,Higher,1
+My spouse or partner (including boyfriend/girlfriend),a3e,0.19831184557433731,Lower,1
+My child or children,a3f,6.7621602931567718e-05,Lower,1
+Parents (or relatives) of my spouse or partner,a3g,0.044882654211284158,Lower,1
+I live in a foster home or children's home,a3h,0.0079305631512313762,Higher,1
+I live alone,a3i,0.60217779834052365,Lower,1
+Someone or somewhere else: please state____,a3j,0.33223811573046114,Higher,1
+I am a school student,a3k,15.956533750633227,Higher,1
+I am a student in college,a3l,6.3744214378363697,Lower,1
+I am attending training in technical/vocational course,a4a,3.7945131460713375,Lower,1
+I do paid employment,a4g,6.6973601888600935,Lower,1
+I do unpaid work,a4h,0.0018271774416223712,Lower,1
+I am looking for work,a4c,0.57809955861525342,Lower,1
+I help out at home,a4d,16.010373688770912,Lower,1
+I am currently in a vacation,a4e,4.7826596761589437,Lower,1
+Schooling,a4f,9.1629213267191716,Lower,1
+null,a4i,311.30654023731933,NaN,15
+Age,a5,5.1342774350762452,Lower,1
+At school or college,b1,35.609444617691182,Lower,1
+At home,b3,19.266017497980204,Lower,1
+In the home of friends or relatives,b6a,11.533012763282448,Lower,1
+In a public place (for example; in libraries; cafés; computer shops),b6b,0.085601353488035298,Lower,1
+When I am on my way somewhere (e.g. on the street; in a bus or car),b6c,10.250055220640668,Lower,1
+When I am somewhere by myself,b6d,25.703298956192871,Lower,1
+PisoNet,b6e,1.3356500248308669,Higher,1
+A mobile phone that is not a smartphone,b6f,9.2675013393465751,Lower,1
+A smartphone [iPhone; Samsung Galaxy; Cherry Mobile; Star Mobile; etc],b6g,27.067331337211343,Lower,1
+A desktop computer,b7a,0.024723401591904236,Lower,1
+A laptop or notebook computer,b7b,3.9846049677055282,Lower,1
+A tablet [iPad; Samsung Galaxy tab; PLDT Home tablet; etc],b7c,0.34798292191508046,Lower,1
+A games console [Playstation; Xbox; PSP; Nintendo; 3DS; etc],b7d,0.50576623993396286,Lower,1
+A mobile phone that is not a smartphone,b7e,6.2703457644403153,Lower,1
+A smartphone [iPhone; Samsung Galaxy; Cherry Mobile; Star Mobile; etc],b7f,18.523317163889111,Lower,1
+A desktop computer,b8a,2.2133808316047094,Lower,1
+A laptop or notebook computer,b8b,0.028002252355080734,Lower,1
+A tablet [iPad; Samsung Galaxy tab; PLDT Home tablet; etc],b8c,0.82496600412656362,Lower,1
+A games console [Playstation; Xbox; PSP; Nintendo; 3DS; etc],b8d,0.0050472191005697838,Lower,1
+I use a postpaid plan (i.e.; with contracts),b8e,0.13337101532899884,Lower,1
+I use freeWIFI (at home; in school; coffee shop or cafés; malls; etc.),b8f,12.124655864243309,Lower,1
+I pay for internet I use (e.g. in a cybercafé or internet cafe; PisoNet),b9a,0.0046104046076836606,Lower,1
+I use prepaid offers (e.g. GOSurf; GIGASurf; etc.),b9b,45.064533828452937,Lower,1
+null,b9c,nan,NaN,2
+My parents,b9d,7.0216621970802553,Higher,1
+My siblings,b10a,0.99992607986381299,Higher,1
+Relatives,b10b1,0.0012273184137079429,Lower,1
+Friends who are the same age as I am,b10b2,18.460245372679367,Lower,1
+Friends who are older than me,b10b3,0.12613555041763302,Higher,1
+My teacher,b10c1,1.6062830516412796,Higher,1
+Others,b10c2,0.48755332824431902,Higher,1
+Hours,b10d,25.083196006353376,NaN,11
+Hours,b10e,46.793040981182941,NaN,11
+null,b11,0.70893786992588159,Higher,1
+null,b12,0.16036884859225845,Higher,1
+I learned something new by searching online,c1,7.4411644242226673,Lower,1
+I used the internet for schoolwork,c2,17.304359047665393,Lower,1
+I looked for information about work or study opportunities,c4a,13.581468878836228,Lower,1
+Checked maps,c4c,1.9606110494572582,Lower,1
+I looked for information about the place I want to go visit/eat,c4b,9.9566480897767136,Lower,1
+I looked for resources or events about my local neighbourhood,c4c1,1.5395547945205492,Lower,1
+I got involved online in a local organisation or charity,c4c2,1.608321799018624,Lower,1
+I used the internet to help somebody else,c4d,3.693305256739305,Lower,1
+I used the internet to talk to people from places or backgrounds different from mine,c4f,9.4766985070505676,Lower,1
+I looked for the news online,c4g,20.628567562538304,Lower,1
+I discussed political or social problems with other people online,c4e,8.3066310129966414,Lower,1
+I got involved online in a campaign or protest,c4h,0.018766933593830859,Higher,1
+I signed a petition online,c4i,0.891575146068323,Higher,1
+I used the internet to join a civic; religious or political group,c4j,1.3821853869945662,Lower,1
+I posted videos or music created by someone else,c4k,1.2518819341736678,Lower,1
+I created my own video or music and uploaded it to share,c4l,2.9747617750047448,Lower,1
+I created a blog or story or website online,c4o,0.31707390472200447,Lower,1
+I created my own artwork; designs and illustrations and uploaded them on the internet,c4m,0.024833418773724407,Lower,1
+I used instant messaging [insert local examples e.g. Viber; WhatsApp],c4n,8.8512520429441413,Lower,1
+I visited a social network site (e.g.; Facebook [add local examples]),c4o1,27.077917425840493,Lower,1
+I helped someone else who needed or wanted to go online,c4r,7.0297213353093033,Lower,1
+I talked to family or friends who live further away (e.g. by Skype; Viber; FaceTime),c4p,8.5119729627716136,Lower,1
+I commented on the updates that friends or family have put online,c4t,31.610997283590244,Lower,1
+I re-posted or shared a social media post online,c4q,14.839267798779554,Lower,1
+I showed my friends or family something that I saw online,c4u,9.3578762236475299,Lower,1
+I visited a chatroom to meet new people [insert local examples],c4t1,6.3606394371246511,Lower,1
+I watched video clips (e.g. on YouTube [insert local examples]),c4v,3.4626594763993435,Lower,1
+I played online games alone,c4w,1.5633767101982439,Higher,1
+I played games with other people online,c4x,0.32859526103296938,Higher,1
+I listened to music online (by downloading or streaming),c4y,9.5676874472489803,Lower,1
+I watched my favourite TV shows,c4z,0.99935560539325785,Lower,1
+I joined a fan site (of a celebrity or popular band),c4bb,7.0095374338896432,Lower,1
+I posted photos or comments online (e.g. on Facebook or a blog),c4cc,27.262165617336258,Lower,1
+I looked for health information for myself or someone I know,c4cc1,6.8790131447410712,Lower,1
+I participated in a site where people share my interests or hobbies,c4gg,7.1464441577583617,Lower,1
+I browsed for things to buy,c4ee,8.8048994758250068,Lower,1
+I checked out what things cost by looking online,c4ff,7.901120419816424,Lower,1
+I have sold an item online,c4hh,0.2232299624601993,Lower,1
+My mother or father (or step/foster mother or father),c4hh1,7.3137911541789915,Lower,1
+My brother or sister (or step/foster/half siblings),c4hh2,16.976523129638466,Lower,1
+A friend around my age,c6a,45.341644511253214,Lower,1
+A teacher,c6b,9.7314630331271985,Lower,1
+Another adult I trust,c6c,7.9754998357934745,Lower,1
+Someone I first met on the internet; but who is friends or family of other people I know in person,c6d,10.993800311008362,Lower,1
+Someone I first met on the internet; but who has no other connection to my life outside of the internet,c6e,9.0420592935985518,Lower,1
+A relative or friend who is an OFW (overseas Filipino worker),c6f,8.6293957373914481,Lower,1
+Someone else,c6g,6.9450971370262433,Lower,1
+My mother or father (or step/foster mother or father),c6g1,6.8080825765409063,Lower,1
+My brother or sister (or step/foster/half siblings),c6h,25.055236982834977,Lower,1
+A friend around my age,c7a,64.010476901797745,Lower,1
+A teacher,c7b,4.0004273226117091,Lower,1
+Another adult I trust,c7c,14.255153168592647,Lower,1
+Someone I first met on the internet; but who is friends or family of other people I know in person,c7d,11.889034752676528,Lower,1
+Someone I first met on the internet; but who has no other connection to my life outside of the internet,c7e,8.4550278239701822,Lower,1
+A relative or friend who is an OFW (overseas Filipino worker),c7f,12.165154215052659,Lower,1
+Someone else,c7g,7.4788408275449934,Lower,1
+My mother or father (or step/foster mother or father),c7g1,2.7272137008550974,Lower,1
+My brother or sister (or step/foster/half siblings),c7h,6.9811422078506737,Lower,1
+A friend around my age,c8a,34.298322867230851,Lower,1
+A teacher,c8b,3.7149791662599552,Lower,1
+Another adult I trust,c8c,7.0290543586680423,Lower,1
+Someone I first met on the internet; but who is friends or family of other people I know in person,c8d,6.655514472333234,Lower,1
+Someone I first met on the internet; but who has no other connection to my life outside of the internet,c8e,10.312580694017665,Lower,1
+A relative or friend who is an OFW (overseas Filipino worker),c8f,3.9347210922579259,Lower,1
+Someone else,c8g,5.5850684364279619,Lower,1
+My mother or father (or step/foster mother or father),c8g1,0.76880595851410261,Lower,1
+My brother or sister (or step/foster/half siblings),c8h,0.86800830826103426,Lower,1
+A friend around my age,c9a,6.5112196316420432,Lower,1
+A teacher,c9b,0.76555193670608512,Lower,1
+Another adult I trust,c9c,3.2945845177121775,Lower,1
+Someone I first met on the internet; but who is friends or family of other people I know in person,c9d,2.4942692916563756,Lower,1
+Someone I first met on the internet; but who has no other connection to my life outside of the internet,c9e,2.4425709861415865,Lower,1
+A relative or friend who is an OFW (overseas Filipino worker),c9f,1.1946669916282797,Lower,1
+Someone else,c9g,2.7181555146353302,Lower,1
+Making presentations,c9g1,17.403611769198633,Lower,1
+Writing things,c9h,5.7044921510862023,Lower,1
+Making pictures,c10a,17.86158881029105,Lower,1
+Practising something I am learning (e.g. maths or a language or music),c10b,4.5080836554638042,Lower,1
+Checking out information on the school website,c10c,23.366921686784309,Lower,1
+Doing group work with other students,c10d,33.450180800429429,Lower,1
+Chatting online at school,c10e,34.65494395454553,Lower,1
+Communicating with teachers (e.g. submitting homework or asking a question),c10f,21.854545629615821,Lower,1
+Contributing to a school blog or online discussion,c10g,6.2061381021832895,Lower,1
+I know how to save a photo that I find online,c10h,61.031009238550979,Lower,1
+I know how to change my privacy settings (e.g. on a social networking site),c10i,43.185520666654881,Lower,1
+I know how to use a programming language (e.g. HTML; XML; etc.),e1a,23.311921304938082,Lower,1
+I know how to jailbreak; crack games and apps; change IP address,e1b,0.69941262438489538,Lower,1
+I know how to hide my IP address,e1c,8.0126004594584295,Lower,1
+I know how to set network settings (LAN; wi-fi; device-connection),e1f1,23.444259124728024,Lower,1
+I know how to hack certain files,e1f2,3.4083301332972855,Lower,1
+I know how to set the firewall,e1f3,5.2949917439524157,Lower,1
+I find it easy to find a website I have visited before,e1f4,25.026789521459072,Lower,1
+I find it easy to check if the information I find online is true,e1f5,26.402881338574232,Lower,1
+I find it easy to choose the best keywords for online searches,e1i,48.317330386478304,Lower,1
+Sometimes I end up on websites without knowing how I got there,e1g,21.820232357696661,Lower,1
+I know how to use incognito in browsing,e1h,16.603917294486592,Lower,1
+I know which information I should and shouldn't share online,e1k,28.643223084682884,Lower,1
+I know how to remove people from my contact lists,e1k1,34.431082294396361,Lower,1
+I know how to block,e1l,70.078590268716596,Lower,1
+I know when I should and shouldn't share information online,e1m,36.617232515186892,Lower,1
+I know how to behave according to the situation online,e1m1,31.160728516222701,Lower,1
+I know how to change who I share content with (e.g. friends; friends of friends or everyone),e1n,45.111770328099638,Lower,1
+I know how to report abusive posts or things that I find offending in social media (e.g. Facebook report abuse),e1o,30.638379937154284,Lower,1
+I know how to create something new from video or music that I found online,e1p,8.9062302216502065,Lower,1
+I know how to post online video or music that I have created myself,e1p1,5.4345925369483421,Lower,1
+I know which different types of licences apply to online content,e1t,11.640213376476693,Lower,1
+I know how to edit or make basic changes to online content that others have created,e1q,17.253192014608199,Lower,1
+I know how to design a website,e1s,2.9244480032444873,Lower,1
+I know how to install apps on a mobile device (e.g. phone or tablet),e1r,45.227804126886532,Lower,1
+I know how to safeguard my online expenses while using mobile apps,e1u,47.205587853495217,Lower,1
+I know how to make an in-app purchase,e1v,22.201827391920318,Lower,1
+I know how to download and carck to full version some paid apps without paying a fee (e.g. torrent; etc.),e1w,14.451244139601167,Lower,1
+Deactivate the function showing my geographical position (on Facebook; Google Maps; etc.),e1x,35.257606698361144,Lower,1
+Connect to a Wi-Fi network,e1x1,29.694904390180717,Lower,1
+Block push notifications from different apps,e3a,39.267730023962457,Lower,1
+Have the same documents; contacts or apps on all devices that I use (e.g. smartphone; tablet; PC),e3b,28.927822660528928,Lower,1
+Block pop ups which promote apps; games or services I have to pay for (unrequested windows that appear during web surfing),e3c,14.429667589261904,Lower,1
+Protect a smartphone with a PIN/with a screen pattern,e3d,44.838202872419963,Lower,1
+Update my status on the social networking site I use the most,e3e,53.006396007915228,Lower,1
+Find information on how to use smartphones safely,e3f,49.239061338313682,Lower,1
+Compare similar apps to choose the one that is most reliable,e3g,51.745345724273406,Lower,1
+Take a picture or a video with my smartphone and post it onto social media,e3h,16.346234313496279,Lower,1
+Twitter,e3i,13.800641204565462,Lower,1
+Viber,e3j,2.2005857199332275,Lower,1
+Skype,d1d,1.4089843320859043,Lower,1
+Facebook,d1e,35.389127232596685,Lower,1
+Instagram,d1f,16.496931808530455,Lower,1
+WhatsApp,d1a,1.1246390940804551,Lower,1
+YouTube,d1c,0.21074181048397034,Higher,1
+Spotify,d1b,8.2112330943733625,Lower,1
+Wikipedia,d1g,15.464091721987623,Lower,1
+Tumblr,d1h,4.2286824072475175,Lower,1
+I find it easier to be myself online than when I am with people face-to-face,d1i,0.64328772364290199,Lower,1
+I talk about different things online than I do when speaking to people face-to-face,d1j,5.2593841299869464,Lower,1
+I talk about private things online which I do not talk about with people face-to-face,d2d,4.7320687529848842,Lower,1
+I feel safe on the internet,d2e,0.17904349573269637,Higher,1
+I find other people are kind and helpful on the internet,d2f,0.015300090131022751,Lower,1
+I know what to do if someone acts online in a way I don't like,d2a,20.563670784489304,Lower,1
+null,d2b,11.665363720043626,Higher,1
+null,d2c,0.0012895319823204275,Lower,1
+Facebook/Messenger,d12,27.641107045974429,NaN,5
+Skype,d13,5.1974389521878761,NaN,5
+Viber,d14a,6.8671505549801983,NaN,5
+WeChat,d14b,3.4250066268475594,NaN,5
+Instagram,d14c,16.219034303651998,NaN,5
+Twitter,d14d,20.093000056259989,NaN,5
+YouTube/Hangout (Google),d14e,11.715176381246442,NaN,5
+Minecraft,d14f,20.332355674177357,Higher,1
+Warcraft DOTA,d14g,0.15784304962805884,Lower,1
+DOTA 2,d15a,3.8218685215982999,Lower,1
+League of Legends,d15b,7.3011445994124529,Lower,1
+Counterstrike,d15c,0.52714665243483183,Higher,1
+Others,d15d,0.036066399027813167,Lower,1
+null,d15e,8.7679032005266286,Higher,1
+null,d15f,1.399815470796606,Higher,1
+null,d7a,1.1454994271295975,Higher,1
+null,d7b,0.49181655190356904,Lower,1
+A photo that clearly shows your face,d7c,7.6866559694258658,Lower,1
+Your last name,d8,4.2634429948960459,Lower,1
+Your address,d9a,14.236903136302857,Lower,1
+Your phone number,d9b,6.7504415647835856,Lower,1
+Your school,d9c,39.53260811057585,Lower,1
+Your correct age,d9d,5.9970327281459346,Lower,1
+An age that is not your real age,d9e,0.041554419931833578,Lower,1
+Places you've dined and visited,d9f,2.8196663834980549,Lower,1
+Pictures showing whole body,d9g,2.8659452053115055,Lower,1
+null,d9j,7.1480022152850206e-05,Lower,1
+Looked for new friends or contacts on the internet,d9k,2.5390722981614071,Lower,1
+Sent my personal information (e.g.; my full name; address or phone number) to someone I have never met face-to-face,d10,2.0155128442260053,Lower,1
+Added people to my friends or contacts I have never met face-to-face,f1a,1.9965386454571243,Lower,1
+Pretended to be a different kind of person online from who I really am,f1b,0.49942196531791971,Lower,1
+Sent a photo or video of myself to someone I have never met face-to-face,f1c,0.21514375845121478,Lower,1
+Post my current location and those I had been to,f1d,3.0098618806500359,Lower,1
+Post my new stuff and clothes,f1e,0.1518189960941109,Lower,1
+Post messages or love quotes that pertain to the boy/girl whom I have a crush on,f1f,7.367997219539081,Lower,1
+Seek to get acquainted or befriend persons who are Non-Filipinos (foreigners),f1g,0.16362948173366326,Lower,1
+Engage in chat activities with a person whom I only met on internet,f1h,4.246794361196601,Lower,1
+Do video calls with a person whom I only met on internet,f1i,0.14481480966790702,Higher,1
+Receive offers or gifts online,f1j,0.095909270025601845,Higher,1
+null,f1k,18.637071339498107,Lower,1
+null,f1l,1.1962111071885495,Lower,1
+null,f2,0.020579974028906899,Lower,1
+null,f3,0.76754850088183457,Higher,1
+I've met face to face with a person I just got acquainted on internet but is already known by my friends or relatives,f4,1.2954015734346886,Lower,1
+I've met face to face with a person I just got acquainted on internet and who is totally unknown to anyone I personally know,f5,1.3614566874779472,Lower,1
+I've met with a foreigner (different nationality),f6a,1.0521404979674784,Higher,1
+I've personally met with an older person,f6b,0.059134589182074884,Higher,1
+I've met face to face with a person I just got acquainted on internet and she/he was accompanied by another girl/boy,f6c,1.2184610398896125,Lower,1
+I've met with another woman like myself whom i just got acquainted with on internet,f6d,1.1551445458566203,Lower,1
+I've met with another man like myself whom i just got acquainted with on internet,f6e,0.96765979118920287,Higher,1
+I've met with LGBT person (lesbian; gay; bisexual; transgender) whom i just got acquainted with on internet,f6f,1.3733057009521021,Lower,1
+null,f6g,2.8544688345417661,Lower,1
+null,f6h,12.232184175618682,Lower,1
+null,f8,1.7747858017135858,Higher,1
+null,f11,0.010300550285909881,Higher,1
+My mother or father (or step/foster mother or father),f12,0.18091617969478119,Lower,1
+My brother or sister (orstep/foster/half siblings),f13,0.069423963326139468,Higher,1
+Cousin,f14a,0.22686386438332456,Lower,1
+Aunt/Uncle,f14b,1.2854314447544191,Higher,1
+Grandfather/Grandmother,f14j,0.63906145961234162,Higher,1
+Nanny,f14k,0.36674597692327376,Lower,1
+A friend around my age,f14l,5.3595241230924398,Lower,1
+Classmate,f14m,0.92768790337237139,Lower,1
+Boyfriend/Girlfriend,f14c,4.745510220971612,Lower,1
+A teacher,f14n,1.9512292644405462,Lower,1
+Someone whose job it is to help children,f14o,0.13146558235623057,Lower,1
+Godfather/Godmother,f14d,3.4953239523019994,Higher,1
+Priest/Pastor/Nun,f14e,0.36674597692327376,Lower,1
+Neighbor,f14p,0.683251310014513,Lower,1
+Another adult I trust,f14q,0.11006152569734964,Lower,1
+Someone else,f14r,0.37071103371658082,Lower,1
+I didn't talk to anyone,f14f,0.27117639287417578,Lower,1
+Prefer not to say,f14g,6.6260707947651627e-06,Lower,1
+null,f14h,1.7048928683927924,Higher,1
+I ignored the problem or hoped the problem would go away by itself,f14i,2.9353720937743679,Lower,1
+I closed the window or app,f15,0.6496127624000364,Higher,1
+I felt a bit guilty about what went wrong,f16a,1.6114541196508405,Higher,1
+I tried to get the other person to leave me alone,f16b,0.039152438433523333,Higher,1
+I tried to get back at the other person,f16c,0.0091321305133652674,Higher,1
+I stopped using the internet for a while,f16d,0.084785870651429063,Lower,1
+I deleted any messages from the other person,f16e,0.061315733446880995,Lower,1
+I changed my privacy/ contact settings,f16f,0.096405032587606229,Lower,1
+I blocked the person from contacting me,f16g,1.57190517179403,Lower,1
+I reported the problem online  (e.g.; clicked on a ‘report abuse’ button; contacted an internet advisor or Internet Service Provider (ISP)),f16h,0.023582974402646534,Lower,1
+Other actions taken,f16i,2.3177347242921011,Higher,1
+null,f16j,1.3462965592946639,Lower,1
+null,f16k,1.9139463193726227,Higher,1
+null,f18,7.5912310050299308,Higher,1
+null,f19,12.262327325875093,Lower,1
+By mobile phone calls,f20a,1.827,Higher,1
+By messages sent to me on my phone (SMS/TEXT or MMS),f20b,0.20556691253951548,Lower,1
+On a social networking site (e.g. Facebook; Twitter etc.),f21a,1.9917582417582429,Lower,1
+On a media sharing platform (YouTube; Instagram; Flickr),f21b,0.0047802197802197469,Higher,1
+By instant messaging (MSN; What’s app; Skype etc.),f21c,0.088568935427574172,Higher,1
+In a chatroom,f21d,0.26472388556220872,Lower,1
+In an online game,f21e,1.3773599033816419,Higher,1
+Some other way,f21f,1.1802042042042042,Higher,1
+Prefer not to say,f21g,0.32318407960199003,Lower,1
+Nasty or hurtful messages were sent to me,f21h,13.965655500810913,Lower,1
+Nasty or hurtful messages were passed around or posted where others could see,f21i,0.21231323220163298,Lower,1
+I was left out or excluded from a group or activity on the internet,f22a,0.027910623418681252,Higher,1
+I was threatened on the internet,f22b,0.0039846285616187095,Lower,1
+Other nasty or hurtful things happened to me on the internet,f22c,0.25155932287917177,Lower,1
+null,f22d,0.34899808226259799,Lower,1
+null,f22e,1.8353504883789045,Lower,1
+null,f23,2.3459167950693374,Higher,1
+null,f24,1.1029471421547268,Higher,1
+null,f25,4.0975870574786315,Lower,1
+By mobile phone calls,f26a,4.9391513465322179,Higher,1
+By messages sent by the phone (SMS/Text or MMS),f26b,0.57603795039254457,Lower,1
+On a social networking site (e.g.; Facebook; Twitter),f27a,1.1452574089396188,Lower,1
+By instant messaging (MSN; WhatsApp; Skype etc.),f27b,1.2055660943954527,Higher,1
+On a media sharing platform (YouTube; Instagram; Flickr),f27c,6.7097301232561284,Higher,1
+In a chatroom,f27d,1.8512012442841259,Lower,1
+In an online game,f27e,0.013339192317585586,Higher,1
+Some other way,f27f,0.011939808633733897,Lower,1
+Prefer not to say,f27g,0.18839934727785199,Lower,1
+null,f27h,35.214300941018998,Lower,1
+null,f27i,6.5382723356041463,Lower,1
+In a magazine or book,f28,0.082605648441792606,Lower,1
+On television; film,f29,0.3097970035693286,Lower,1
+Via a mobile phone; computer; tablet or anyother online device,f31a,4.5715067667508231,Lower,1
+On an online video sharing platform (e.g. YouTube; [add local examples]),f31b,0.63332966663198187,Higher,1
+On an online photo sharing platform (e.g. Instagram; Flickr; [add local examples]),f31c,0.34289630514675851,Higher,1
+On a social networking site (e.g. Facebook; Twitter; [add local examples]),f32d,0.023237487153696501,Lower,1
+In a chatroom,f32e,0.88087667849976814,Lower,1
+In an online game,f32f,1.4722775591015156,Higher,1
+On an adult/X-rated website,f32g,1.0198358977303983,Lower,1
+By popups on the internet (unrequested windows that appear during web surfing),f32h,0.010285189089827828,Higher,1
+By instant messaging (MSN; WhatsApp; Skype; [add local examples]),f32i,0.0020319598766310111,Lower,1
+By text (SMS); images (MMS); or otherwise on my mobile phone,f32j,0.00056296700086538875,Higher,1
+By Bluetooth,f32k,0.013737260924193757,Higher,1
+In an advert,f32l,0.008879386310209526,Lower,1
+Prefer not to say,f32m,0.0020319598766310111,Lower,1
+A sexual image or video of someone naked,f32n,0.30971707355479278,Higher,1
+A sexual image or video that shows someone's 'private parts' [translate as appropriate],f32o,0.14958880858083165,Higher,1
+An image or video that shows sexual acts or people having sex,f33a,0.0042221188000464722,Lower,1
+An image or video that shows sexual acts in a violent way,f33b,2.3264844700256342,Higher,1
+Something else sexual or embarrassing,f33c,0.00081958603795110631,Lower,1
+null,f33d,13.229778771671242,Lower,1
+null,f33e,3.549079527259126,Lower,1
+By mobile phone calls,f34,0.98889632107023384,Higher,1
+By text messages sent to me on my phone (SMS/text or MMS),f35,1.4515066857033043,Higher,1
+On a social networking site (e.g.; Facebook; Twitter etc.),f37a,0.78518414787844926,Lower,1
+On a media sharing platform (YouTube; Instagram; Flickr),f37b,0.96620508396898142,Higher,1
+By IM (MSN; WhatsApp; Skype; etc.),f37c,2.9409647223288196,Higher,1
+In a chatroom (video chat),f37d,0.64535279329001327,Higher,1
+In an online game,f37e,5.6571428571428575,Higher,1
+In a gaming community (also on the Xbox and other game consoles),f37f,7.3655955480919575,Higher,1
+By 'pop up' (something appears by accident),f37g,2.92354944367559,Higher,1
+null,f37h,0.31944382261348103,Lower,1
+null,f37i,2.1160153210844457,Higher,1
+I have sent someone a sexual message (e.g.; words; pictures or video) on the internet,f38,1.1793513789581209,Lower,1
+I have posted a sexual message (e.g.; words; pictures or video) where other people could see it on the internet,f39,0.0047242083758937906,Lower,1
+I have asked someone on the internet for sexual information about him or herself (like what his or her body looks like without clothes on or sexual things he or she has done),f40a,0.099158653846153841,Higher,1
+Ways of physically harming or hurting themselves,f40b,5.3406559672317773,Lower,1
+Ways of committing suicide,f40c,0.46666666666666667,Lower,1
+Ways to be very thin (such as being anorexic or bulimic),f41a,12.527509931771478,Lower,1
+Hate messages that attack certain groups or individuals (e.g.; people of different colour or religion or nationality),f41b,9.2693614958189876,Lower,1
+Their experiences of taking drugs,f41c,6.7374585550149853,Lower,1
+Gory or violent images,f41d,11.709634125631053,Lower,1
+Ways of courtship,f41e,50.657305820300138,Lower,1
+Ways how to find a relationship,f41f,6.1384340891232565,Lower,1
+Ways to join in gambling,f41g,0.18026215256177339,Higher,1
+null,f41h,nan,Lower,1
+null,f41i,nan,Lower,1
+About cheating,f41j,8.3380794269432439,Lower,1
+null,f41k,0.63,Higher,1
+About drinking alcohol,f41l,3.4270188439922116,Lower,1
+About smoking,f41m,1.7331686885263717,Lower,1
+About bullying,f41n,20.563882023165927,Lower,1
+Somebody used my personal information in a way I didn't like,f41o,6.0009533113780575,Lower,1
+The device (e.g.; phone; tablet; computer) I use got a virus or spyware,f41p,5.3531850890177308,Lower,1
+I lost money by being cheated on the internet,f43a,0.6838973671424311,Higher,1
+Somebody used my password to access my information or to pretend to be me,f43b,2.2142649876244951,Lower,1
+Somebody created a page or image about me that was hostile or hurtful,f43c,0.32031071817973211,Lower,1
+I spent too much money on online games or in-app purchases,f43d,2.3896003151910818,Lower,1
+I was asked to make an in-app purchase when playing an online game (e.g.; to do well in the game),f43e,4.3903356785847372,Lower,1
+Someone found out where I was because they tracked my phone or device,f43f,0.33136536402818584,Lower,1
+I have gone without eating or sleeping because of the time I spent on the internet,f43g,16.080323676785266,Lower,1
+I have experienced conflicts with family or friends because of the time I spent on the internet,f43h,6.8437516448730351,Lower,1
+My grades have dropped because of the time I spent on the internet,f45a,4.401183869031323,Lower,1
+I have tried unsuccessfully to spend less time on the internet,f45b,11.227680982678045,Lower,1
+I think the amount of time I spend on the internet causes problems for me,f45c,18.752517891720263,Lower,1
+null,f45d,48.282792455767606,Lower,1
+null,f45e,0.34842600408847324,Higher,1
+Your mother or father (including step/foster mother or father),f45f,10.408836385696107,Higher,1
+Your brother or sister (including step siblings),h1,0.027101703146232378,Lower,1
+Cousin,h2a,6.5616551556073803,Lower,1
+Aunt/Uncle,h2b,2.1963053025583084,Higher,1
+Grandfather/Grandmother,h2i,1.3895701091558519,Higher,1
+A friend around my age,h2j,36.558500767554023,Lower,1
+Boyfriend/Girlfriend,h2k,12.093970864622397,Lower,1
+A teacher,h2c,0.60735811220251601,Lower,1
+Classmate,h2l,11.832003418825122,Lower,1
+Someone whose job it is to help children [give examples if needed],h2d,0.88708196581412158,Lower,1
+Nanny,h2m,0.40315642756117032,Higher,1
+Godfather/Godmother,h2e,0.5932049149131009,Higher,1
+Priest/Pastor/Nun,h2n,1.6070383418552232,Lower,1
+Neighbor,h2o,0.097903157905886426,Lower,1
+Another adult you trust,h2p,11.58192000015341,Lower,1
+Someone else,h2q,0.60155178570238466,Lower,1
+No one,h2f,0.0014574147614555728,Lower,1
+null,h2g,6.6436414753682502,Lower,1
+When I speak someone listens to what I say,h2h,0.54218598759371284,Lower,1
+My family really tries to help me,i1,1.3573443680742101,Lower,1
+I feel safe at home,i2a,3.2937887916690642,Lower,1
+My parent(s)/carer(s) sets rules about what I can do at home,i2b,2.2497632413013591,Lower,1
+My parent(s)/carer(s) sets rules about what I can do outside the home,i2c,1.1271302278497521,Lower,1
+My parent(s)/carer(s) tells me when I am doing something well,i3b,0.80872819885978176,Lower,1
+My parent(s)/carer(s) praises me for behaving well,i3c,0.35171444275325559,Lower,1
+Encourages me to explore and learn things on the internet,i3d,0.92692777618396671,Lower,1
+Suggests ways to use the internet safely,i3a,5.5296056737300043,Lower,1
+Talks to me about what I do on the internet,i4a,3.128533564131541,Lower,1
+Sits with me while I use the internet,i4b,1.3234912036578246,Lower,1
+Stays nearby when I use the internet,i4c,0.56079742106821895,Lower,1
+Does shared activities together with me on the internet,i4d,0.32999400048900984,Lower,1
+Talks to me about what to do if something online bothers or upsets me,i4e,6.1272599990739813,Lower,1
+Helps me when something is difficult to do or find on the internet,i4f,2.6083886616914338,Lower,1
+Explains why some websites are appropriate or inappropriate,i4g,2.1997079334793268,Lower,1
+Helps me when something bothers me on the internet,i4h,2.997511144932286,Lower,1
+Talks to me about the commercial activities I am exposed to online,i4i,0.11617301112021534,Lower,1
+Told my parent/carer about things that bother or upset me on the internet,i4j,1.8661741600266477,Lower,1
+Helped my parent/carer to do something they found difficult on the internet,i4k,9.1843567438013398,Lower,1
+Started a discussion with my parent/carer about what I do on the internet,i5a,0.71616148847437078,Lower,1
+Asked for my parent's/carer's advice on how I should act online,i5b,0.13566113801016222,Higher,1
+Asked my parent/carer for something that I have seen advertised online,i5c,0.057906745075355898,Lower,1
+Ask for your parent's/carer's help with a situation on the internet that I could not handle,i5d,0.68047534712964042,Higher,1
+Use a web or phone camera (e.g.; for Skype or video chat),i5e,8.1573401626192776,Higher,1
+Download music or films,i5f,17.512464634623289,Higher,1
+Visit a social networking site (e.g.; Facebook; [insert local terms]),i6a,17.944092882771113,Higher,1
+Watch video clips (e.g.; on YouTube),i6b,0.45453275323410103,Higher,1
+Play games with other people online,i6c,0.59193499389588533,Lower,1
+Visit a chat room,i6d,12.382883265064839,Higher,1
+Use instant messaging,i6e,17.834898812771151,Higher,1
+Read/watch news online,i6f,7.9250202479026761,Higher,1
+Use the internet for school work,i6g,8.9959291075604444,Higher,1
+Spend time in a virtual world (e.g.; Habbo; Club Penguin; Minecraft [add examples as needed]),i6h,0.23903743202053784,Lower,1
+Put (or post) photos; videos or music online to share with others (including social networking or instant messaging),i6i,19.621017441676091,Higher,1
+null,i6j,4.0706007914601638,Lower,1
+null,i6k,2.2714115025309649,Lower,1
+null,i7a,0.71589134775496255,Lower,1
+null,i7b,4.4570568028250426,Lower,1
+null,i7c,12.351896000745755,Lower,1
+null,i7d,13.649405972146191,Lower,1
+null,i7e,5.3157367091192711,Lower,1
+null,i7f,24.086403675243652,Lower,1
+null,i7g,3.025148468286142,Lower,1
+null,i7h,0.016986382724498466,Lower,1
+null,i7i,1.2043508132436243,Lower,1
+null,i8a,1.9855239918148773,Lower,1
+null,i8b,0.66448277958439128,Lower,1
+null,i8c,0.37052088728894317,Higher,1
+null,i8d,0.061177165054109868,Lower,1
+null,i8e,0.036421413174844819,Lower,1
+Suggested ways to use the internet safely,i8f,19.628395645245885,Lower,1
+Encouraged me to explore and learn things on the internet,j1,12.079536160932573,Lower,1
+Made rules about what I can do on the internet at school,j5a,10.661744864985296,Lower,1
+Helped me when I found something difficult to do or find on the internet,j5b,8.9251084574147068,Lower,1
+Talked to me about what I do on the internet,j5c,5.2822066789177802,Lower,1
+Explained why some websites are good or bad,j5d,12.505316091172109,Lower,1
+Suggested ways to behave towards other people online,j5e,20.936608733336172,Lower,1
+Helped me in the past when something has bothered me on the internet,j5f,9.2092125754898078,Lower,1
+In general; talked to me about what I would do if something on the internet ever bothered me,j5g,10.643939539468169,Lower,1
+My friends really try to help me,j5h,6.8061867759798398,Lower,1
+I can count on my friends when things go wrong,j5i,14.797953165184788,Lower,1
+I can talk about my problems with my friends,k1a,19.188117545627968,Lower,1
+I get worried when I ﬁnd out my friends are having fun without me ,k1b,3.490949952746031,Lower,1
+Suggested ways to use the internet safely,k1c,18.956881261375436,Lower,1
+Encouraged me to explore and learn things on the internet,k1d,15.359470719043948,Lower,1
+Helped me when I found something difficult to do on the internet,k2a,21.908093699865454,Lower,1
+Explained why some websites are good or bad,k2b,18.781523384522952,Lower,1
+Suggested ways to behave towards other people on the internet,k2c,10.666705409922923,Lower,1
+Helped me in the past when something has bothered me on the internet,k2d,16.939526609697474,Lower,1
+null,k2e,25.524211050777428,Lower,1
+I feel safe in the area where I live,k2f,2.3482476919693172,Lower,1
+It is safe for younger children to play outside during the day,k3,1.2999621637796706,Lower,1
+You can trust people around here,k4a,0.23251255002871127,Higher,1
+null,k4b,3.0645452294474915,Lower,1
+null,k4c,0.20449090155175378,Higher,1
+null,a14,0.056232940786639589,Higher,1
+null,a15,0.35535696023843766,Lower,1
+null,a16,1.9007604107308229,Lower,1
+null,a17,1.2108165291408,Lower,1
+null,a17a,4.6329838404490475,Higher,1
+I get very angry and often lose my temper,a18,4.2106427701931111,Lower,1
+I usually do as I am told,a19,0.33097793953409121,Lower,1
+I fight a lot; I can make other people do what I want,a20a,3.2980473319039572,Higher,1
+I am often accused of lying or cheating,a20b,1.4896578935920675,Higher,1
+I take things that are not mine from home; school or elsewhere,a20c,0.37755921456384045,Higher,1
+I worry a lot,a20d,6.6066719174250892,Lower,1
+I am nervous in certain new situations; I easily lose confidence,a20e,0.080835972773616038,Lower,1
+I get a lot of headaches; stomach-aches or sickness,a20f,4.3595809020076075,Higher,1
+I am often unhappy; sad or tearful,a20g,0.080757069342933682,Higher,1
+I have many fears and I am easily scared,a20h,2.5151635694307157,Higher,1
+I am restless; I cannot stay still for long,a20i,0.066141024239781007,Higher,1
+I finish the work I'm doing. My attention is good,a20j,0.50508657396061862,Lower,1
+I am easily distracted and find it difficult to concentrate,a20k,1.1126623431407561,Lower,1
+I think before I do things,a20l,17.308171809748082,Lower,1
+Other people my age generally like me,a20n,0.15886606192691041,Lower,1
+Other children or young people pick on me,a20o,10.862842063311941,Higher,1
+I am usually on my own; I generally play alone or keep to myself,a20p,0.56617092201803443,Higher,1
+I have at least one good friend,a20q,1.2810098103314072,Lower,1
+I get on better with adults than with people my own age,a20r,0.66139500276714158,Lower,1
+I am helpful if someone is hurt; upset or feeling ill,a20s,0.75573897201209761,Lower,1
+I try to be nice to other people. I care about their feelings,a20t,4.1691569584126809,Lower,1
+I often volunteer to help others (e.g.; parents; carers; teachers; children),a20u,0.88141474376054574,Lower,1
+I usually share with others (food; games; pens etc.),a20v,0.6671154472101124,Lower,1
+Other children are treated better than me,a20w,0.026767439382089135,Lower,1
+People seem to think I am not smart,a20x,5.5309052688745739,Higher,1
+People seem to think they’re better than me,a21a,0.025201459054976463,Lower,1
+I get called names or insulted by other children,a21b,3.4306709003290949,Higher,1
+Because of where my family is from,a21c,0.078447104296775982,Lower,1
+Because of my skin colour,a21d,0.16869289201493581,Higher,1
+Because of my religion,a22a,0.00017083793399584642,Higher,1
+Because of my height or weight,a22b,0.23059888199688711,Higher,1
+Because of a disability,a22c,0.75125147965741801,Higher,1
+Because of not having enough money,a22d,0.19323908538818163,Lower,1
+Because of my sexual orientation,a22e,0.35622280099937598,Lower,1
+Because of how I look or behave,a22f,2.9923810156608703,Lower,1
+null,a22g,0.3430967578042004,Lower,1
+Because of my opinions or beliefs,a22h,4.1946904098921918,Lower,1
+Because my parents are not around (i.e.; OFW),a22j,3.6037605199778238,Lower,1
+Because of the ethnic group I belong to,a22i,0.030018350359486752,Higher,1
+Due to conflict / war in our area,a22k,2.1340545562338207,Lower,1
+Because I am not studying (i.e.; out-of-school),a22l,0.93770202777484279,Lower,1
+Because I do not have a permanent residence / house,a22m,0.27342944130624447,Higher,1
+null,a22n,0.18429005297110801,Lower,1
+I do dangerous things for fun,a22o,0.096567700385933958,Higher,1
+I do exciting things; even if they are dangerous,a23,0.37054041925923775,Lower,1
+Had so much alcohol that I got really drunk,a24a,3.4591453122933369,Lower,1
+Missed school lessons without my parent(s)/carer(s) knowing,a24b,6.833298393339887,Lower,1
+Had sexual intercourse,a25a,0.54546741883776229,Higher,1
+Been in trouble with my teachers for bad behaviour,a25b,0.065422302623855927,Higher,1
+Been in trouble with the police,a25c,0.14886995143614828,Higher,1
+Met personally with someone whom I met online (i.e.; eyeball),a25d,2.8325254289411705,Lower,1
+I can solve difficult problems if I try hard enough,a25e,3.0671783442288234,Lower,1
+If someone opposes me; I can find ways to get what I want,a25f,4.9544883299745841,Lower,1
+It's easy for me to stick to my aims and achieve my goals,a26a,5.5226827784501697,Lower,1
+I am confident that I can deal with unexpected problems,a26b,5.9378297904154902,Lower,1
+I can stay calm when things get difficult because I am good at coping,a26c,4.3443872846987004,Lower,1
+null,a26d,0.26155324635503802,Higher,1
+null,a26g,0.66412996832831694,Lower,1
+When I use the internet; I learn about different things that I could study; do or become what I want to be as productive as possible.,a27,12.738890229264523,Lower,1
+When I use the internet; I feel I want to achieve more in life.,a28,5.6968440710617294,Lower,1
+I was sent a message that I did not want with advertisements for or links to X-rated websites [use local term for 'X-rated'],a29a,1.7836187486485677,Lower,1
+I opened a message or a link in a message that showed pictures of naked people or of people having sex that I did not want,a29b,0.73967546773495219,Lower,1
+I have seen or received a sexual message; image or video about someone else that I did not want,g1a,10.128462277765076,Lower,1
+I have been asked for sexual information about myself (like what my body looks like without clothes on or sexual things I have done) when I did not want to answer such questions,g1b,6.9607711437695112,Lower,1
+I have been asked to talk about sexual acts with someone on the internet when I did not want to,g1c,5.6373936324583482,Lower,1
+I have been asked by someone on the internet to do something sexual when I did not want to,g2a,2.1147768225666823,Lower,1
+I have been asked on the internet for a photo or video showing my private parts [translate as appropriate] when I did not want to,g2b,5.8743795668608971,Lower,1
+I have sent sexual information about myself (like what my body looks like without clothes on or sexual things I have done) when I did not want,g2c,0.49022093748147549,Lower,1
+I have talked about sexual acts with someone on the internet when I did not want to,g2d,0.52116762442010744,Lower,1
+I have done something sexual on the internet when I did not want to,g3a,1.3660001629070599,Lower,1
+I have sent someone a photo or video showing my private parts when I did not want to [translate as appropriate],g3b,0.010409920381818344,Lower,1
+null,g3c,7.2929470136574004,Higher,1
+null,g3d,0.024093634027976055,Higher,1
+Brother (over 18),g4,1.8361047957379719,Higher,1
+Sister (over 18),g5,0.11114073165474053,Higher,1
+A younger brother or sister,g9a,0.019969085785775314,Higher,1
+Father or step-/foster father,g9b,0.46046772022195992,Higher,1
+Mother or step-/foster mother,g9c,1.4285502124027798,Higher,1
+Other adult relatives; such as aunts; uncles; or grandparents,g9d,0.5399019048261634,Higher,1
+Friend or acquaintance,g9e,2.5203322695988168,Lower,1
+Teacher/ educator,g9f,0.24026354809866146,Higher,1
+Other adult you trust e.g. coach; neighbour; doctor; or babysitter,g9g,1.2577085065890068,Lower,1
+Other (specify),g9h,0.01301842859982397,Lower,1
+I didn’t tell anyone about it,g9j,0.054696866886121104,Lower,1
+Prefer not to say,g9i,2.7618951181917395,Lower,1

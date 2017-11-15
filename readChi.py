@@ -184,15 +184,10 @@ def doFile(table,fileNum,results,converter,z,header):
 	header, rows = readTableToFloat(table)
 	header , rows = sortTableColumns(header,rows)
 
-
-
-	# print "diz are da header"
-	# print header
-	
-	# print "diz are the rows"
-	# print rows
-	
-
+	print "diz are da header"
+	print header	
+	print "diz are the rows"
+	print rows
 	numpiRows = np.asarray(rows)
 	labelCols = numpiRows[:,0]
 	numpiRows=np.delete(numpiRows, 0, axis=1)
@@ -218,10 +213,15 @@ def doFile(table,fileNum,results,converter,z,header):
 	grandTotal = np.sum(colSum) 
 	
 	
-	# print "totals"
-	# print totals
-	# print "colsum"
-	# print colSum
+	print "totals"
+	print totals
+	lenrow = len(totals)
+
+	print "colsum"
+	print colSum
+	lencol =  len(colSum)
+
+
 	# print "expected"
 	# print expected
 	
@@ -231,18 +231,34 @@ def doFile(table,fileNum,results,converter,z,header):
 			#print colSum[y]
 			expected [i][y] = totals[i][0] * colSum[y] / grandTotal
 
-	"""
+	
 	print "Expected"
 	print expected
-	"""
+	
+	print "the data"
+	print numpiRows
+
 	chi = ((numpiRows - expected) * (numpiRows - expected)) / expected
 	# print "Expected"
 	# print expected
 	# print numpiRows
 
+	higherOrLower="NaN"
+
+	if(lenrow == 2 and lencol==2):
+		print "observed",
+		print numpiRows[0][1]
+		print "expected",
+		print expected[0][1]
+		if(expected[0][1] < numpiRows[0][1] ):
+
+			higherOrLower ="Higher"
+		else: 
+			higherOrLower = "Lower" 
+
+
 	chistat = np.sum(chi)
 	# print chistat
-
 	"""
 	print "Chi-Square"
 	print chi
@@ -255,10 +271,9 @@ def doFile(table,fileNum,results,converter,z,header):
 	print "Lower "+ str(lowerBounds)
 	print "Upper "+str(upperBounds)
 	"""
-
-	if(chistat > z):
-		thequestion = converter.convert(fileNum)
-		results.append([H,thequestion,chistat])
+	#if(chistat > z):
+	thequestion = converter.convert(fileNum)
+	results.append([H,thequestion,chistat,higherOrLower,lencol-1])
 
 
 def group(index, rows,V, header):
@@ -329,6 +344,8 @@ header = readHeader('dataset/a.csv')
 
 clusternames = sys.argv[2:]
 
+
+
 print clusternames
 clusters = []
 for clustername in clusternames:
@@ -345,7 +362,7 @@ converter = ColConverter()
 z=[1.960]
 zstr = ['1960']
 for y in range(0,len(z)):
-	results = [["Question","Feature","Chi"]]
+	results = [["Question","Feature","Chi","Higher Or Lower Yes for Y/N", "Degrees of Freedom"]]
 	for i in range(1,569):
 		if header[i] not in vList.keys():
 			print "Warning "+ header[i] +" "+" question name not in Variable description will be assigned to null"
