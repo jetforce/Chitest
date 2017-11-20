@@ -268,10 +268,10 @@ def doFile(table,fileNum,results,converter,z):
 		print numpiRows[0][1]
 		print "expected",
 		print expected[0][1]
-	if(expected[0][1] < numpiRows[0][1] ):
-		higherOrLower ="+"
-	else: 
-		higherOrLower = "-" 
+		if(expected[0][1] < numpiRows[0][1] ):
+			higherOrLower ="+"
+		else: 
+			higherOrLower = "-" 
 
 
 	# print chistat
