@@ -239,24 +239,41 @@ def doFile(table,fileNum,results,converter,z):
 	#print numpiRows
 
 	chi = ((numpiRows - expected) * (numpiRows - expected)) / expected
-	# print "Expected"
-	# print expected
+	print "Expected"
+	print expected
 	# print numpiRows
+
+	shapeexpected = np.reshape(expected,(-1,1))
+	print shapeexpected
+
+	chistat = np.sum(chi)
 
 	higherOrLower=""
 
-	if(lenrow == 2 and lencol==2):
+
+	tolerableFive =  expected.size
+	tolerableFive = int(tolerableFive*0.20)
+
+
+	numFive = 0
+	for el in range(0,shapeexpected.size):
+		if shapeexpected[el][0] < 5:
+			numFive = numFive +1
+
+	if numFive > tolerableFive:
+		chistat = np.nan
+
+	if(not np.isnan(chistat)):
 		print "observed",
 		print numpiRows[0][1]
 		print "expected",
 		print expected[0][1]
-		if(expected[0][1] < numpiRows[0][1] ):
+	if(expected[0][1] < numpiRows[0][1] ):
+		higherOrLower ="+"
+	else: 
+		higherOrLower = "-" 
 
-			higherOrLower ="+"
-		else: 
-			higherOrLower = "-" 
 
-	chistat = np.sum(chi)
 	# print chistat
 	"""
 	print "Chi-Square"
