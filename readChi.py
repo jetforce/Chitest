@@ -178,16 +178,16 @@ def readTableToFloat(table):
 	return table.rows[0], rows
 
 
-def doFile(table,fileNum,results,converter,z,header):
-
+def doFile(table,fileNum,results,converter,z):
 
 	header, rows = readTableToFloat(table)
 	header , rows = sortTableColumns(header,rows)
 
-	print "diz are da header"
-	print header	
-	print "diz are the rows"
-	print rows
+	# print "Header after i killed it "+ str(header)
+	# print "diz are da header"
+	# print header	
+	# print "diz are the rows"
+	# print rows
 	numpiRows = np.asarray(rows)
 	labelCols = numpiRows[:,0]
 	numpiRows=np.delete(numpiRows, 0, axis=1)
@@ -232,18 +232,18 @@ def doFile(table,fileNum,results,converter,z,header):
 			expected [i][y] = totals[i][0] * colSum[y] / grandTotal
 
 	
-	print "Expected"
-	print expected
+	#print "Expected"
+	#print expected
 	
-	print "the data"
-	print numpiRows
+	#print "the data"
+	#print numpiRows
 
 	chi = ((numpiRows - expected) * (numpiRows - expected)) / expected
 	# print "Expected"
 	# print expected
 	# print numpiRows
 
-	higherOrLower="NaN"
+	higherOrLower=""
 
 	if(lenrow == 2 and lencol==2):
 		print "observed",
@@ -252,10 +252,9 @@ def doFile(table,fileNum,results,converter,z,header):
 		print expected[0][1]
 		if(expected[0][1] < numpiRows[0][1] ):
 
-			higherOrLower ="Higher"
+			higherOrLower ="+"
 		else: 
-			higherOrLower = "Lower" 
-
+			higherOrLower = "-" 
 
 	chistat = np.sum(chi)
 	# print chistat
@@ -273,6 +272,10 @@ def doFile(table,fileNum,results,converter,z,header):
 	"""
 	#if(chistat > z):
 	thequestion = converter.convert(fileNum)
+	print "The H" + str(H)
+	print "The Question "+ thequestion
+	if(np.isnan(chistat)):
+		chistat = ""
 	results.append([H,thequestion,chistat,higherOrLower,lencol-1])
 
 
@@ -317,7 +320,7 @@ def getTable(col,clusters,V, header):
 			if key not in keys:
 				keys.append(key)
 	
-	return Table(groups,keys)
+	return Table(groups,keys,header)
 
 
 def getVariableList(filename):
@@ -332,19 +335,20 @@ def getVariableList(filename):
 	    		variables[row[1]]= [row[2]]
 	    		lastVar = row[1]    	
 	    	else:
-	    		variables[lastVar].append((row[0], row[1]))		
-	        
+	    		variables[lastVar].append((row[0], row[1]))			        
 	return variables
 
 
 vList = getVariableList('Updated-Variables.csv')
 header = readHeader('dataset/a.csv')
-#print header
-#print header
 
+results = []
+converter = ColConverter(header)
+
+
+#print header
+#print header
 clusternames = sys.argv[2:]
-
-
 
 print clusternames
 clusters = []
@@ -354,27 +358,30 @@ for clustername in clusternames:
 	clusters.append(clusterRow)
 
 
-
-results = []
-converter = ColConverter()
-
+tableList = []
 
 z=[1.960]
 zstr = ['1960']
 for y in range(0,len(z)):
-	results = [["Question","Feature","Chi","Higher Or Lower Yes for Y/N", "Degrees of Freedom"]]
-	for i in range(1,569):
+	results = [["Question","Feature","Chi","Higher Or Lower", "Degrees of Freedom"]]
+	for i in range(1,len(header)-1):
 		if header[i] not in vList.keys():
 			print "Warning "+ header[i] +" "+" question name not in Variable description will be assigned to null"
 			H = "null"
 		else:
 			H = vList[header[i]][0]
-		#print "col "+str(i)+" "+ header[i]	
-		doFile(getTable(i,clusters,vList,header[i]),i,results,converter,z[y],H)
+		print "col "+str(i)+" "+ header[i]	
+		theTable = getTable(i,clusters,vList,header[i])
+
+		doFile(theTable,i,results,converter,z[y])
+		theTable.getPrintable(tableList)
+		#print "Table",
+		#print theTable.rows
 	#print results
 	filename = sys.argv[1]
 	writeOnCSV(results,filename)
-
+	#print tableList
+	writeOnCSV(tableList,"Tables"+filename)
 
 #results = converter.cleanRows(results)
 #writeOnCSV(results,filename)

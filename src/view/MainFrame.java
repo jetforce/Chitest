@@ -72,6 +72,26 @@ public class MainFrame extends JFrame {
 	private JScrollPane scrollPaneChiStatus;
 	private JTextArea textAreaChiStatus;
 	private JButton buttonChiStart;
+	private JPanel panelDescriptor;
+	private JLabel labelDescriptorVarFile;
+	private JTextField textFieldDescriptorVarFile;
+	private JButton buttonDescriptorVarFileChooseFile;
+	private JLabel labelDescriptorValFile;
+	private JTextField textFieldDescriptorValFile;
+	private JButton buttonDescriptorValFileChooseFile;
+	private JButton buttonDescriptorStart;
+	private JScrollPane scrollPaneDescriptorStatus;
+	private JTextArea textAreaDescriptorStatus;
+	private JPanel panelPreprocessor;
+	private JLabel labelPreprocessorVarDesFile;
+	private JLabel labelPreprocessorRawFile;
+	private JTextField textFieldPreprocessorVarDesFile;
+	private JTextField textFieldPreprocessorRawFile;
+	private JButton buttonPreprocessorVarDesFileChooseFile;
+	private JButton buttonPreprocessorRawFileChooseFile;
+	private JButton buttonPreprocessorStart;
+	private JScrollPane scrollPanePreprocessorStatus;
+	private JTextArea textAreaPreprocessorStatus;
 
 	private MainFrame() {
 		setResizable(false);
@@ -110,6 +130,166 @@ public class MainFrame extends JFrame {
 		gbc_tabbedPane.gridx = 0;
 		gbc_tabbedPane.gridy = 0;
 		contentPane.add(tabbedPane, gbc_tabbedPane);
+		
+		panelDescriptor = new JPanel();
+		panelDescriptor.setBackground(new Color(255, 255, 255));
+		tabbedPane.addTab("Variable Descriptor", null, panelDescriptor, null);
+		GridBagLayout gbl_panelDescriptor = new GridBagLayout();
+		gbl_panelDescriptor.columnWidths = new int[]{0, 0, 0, 0};
+		gbl_panelDescriptor.rowHeights = new int[]{0, 0, 0, 0, 0};
+		gbl_panelDescriptor.columnWeights = new double[]{0.0, 1.0, 0.0, Double.MIN_VALUE};
+		gbl_panelDescriptor.rowWeights = new double[]{0.0, 0.0, 0.0, 1.0, Double.MIN_VALUE};
+		panelDescriptor.setLayout(gbl_panelDescriptor);
+		
+		labelDescriptorVarFile = new JLabel("Variable File:");
+		GridBagConstraints gbc_labelDescriptorVarFile = new GridBagConstraints();
+		gbc_labelDescriptorVarFile.fill = GridBagConstraints.BOTH;
+		gbc_labelDescriptorVarFile.insets = new Insets(0, 0, 5, 5);
+		gbc_labelDescriptorVarFile.gridx = 0;
+		gbc_labelDescriptorVarFile.gridy = 0;
+		panelDescriptor.add(labelDescriptorVarFile, gbc_labelDescriptorVarFile);
+		
+		textFieldDescriptorVarFile = new JTextField();
+		GridBagConstraints gbc_textFieldDescriptorVarFile = new GridBagConstraints();
+		gbc_textFieldDescriptorVarFile.insets = new Insets(0, 0, 5, 5);
+		gbc_textFieldDescriptorVarFile.fill = GridBagConstraints.HORIZONTAL;
+		gbc_textFieldDescriptorVarFile.gridx = 1;
+		gbc_textFieldDescriptorVarFile.gridy = 0;
+		panelDescriptor.add(textFieldDescriptorVarFile, gbc_textFieldDescriptorVarFile);
+		textFieldDescriptorVarFile.setColumns(10);
+		
+		buttonDescriptorVarFileChooseFile = new JButton("Choose File...");
+		GridBagConstraints gbc_buttonDescriptorVarFileChooseFile = new GridBagConstraints();
+		gbc_buttonDescriptorVarFileChooseFile.fill = GridBagConstraints.BOTH;
+		gbc_buttonDescriptorVarFileChooseFile.insets = new Insets(0, 0, 5, 0);
+		gbc_buttonDescriptorVarFileChooseFile.gridx = 2;
+		gbc_buttonDescriptorVarFileChooseFile.gridy = 0;
+		panelDescriptor.add(buttonDescriptorVarFileChooseFile, gbc_buttonDescriptorVarFileChooseFile);
+		
+		labelDescriptorValFile = new JLabel("Values File:");
+		GridBagConstraints gbc_labelDescriptorValFile = new GridBagConstraints();
+		gbc_labelDescriptorValFile.fill = GridBagConstraints.BOTH;
+		gbc_labelDescriptorValFile.insets = new Insets(0, 0, 5, 5);
+		gbc_labelDescriptorValFile.gridx = 0;
+		gbc_labelDescriptorValFile.gridy = 1;
+		panelDescriptor.add(labelDescriptorValFile, gbc_labelDescriptorValFile);
+		
+		textFieldDescriptorValFile = new JTextField();
+		GridBagConstraints gbc_textFieldDescriptorValFile = new GridBagConstraints();
+		gbc_textFieldDescriptorValFile.insets = new Insets(0, 0, 5, 5);
+		gbc_textFieldDescriptorValFile.fill = GridBagConstraints.HORIZONTAL;
+		gbc_textFieldDescriptorValFile.gridx = 1;
+		gbc_textFieldDescriptorValFile.gridy = 1;
+		panelDescriptor.add(textFieldDescriptorValFile, gbc_textFieldDescriptorValFile);
+		textFieldDescriptorValFile.setColumns(10);
+		
+		buttonDescriptorValFileChooseFile = new JButton("Choose File...");
+		GridBagConstraints gbc_buttonDescriptorValFileChooseFile = new GridBagConstraints();
+		gbc_buttonDescriptorValFileChooseFile.insets = new Insets(0, 0, 5, 0);
+		gbc_buttonDescriptorValFileChooseFile.fill = GridBagConstraints.BOTH;
+		gbc_buttonDescriptorValFileChooseFile.gridx = 2;
+		gbc_buttonDescriptorValFileChooseFile.gridy = 1;
+		panelDescriptor.add(buttonDescriptorValFileChooseFile, gbc_buttonDescriptorValFileChooseFile);
+		
+		buttonDescriptorStart = new JButton("Start");
+		buttonDescriptorStart.setEnabled(false);
+		GridBagConstraints gbc_buttonDescriptorStart = new GridBagConstraints();
+		gbc_buttonDescriptorStart.insets = new Insets(0, 0, 5, 0);
+		gbc_buttonDescriptorStart.fill = GridBagConstraints.BOTH;
+		gbc_buttonDescriptorStart.gridx = 2;
+		gbc_buttonDescriptorStart.gridy = 2;
+		panelDescriptor.add(buttonDescriptorStart, gbc_buttonDescriptorStart);
+		
+		scrollPaneDescriptorStatus = new JScrollPane();
+		GridBagConstraints gbc_scrollPaneDescriptorStatus = new GridBagConstraints();
+		gbc_scrollPaneDescriptorStatus.gridwidth = 3;
+		gbc_scrollPaneDescriptorStatus.fill = GridBagConstraints.BOTH;
+		gbc_scrollPaneDescriptorStatus.gridx = 0;
+		gbc_scrollPaneDescriptorStatus.gridy = 3;
+		panelDescriptor.add(scrollPaneDescriptorStatus, gbc_scrollPaneDescriptorStatus);
+		
+		textAreaDescriptorStatus = new JTextArea();
+		scrollPaneDescriptorStatus.setViewportView(textAreaDescriptorStatus);
+		
+		panelPreprocessor = new JPanel();
+		panelPreprocessor.setBackground(new Color(255, 255, 255));
+		tabbedPane.addTab("Preprocessor", null, panelPreprocessor, null);
+		GridBagLayout gbl_panelPreprocessor = new GridBagLayout();
+		gbl_panelPreprocessor.columnWidths = new int[]{0, 0, 0, 0};
+		gbl_panelPreprocessor.rowHeights = new int[]{0, 0, 0, 0, 0};
+		gbl_panelPreprocessor.columnWeights = new double[]{0.0, 1.0, 0.0, Double.MIN_VALUE};
+		gbl_panelPreprocessor.rowWeights = new double[]{0.0, 0.0, 0.0, 1.0, Double.MIN_VALUE};
+		panelPreprocessor.setLayout(gbl_panelPreprocessor);
+		
+		labelPreprocessorVarDesFile = new JLabel("Variable Description");
+		GridBagConstraints gbc_labelPreprocessorVarDesFile = new GridBagConstraints();
+		gbc_labelPreprocessorVarDesFile.fill = GridBagConstraints.BOTH;
+		gbc_labelPreprocessorVarDesFile.insets = new Insets(0, 0, 5, 5);
+		gbc_labelPreprocessorVarDesFile.gridx = 0;
+		gbc_labelPreprocessorVarDesFile.gridy = 0;
+		panelPreprocessor.add(labelPreprocessorVarDesFile, gbc_labelPreprocessorVarDesFile);
+		
+		textFieldPreprocessorVarDesFile = new JTextField();
+		GridBagConstraints gbc_textFieldPreprocessorVarDesFile = new GridBagConstraints();
+		gbc_textFieldPreprocessorVarDesFile.insets = new Insets(0, 0, 5, 5);
+		gbc_textFieldPreprocessorVarDesFile.fill = GridBagConstraints.HORIZONTAL;
+		gbc_textFieldPreprocessorVarDesFile.gridx = 1;
+		gbc_textFieldPreprocessorVarDesFile.gridy = 0;
+		panelPreprocessor.add(textFieldPreprocessorVarDesFile, gbc_textFieldPreprocessorVarDesFile);
+		textFieldPreprocessorVarDesFile.setColumns(10);
+		
+		buttonPreprocessorVarDesFileChooseFile = new JButton("Choose File...");
+		GridBagConstraints gbc_buttonPreprocessorVarDesFileChooseFile = new GridBagConstraints();
+		gbc_buttonPreprocessorVarDesFileChooseFile.fill = GridBagConstraints.HORIZONTAL;
+		gbc_buttonPreprocessorVarDesFileChooseFile.insets = new Insets(0, 0, 5, 0);
+		gbc_buttonPreprocessorVarDesFileChooseFile.gridx = 2;
+		gbc_buttonPreprocessorVarDesFileChooseFile.gridy = 0;
+		panelPreprocessor.add(buttonPreprocessorVarDesFileChooseFile, gbc_buttonPreprocessorVarDesFileChooseFile);
+		
+		labelPreprocessorRawFile = new JLabel("Raw Dataset");
+		GridBagConstraints gbc_labelPreprocessorRawFile = new GridBagConstraints();
+		gbc_labelPreprocessorRawFile.fill = GridBagConstraints.BOTH;
+		gbc_labelPreprocessorRawFile.insets = new Insets(0, 0, 5, 5);
+		gbc_labelPreprocessorRawFile.gridx = 0;
+		gbc_labelPreprocessorRawFile.gridy = 1;
+		panelPreprocessor.add(labelPreprocessorRawFile, gbc_labelPreprocessorRawFile);
+		
+		textFieldPreprocessorRawFile = new JTextField();
+		GridBagConstraints gbc_textFieldPreprocessorRawFile = new GridBagConstraints();
+		gbc_textFieldPreprocessorRawFile.insets = new Insets(0, 0, 5, 5);
+		gbc_textFieldPreprocessorRawFile.fill = GridBagConstraints.HORIZONTAL;
+		gbc_textFieldPreprocessorRawFile.gridx = 1;
+		gbc_textFieldPreprocessorRawFile.gridy = 1;
+		panelPreprocessor.add(textFieldPreprocessorRawFile, gbc_textFieldPreprocessorRawFile);
+		textFieldPreprocessorRawFile.setColumns(10);
+		
+		buttonPreprocessorRawFileChooseFile = new JButton("Choose File...");
+		GridBagConstraints gbc_buttonPreprocessorRawFileChooseFile = new GridBagConstraints();
+		gbc_buttonPreprocessorRawFileChooseFile.fill = GridBagConstraints.HORIZONTAL;
+		gbc_buttonPreprocessorRawFileChooseFile.insets = new Insets(0, 0, 5, 0);
+		gbc_buttonPreprocessorRawFileChooseFile.gridx = 2;
+		gbc_buttonPreprocessorRawFileChooseFile.gridy = 1;
+		panelPreprocessor.add(buttonPreprocessorRawFileChooseFile, gbc_buttonPreprocessorRawFileChooseFile);
+		
+		buttonPreprocessorStart = new JButton("Start");
+		buttonPreprocessorStart.setEnabled(false);
+		GridBagConstraints gbc_buttonPreprocessorStart = new GridBagConstraints();
+		gbc_buttonPreprocessorStart.insets = new Insets(0, 0, 5, 0);
+		gbc_buttonPreprocessorStart.fill = GridBagConstraints.BOTH;
+		gbc_buttonPreprocessorStart.gridx = 2;
+		gbc_buttonPreprocessorStart.gridy = 2;
+		panelPreprocessor.add(buttonPreprocessorStart, gbc_buttonPreprocessorStart);
+		
+		scrollPanePreprocessorStatus = new JScrollPane();
+		GridBagConstraints gbc_scrollPanePreprocessorStatus = new GridBagConstraints();
+		gbc_scrollPanePreprocessorStatus.gridwidth = 3;
+		gbc_scrollPanePreprocessorStatus.fill = GridBagConstraints.BOTH;
+		gbc_scrollPanePreprocessorStatus.gridx = 0;
+		gbc_scrollPanePreprocessorStatus.gridy = 3;
+		panelPreprocessor.add(scrollPanePreprocessorStatus, gbc_scrollPanePreprocessorStatus);
+		
+		textAreaPreprocessorStatus = new JTextArea();
+		scrollPanePreprocessorStatus.setViewportView(textAreaPreprocessorStatus);
 		
 		panelSOM = new JPanel();
 		panelSOM.setBackground(new Color(255, 255, 255));
@@ -593,29 +773,77 @@ public class MainFrame extends JFrame {
 	public JButton getButtonUploaderStart() {
 		return buttonUploaderStart;
 	}
-	
+
 	public JCheckBox getCheckboxSOMHeader() {
 		return checkboxSOMHeader;
 	}
-	
-	public JCheckBox getCheckBoxKMeansHeader() {
+
+	public JCheckBox getCheckboxKMeansHeader() {
 		return checkboxKMeansHeader;
 	}
-	
+
 	public JTextField getTextFieldChiFiles() {
 		return textFieldChiFiles;
 	}
-	
+
 	public JButton getButtonChiChooseFiles() {
 		return buttonChiChooseFiles;
 	}
-	
+
 	public JTextArea getTextAreaChiStatus() {
 		return textAreaChiStatus;
 	}
-	
+
 	public JButton getButtonChiStart() {
 		return buttonChiStart;
+	}
+
+	public JTextField getTextFieldDescriptorVarFile() {
+		return textFieldDescriptorVarFile;
+	}
+
+	public JButton getButtonDescriptorVarFileChooseFile() {
+		return buttonDescriptorVarFileChooseFile;
+	}
+
+	public JTextField getTextFieldDescriptorValFile() {
+		return textFieldDescriptorValFile;
+	}
+
+	public JButton getButtonDescriptorValFileChooseFile() {
+		return buttonDescriptorValFileChooseFile;
+	}
+
+	public JButton getButtonDescriptorStart() {
+		return buttonDescriptorStart;
+	}
+
+	public JTextArea getTextAreaDescriptorStatus() {
+		return textAreaDescriptorStatus;
+	}
+
+	public JTextField getTextFieldPreprocessorVarDesFile() {
+		return textFieldPreprocessorVarDesFile;
+	}
+
+	public JTextField getTextFieldPreprocessorRawFile() {
+		return textFieldPreprocessorRawFile;
+	}
+
+	public JButton getButtonPreprocessorVarDesFileChooseFile() {
+		return buttonPreprocessorVarDesFileChooseFile;
+	}
+
+	public JButton getButtonPreprocessorRawFileChooseFile() {
+		return buttonPreprocessorRawFileChooseFile;
+	}
+
+	public JButton getButtonPreprocessorStart() {
+		return buttonPreprocessorStart;
+	}
+
+	public JTextArea getTextAreaPreprocessorStatus() {
+		return textAreaPreprocessorStatus;
 	}
 
 }

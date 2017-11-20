@@ -2,8 +2,8 @@ import csv
 
 class ColConverter(object):
 
-	def __init__(self):
-		self.head , self.rows = readCSV('mine.csv')
+	def __init__(self,header):
+		self.head = header
 
 
 	def convert(self,num):
@@ -21,13 +21,10 @@ class ColConverter(object):
 		return newrows			
 
 
-
-
 def writeOnCSV(rows, filename):
 	with open(filename, 'wb') as f:
 	    writer = csv.writer(f)
 	    writer.writerows(rows)
-
 
 
 def readCSV(filename):

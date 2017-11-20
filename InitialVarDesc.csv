@@ -1,0 +1,3105 @@
+V,a1,Gender
+1, Male
+2, Female
+V,a2,Birthdate
+V,a3a,Mother
+0, No
+1, Yes
+V,a3b,Father
+0, No
+1, Yes
+V,a3c,Step or foster mother
+0, No
+1, Yes
+V,a3d,Step or foster father
+0, No
+1, Yes
+V,a3e,Grandparent(s) or other relatives
+0, No
+1, Yes
+V,a3f,Siblings (including half; step or foster siblings)
+0, No
+1, Yes
+V,a3g,My spouse or partner (including boyfriend/girlfriend)
+0, No
+1, Yes
+V,a3h,My child or children
+0, No
+1, Yes
+V,a3i,Parents (or relatives) of my spouse or partner
+0, No
+1, Yes
+V,a3j,I live in a foster home or children's home
+0, No
+1, Yes
+V,a3k,I live alone
+0, No
+1, Yes
+V,a3l,Someone or somewhere else: please state____
+0, No
+1, Yes
+V,a4a,I am a school student
+0, No
+1, Yes
+V,a4g,I am a student in college
+0, No
+1, Yes
+V,a4h,I am attending training in technical/vocational course
+0, No
+1, Yes
+V,a4c,I do paid employment
+0, No
+1, Yes
+V,a4d,I do unpaid work
+0, No
+1, Yes
+V,a4e,I am looking for work
+0, No
+1, Yes
+V,a4f,I help out at home
+0, No
+1, Yes
+V,a4i,I am currently in a vacation
+0, No
+1, Yes
+V,a5,Schooling
+1, I have never been to school
+2, Preschool
+3, Elementary
+4, High School
+5, Senior High School
+6, Technical-vocational course
+7, College
+8, Other (please; specify)
+9, Prefer not to say
+V,b3,Age
+1, Never
+2, Sometimes
+3, Often
+4, Always
+V,b6a,At school or college
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,b6b,At home
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,b6c,In the home of friends or relatives
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,b6d,In a public place (for example; in libraries; cafés; computer shops)
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,b6e,When I am on my way somewhere (e.g. on the street; in a bus or car)
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,b6f,When I am somewhere by myself
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,b6g,PisoNet
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,b7a,A mobile phone that is not a smartphone
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,b7b,A smartphone [iPhone; Samsung Galaxy; Cherry Mobile; Star Mobile; etc]
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,b7c,A desktop computer
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,b7d,A laptop or notebook computer
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,b7e,A tablet [iPad; Samsung Galaxy tab; PLDT Home tablet; etc]
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,b7f,A games console [Playstation; Xbox; PSP; Nintendo; 3DS; etc]
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,b8a,A mobile phone that is not a smartphone
+1, No
+2, Yes
+3, Prefer not to say
+V,b8b,A smartphone [iPhone; Samsung Galaxy; Cherry Mobile; Star Mobile; etc]
+1, No
+2, Yes
+3, Prefer not to say
+V,b8c,A desktop computer
+1, No
+2, Yes
+3, Prefer not to say
+V,b8d,A laptop or notebook computer
+1, No
+2, Yes
+3, Prefer not to say
+V,b8e,A tablet [iPad; Samsung Galaxy tab; PLDT Home tablet; etc]
+1, No
+2, Yes
+3, Prefer not to say
+V,b8f,A games console [Playstation; Xbox; PSP; Nintendo; 3DS; etc]
+1, No
+2, Yes
+3, Prefer not to say
+V,b9a,I use a postpaid plan (i.e.; with contracts)
+1, No
+2, Yes
+3, Prefer not to say
+V,b9b,I use freeWIFI (at home; in school; coffee shop or cafés; malls; etc.)
+1, No
+2, Yes
+3, Prefer not to say
+V,b9c,I pay for internet I use (e.g. in a cybercafé or internet cafe; PisoNet)
+1, No
+2, Yes
+3, Prefer not to say
+V,b9d,I use prepaid offers (e.g. GOSurf; GIGASurf; etc.)
+1, No
+2, Yes
+3, Prefer not to say
+V,b10b1,My parents
+0, No
+1, Yes
+V,b10b2,My siblings
+0, No
+1, Yes
+V,b10b3,Relatives
+0, No
+1, Yes
+V,b10c1,Friends who are the same age as I am
+0, No
+1, Yes
+V,b10c2,Friends who are older than me
+0, No
+1, Yes
+V,b10d,My teacher
+0, No
+1, Yes
+V,b10e,Others
+0, No
+1, Yes
+V,b11,Hours
+V,b12,Hours
+V,c4a,I learned something new by searching online
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4c,I used the internet for schoolwork
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4b,I looked for information about work or study opportunities
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4c1,Checked maps
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4c2,I looked for information about the place I want to go visit/eat
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4d,I looked for resources or events about my local neighbourhood
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4f,I got involved online in a local organisation or charity
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4g,I used the internet to help somebody else
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4e,I used the internet to talk to people from places or backgrounds different from mine
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4h,I looked for the news online
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4i,I discussed political or social problems with other people online
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4j,I got involved online in a campaign or protest
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4k,I signed a petition online
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4l,I used the internet to join a civic; religious or political group
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4o,I posted videos or music created by someone else
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4m,I created my own video or music and uploaded it to share
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4n,I created a blog or story or website online
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4o1,I created my own artwork; designs and illustrations and uploaded them on the internet
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4r,I used instant messaging [insert local examples e.g. Viber; WhatsApp]
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4p,I visited a social network site (e.g.; Facebook [add local examples])
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4t,I helped someone else who needed or wanted to go online
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4q,I talked to family or friends who live further away (e.g. by Skype; Viber; FaceTime)
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4u,I commented on the updates that friends or family have put online
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4t1,I re-posted or shared a social media post online
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4v,I showed my friends or family something that I saw online
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4w,I visited a chatroom to meet new people [insert local examples]
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4x,I watched video clips (e.g. on YouTube [insert local examples])
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4y,I played online games alone
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4z,I played games with other people online
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4bb,I listened to music online (by downloading or streaming)
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4cc,I watched my favourite TV shows
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4cc1,I joined a fan site (of a celebrity or popular band)
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4gg,I posted photos or comments online (e.g. on Facebook or a blog)
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4ee,I looked for health information for myself or someone I know
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4ff,I participated in a site where people share my interests or hobbies
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4hh,I browsed for things to buy
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4hh1,I checked out what things cost by looking online
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c4hh2,I have sold an item online
+1, Never
+2, Hardly ever
+3, At least every week
+4, Daily or almost daily
+5, Several times each day
+6, Almost all the time
+7, Prefer not to say
+V,c6a,My mother or father (or step/foster mother or father)
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c6b,My brother or sister (or step/foster/half siblings)
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c6c,A friend around my age
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c6d,A teacher
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c6e,Another adult I trust
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c6f,Someone I first met on the internet; but who is friends or family of other people I know in person
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c6g,Someone I first met on the internet; but who has no other connection to my life outside of the internet
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c6g1,A relative or friend who is an OFW (overseas Filipino worker)
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c6h,Someone else
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c7a,My mother or father (or step/foster mother or father)
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c7b,My brother or sister (or step/foster/half siblings)
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c7c,A friend around my age
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c7d,A teacher
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c7e,Another adult I trust
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c7f,Someone I first met on the internet; but who is friends or family of other people I know in person
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c7g,Someone I first met on the internet; but who has no other connection to my life outside of the internet
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c7g1,A relative or friend who is an OFW (overseas Filipino worker)
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c7h,Someone else
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c8a,My mother or father (or step/foster mother or father)
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c8b,My brother or sister (or step/foster/half siblings)
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c8c,A friend around my age
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c8d,A teacher
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c8e,Another adult I trust
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c8f,Someone I first met on the internet; but who is friends or family of other people I know in person
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c8g,Someone I first met on the internet; but who has no other connection to my life outside of the internet
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c8g1,A relative or friend who is an OFW (overseas Filipino worker)
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c8h,Someone else
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c9a,My mother or father (or step/foster mother or father)
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c9b,My brother or sister (or step/foster/half siblings)
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c9c,A friend around my age
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c9d,A teacher
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c9e,Another adult I trust
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c9f,Someone I first met on the internet; but who is friends or family of other people I know in person
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c9g,Someone I first met on the internet; but who has no other connection to my life outside of the internet
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c9g1,A relative or friend who is an OFW (overseas Filipino worker)
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c9h,Someone else
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c10a,Making presentations
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c10b,Writing things
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c10c,Making pictures
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c10d,Practising something I am learning (e.g. maths or a language or music)
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c10e,Checking out information on the school website
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c10f,Doing group work with other students
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c10g,Chatting online at school
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c10h,Communicating with teachers (e.g. submitting homework or asking a question)
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,c10i,Contributing to a school blog or online discussion
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,e1a,I know how to save a photo that I find online
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e1b,I know how to change my privacy settings (e.g. on a social networking site)
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e1c,I know how to use a programming language (e.g. HTML; XML; etc.)
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e1f1,I know how to jailbreak; crack games and apps; change IP address
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e1f2,I know how to hide my IP address
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e1f3,I know how to set network settings (LAN; wi-fi; device-connection)
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e1f4,I know how to hack certain files
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e1f5,I know how to set the firewall
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e1i,I find it easy to find a website I have visited before
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e1g,I find it easy to check if the information I find online is true
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e1h,I find it easy to choose the best keywords for online searches
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e1k,Sometimes I end up on websites without knowing how I got there
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e1k1,I know how to use incognito in browsing
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e1l,I know which information I should and shouldn't share online
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e1m,I know how to remove people from my contact lists
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e1m1,I know how to block
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e1n,I know when I should and shouldn't share information online
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e1o,I know how to behave according to the situation online
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e1p,I know how to change who I share content with (e.g. friends; friends of friends or everyone)
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e1p1,I know how to report abusive posts or things that I find offending in social media (e.g. Facebook report abuse)
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e1t,I know how to create something new from video or music that I found online
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e1q,I know how to post online video or music that I have created myself
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e1s,I know which different types of licences apply to online content
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e1r,I know how to edit or make basic changes to online content that others have created
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e1u,I know how to design a website
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e1v,I know how to install apps on a mobile device (e.g. phone or tablet)
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e1w,I know how to safeguard my online expenses while using mobile apps
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e1x,I know how to make an in-app purchase
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e1x1,I know how to download and carck to full version some paid apps without paying a fee (e.g. torrent; etc.)
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,e3a,Deactivate the function showing my geographical position (on Facebook; Google Maps; etc.)
+1, No
+2, Yes
+3, Prefer not to say
+V,e3b,Connect to a Wi-Fi network
+1, No
+2, Yes
+3, Prefer not to say
+V,e3c,Block push notifications from different apps
+1, No
+2, Yes
+3, Prefer not to say
+V,e3d,Have the same documents; contacts or apps on all devices that I use (e.g. smartphone; tablet; PC)
+1, No
+2, Yes
+3, Prefer not to say
+V,e3e,Block pop ups which promote apps; games or services I have to pay for (unrequested windows that appear during web surfing)
+1, No
+2, Yes
+3, Prefer not to say
+V,e3f,Protect a smartphone with a PIN/with a screen pattern
+1, No
+2, Yes
+3, Prefer not to say
+V,e3g,Update my status on the social networking site I use the most
+1, No
+2, Yes
+3, Prefer not to say
+V,e3h,Find information on how to use smartphones safely
+1, No
+2, Yes
+3, Prefer not to say
+V,e3i,Compare similar apps to choose the one that is most reliable
+1, No
+2, Yes
+3, Prefer not to say
+V,e3j,Take a picture or a video with my smartphone and post it onto social media
+1, No
+2, Yes
+3, Prefer not to say
+V,d1d,Twitter
+0, No
+1, Yes
+V,d1e,Viber
+0, No
+1, Yes
+V,d1f,Skype
+0, No
+1, Yes
+V,d1a,Facebook
+0, No
+1, Yes
+V,d1c,Instagram
+0, No
+1, Yes
+V,d1b,WhatsApp
+0, No
+1, Yes
+V,d1g,YouTube
+0, No
+1, Yes
+V,d1h,Spotify
+0, No
+1, Yes
+V,d1i,Wikipedia
+0, No
+1, Yes
+V,d1j,Tumblr
+0, No
+1, Yes
+V,d2d,I find it easier to be myself online than when I am with people face-to-face
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,d2e,I talk about different things online than I do when speaking to people face-to-face
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,d2f,I talk about private things online which I do not talk about with people face-to-face
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,d2a,I feel safe on the internet
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,d2b,I find other people are kind and helpful on the internet
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,d2c,I know what to do if someone acts online in a way I don't like
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,d14a,Facebook/Messenger
+0, No
+1, Yes
+V,d14b,Skype
+0, No
+1, Yes
+V,d14c,Viber
+0, No
+1, Yes
+V,d14d,WeChat
+0, No
+1, Yes
+V,d14e,Instagram
+0, No
+1, Yes
+V,d14f,Twitter
+0, No
+1, Yes
+V,d14g,YouTube/Hangout (Google)
+0, No
+1, Yes
+V,d15a,Minecraft
+0, No
+1, Yes
+V,d15b,Warcraft DOTA
+0, No
+1, Yes
+V,d15c,DOTA 2
+0, No
+1, Yes
+V,d15d,League of Legends
+0, No
+1, Yes
+V,d15e,Counterstrike
+0, No
+1, Yes
+V,d15f,Others
+0, No
+1, Yes
+V,d9a,A photo that clearly shows your face
+1, No
+2, Yes
+3, Prefer not to say
+V,d9b,Your last name
+1, No
+2, Yes
+3, Prefer not to say
+V,d9c,Your address
+1, No
+2, Yes
+3, Prefer not to say
+V,d9d,Your phone number
+1, No
+2, Yes
+3, Prefer not to say
+V,d9e,Your school
+1, No
+2, Yes
+3, Prefer not to say
+V,d9f,Your correct age
+1, No
+2, Yes
+3, Prefer not to say
+V,d9g,An age that is not your real age
+1, No
+2, Yes
+3, Prefer not to say
+V,d9j,Places you've dined and visited
+1, No
+2, Yes
+3, Prefer not to say
+V,d9k,Pictures showing whole body
+1, No
+2, Yes
+3, Prefer not to say
+V,f1a,Looked for new friends or contacts on the internet
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,f1b,Sent my personal information (e.g.; my full name; address or phone number) to someone I have never met face-to-face
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,f1c,Added people to my friends or contacts I have never met face-to-face
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,f1d,Pretended to be a different kind of person online from who I really am
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,f1e,Sent a photo or video of myself to someone I have never met face-to-face
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,f1f,Post my current location and those I had been to
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,f1g,Post my new stuff and clothes
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,f1h,Post messages or love quotes that pertain to the boy/girl whom I have a crush on
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,f1i,Seek to get acquainted or befriend persons who are Non-Filipinos (foreigners)
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,f1j,Engage in chat activities with a person whom I only met on internet
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,f1k,Do video calls with a person whom I only met on internet
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,f1l,Receive offers or gifts online
+1, Never
+2, Hardly ever
+3, At least every month
+4, At least every week
+5, Daily or almost daily
+6, Several times each day
+7, Almost all the time
+8, Prefer not to say
+V,f6a,I've met face to face with a person I just got acquainted on internet but is already known by my friends or relatives
+1, No
+2, Yes
+3, Prefer not to say
+V,f6b,I've met face to face with a person I just got acquainted on internet and who is totally unknown to anyone I personally know
+1, No
+2, Yes
+3, Prefer not to say
+V,f6c,I've met with a foreigner (different nationality)
+1, No
+2, Yes
+3, Prefer not to say
+V,f6d,I've personally met with an older person
+1, No
+2, Yes
+3, Prefer not to say
+V,f6e,I've met face to face with a person I just got acquainted on internet and she/he was accompanied by another girl/boy
+1, No
+2, Yes
+3, Prefer not to say
+V,f6f,I've met with another woman like myself whom i just got acquainted with on internet
+1, No
+2, Yes
+3, Prefer not to say
+V,f6g,I've met with another man like myself whom i just got acquainted with on internet
+1, No
+2, Yes
+3, Prefer not to say
+V,f6h,I've met with LGBT person (lesbian; gay; bisexual; transgender) whom i just got acquainted with on internet
+1, No
+2, Yes
+3, Prefer not to say
+V,f14a,My mother or father (or step/foster mother or father)
+0, No
+1, Yes
+V,f14b,My brother or sister (orstep/foster/half siblings)
+0, No
+1, Yes
+V,f14j,Cousin
+0, No
+1, Yes
+V,f14k,Aunt/Uncle
+0, No
+1, Yes
+V,f14l,Grandfather/Grandmother
+0, No
+1, Yes
+V,f14m,Nanny
+0, No
+1, Yes
+V,f14c,A friend around my age
+0, No
+1, Yes
+V,f14n,Classmate
+0, No
+1, Yes
+V,f14o,Boyfriend/Girlfriend
+0, No
+1, Yes
+V,f14d,A teacher
+0, No
+1, Yes
+V,f14e,Someone whose job it is to help children
+0, No
+1, Yes
+V,f14p,Godfather/Godmother
+0, No
+1, Yes
+V,f14q,Priest/Pastor/Nun
+0, No
+1, Yes
+V,f14r,Neighbor
+0, No
+1, Yes
+V,f14f,Another adult I trust
+0, No
+1, Yes
+V,f14g,Someone else
+0, No
+1, Yes
+V,f14h,I didn't talk to anyone
+0, No
+1, Yes
+V,f14i,Prefer not to say
+0, No
+1, Yes
+V,f16a,I ignored the problem or hoped the problem would go away by itself
+0, No
+1, Yes
+V,f16b,I closed the window or app
+0, No
+1, Yes
+V,f16c,I felt a bit guilty about what went wrong
+0, No
+1, Yes
+V,f16d,I tried to get the other person to leave me alone
+0, No
+1, Yes
+V,f16e,I tried to get back at the other person
+0, No
+1, Yes
+V,f16f,I stopped using the internet for a while
+0, No
+1, Yes
+V,f16g,I deleted any messages from the other person
+0, No
+1, Yes
+V,f16h,I changed my privacy/ contact settings
+0, No
+1, Yes
+V,f16i,I blocked the person from contacting me
+0, No
+1, Yes
+V,f16j,I reported the problem online  (e.g.; clicked on a ‘report abuse’ button; contacted an internet advisor or Internet Service Provider (ISP))
+0, No
+1, Yes
+V,f16k,Other actions taken
+0, No
+1, Yes
+V,f21a,By mobile phone calls
+0, No
+1, Yes
+V,f21b,By messages sent to me on my phone (SMS/TEXT or MMS)
+0, No
+1, Yes
+V,f21c,On a social networking site (e.g. Facebook; Twitter etc.)
+0, No
+1, Yes
+V,f21d,On a media sharing platform (YouTube; Instagram; Flickr)
+0, No
+1, Yes
+V,f21e,By instant messaging (MSN; What’s app; Skype etc.)
+0, No
+1, Yes
+V,f21f,In a chatroom
+0, No
+1, Yes
+V,f21g,In an online game
+0, No
+1, Yes
+V,f21h,Some other way
+0, No
+1, Yes
+V,f21i,Prefer not to say
+0, No
+1, Yes
+V,f22a,Nasty or hurtful messages were sent to me
+1, No
+2, Yes
+3, Prefer not to say
+V,f22b,Nasty or hurtful messages were passed around or posted where others could see
+1, No
+2, Yes
+3, Prefer not to say
+V,f22c,I was left out or excluded from a group or activity on the internet
+1, No
+2, Yes
+3, Prefer not to say
+V,f22d,I was threatened on the internet
+1, No
+2, Yes
+3, Prefer not to say
+V,f22e,Other nasty or hurtful things happened to me on the internet
+1, No
+2, Yes
+3, Prefer not to say
+V,f27a,By mobile phone calls
+0, No
+1, Yes
+V,f27b,By messages sent by the phone (SMS/Text or MMS)
+0, No
+1, Yes
+V,f27c,On a social networking site (e.g.; Facebook; Twitter)
+0, No
+1, Yes
+V,f27d,By instant messaging (MSN; WhatsApp; Skype etc.)
+0, No
+1, Yes
+V,f27e,On a media sharing platform (YouTube; Instagram; Flickr)
+0, No
+1, Yes
+V,f27f,In a chatroom
+0, No
+1, Yes
+V,f27g,In an online game
+0, No
+1, Yes
+V,f27h,Some other way
+0, No
+1, Yes
+V,f27i,Prefer not to say
+0, No
+1, Yes
+V,f31a,In a magazine or book
+1, No
+2, Yes
+3, Prefer not to say
+V,f31b,On television; film
+1, No
+2, Yes
+3, Prefer not to say
+V,f31c,Via a mobile phone; computer; tablet or anyother online device
+1, No
+2, Yes
+3, Prefer not to say
+V,f32d,On an online video sharing platform (e.g. YouTube; [add local examples])
+0, No
+1, Yes
+V,f32e,On an online photo sharing platform (e.g. Instagram; Flickr; [add local examples])
+0, No
+1, Yes
+V,f32f,On a social networking site (e.g. Facebook; Twitter; [add local examples])
+0, No
+1, Yes
+V,f32g,In a chatroom
+0, No
+1, Yes
+V,f32h,In an online game
+0, No
+1, Yes
+V,f32i,On an adult/X-rated website
+0, No
+1, Yes
+V,f32j,By popups on the internet (unrequested windows that appear during web surfing)
+0, No
+1, Yes
+V,f32k,By instant messaging (MSN; WhatsApp; Skype; [add local examples])
+0, No
+1, Yes
+V,f32l,By text (SMS); images (MMS); or otherwise on my mobile phone
+0, No
+1, Yes
+V,f32m,By Bluetooth
+0, No
+1, Yes
+V,f32n,In an advert
+0, No
+1, Yes
+V,f32o,Prefer not to say
+0, No
+1, Yes
+V,f33a,A sexual image or video of someone naked
+1, No
+2, Yes
+3, Prefer not to say
+V,f33b,A sexual image or video that shows someone's 'private parts' [translate as appropriate]
+1, No
+2, Yes
+3, Prefer not to say
+V,f33c,An image or video that shows sexual acts or people having sex
+1, No
+2, Yes
+3, Prefer not to say
+V,f33d,An image or video that shows sexual acts in a violent way
+1, No
+2, Yes
+3, Prefer not to say
+V,f33e,Something else sexual or embarrassing
+1, No
+2, Yes
+3, Prefer not to say
+V,f37a,By mobile phone calls
+1, No
+2, Yes
+3, Prefer not to say
+V,f37b,By text messages sent to me on my phone (SMS/text or MMS)
+1, No
+2, Yes
+3, Prefer not to say
+V,f37c,On a social networking site (e.g.; Facebook; Twitter etc.)
+1, No
+2, Yes
+3, Prefer not to say
+V,f37d,On a media sharing platform (YouTube; Instagram; Flickr)
+1, No
+2, Yes
+3, Prefer not to say
+V,f37e,By IM (MSN; WhatsApp; Skype; etc.)
+1, No
+2, Yes
+3, Prefer not to say
+V,f37f,In a chatroom (video chat)
+1, No
+2, Yes
+3, Prefer not to say
+V,f37g,In an online game
+1, No
+2, Yes
+3, Prefer not to say
+V,f37h,In a gaming community (also on the Xbox and other game consoles)
+1, No
+2, Yes
+3, Prefer not to say
+V,f37i,By 'pop up' (something appears by accident)
+1, No
+2, Yes
+3, Prefer not to say
+V,f40a,I have sent someone a sexual message (e.g.; words; pictures or video) on the internet
+1, No
+2, Yes
+3, Prefer not to say
+V,f40b,I have posted a sexual message (e.g.; words; pictures or video) where other people could see it on the internet
+1, No
+2, Yes
+3, Prefer not to say
+V,f40c,I have asked someone on the internet for sexual information about him or herself (like what his or her body looks like without clothes on or sexual things he or she has done)
+1, No
+2, Yes
+3, Prefer not to say
+V,f41a,Ways of physically harming or hurting themselves
+1, No
+2, Yes
+3, Prefer not to say
+V,f41b,Ways of committing suicide
+1, No
+2, Yes
+3, Prefer not to say
+V,f41c,Ways to be very thin (such as being anorexic or bulimic)
+1, No
+2, Yes
+3, Prefer not to say
+V,f41d,Hate messages that attack certain groups or individuals (e.g.; people of different colour or religion or nationality)
+1, No
+2, Yes
+3, Prefer not to say
+V,f41e,Their experiences of taking drugs
+1, No
+2, Yes
+3, Prefer not to say
+V,f41f,Gory or violent images
+1, No
+2, Yes
+3, Prefer not to say
+V,f41g,Ways of courtship
+1, No
+2, Yes
+3, Prefer not to say
+V,f41h,Ways how to find a relationship
+1, No
+2, Yes
+3, Prefer not to say
+V,f41i,Ways to join in gambling
+1, No
+2, Yes
+3, Prefer not to say
+V,f41l,About cheating
+1, No
+2, Yes
+3, Prefer not to say
+V,f41n,About drinking alcohol
+1, No
+2, Yes
+3, Prefer not to say
+V,f41o,About smoking
+1, No
+2, Yes
+3, Prefer not to say
+V,f41p,About bullying
+1, No
+2, Yes
+3, Prefer not to say
+V,f43a,Somebody used my personal information in a way I didn't like
+1, No
+2, Yes
+3, Prefer not to say
+V,f43b,The device (e.g.; phone; tablet; computer) I use got a virus or spyware
+1, No
+2, Yes
+3, Prefer not to say
+V,f43c,I lost money by being cheated on the internet
+1, No
+2, Yes
+3, Prefer not to say
+V,f43d,Somebody used my password to access my information or to pretend to be me
+1, No
+2, Yes
+3, Prefer not to say
+V,f43e,Somebody created a page or image about me that was hostile or hurtful
+1, No
+2, Yes
+3, Prefer not to say
+V,f43f,I spent too much money on online games or in-app purchases
+1, No
+2, Yes
+3, Prefer not to say
+V,f43g,I was asked to make an in-app purchase when playing an online game (e.g.; to do well in the game)
+1, No
+2, Yes
+3, Prefer not to say
+V,f43h,Someone found out where I was because they tracked my phone or device
+1, No
+2, Yes
+3, Prefer not to say
+V,f45a,I have gone without eating or sleeping because of the time I spent on the internet
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,f45b,I have experienced conflicts with family or friends because of the time I spent on the internet
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,f45c,My grades have dropped because of the time I spent on the internet
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,f45d,I have tried unsuccessfully to spend less time on the internet
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,f45e,I think the amount of time I spend on the internet causes problems for me
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,F45f,I feel I have to check my device (e.g. phone or computer) to see if anything new has just happened
+V,h2a,Your mother or father (including step/foster mother or father)
+0, No
+1, Yes
+V,h2b,Your brother or sister (including step siblings)
+0, No
+1, Yes
+V,h2i,Cousin
+0, No
+1, Yes
+V,h2j,Aunt/Uncle
+0, No
+1, Yes
+V,h2k,Grandfather/Grandmother
+0, No
+1, Yes
+V,h2c,A friend around my age
+0, No
+1, Yes
+V,h2l,Boyfriend/Girlfriend
+0, No
+1, Yes
+V,h2d,A teacher
+0, No
+1, Yes
+V,h2m,Classmate
+0, No
+1, Yes
+V,h2e,Someone whose job it is to help children [give examples if needed]
+0, No
+1, Yes
+V,h2n,Nanny
+0, No
+1, Yes
+V,h2o,Godfather/Godmother
+0, No
+1, Yes
+V,h2p,Priest/Pastor/Nun
+0, No
+1, Yes
+V,h2q,Neighbor
+0, No
+1, Yes
+V,h2f,Another adult you trust
+0, No
+1, Yes
+V,h2g,Someone else
+0, No
+1, Yes
+V,h2h,No one
+0, No
+1, Yes
+V,i2a,When I speak someone listens to what I say
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,i2b,My family really tries to help me
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,i2c,I feel safe at home
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,i3b,My parent(s)/carer(s) sets rules about what I can do at home
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,i3c,My parent(s)/carer(s) sets rules about what I can do outside the home
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,i3d,My parent(s)/carer(s) tells me when I am doing something well
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,i3a,My parent(s)/carer(s) praises me for behaving well
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,i4a,Encourages me to explore and learn things on the internet
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,i4b,Suggests ways to use the internet safely
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,i4c,Talks to me about what I do on the internet
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,i4d,Sits with me while I use the internet
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,i4e,Stays nearby when I use the internet
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,i4f,Does shared activities together with me on the internet
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,i4g,Talks to me about what to do if something online bothers or upsets me
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,i4h,Helps me when something is difficult to do or find on the internet
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,i4i,Explains why some websites are appropriate or inappropriate
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,i4j,Helps me when something bothers me on the internet
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,i4k,Talks to me about the commercial activities I am exposed to online
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,i5a,Told my parent/carer about things that bother or upset me on the internet
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,i5b,Helped my parent/carer to do something they found difficult on the internet
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,i5c,Started a discussion with my parent/carer about what I do on the internet
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,i5d,Asked for my parent's/carer's advice on how I should act online
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,i5e,Asked my parent/carer for something that I have seen advertised online
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,i5f,Ask for your parent's/carer's help with a situation on the internet that I could not handle
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,i6a,Use a web or phone camera (e.g.; for Skype or video chat)
+1, I am allowed to do this anytime
+2, I am allowed to do this with permission or supervision
+3, I am not allowed do this
+4, Prefer not to say
+V,i6b,Download music or films
+1, I am allowed to do this anytime
+2, I am allowed to do this with permission or supervision
+3, I am not allowed do this
+4, Prefer not to say
+V,i6c,Visit a social networking site (e.g.; Facebook; [insert local terms])
+1, I am allowed to do this anytime
+2, I am allowed to do this with permission or supervision
+3, I am not allowed do this
+4, Prefer not to say
+V,i6d,Watch video clips (e.g.; on YouTube)
+1, I am allowed to do this anytime
+2, I am allowed to do this with permission or supervision
+3, I am not allowed do this
+4, Prefer not to say
+V,i6e,Play games with other people online
+1, I am allowed to do this anytime
+2, I am allowed to do this with permission or supervision
+3, I am not allowed do this
+4, Prefer not to say
+V,i6f,Visit a chat room
+1, I am allowed to do this anytime
+2, I am allowed to do this with permission or supervision
+3, I am not allowed do this
+4, Prefer not to say
+V,i6g,Use instant messaging
+1, I am allowed to do this anytime
+2, I am allowed to do this with permission or supervision
+3, I am not allowed do this
+4, Prefer not to say
+V,i6h,Read/watch news online
+1, I am allowed to do this anytime
+2, I am allowed to do this with permission or supervision
+3, I am not allowed do this
+4, Prefer not to say
+V,i6i,Use the internet for school work
+1, I am allowed to do this anytime
+2, I am allowed to do this with permission or supervision
+3, I am not allowed do this
+4, Prefer not to say
+V,i6j,Spend time in a virtual world (e.g.; Habbo; Club Penguin; Minecraft [add examples as needed])
+1, I am allowed to do this anytime
+2, I am allowed to do this with permission or supervision
+3, I am not allowed do this
+4, Prefer not to say
+V,i6k,Put (or post) photos; videos or music online to share with others (including social networking or instant messaging)
+1, I am allowed to do this anytime
+2, I am allowed to do this with permission or supervision
+3, I am not allowed do this
+4, Prefer not to say
+V,j5a,Suggested ways to use the internet safely
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,j5b,Encouraged me to explore and learn things on the internet
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,j5c,Made rules about what I can do on the internet at school
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,j5d,Helped me when I found something difficult to do or find on the internet
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,j5e,Talked to me about what I do on the internet
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,j5f,Explained why some websites are good or bad
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,j5g,Suggested ways to behave towards other people online
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,j5h,Helped me in the past when something has bothered me on the internet
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,j5i,In general; talked to me about what I would do if something on the internet ever bothered me
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,k1a,My friends really try to help me
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,k1b,I can count on my friends when things go wrong
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,k1c,I can talk about my problems with my friends
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,k1d,I get worried when I �?nd out my friends are having fun without me 
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,k2a,Suggested ways to use the internet safely
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,k2b,Encouraged me to explore and learn things on the internet
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,k2c,Helped me when I found something difficult to do on the internet
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,k2d,Explained why some websites are good or bad
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,k2e,Suggested ways to behave towards other people on the internet
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,k2f,Helped me in the past when something has bothered me on the internet
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,k4a,I feel safe in the area where I live
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,k4b,It is safe for younger children to play outside during the day
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,k4c,You can trust people around here
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a20a,I get very angry and often lose my temper
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a20b,I usually do as I am told
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a20c,I fight a lot; I can make other people do what I want
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a20d,I am often accused of lying or cheating
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a20e,I take things that are not mine from home; school or elsewhere
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a20f,I worry a lot
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a20g,I am nervous in certain new situations; I easily lose confidence
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a20h,I get a lot of headaches; stomach-aches or sickness
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a20i,I am often unhappy; sad or tearful
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a20j,I have many fears and I am easily scared
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a20k,I am restless; I cannot stay still for long
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a20l,I finish the work I'm doing. My attention is good
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a20n,I am easily distracted and find it difficult to concentrate
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a20o,I think before I do things
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a20p,Other people my age generally like me
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a20q,Other children or young people pick on me
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a20r,I am usually on my own; I generally play alone or keep to myself
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a20s,I have at least one good friend
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a20t,I get on better with adults than with people my own age
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a20u,I am helpful if someone is hurt; upset or feeling ill
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a20v,I try to be nice to other people. I care about their feelings
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a20w,I often volunteer to help others (e.g.; parents; carers; teachers; children)
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a20x,I usually share with others (food; games; pens etc.)
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a21a,Other children are treated better than me
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a21b,People seem to think I am not smart
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a21c,People seem to think they’re better than me
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a21d,I get called names or insulted by other children
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a22a,Because of where my family is from
+0, No
+1, Yes
+V,a22b,Because of my skin colour
+0, No
+1, Yes
+V,a22c,Because of my religion
+0, No
+1, Yes
+V,a22d,Because of my height or weight
+0, No
+1, Yes
+V,a22e,Because of a disability
+0, No
+1, Yes
+V,a22f,Because of not having enough money
+0, No
+1, Yes
+V,a22g,Because of my sexual orientation
+0, No
+1, Yes
+V,a22h,Because of how I look or behave
+0, No
+1, Yes
+V,a22i,Because of my opinions or beliefs
+0, No
+1, Yes
+V,a22k,Because my parents are not around (i.e.; OFW)
+0, No
+1, Yes
+V,a22l,Because of the ethnic group I belong to
+0, No
+1, Yes
+V,a22m,Due to conflict / war in our area
+0, No
+1, Yes
+V,a22n,Because I am not studying (i.e.; out-of-school)
+0, No
+1, Yes
+V,a22o,Because I do not have a permanent residence / house
+0, No
+1, Yes
+V,a24a,I do dangerous things for fun
+1, Not true
+2, A bit true
+3, Very true
+4, Prefer not to say
+V,a24b,I do exciting things; even if they are dangerous
+1, Not true
+2, A bit true
+3, Very true
+4, Prefer not to say
+V,a25a,Had so much alcohol that I got really drunk
+1, No
+2, Yes
+3, Prefer not to say
+V,a25b,Missed school lessons without my parent(s)/carer(s) knowing
+1, No
+2, Yes
+3, Prefer not to say
+V,a25c,Had sexual intercourse
+1, No
+2, Yes
+3, Prefer not to say
+V,a25d,Been in trouble with my teachers for bad behaviour
+1, No
+2, Yes
+3, Prefer not to say
+V,a25e,Been in trouble with the police
+1, No
+2, Yes
+3, Prefer not to say
+V,a25f,Met personally with someone whom I met online (i.e.; eyeball)
+1, No
+2, Yes
+3, Prefer not to say
+V,a26a,I can solve difficult problems if I try hard enough
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a26b,If someone opposes me; I can find ways to get what I want
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a26c,It's easy for me to stick to my aims and achieve my goals
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a26d,I am confident that I can deal with unexpected problems
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a26g,I can stay calm when things get difficult because I am good at coping
+1, Not true for me
+2, A bit true for me
+3, Fairly true for me
+4, Very true for me
+5, Prefer not to say
+V,a29a,When I use the internet; I learn about different things that I could study; do or become what I want to be as productive as possible.
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,a29b,When I use the internet; I feel I want to achieve more in life.
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,g1a,I was sent a message that I did not want with advertisements for or links to X-rated websites [use local term for 'X-rated']
+1, No
+2, Yes
+3, Prefer not to say
+V,g1b,I opened a message or a link in a message that showed pictures of naked people or of people having sex that I did not want
+1, No
+2, Yes
+3, Prefer not to say
+V,g1c,I have seen or received a sexual message; image or video about someone else that I did not want
+1, No
+2, Yes
+3, Prefer not to say
+V,g2a,I have been asked for sexual information about myself (like what my body looks like without clothes on or sexual things I have done) when I did not want to answer such questions
+1, No
+2, Yes
+3, Prefer not to say
+V,g2b,I have been asked to talk about sexual acts with someone on the internet when I did not want to
+1, No
+2, Yes
+3, Prefer not to say
+V,g2c,I have been asked by someone on the internet to do something sexual when I did not want to
+1, No
+2, Yes
+3, Prefer not to say
+V,g2d,I have been asked on the internet for a photo or video showing my private parts [translate as appropriate] when I did not want to
+1, No
+2, Yes
+3, Prefer not to say
+V,g3a,I have sent sexual information about myself (like what my body looks like without clothes on or sexual things I have done) when I did not want
+1, No
+2, Yes
+3, Prefer not to say
+V,g3b,I have talked about sexual acts with someone on the internet when I did not want to
+1, No
+2, Yes
+3, Prefer not to say
+V,g3c,I have done something sexual on the internet when I did not want to
+1, No
+2, Yes
+3, Prefer not to say
+V,g3d,I have sent someone a photo or video showing my private parts when I did not want to [translate as appropriate]
+1, No
+2, Yes
+3, Prefer not to say
+V,g9a,Brother (over 18)
+0, No
+1, Yes
+V,g9b,Sister (over 18)
+0, No
+1, Yes
+V,g9c,A younger brother or sister
+0, No
+1, Yes
+V,g9d,Father or step-/foster father
+0, No
+1, Yes
+V,g9e,Mother or step-/foster mother
+0, No
+1, Yes
+V,g9f,Other adult relatives; such as aunts; uncles; or grandparents
+0, No
+1, Yes
+V,g9g,Friend or acquaintance
+0, No
+1, Yes
+V,g9h,Teacher/ educator
+0, No
+1, Yes
+V,g9j,Other adult you trust e.g. coach; neighbour; doctor; or babysitter
+0, No
+1, Yes
+V,g9i,Other (specify)
+0, No
+1, Yes
+V,g9k,I didn’t tell anyone about it
+0, No
+1, Yes
+V,g9l,Prefer not to say
+0, No
+1, Yes
+V,l41a,My spouse has a paid job locally.
+V,l41b,My other child/children has a paid job locally.
+V,l41c,Someone in my family is an overseas Filipino worker (OFW) who provides for us.
+V,l41d,Some relatives; who are not OFW’s; gives us monthly allowance.
+V,l41e,Our family has a business. (i.e. sari-sari store; vulcanizing shop; etc.)
+V,l41f,Our family receives a stipend from the government (i.e. member of 4P’s or any allowance from the local government unit)
+V,l41g,Others
+V,l35a,Your child’s health
+V,l35b,Having enough money to care for your child
+V,l35c,How your child is doing at school
+V,l35d,Other children treating your child in a hurtful or nasty way
+V,l35e,Your child drinking too much alcohol/taking drugs
+V,l35f,Your child seeing inappropriate material on the internet
+V,l35g,A stranger contacting your child on the internet
+V,l35h,Your child’s sexual activities
+V,l35i,Your child becoming a victim of crime
+V,l35j,Your child getting into trouble with the police
+V,l35k,Your child receiving an injury on the roads
+V,l35l,Other reasons (specify)
+V,l34a,Physical disability
+V,l34b,Physical illness
+V,l34c,Mental health difficulty
+V,l34d,Behavioural difficulty
+V,l34e,Learning difficulty
+V,l34f,Other disability
+V,l45a,He/she is into sports.
+V,l45b,He/she likes to read books.
+V,l45c,He/she likes to play games using a gadget/computer.
+V,l45d,He/she likes to send messages to friends and relatives using the mobile phone and/or computer.
+V,l45e,He/she likes to go out with friends.
+V,l45f,He/she likes music and/or playing musical instruments.
+V,l45g,He/she likes to take photos and videos.
+V,l45h,He/she likes to download and upload music; photos and videos in the internet.
+V,l45i,He/she likes to write short stories; poems; etc.
+V,l45j,He/she likes to watch movies/short videos in the internet.
+V,l45k,Others 
+V,l47a,Play online games.
+V,l47b,Use online messaging applications to communicate.
+V,l47c,Upload and download photos and videos.
+V,l47d,Use the webcam.
+V,l47e,Chat using a chatroom.
+V,l47f,Use the internet to help in research or homework.
+V,l47g,Watch movies/short videos in the internet.
+V,l47h,Others (specify)
+V,l6a,At work
+V,l6b,At home
+V,l6c,In the home of friends or relatives
+V,l6d,In a public place (for example; In libraries; cafes; computer shops)
+V,l6e,When I am on my way somewhere (e.g.; on the street; in a bus or car)
+V,l6f,When I am somewhere by myself
+V,l7a,A mobile phone that is not a smartphone
+V,l7b,A smartphone [iPhone; Samsung Galaxy; Cherry Mobile; Star Mobile; etc]
+V,l7c,A desktop computer
+V,l7d,A laptop or notebook computer
+V,l7e,A tablet [iPad; Samsung Galaxy tab; PLDT Home tablet; etc]
+V,l7f,A games console [Playstation; Xbox; PSP; Nintendo; 3DS; etc]
+V,l8a,I know how to save a photo that I find online
+V,l8b,I know how to change my privacy settings (e.g. on a social networking site)
+V,l8c,I know how to use a programming language (e.g. HTML; XML; etc.)
+V,l8f1,I know how to jailbreak; crack games and apps; change IP address
+V,l8f2,I know how to hide my IP address
+V,l8f3,I know how to set network settings (LAN; wi-fi; device-connection)
+V,l8f4,I know how to hack certain files
+V,l8f5,I know how to set the firewall
+V,l8i,I find it easy to find a website I have visited before
+V,l8g,I find it easy to check if the information I find online is true
+V,l8h,I find it easy to choose the best keywords for online searches
+V,l8k,Sometimes I end up on websites without knowing how I got there
+V,l8k1,I know how to use incognito in browsing
+V,l8l,I know which information I should and shouldn’t share online
+V,l8m,I know how to remove people from my contact lists
+V,l8m1,I know how to block
+V,l8n,I know when I should and shouldn’t share information online
+V,l8o,I know how to behave according to the situation online
+V,l8p,I know how to change who I share content with (e.g. friends; friends of friends or everyone)
+V,l8p1,I know how to report abusive posts or things that I find offending in social media (e.g. Facebook report abuse)
+V,l8t,I know how to create something new from video or music that I found online
+V,l8q,I know how to post online video or music that I have created myself
+V,l8s,I know which different types of licences apply to online content
+V,l8r,I know how to edit or make basic changes to online content that others have created
+V,l8u,I know how to design a website
+V,l8v,I know how to install apps on a mobile device (e.g. phone or tablet)
+V,l8w,I know how to keep track of the costs of mobile app use
+V,l8x,I know how to make an in-app purchase
+V,l8x1,I know how to download and carck to full version some paid apps without paying a fee (e.g. torrent; etc.)
+V,l48a,Talk to your child about what he/she does on the internet?
+V,l48b,Encourage your child to explore and learn things on the internet?
+V,l48c,Sit with your child while he/she uses the internet?
+V,l48d,Stay nearby when your child uses the internet?
+V,l49a,Started a discussion with you about what he/she does on the internet?
+V,l49b,Told you about things she/he finds upsetting on the internet?
+V,l49c,Asked for your advice on how she/he should act online?
+V,l49d,Asked for products and/or services that she/he has seen advertisements for online?
+V,l49e,Asked for your help with a situation on the internet that she/he cannot handle?
+V,l12a,Use a web or phone camera (e.g.; for Skype or video chat)
+V,l12d,Watch video clips (e.g.; on YouTube)
+V,l12b,Download music or films
+V,l12e,Play games with other people online
+V,l12c,Visit a social networking site (e.g. Facebook; [insert local terms])
+V,l12f,Visit a chat room
+V,l12g,Use instant messaging
+V,l12h,Read/watch news online
+V,l12i,Use the internet for school work
+V,l12j,Spend time in a virtual world (e.g.; Habbo; Club Penguin; Minecraft)
+V,l12k,Put (or post) photos; videos or music online to share with others (including social networking or instant messaging)
+V,l50a,Suggest ways to use the internet safely
+V,l50b,Talk to him/her about what to do if something on the internet upsets him/her
+V,l50c,Help him/her when something is difficult to do or to find on the internet
+V,l50d,Explain why some websites are appropriate or inappropriate
+V,l50e,Help him/her when something has upset him/her on the internet
+V,l50f,Talk to him/her about the commercial activities they are exposed to online
+V,l13a,Parental controls or other means of blocking or filtering some types of website
+V,l13b,Parental controls or other means of keeping track of the websites or apps your child visits
+V,l13c,Rules about how long or when your child is allowed to go online
+V,l13d,A service or contract that limits the time your child spends on the internet
+V,l13e,Software to prevent spam or junk mail/viruses
+V,l13f,Parental controls that filter the apps your child can download
+V,l13g,Parental controls that alert me when your child wants to buy content (in-app purchase)
+V,l13h,Software that limits the people my child can be in touch with (through voice calls and SMS/TEXT MMS)
+V,l13i,Ad blocking software
+V,l14a,Which friends or contacts he/she adds to his/her social networking profile/instant messaging service
+V,l14b,The messages in his/her email or other app for communicating with people
+V,l14c,Which websites he/she visited
+V,l14d,His/her profile on a social networking site or online community
+V,l14e,The apps he/she downloaded
+V,l14f,The in-app purchases he/she made
+V,l21a,Had contact on the internet with someone that my child had not met face-to-face before
+V,l21b,Been treated in a hurtful or nasty way on the internet by someone? (This includes being teased repeatedly in a way he/she did not like; or being deliberately excluded or left out of things.)
+V,l21d,Treated someone else in a hurtful or nasty way on the internet? (This includes having teased someone repeatedly in a way he/she did not like; or threatened; or deliberately excluded or left them out of things.)
+V,l21c,Met anyone face-to-face that my child first got to know on the internet
+V,l21e,Sent or received any messages with inappropriate content in words; photos or videos (pertaining to sex; sexual intercourse or nudity) using the internet?
+V,l22a,Ways of physically harming or hurting themselves
+V,l22b,Ways of committing suicid
+V,l22c,Ways to be very thin (such as anorexic or bulimic)
+V,l22d,Hate messages that attack certain groups or individuals(e.g.; people of different colour or religion or nationality)
+V,l22e,Their experiences of taking drugs
+V,l22f,Gory or violent images
+V,l23a,Somebody used his or her personal information in a way he or she didn’t like
+V,l23b,The device s/he uses got a virus
+V,l23c,S/he lost money by being cheated on the internet
+V,l23d,Somebody used my child’s password to access his or her information or to pretend to be him or her
+V,l23e,Somebody created a page or image about him or her that was hostile or hurtful
+V,l23f,S/he spent too much money on online games or in-app purchases
+V,l23g, S/he was asked to make an in-app purchase when playing an online game (e.g. to progress faster in the game)
+V,l23h,Someone found out where your child was because they tracked his/her phone
+V,l24a,S/he has seen images on the internet that are obviously sexual
+V,l24b,S/he has received a sexual message (this could be words; pictures or videos)
+V,l24c,S/he has sent or posted a sexual message (this could be words; pictures or videos about them or someone else)
+V,l24d,S/he was sent a message that s/he did not want with advertisements for or links to X-rated websites [use local term for ‘X-rated’]
+V,l24e,S/he opened a message or a link in a message that showed pictures of naked people or of people having sex that s/he did not want
+V,l24f,S/he has seen or received a sexual message; image or video about someone else that s/he did not want
+V,l24g,S/he has been asked for sexual information about him/herself (like what his/her body looks like without clothes on or sexual things s/he has done) when s/he did not want to answer such questions
+V,l24h,S/he has been asked to talk about sexual acts with someone on the internet when s/he did not want to
+V,l24i,S/he has been asked by someone on the internet to do something sexual when s/he did not want to
+V,l24j,S/he has been asked on the internet for a photo or video showing her/his private parts [translate as appropriate] when s/he did not want to
+V,b1,null
+99, Prefer not to say
+V,b10a,null
+1, No
+2, Yes
+V,c1,null
+1, Yes; always
+2, Yes; sometimes
+3, No; not often
+4, Other (please specify)
+5, Prefer not to say
+V,c2,null
+1, Not true
+2, A bit true
+3, Fairly true
+4, Very true
+5, Prefer not to say
+V,d12,null
+1, I created my account without changing any information about me
+2, I created my account by changing my age and other information about me
+3, My parents; brother; sister; or relatives created it for me
+4, My friends created it for me
+5, Other person created for me
+V,d7a,null
+1, Up to 10
+2, 11-50
+3, 51-100
+4, 101-300
+5, 301-500
+6, 501-1000
+7, 1001-1500
+8, 1501-2000
+9, 2001-2500
+10, 2501-3000
+11, 3001-3500
+12, 3501-4000
+13, 4001-4500
+14, 4501-5000
+15, More than 5000
+16, Prefer not to say
+V,d7b,null
+1, Up to 10
+2, 11-50
+3, 51-100
+4, 101-300
+5, 301-500
+6, 501-1000
+7, 1001-1500
+8, 1501-2000
+9, 2001-2500
+10, 2501-3000
+11, 3001-3500
+12, 3501-4000
+13, 4001-4500
+14, 4501-5000
+15, More than 5000
+16, Prefer not to say
+V,d7c,null
+1, Up to 10
+2, 11-50
+3, 51-100
+4, 101-300
+5, 301-500
+6, 501-1000
+7, 1001-1500
+8, 1501-2000
+9, 2001-2500
+10, 2501-3000
+11, 3001-3500
+12, 3501-4000
+13, 4001-4500
+14, 4501-5000
+15, More than 5000
+16, Prefer not to say
+V,d8,null
+1, Public; so everyone can see it
+2, Partially private; so that friends of friends or my networks can see me
+3, Private so only my friends can see
+4, Prefer not to say
+V,d10,null
+1, I usually accept all requests
+2, I accept only if we have friends in common
+3, I accept only if I know them
+4, I accept only if I know them very well
+5, I ignore them
+6, I block them or delete the request
+7, Prefer not to say
+V,f2,null
+1, No
+2, Yes
+3, Prefer not to say
+V,f3,null
+1, No
+2, Yes
+3, Prefer not to say
+V,f4,null
+1, I was happy
+2, I was not happy or upset
+3, I was a little upset
+4, I was fairly upset
+5, I was very upset
+6, Prefer not to say
+V,f5,null
+1, I met with someone about my age
+2, I met with someone younger than me
+3, I met with a teenager older than me (under 18)
+4, I met with an adult (over 18)
+5, Prefer not to say
+V,f8,null
+1, None
+2, 1 to 2
+3, 3 to 4
+4, 5 to 10
+5, More than 10
+6, Prefer not to say
+V,f11,null
+1, No
+2, Yes
+3, Prefer not to say
+V,f12,null
+1, Just once or twice
+2, At least every month
+3, At least every week
+4, Daily or almost daily
+5, Prefer not to say
+V,f13,null
+1, A little upset
+2, Fairly upset
+3, Very upset
+4, Prefer not to say
+V,f15,null
+1, I got over it straight away
+2, I felt like that for a few days
+3, I felt like that for a few weeks
+4, I felt like that for a few months or more
+5, Prefer not to say
+V,f18,null
+1, No
+2, Yes
+3, Prefer not to say
+V,f19,null
+1, Just once or twice
+2, At least every month
+3, At least every week
+4, Daily or almost daily
+5, Prefer not to say
+V,f20,null
+1, No
+2, Yes
+3, Prefer not to say
+V,f23,null
+1, I wasn't at all upset
+2, I was a little upset
+3, I was fairly upset
+4, I was very upset
+5, Prefer not to say
+V,f24,null
+1, No
+2, Yes
+3, Prefer not to say
+V,f25,null
+1, Just once or twice
+2, At least once a month
+3, At least every week
+4, Daily or almost daily
+5, Prefer not to say
+V,f26,null
+1, No
+2, Yes
+3, Prefer not to say
+V,f28,null
+1, No
+2, Yes
+3, Prefer not to say
+V,f29,null
+1, I was happy
+2, I was not happy or upset
+3, I was a bit upset
+4, I was fairly upset
+5, I was very upset
+6, Prefer not to say
+V,f34,null
+1, No
+2, Yes
+3, Prefer not to say
+V,f35,null
+1, I was happy
+2, I was not happy or upset
+3, I was a bit upset
+4, I was fairly upset
+5, I was very upset
+6, Prefer not to say
+V,f38,null
+1, No
+2, Yes
+3, Prefer not to say
+V,f39,null
+1, Just once or twice
+2, At least every month
+3, At least every week
+4, Daily or almost daily
+5, Prefer not to say
+V,i1,null
+1, Very easy
+2, Fairly easy
+3, Fairly difficult
+4, Very difficult
+5, Prefer not to say
+V,i7,null
+1, No
+2, Yes
+3, Prefer not to say
+V,i8,null
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,j1,null
+1, I don't like it at all
+2, I don't like it very much
+3, I like it a bit
+4, I like it a lot
+5, Prefer not to say
+V,k3,null
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,a14,null
+1, Hardly ever
+2, Once or twice a year
+3, Every few months
+4, Every few weeks
+5, Prefer not to say
+V,a15,null
+1, Not at all
+2, Not very easily
+3, Quite easily
+4, Very easily
+5, Prefer not to say
+V,a16,null
+1, Hardly ever
+2, Once or twice a year
+3, Every few months
+4, Every few weeks
+5, Prefer not to say
+V,a17,null
+1, Less than once a month
+2, Once or twice a month
+3, Once or twice a week
+4, Every day or almost every day
+5, Prefer not to say
+V,a17a,null
+1, Less than once a month
+2, Once or twice a month
+3, Once or twice a week
+4, Every day or almost every day
+5, Prefer not to say
+V,a18,null
+1, No
+2, Yes
+3, Prefer not to say
+V,a19,null
+1, Hardly ever
+2, Once or twice a year
+3, Every few months
+4, Every few weeks
+5, Prefer not to say
+V,a23,null
+1, Never
+2, Hardly ever
+3, Sometimes
+4, Often
+5, Very often
+6, Prefer not to say
+V,a27,null
+1, Elementary
+2, High School
+3, College
+4, Beyond college degree (MA/MS/MBA/PhD/Law/Medicine)
+5, Prefer not to say
+V,a28,null
+1, In the Philippines
+2, Abroad
+3, I have other plans--I want to do business. 
+4, I don't like to work.
+5, Prefer not to say
+V,g4,null
+1, A mobile phone that is not a smartphone
+2, A smartphone [iPhone; Samsung Galaxy; Cherry Mobile; Star Mobile; etc]
+3, A desktop computer
+4, A laptop or notebook computer
+5, A tablet [iPad; Samsung Galaxy tab; PLDT Home tablet; etc]
+6, A games console [Playstation; Xbox; PSP; Nintendo; 3DS; etc]
+7, Prefer not to say
+V,g5,null
+1, An adult in your family (over 18)
+2, A child or young person in your family (under 18)
+3, A romantic partner (or ex-)
+4, Someone from work
+5, A friend or acquaintance (over 18) that you knew in person before this
+6, A friend or acquaintance (under 18) that you knew in person before this
+7, Someone you first met online who was a contact of a friend or family member
+8, Someone you met online who had no other connection with your life
+9, Someone else (specify)
+10, Prefer not to say
