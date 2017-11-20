@@ -1,11 +1,9 @@
 package util.worker;
 
 import java.util.ArrayList;
-import java.util.LinkedHashMap;
 
 import javax.swing.SwingWorker;
 
-import model.Centroid;
 import model.Feature;
 import preprocessor.DescriptorIO;
 import preprocessor.QuestionMerger;

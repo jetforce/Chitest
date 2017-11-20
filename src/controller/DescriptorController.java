@@ -9,11 +9,6 @@ import util.FileGetter;
 import util.worker.Descriptor;
 import view.MainFrame;
 
-import preprocessor.DescriptorIO;
-import preprocessor.QuestionMerger;
-import model.Feature;
-import java.util.ArrayList;
-
 public class DescriptorController {
 	
 	private static final DescriptorController DESCRIPTOR_CONTROLLER = new DescriptorController();

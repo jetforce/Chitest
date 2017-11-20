@@ -43,7 +43,6 @@ public class Converter {
         ArrayList<Entry> entryList = new ArrayList<>();
         Entry newEntry;
         ArrayList<String> responses;
-        int count = 0;
         //System.out.println("\n***************\nCONVERTING ENTRIES" + "\n************************");
 
         for (Entry old : oldEntries) {
@@ -172,7 +171,7 @@ public class Converter {
             checkPrefer = true;
         }
 
-        Iterator i = responseSet.iterator();
+        Iterator<String> i = responseSet.iterator();
 
         //check blank for special cases
         if (question != null && codeList.contains(question.getCode()) && response.equals("")) {

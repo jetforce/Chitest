@@ -9,9 +9,7 @@ import model.Column;
 import model.Entry;
 import model.Feature;
 import model.Response;
-import util.SwingUpdater;
 import util.worker.Preprocessor;
-import view.MainFrame;
 
 import java.io.BufferedReader;
 import java.io.File;

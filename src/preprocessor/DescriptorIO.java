@@ -2,8 +2,6 @@ package preprocessor;
 
 import model.Feature;
 import model.Response;
-import util.SwingUpdater;
-import view.MainFrame;
 
 import java.io.BufferedReader;
 import java.io.File;

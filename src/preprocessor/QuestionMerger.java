@@ -30,7 +30,8 @@ public class QuestionMerger {
         }
     }
 
-    private ArrayList<Response> setResponses(Feature varQ, ArrayList<Feature> valQuestions) {
+    @SuppressWarnings("resource")
+	private ArrayList<Response> setResponses(Feature varQ, ArrayList<Feature> valQuestions) {
         ArrayList<Response> responses = new ArrayList<>();
         boolean isFound = false;
         Feature valQ;
@@ -69,7 +70,8 @@ public class QuestionMerger {
         return responses;
     }
 
-    public void checkQuestion(Feature valQ, ArrayList<Feature> varQuestions) {
+    @SuppressWarnings("resource")
+	public void checkQuestion(Feature valQ, ArrayList<Feature> varQuestions) {
         boolean isFound = false;
         Feature varQ;
         Scanner valSc = new Scanner(valQ.getCode()).useDelimiter("[^0-9]+");
