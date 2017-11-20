@@ -44,7 +44,7 @@ public class Converter {
         Entry newEntry;
         ArrayList<String> responses;
         int count = 0;
-        System.out.println("\n***************\nCONVERTING ENTRIES" + "\n************************");
+        //System.out.println("\n***************\nCONVERTING ENTRIES" + "\n************************");
 
         for (Entry old : oldEntries) {
             newEntry = new Entry();
@@ -53,7 +53,7 @@ public class Converter {
         }
 
         for (Column col : columns) {
-            System.out.println("Processing " + count++ + "/" + columns.size() + ". . .");
+            //System.out.println("Processing " + count++ + "/" + columns.size() + ". . .");
 
             responses = col.getResponses();
             for (int i = 0; i < responses.size(); i++) {

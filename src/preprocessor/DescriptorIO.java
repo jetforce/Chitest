@@ -49,18 +49,14 @@ public class DescriptorIO {
                     valQuestions.add(question);
                     question.setCode(line.split(" ")[1]);
                     readResponses = true;
-                    //System.out.println(line);
                 } else if (readResponses) {
                     response = new Response();
                     line = line.replace("\t", "");
                     lineSplit = line.split("=");
                     response.setKey(lineSplit[0].trim());
                     response.setDescription(lineSplit[1].replace("\"", "").replace(";", "").replace(",", ";"));
-//                    System.out.println(line + " length: " + resString.length);
-//                    System.out.println(resString[0] + (resString[1] == null ? "null" : resString[1]));
                     question.addResponse(response);
                     if (line.contains(";")) {
-                        // System.out.println(line);
                         readResponses = false;
                     }
                 }
@@ -74,11 +70,11 @@ public class DescriptorIO {
     }
 
     public void exportVariables(ArrayList<Feature> questionList, String filePath) {
-        System.out.println("\n********\nEXPORTING VARIABLES\n*******");
+     //   System.out.println("\n********\nEXPORTING VARIABLES\n*******");
         String export = "";
         PrintWriter pw;
         for (Feature q : questionList) {
-            System.out.println("Exporting " + q.getCode() + ". . .");        	
+       //     System.out.println("Exporting " + q.getCode() + ". . .");        	
             export += "V," + q.getCode() + "," + q.getDescription() + "\n";
             for (Response r : q.getResponseList()) {
                 export += r.getKey() + "," + r.getDescription() + "\n";

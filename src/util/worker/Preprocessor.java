@@ -1,6 +1,7 @@
 package util.worker;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import javax.swing.SwingWorker;
 
@@ -13,7 +14,7 @@ import preprocessor.QuestionAdder;
 import util.SwingUpdater;
 import view.MainFrame;
 
-public class Preprocessor extends SwingWorker<Void, Void>{
+public class Preprocessor extends SwingWorker<Void, Integer>{
 	private String varDesFilePath, rawFilePath;
 	private ArrayList<Entry> newEntries;
 	private PreprocessorIO cp;
@@ -25,13 +26,12 @@ public class Preprocessor extends SwingWorker<Void, Void>{
 		this.varDesFilePath = varDesFilePath;
 		this.rawFilePath = rawFilePath;
 		this.mainFrame = mainFrame;
-		this.cp = new PreprocessorIO();
+		this.cp = new PreprocessorIO(this);
 	}
 
 	@Override
 	protected Void doInBackground() throws Exception {
 		// TODO Auto-generated method stub
-		PreprocessorIO cp = new PreprocessorIO();
 		Converter conv = new Converter();
 		ArrayList<Feature> questionList;
 		ArrayList<String> tempStrings;
@@ -61,19 +61,29 @@ public class Preprocessor extends SwingWorker<Void, Void>{
 		for(String print: tempStrings){
 			SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaPreprocessorStatus(), print);	
 		}
-		return null;
-	}
-
-	protected void done(){
+		
 		//export csv's
 		String exportEntry = "Preprocessed Dataset.csv";
 		String exportVar = "Grouped Variables.csv";
 
-		SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaPreprocessorStatus(), "PROCESS: Exporting Files. . .\n");
+		SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaPreprocessorStatus(), "\nPROCESS: Exporting Files. . .");
 		cp.exportEntries(newEntries, header, exportEntry);
 		SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaPreprocessorStatus(), "DONE: Updated Dataset saved in " + exportEntry + ".\n");
 
 		cp.exportQuestions(newQuestions, exportVar);
 		SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaPreprocessorStatus(), "DONE: Updated Variable Description saved in " + exportVar + ".\n");
+	
+		return null;
+	}
+	
+	public void publishExport(int val){
+		publish(new Integer(val));
+	}
+	
+	protected void process(List<Integer> values){
+		for(Integer value : values) {
+			SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaPreprocessorStatus()
+					, "Writing Features (" + value + "/" + newEntries.size() + "). . .");
+		}
 	}
 }

@@ -10,6 +10,7 @@ import model.Entry;
 import model.Feature;
 import model.Response;
 import util.SwingUpdater;
+import util.worker.Preprocessor;
 import view.MainFrame;
 
 import java.io.BufferedReader;
@@ -24,7 +25,12 @@ import java.util.ArrayList;
  * @author Arces
  */
 public class PreprocessorIO {
-
+	private Preprocessor worker;
+	
+	public PreprocessorIO(Preprocessor worker){
+		this.worker = worker;
+	}
+	
     public ArrayList<Feature> readQuestions(String fileName) {
         BufferedReader br;
         String line;
@@ -112,8 +118,8 @@ public class PreprocessorIO {
     }
 
     public void exportQuestions(ArrayList<Feature> questions, String name) {
-        System.out.println("\n***********************\nEXPORTING QUESTION GROUPINGS. . ."
-                + "\n****************\n");
+        //System.out.println("\n***********************\nEXPORTING QUESTION GROUPINGS. . ."
+          //      + "\n****************\n");
         String exportString = "";
         PrintWriter pw;
 
@@ -134,13 +140,13 @@ public class PreprocessorIO {
     }
 
     public void exportEntries(ArrayList<Entry> entries, ArrayList<String> header, String name) {
-        System.out.println("\n***********************\nEXPORTING PROCESSED DATASET. . ."
-                + "\n****************\n");
+     //   System.out.println("\n***********************\nEXPORTING PROCESSED DATASET. . ."
+       //         + "\n****************\n");
         String exportString = "";
         PrintWriter pw;
         Entry entry;
 
-        System.out.println("Adding Header...");
+       // System.out.println("Adding Header...");
 
         exportString += "Respondent,";
         for (String s : header) {
@@ -148,11 +154,10 @@ public class PreprocessorIO {
         }
         exportString += "\n";
 
-        System.out.println("Adding Features...");
+        //System.out.println("Adding Features...");
         for (int i = 0; i < entries.size(); i++) {
             entry = entries.get(i);
-            System.out.println("Writing Features (" + i + "/" + entries.size() + "). . .");
-
+            worker.publishExport(i);
             exportString += entry.getLabel() + ",";
 
             for (String resp : entry.getFeatures()) {

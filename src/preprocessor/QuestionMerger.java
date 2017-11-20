@@ -23,7 +23,7 @@ public class QuestionMerger {
             varQ.setResponseList(setResponses(varQ, valQuestions));
         }
 
-        System.out.println("********\nADDING QUESTIONS FROM VALUES NOT IN VARIABLES\n*******");
+       // System.out.println("********\nADDING QUESTIONS FROM VALUES NOT IN VARIABLES\n*******");
         //add questions from value
         for (Feature valQ : valQuestions) {
             checkQuestion(valQ, varQuestions);
@@ -103,7 +103,7 @@ public class QuestionMerger {
         }
 
         if (!isFound) {
-            System.out.println("Adding " + valQ.getCode());
+          //  System.out.println("Adding " + valQ.getCode());
             varQuestions.add(valQ);
         }
         

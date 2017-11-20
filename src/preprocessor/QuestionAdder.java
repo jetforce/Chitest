@@ -28,8 +28,8 @@ public class QuestionAdder {
         ArrayList<String> notFoundList = new ArrayList<>();
         tempQuestions.addAll(questions);
 
-        System.out.println("********************\n" 
-                + "ADDING MISSING QUESTIONS\n*********************");
+       // System.out.println("********************\n" 
+         //       + "ADDING MISSING QUESTIONS\n*********************");
         
         //find column in questions
         for (Column col : columns) {
@@ -52,7 +52,7 @@ public class QuestionAdder {
                     if (cCode.equals(qCode)) {
                         //System.out.println(varQ.getCode() + " vs. " + valQ.getCode());
                         //create new question then add
-                        System.out.println("ADDING " + col.getName());
+                       // System.out.println("ADDING " + col.getName());
                         newQ = new Feature();
                         questions.add(newQ);
                         newQ.setCode(col.getName());
