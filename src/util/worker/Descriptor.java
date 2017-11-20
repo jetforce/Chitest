@@ -32,19 +32,19 @@ public class Descriptor extends SwingWorker<Void, Void>{
 	@Override
 	protected Void doInBackground() throws Exception {
 		// TODO Auto-generated method stub
-	    SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaDescriptorStatus(), "UPDATE: Reading features from files. . .\n");
+	    SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaDescriptorStatus(), "PROCESS: Reading features from files. . .\n");
 		ip.readQuestions(varQuestions, valQuestions, varFilePath, valFilePath);
         
         QuestionMerger qm = new QuestionMerger();
-	    SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaDescriptorStatus(), "UPDATE: Merging descriptions of variables and values. . .\n");
+	    SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaDescriptorStatus(), "PROCESS: Merging descriptions of variables and values. . .\n");
         qm.mergeQuestions(varQuestions, valQuestions);	
 		return null;
 	}
 	
 	protected void done(){
 		String filePath = "InitialVarDesc.csv";
-		SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaDescriptorStatus(), "UPDATE: Exporting variable descriptions. . .\n");
-        ip.exportVariables(varQuestions, filePath, mainFrame);
+		SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaDescriptorStatus(), "PROCESS: Exporting variable descriptions. . .\n");
+        ip.exportVariables(varQuestions, filePath);
 	    
 	    SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaDescriptorStatus(), "DONE! Variable Description saved as " + filePath + "\n");
 	}

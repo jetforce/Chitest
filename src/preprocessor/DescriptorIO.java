@@ -73,12 +73,12 @@ public class DescriptorIO {
         }
     }
 
-    public void exportVariables(ArrayList<Feature> questionList, String filePath, MainFrame mainFrame) {
+    public void exportVariables(ArrayList<Feature> questionList, String filePath) {
         System.out.println("\n********\nEXPORTING VARIABLES\n*******");
         String export = "";
         PrintWriter pw;
         for (Feature q : questionList) {
-            SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaDescriptorStatus(), "Exporting " + q.getCode() + ". . .");        	
+            System.out.println("Exporting " + q.getCode() + ". . .");        	
             export += "V," + q.getCode() + "," + q.getDescription() + "\n";
             for (Response r : q.getResponseList()) {
                 export += r.getKey() + "," + r.getDescription() + "\n";

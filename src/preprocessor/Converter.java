@@ -64,7 +64,7 @@ public class Converter {
     }
 
     //converts questions to groups
-    public ArrayList<Feature> convertQuestions(ArrayList<Column> columns, ArrayList<Feature> questions) {
+    public ArrayList<Feature> convertQuestions(ArrayList<Column> columns, ArrayList<Feature> questions, ArrayList<String> tempStrings) {
         ArrayList<Feature> questionList = new ArrayList<>();
         Feature newQ, findQ;
         Set<String> responses;
@@ -101,6 +101,7 @@ public class Converter {
                     newQ.setUnmatchedVal(false);
                 } else {
 //                    System.out.println("UNBALANCED!");
+                	tempStrings.add(newQ.getCode());
                     newQ.setUnmatchedVal(true);
                 }
             }

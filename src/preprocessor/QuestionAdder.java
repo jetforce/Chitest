@@ -15,14 +15,17 @@ import java.util.Scanner;
  * @author Arces
  */
 public class QuestionAdder {
-
-    public void addQuestions(ArrayList<Feature> questions, ArrayList<Column> columns) {
+    /*
+        Returns features that are in the dataset but not in the var desc file
+    */
+    public ArrayList<String> addQuestions(ArrayList<Feature> questions, ArrayList<Column> columns) {
         boolean isFound = false;
         Scanner qSc, cSc;
         int cNum;
         Feature checkQ, newQ;
         String qCode, cCode;
         ArrayList<Feature> tempQuestions = new ArrayList<>();
+        ArrayList<String> notFoundList = new ArrayList<>();
         tempQuestions.addAll(questions);
 
         System.out.println("********************\n" 
@@ -47,6 +50,7 @@ public class QuestionAdder {
                     qSc = new Scanner(checkQ.getCode()).useDelimiter("[^0-9]+");
                     qCode = checkQ.getCode().charAt(0) + "" + qSc.nextInt();
                     if (cCode.equals(qCode)) {
+                        //System.out.println(varQ.getCode() + " vs. " + valQ.getCode());
                         //create new question then add
                         System.out.println("ADDING " + col.getName());
                         newQ = new Feature();
@@ -60,9 +64,11 @@ public class QuestionAdder {
             }
 
             if (!isFound) {
-                System.out.println("CANNOT FIND " + col.getName());
+                notFoundList.add(col.getName());
             }
             cSc.close();
         }
+        
+        return notFoundList;
     }
 }

@@ -20,50 +20,60 @@ public class Preprocessor extends SwingWorker<Void, Void>{
 	private ArrayList<String> header;
 	private ArrayList<Feature> newQuestions;
 	private MainFrame mainFrame;
-	
+
 	public Preprocessor(String varDesFilePath, String rawFilePath, MainFrame mainFrame){
 		this.varDesFilePath = varDesFilePath;
 		this.rawFilePath = rawFilePath;
 		this.mainFrame = mainFrame;
+		this.cp = new PreprocessorIO();
 	}
-	
+
 	@Override
 	protected Void doInBackground() throws Exception {
 		// TODO Auto-generated method stub
-        PreprocessorIO cp = new PreprocessorIO();
-        Converter conv = new Converter();
-        ArrayList<Feature> questionList;
-        
-        header = new ArrayList<>();
-        ArrayList<Column> columns = new ArrayList<>();
+		PreprocessorIO cp = new PreprocessorIO();
+		Converter conv = new Converter();
+		ArrayList<Feature> questionList;
+		ArrayList<String> tempStrings;
+
+		header = new ArrayList<>();
+		ArrayList<Column> columns = new ArrayList<>();
+
+		SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaPreprocessorStatus(), "PROCESS: Reading input files. . .\n");
+		questionList = cp.readQuestions(varDesFilePath);
+		ArrayList<Entry> oldEntries = cp.readCSV(header, columns, rawFilePath, 1);
+
+		SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaPreprocessorStatus(), "PROCESS: Converting values in dataset. . .");
+		//convert entries
+		newEntries = conv.convertEntries(oldEntries, columns, questionList);
+		tempStrings = new ArrayList<>();
+		newQuestions = conv.convertQuestions(columns, questionList, tempStrings);
+		SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaPreprocessorStatus(), "WARNING: The unique values for the following features in the input data set does not match with the values in the variable description file:");
+		for(String print: tempStrings){
+			SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaPreprocessorStatus(), print);	
+		}
 		
-        SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaPreprocessorStatus(), "Reading input files. . .\n");
-        questionList = cp.readQuestions(varDesFilePath);
-        ArrayList<Entry> oldEntries = cp.readCSV(header, columns, rawFilePath, 1);
-        
-        SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaPreprocessorStatus(), "Converting values in dataset. . .\n");
-        //convert entries
-        newEntries = conv.convertEntries(oldEntries, columns, questionList);
-		newQuestions = conv.convertQuestions(columns, questionList);
-        
-		SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaPreprocessorStatus(), "Updating Variable Description. . .\n");
-        //question adder
-        QuestionAdder qa = new QuestionAdder();
-        qa.addQuestions(questionList, columns);
-        
+		SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaPreprocessorStatus(), "\nPROCESS: Updating Variable Description. . .");
+		//question adder
+		QuestionAdder qa = new QuestionAdder();
+		tempStrings = qa.addQuestions(questionList, columns);
+		SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaPreprocessorStatus(), "WARNING: The following features were found in the input dataset but not in the variable description file:");
+		for(String print: tempStrings){
+			SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaPreprocessorStatus(), print);	
+		}
 		return null;
 	}
-	
+
 	protected void done(){
-        //export csv's
+		//export csv's
 		String exportEntry = "Preprocessed Dataset.csv";
 		String exportVar = "Grouped Variables.csv";
-		
-		SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaPreprocessorStatus(), "Exporting Files. . .\n");
-        cp.exportEntries(newEntries, header, exportEntry, mainFrame);
-        SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaPreprocessorStatus(), "Updated Dataset saved in " + exportEntry + ".\n");
-        
-        cp.exportQuestions(newQuestions, exportVar, mainFrame);
-        SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaPreprocessorStatus(), "Updated Variable Description saved in " + exportVar + ".\n");
-    }
+
+		SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaPreprocessorStatus(), "PROCESS: Exporting Files. . .\n");
+		cp.exportEntries(newEntries, header, exportEntry);
+		SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaPreprocessorStatus(), "DONE: Updated Dataset saved in " + exportEntry + ".\n");
+
+		cp.exportQuestions(newQuestions, exportVar);
+		SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaPreprocessorStatus(), "DONE: Updated Variable Description saved in " + exportVar + ".\n");
+	}
 }

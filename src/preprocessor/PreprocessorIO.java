@@ -111,7 +111,7 @@ public class PreprocessorIO {
         return entryList;
     }
 
-    public void exportQuestions(ArrayList<Feature> questions, String name, MainFrame mainFrame) {
+    public void exportQuestions(ArrayList<Feature> questions, String name) {
         System.out.println("\n***********************\nEXPORTING QUESTION GROUPINGS. . ."
                 + "\n****************\n");
         String exportString = "";
@@ -133,7 +133,7 @@ public class PreprocessorIO {
         }
     }
 
-    public void exportEntries(ArrayList<Entry> entries, ArrayList<String> header, String name, MainFrame mainFrame) {
+    public void exportEntries(ArrayList<Entry> entries, ArrayList<String> header, String name) {
         System.out.println("\n***********************\nEXPORTING PROCESSED DATASET. . ."
                 + "\n****************\n");
         String exportString = "";
@@ -151,7 +151,7 @@ public class PreprocessorIO {
         System.out.println("Adding Features...");
         for (int i = 0; i < entries.size(); i++) {
             entry = entries.get(i);
-            SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaPreprocessorStatus(), "Writing Features (" + i + "/" + entries.size() + "). . .");
+            System.out.println("Writing Features (" + i + "/" + entries.size() + "). . .");
 
             exportString += entry.getLabel() + ",";
 
