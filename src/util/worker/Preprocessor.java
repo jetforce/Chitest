@@ -64,7 +64,7 @@ public class Preprocessor extends SwingWorker<Void, Integer>{
 		
 		//export csv's
 		String exportEntry = "Preprocessed Dataset.csv";
-		String exportVar = "Grouped Variables.csv";
+		String exportVar = "Updated-Variables.csv";
 
 		SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaPreprocessorStatus(), "\nPROCESS: Exporting Files. . .");
 		cp.exportEntries(newEntries, header, exportEntry);
