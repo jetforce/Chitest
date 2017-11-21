@@ -69,19 +69,22 @@ public class DescriptorIO {
 
     public void exportVariables(ArrayList<Feature> questionList, String filePath) {
      //   System.out.println("\n********\nEXPORTING VARIABLES\n*******");
-        String export = "";
+        //String export = "";
         PrintWriter pw;
-        for (Feature q : questionList) {
-       //     System.out.println("Exporting " + q.getCode() + ". . .");        	
-            export += "V," + q.getCode() + "," + q.getDescription() + "\n";
-            for (Response r : q.getResponseList()) {
-                export += r.getKey() + "," + r.getDescription() + "\n";
-            }
-        }
-        
         try {
             pw = new PrintWriter(new File(filePath));
-            pw.write(export);
+        
+	        for (Feature q : questionList) {
+	       //     System.out.println("Exporting " + q.getCode() + ". . .");        	
+//	        	export += 
+	        	pw.write("V," + q.getCode() + "," + q.getDescription() + "\n");
+	            for (Response r : q.getResponseList()) {
+	                //export += 
+	            	pw.write(r.getKey() + "," + r.getDescription() + "\n");
+	            }
+	        }
+        
+            //pw.write(export);
 
             pw.close();
         } catch (IOException e) {
