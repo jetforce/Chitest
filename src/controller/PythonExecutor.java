@@ -19,7 +19,7 @@ public class PythonExecutor {
 		String cmd = "python readChi.py save.csv";
 		
 		for(String s: this.filenames){
-			cmd = cmd + " "+s;	
+			cmd = cmd + " "+  "\"" + s +"\"";	
 		}
 		
 		System.out.print("The command is "+cmd);
