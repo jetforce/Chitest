@@ -293,7 +293,13 @@ def doFile(table,fileNum,results,converter,z):
 	print "The Question "+ thequestion
 	if(np.isnan(chistat)):
 		chistat = ""
-	results.append([H,thequestion,chistat,higherOrLower,lencol-1])
+
+	print colSum.size
+	print totals.size		
+
+	degreeFreedom = (colSum.size - 1) * (totals.size -1)
+
+	results.append([H,thequestion,chistat,higherOrLower,degreeFreedom])
 
 
 def group(index, rows,V, header):
@@ -357,7 +363,7 @@ def getVariableList(filename):
 
 
 vList = getVariableList('Updated-Variables.csv')
-header = readHeader('dataset/a.csv')
+header = readHeader(sys.argv[2])
 
 results = []
 converter = ColConverter(header)
@@ -380,7 +386,10 @@ tableList = []
 z=[1.960]
 zstr = ['1960']
 for y in range(0,len(z)):
-	results = [["Question","Feature","Chi","Higher Or Lower", "Degrees of Freedom"]]
+	results = []
+	results.append(clusternames)
+	results.append(["Question","Feature","Chi","Higher Or Lower", "Degrees of Freedom"])
+
 	for i in range(1,len(header)-1):
 		if header[i] not in vList.keys():
 			print "Warning "+ header[i] +" "+" question name not in Variable description will be assigned to null"
@@ -400,6 +409,7 @@ for y in range(0,len(z)):
 	#print tableList
 	writeOnCSV(tableList,"Tables"+filename)
 
+print sys.argv[2:]
 #results = converter.cleanRows(results)
 #writeOnCSV(results,filename)
 
