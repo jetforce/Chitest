@@ -2210,7 +2210,7 @@ V,k1c,I can talk about my problems with my friends
 3, Fairly true for me
 4, Very true for me
 5, Prefer not to say
-V,k1d,I get worried when I ﬁnd out my friends are having fun without me 
+V,k1d,I get worried when I �?nd out my friends are having fun without me 
 1, Not true for me
 2, A bit true for me
 3, Fairly true for me
@@ -2587,17 +2587,21 @@ V,g2d,I have been asked on the internet for a photo or video showing my private 
 2, Yes
 3, Prefer not to say
 V,g3a,I have sent sexual information about myself (like what my body looks like without clothes on or sexual things I have done) when I did not want
-0, No
-1, Yes
+1, No
+2, Yes
+3, Prefer not to say
 V,g3b,I have talked about sexual acts with someone on the internet when I did not want to
-0, No
-1, Yes
+1, No
+2, Yes
+3, Prefer not to say
 V,g3c,I have done something sexual on the internet when I did not want to
-0, No
-1, Yes
+1, No
+2, Yes
+3, Prefer not to say
 V,g3d,I have sent someone a photo or video showing my private parts when I did not want to [translate as appropriate]
-0, No
-1, Yes
+1, No
+2, Yes
+3, Prefer not to say
 V,g9a,Brother (over 18)
 0, No
 1, Yes
@@ -2635,808 +2639,160 @@ V,g9l,Prefer not to say
 0, No
 1, Yes
 V,l41a,My spouse has a paid job locally.
-0, No
-1, Yes
 V,l41b,My other child/children has a paid job locally.
-0, No
-1, Yes
 V,l41c,Someone in my family is an overseas Filipino worker (OFW) who provides for us.
-0, No
-1, Yes
 V,l41d,Some relatives; who are not OFW’s; gives us monthly allowance.
-0, No
-1, Yes
 V,l41e,Our family has a business. (i.e. sari-sari store; vulcanizing shop; etc.)
-0, No
-1, Yes
 V,l41f,Our family receives a stipend from the government (i.e. member of 4P’s or any allowance from the local government unit)
-0, No
-1, Yes
 V,l41g,Others
-0, No
-1, Yes
 V,l35a,Your child’s health
-0, No
-1, Yes
 V,l35b,Having enough money to care for your child
-0, No
-1, Yes
 V,l35c,How your child is doing at school
-0, No
-1, Yes
 V,l35d,Other children treating your child in a hurtful or nasty way
-0, No
-1, Yes
 V,l35e,Your child drinking too much alcohol/taking drugs
-0, No
-1, Yes
 V,l35f,Your child seeing inappropriate material on the internet
-0, No
-1, Yes
 V,l35g,A stranger contacting your child on the internet
-0, No
-1, Yes
 V,l35h,Your child’s sexual activities
-0, No
-1, Yes
 V,l35i,Your child becoming a victim of crime
-0, No
-1, Yes
 V,l35j,Your child getting into trouble with the police
-0, No
-1, Yes
 V,l35k,Your child receiving an injury on the roads
-0, No
-1, Yes
 V,l35l,Other reasons (specify)
-0, No
-1, Yes
 V,l34a,Physical disability
-1, No
-2, Yes
-3, Prefer not to say
 V,l34b,Physical illness
-1, No
-2, Yes
-3, Prefer not to say
 V,l34c,Mental health difficulty
-1, No
-2, Yes
-3, Prefer not to say
 V,l34d,Behavioural difficulty
-1, No
-2, Yes
-3, Prefer not to say
 V,l34e,Learning difficulty
-1, No
-2, Yes
-3, Prefer not to say
 V,l34f,Other disability
-1, No
-2, Yes
-3, Prefer not to say
 V,l45a,He/she is into sports.
-0, No
-1, Yes
 V,l45b,He/she likes to read books.
-0, No
-1, Yes
 V,l45c,He/she likes to play games using a gadget/computer.
-0, No
-1, Yes
 V,l45d,He/she likes to send messages to friends and relatives using the mobile phone and/or computer.
-0, No
-1, Yes
 V,l45e,He/she likes to go out with friends.
-0, No
-1, Yes
 V,l45f,He/she likes music and/or playing musical instruments.
-0, No
-1, Yes
 V,l45g,He/she likes to take photos and videos.
-0, No
-1, Yes
 V,l45h,He/she likes to download and upload music; photos and videos in the internet.
-0, No
-1, Yes
 V,l45i,He/she likes to write short stories; poems; etc.
-0, No
-1, Yes
 V,l45j,He/she likes to watch movies/short videos in the internet.
-0, No
-1, Yes
 V,l45k,Others 
-0, No
-1, Yes
 V,l47a,Play online games.
-0, No
-1, Yes
 V,l47b,Use online messaging applications to communicate.
-0, No
-1, Yes
 V,l47c,Upload and download photos and videos.
-0, No
-1, Yes
 V,l47d,Use the webcam.
-0, No
-1, Yes
 V,l47e,Chat using a chatroom.
-0, No
-1, Yes
 V,l47f,Use the internet to help in research or homework.
-0, No
-1, Yes
 V,l47g,Watch movies/short videos in the internet.
-0, No
-1, Yes
 V,l47h,Others (specify)
-0, No
-1, Yes
 V,l6a,At work
-1, Never
-2, Hardly ever
-3, At least every month
-4, At least every week
-5, Daily or almost daily
-6, Several times each day
-7, Almost all the time
-8, Prefer not to say
 V,l6b,At home
-1, Never
-2, Hardly ever
-3, At least every month
-4, At least every week
-5, Daily or almost daily
-6, Several times each day
-7, Almost all the time
-8, Prefer not to say
 V,l6c,In the home of friends or relatives
-1, Never
-2, Hardly ever
-3, At least every month
-4, At least every week
-5, Daily or almost daily
-6, Several times each day
-7, Almost all the time
-8, Prefer not to say
 V,l6d,In a public place (for example; In libraries; cafes; computer shops)
-1, Never
-2, Hardly ever
-3, At least every month
-4, At least every week
-5, Daily or almost daily
-6, Several times each day
-7, Almost all the time
-8, Prefer not to say
 V,l6e,When I am on my way somewhere (e.g.; on the street; in a bus or car)
-1, Never
-2, Hardly ever
-3, At least every month
-4, At least every week
-5, Daily or almost daily
-6, Several times each day
-7, Almost all the time
-8, Prefer not to say
 V,l6f,When I am somewhere by myself
-1, Never
-2, Hardly ever
-3, At least every month
-4, At least every week
-5, Daily or almost daily
-6, Several times each day
-7, Almost all the time
-8, Prefer not to say
 V,l7a,A mobile phone that is not a smartphone
-1, Never
-2, Hardly ever
-3, At least every month
-4, At least every week
-5, Daily or almost daily
-6, Several times each day
-7, Almost all the time
-8, Prefer not to say
 V,l7b,A smartphone [iPhone; Samsung Galaxy; Cherry Mobile; Star Mobile; etc]
-1, Never
-2, Hardly ever
-3, At least every month
-4, At least every week
-5, Daily or almost daily
-6, Several times each day
-7, Almost all the time
-8, Prefer not to say
 V,l7c,A desktop computer
-1, Never
-2, Hardly ever
-3, At least every month
-4, At least every week
-5, Daily or almost daily
-6, Several times each day
-7, Almost all the time
-8, Prefer not to say
 V,l7d,A laptop or notebook computer
-1, Never
-2, Hardly ever
-3, At least every month
-4, At least every week
-5, Daily or almost daily
-6, Several times each day
-7, Almost all the time
-8, Prefer not to say
 V,l7e,A tablet [iPad; Samsung Galaxy tab; PLDT Home tablet; etc]
-1, Never
-2, Hardly ever
-3, At least every month
-4, At least every week
-5, Daily or almost daily
-6, Several times each day
-7, Almost all the time
-8, Prefer not to say
 V,l7f,A games console [Playstation; Xbox; PSP; Nintendo; 3DS; etc]
-1, Never
-2, Hardly ever
-3, At least every month
-4, At least every week
-5, Daily or almost daily
-6, Several times each day
-7, Almost all the time
-8, Prefer not to say
 V,l8a,I know how to save a photo that I find online
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l8b,I know how to change my privacy settings (e.g. on a social networking site)
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l8c,I know how to use a programming language (e.g. HTML; XML; etc.)
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l8f1,I know how to jailbreak; crack games and apps; change IP address
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l8f2,I know how to hide my IP address
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l8f3,I know how to set network settings (LAN; wi-fi; device-connection)
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l8f4,I know how to hack certain files
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l8f5,I know how to set the firewall
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l8i,I find it easy to find a website I have visited before
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l8g,I find it easy to check if the information I find online is true
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l8h,I find it easy to choose the best keywords for online searches
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l8k,Sometimes I end up on websites without knowing how I got there
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l8k1,I know how to use incognito in browsing
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l8l,I know which information I should and shouldn’t share online
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l8m,I know how to remove people from my contact lists
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l8m1,I know how to block
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l8n,I know when I should and shouldn’t share information online
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l8o,I know how to behave according to the situation online
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l8p,I know how to change who I share content with (e.g. friends; friends of friends or everyone)
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l8p1,I know how to report abusive posts or things that I find offending in social media (e.g. Facebook report abuse)
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l8t,I know how to create something new from video or music that I found online
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l8q,I know how to post online video or music that I have created myself
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l8s,I know which different types of licences apply to online content
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l8r,I know how to edit or make basic changes to online content that others have created
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l8u,I know how to design a website
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l8v,I know how to install apps on a mobile device (e.g. phone or tablet)
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l8w,I know how to keep track of the costs of mobile app use
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l8x,I know how to make an in-app purchase
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l8x1,I know how to download and carck to full version some paid apps without paying a fee (e.g. torrent; etc.)
-1, Not true for me
-2, A bit true for me
-3, Fairly true for me
-4, Very true for me
-5, Prefer not to say
 V,l48a,Talk to your child about what he/she does on the internet?
-0, No
-1, Yes
 V,l48b,Encourage your child to explore and learn things on the internet?
-0, No
-1, Yes
 V,l48c,Sit with your child while he/she uses the internet?
-0, No
-1, Yes
 V,l48d,Stay nearby when your child uses the internet?
-0, No
-1, Yes
 V,l49a,Started a discussion with you about what he/she does on the internet?
-1, No
-2, Yes
-3, Don't know
-4, Prefer not to say
 V,l49b,Told you about things she/he finds upsetting on the internet?
-1, No
-2, Yes
-3, Don't know
-4, Prefer not to say
 V,l49c,Asked for your advice on how she/he should act online?
-1, No
-2, Yes
-3, Don't know
-4, Prefer not to say
 V,l49d,Asked for products and/or services that she/he has seen advertisements for online?
-1, No
-2, Yes
-3, Don't know
-4, Prefer not to say
 V,l49e,Asked for your help with a situation on the internet that she/he cannot handle?
-1, No
-2, Yes
-3, Don't know
-4, Prefer not to say
 V,l12a,Use a web or phone camera (e.g.; for Skype or video chat)
-1, Allowed to do this anytime
-2, Allowed to do this with permission or supervision
-3, Can never do this
-4, Prefer not to say
 V,l12d,Watch video clips (e.g.; on YouTube)
-1, Allowed to do this anytime
-2, Allowed to do this with permission or supervision
-3, Can never do this
-4, Prefer not to say
 V,l12b,Download music or films
-1, Allowed to do this anytime
-2, Allowed to do this with permission or supervision
-3, Can never do this
-4, Prefer not to say
 V,l12e,Play games with other people online
-1, Allowed to do this anytime
-2, Allowed to do this with permission or supervision
-3, Can never do this
-4, Prefer not to say
 V,l12c,Visit a social networking site (e.g. Facebook; [insert local terms])
-1, Allowed to do this anytime
-2, Allowed to do this with permission or supervision
-3, Can never do this
-4, Prefer not to say
 V,l12f,Visit a chat room
-1, Allowed to do this anytime
-2, Allowed to do this with permission or supervision
-3, Can never do this
-4, Prefer not to say
 V,l12g,Use instant messaging
-1, Allowed to do this anytime
-2, Allowed to do this with permission or supervision
-3, Can never do this
-4, Prefer not to say
 V,l12h,Read/watch news online
-1, Allowed to do this anytime
-2, Allowed to do this with permission or supervision
-3, Can never do this
-4, Prefer not to say
 V,l12i,Use the internet for school work
-1, Allowed to do this anytime
-2, Allowed to do this with permission or supervision
-3, Can never do this
-4, Prefer not to say
 V,l12j,Spend time in a virtual world (e.g.; Habbo; Club Penguin; Minecraft)
-1, Allowed to do this anytime
-2, Allowed to do this with permission or supervision
-3, Can never do this
-4, Prefer not to say
 V,l12k,Put (or post) photos; videos or music online to share with others (including social networking or instant messaging)
-1, Allowed to do this anytime
-2, Allowed to do this with permission or supervision
-3, Can never do this
-4, Prefer not to say
 V,l50a,Suggest ways to use the internet safely
-1, Never
-2, Hardly ever
-3, Sometimes
-4, Often
-5, Very often
-6, Prefer not to say
 V,l50b,Talk to him/her about what to do if something on the internet upsets him/her
-1, Never
-2, Hardly ever
-3, Sometimes
-4, Often
-5, Very often
-6, Prefer not to say
 V,l50c,Help him/her when something is difficult to do or to find on the internet
-1, Never
-2, Hardly ever
-3, Sometimes
-4, Often
-5, Very often
-6, Prefer not to say
 V,l50d,Explain why some websites are appropriate or inappropriate
-1, Never
-2, Hardly ever
-3, Sometimes
-4, Often
-5, Very often
-6, Prefer not to say
 V,l50e,Help him/her when something has upset him/her on the internet
-1, Never
-2, Hardly ever
-3, Sometimes
-4, Often
-5, Very often
-6, Prefer not to say
 V,l50f,Talk to him/her about the commercial activities they are exposed to online
-1, Never
-2, Hardly ever
-3, Sometimes
-4, Often
-5, Very often
-6, Prefer not to say
 V,l13a,Parental controls or other means of blocking or filtering some types of website
-1, No
-2, Yes
-3, Prefer not to say
 V,l13b,Parental controls or other means of keeping track of the websites or apps your child visits
-1, No
-2, Yes
-3, Prefer not to say
 V,l13c,Rules about how long or when your child is allowed to go online
-1, No
-2, Yes
-3, Prefer not to say
 V,l13d,A service or contract that limits the time your child spends on the internet
-1, No
-2, Yes
-3, Prefer not to say
 V,l13e,Software to prevent spam or junk mail/viruses
-1, No
-2, Yes
-3, Prefer not to say
 V,l13f,Parental controls that filter the apps your child can download
-1, No
-2, Yes
-3, Prefer not to say
 V,l13g,Parental controls that alert me when your child wants to buy content (in-app purchase)
-1, No
-2, Yes
-3, Prefer not to say
 V,l13h,Software that limits the people my child can be in touch with (through voice calls and SMS/TEXT MMS)
-1, No
-2, Yes
-3, Prefer not to say
 V,l13i,Ad blocking software
-1, No
-2, Yes
-3, Prefer not to say
 V,l14a,Which friends or contacts he/she adds to his/her social networking profile/instant messaging service
-1, Never
-2, Hardly ever
-3, Sometimes
-4, Often
-5, Very often
-6, Prefer not to say
 V,l14b,The messages in his/her email or other app for communicating with people
-1, Never
-2, Hardly ever
-3, Sometimes
-4, Often
-5, Very often
-6, Prefer not to say
 V,l14c,Which websites he/she visited
-1, Never
-2, Hardly ever
-3, Sometimes
-4, Often
-5, Very often
-6, Prefer not to say
 V,l14d,His/her profile on a social networking site or online community
-1, Never
-2, Hardly ever
-3, Sometimes
-4, Often
-5, Very often
-6, Prefer not to say
 V,l14e,The apps he/she downloaded
-1, Never
-2, Hardly ever
-3, Sometimes
-4, Often
-5, Very often
-6, Prefer not to say
 V,l14f,The in-app purchases he/she made
-1, Never
-2, Hardly ever
-3, Sometimes
-4, Often
-5, Very often
-6, Prefer not to say
 V,l21a,Had contact on the internet with someone that my child had not met face-to-face before
-1, No
-2, Yes
-3, Don't know
-4, Prefer not to say
 V,l21b,Been treated in a hurtful or nasty way on the internet by someone? (This includes being teased repeatedly in a way he/she did not like; or being deliberately excluded or left out of things.)
-1, No
-2, Yes
-3, Don't know
-4, Prefer not to say
 V,l21d,Treated someone else in a hurtful or nasty way on the internet? (This includes having teased someone repeatedly in a way he/she did not like; or threatened; or deliberately excluded or left them out of things.)
-1, No
-2, Yes
-3, Don't know
-4, Prefer not to say
 V,l21c,Met anyone face-to-face that my child first got to know on the internet
-1, No
-2, Yes
-3, Don't know
-4, Prefer not to say
-V,I21e,Sent or received any messages with inappropriate content in words; photos or videos (pertaining to sex; sexual intercourse or nudity) using the internet?
+V,l21e,Sent or received any messages with inappropriate content in words; photos or videos (pertaining to sex; sexual intercourse or nudity) using the internet?
 V,l22a,Ways of physically harming or hurting themselves
-1, Play online games.
-2, Use online messaging applications to communicate.
-3, Upload and download photos and videos.
-4, Use the webcam.
-5, Chat using a chatroom.
-6, Use the internet to help in research or homework.
-7, Watch movies/short videos in the internet.
-8, Others (specify)
-9, I don't do any activity with my child using the internet.
 V,l22b,Ways of committing suicid
-1, Play online games.
-2, Use online messaging applications to communicate.
-3, Upload and download photos and videos.
-4, Use the webcam.
-5, Chat using a chatroom.
-6, Use the internet to help in research or homework.
-7, Watch movies/short videos in the internet.
-8, Others (specify)
-9, I don't do any activity with my child using the internet.
 V,l22c,Ways to be very thin (such as anorexic or bulimic)
-1, Play online games.
-2, Use online messaging applications to communicate.
-3, Upload and download photos and videos.
-4, Use the webcam.
-5, Chat using a chatroom.
-6, Use the internet to help in research or homework.
-7, Watch movies/short videos in the internet.
-8, Others (specify)
-9, I don't do any activity with my child using the internet.
 V,l22d,Hate messages that attack certain groups or individuals(e.g.; people of different colour or religion or nationality)
-1, Play online games.
-2, Use online messaging applications to communicate.
-3, Upload and download photos and videos.
-4, Use the webcam.
-5, Chat using a chatroom.
-6, Use the internet to help in research or homework.
-7, Watch movies/short videos in the internet.
-8, Others (specify)
-9, I don't do any activity with my child using the internet.
 V,l22e,Their experiences of taking drugs
-1, Play online games.
-2, Use online messaging applications to communicate.
-3, Upload and download photos and videos.
-4, Use the webcam.
-5, Chat using a chatroom.
-6, Use the internet to help in research or homework.
-7, Watch movies/short videos in the internet.
-8, Others (specify)
-9, I don't do any activity with my child using the internet.
 V,l22f,Gory or violent images
-1, Play online games.
-2, Use online messaging applications to communicate.
-3, Upload and download photos and videos.
-4, Use the webcam.
-5, Chat using a chatroom.
-6, Use the internet to help in research or homework.
-7, Watch movies/short videos in the internet.
-8, Others (specify)
-9, I don't do any activity with my child using the internet.
 V,l23a,Somebody used his or her personal information in a way he or she didn’t like
-1, No
-2, Yes
-3, Don't know
-4, Prefer not to say
 V,l23b,The device s/he uses got a virus
-1, No
-2, Yes
-3, Don't know
-4, Prefer not to say
 V,l23c,S/he lost money by being cheated on the internet
-1, No
-2, Yes
-3, Don't know
-4, Prefer not to say
 V,l23d,Somebody used my child’s password to access his or her information or to pretend to be him or her
-1, No
-2, Yes
-3, Don't know
-4, Prefer not to say
 V,l23e,Somebody created a page or image about him or her that was hostile or hurtful
-1, No
-2, Yes
-3, Don't know
-4, Prefer not to say
 V,l23f,S/he spent too much money on online games or in-app purchases
-1, No
-2, Yes
-3, Don't know
-4, Prefer not to say
 V,l23g, S/he was asked to make an in-app purchase when playing an online game (e.g. to progress faster in the game)
-1, No
-2, Yes
-3, Don't know
-4, Prefer not to say
 V,l23h,Someone found out where your child was because they tracked his/her phone
-1, No
-2, Yes
-3, Don't know
-4, Prefer not to say
 V,l24a,S/he has seen images on the internet that are obviously sexual
-1, No
-2, Yes
-3, Don't know
-4, Prefer not to say
 V,l24b,S/he has received a sexual message (this could be words; pictures or videos)
-1, No
-2, Yes
-3, Don't know
-4, Prefer not to say
 V,l24c,S/he has sent or posted a sexual message (this could be words; pictures or videos about them or someone else)
-1, No
-2, Yes
-3, Don't know
-4, Prefer not to say
 V,l24d,S/he was sent a message that s/he did not want with advertisements for or links to X-rated websites [use local term for ‘X-rated’]
-1, No
-2, Yes
-3, Don't know
-4, Prefer not to say
 V,l24e,S/he opened a message or a link in a message that showed pictures of naked people or of people having sex that s/he did not want
-1, No
-2, Yes
-3, Don't know
-4, Prefer not to say
 V,l24f,S/he has seen or received a sexual message; image or video about someone else that s/he did not want
-1, No
-2, Yes
-3, Don't know
-4, Prefer not to say
 V,l24g,S/he has been asked for sexual information about him/herself (like what his/her body looks like without clothes on or sexual things s/he has done) when s/he did not want to answer such questions
-1, No
-2, Yes
-3, Don't know
-4, Prefer not to say
 V,l24h,S/he has been asked to talk about sexual acts with someone on the internet when s/he did not want to
-1, No
-2, Yes
-3, Don't know
-4, Prefer not to say
 V,l24i,S/he has been asked by someone on the internet to do something sexual when s/he did not want to
-1, No
-2, Yes
-3, Don't know
-4, Prefer not to say
 V,l24j,S/he has been asked on the internet for a photo or video showing her/his private parts [translate as appropriate] when s/he did not want to
-1, No
-2, Yes
-3, Don't know
-4, Prefer not to say
 V,b1,null
 99, Prefer not to say
 V,b10a,null
@@ -3747,182 +3103,3 @@ V,g5,null
 8, Someone you met online who had no other connection with your life
 9, Someone else (specify)
 10, Prefer not to say
-V,l27,null
-1, Less than P40;000
-2, P40;000 - P59;999
-3, P60;000 - P99;999
-4, P100;000 – P249;999
-5, More than P250;000
-V,l36,null
-1, No
-2, Yes
-V,l28,null
-1, Post-graduate
-2, College
-3, High School
-4, Elementary
-5, Pre-school
-6, Don't know
-7, Other (please; specify)
-V,l5,null
-1, No
-2, Yes
-3, Don't know
-V,l37,null
-1, Tagalog
-2, Cebuano
-3, Ilocano
-4, Bisaya/Binisaya
-5, Hiligaynon/Ilonggo
-6, Bikol/Bicol
-7, Waray
-8, Other local languages (specify)
-V,l38,null
-1, Roman Catholic
-2, Islam
-3, Born-Again Christian
-4, Protestant
-5, Iglesia ni Cristo
-6, Others (specify)
-V,l31,null
-1, Never
-2, Hardly ever
-3, At least every month
-4, At least every week
-5, Daily or almost daily
-V,l39,null
-1, Never
-2, Once a day
-3, Three times a day
-4, Five times a day
-5, More than 5 times a day
-V,l32,null
-1, No
-2, Yes
-3, Prefer not to say
-V,l40,null
-1, Permanent
-2, Contractual
-3, Under probation
-V,l33,null
-1, I am sick
-2, I am retired
-3, I am a student
-4, I am looking for a job
-5, I take care of others; or I am full-time in the home
-V,l42,null
-1, Single
-2, Married
-3, Separated from spouse
-4, Has a live-in partner
-5, Widowed
-V,l44,null
-1, Male
-2, Female
-V,l20,null
-1, No
-2, Yes
-V,l1,null
-1, No; I have never used it
-2, Yes; I have used it for a few months
-3, Yes; I have used it for about a year
-4, Yes; I have used it for a few years
-5, Prefer not to say
-V,l46,null
-1, No
-2, Yes
-V,l15,null
-1, Never
-2, Hardly ever
-3, At least every month
-4, At least every week
-5, Daily or almost daily
-6, Don't know
-7, Prefer not to say
-V,l17,null
-1, Not at all upset
-2, A bit upset
-3, Fairly upset
-4, Very upset
-5, Don't know
-6, Prefer not to say
-V,l18,null
-1, Not at all likely
-2, Not very likely
-3, Fairly likely
-4, Very likely
-5, Don't know
-6, Prefer not to say
-V,l19,null
-1, Not at all
-2, Not very much
-3, A fair amount
-4, Definitely
-5, Don't know
-6, Prefer not to say
-V,l25a,null
-0, No
-1, Yes
-V,l25b,null
-0, No
-1, Yes
-V,l25c,null
-0, No
-1, Yes
-V,l25d,null
-0, No
-1, Yes
-V,l25e,null
-0, No
-1, Yes
-V,l25f,null
-0, No
-1, Yes
-V,l25g,null
-0, No
-1, Yes
-V,l25h,null
-0, No
-1, Yes
-V,l25i,null
-0, No
-1, Yes
-V,l25j,null
-0, No
-1, Yes
-V,l25k,null
-0, No
-1, Yes
-V,l26a,null
-0, No
-1, Yes
-V,l26b,null
-0, No
-1, Yes
-V,l26c,null
-0, No
-1, Yes
-V,l26d,null
-0, No
-1, Yes
-V,l26e,null
-0, No
-1, Yes
-V,l26f,null
-0, No
-1, Yes
-V,l26g,null
-0, No
-1, Yes
-V,l26h,null
-0, No
-1, Yes
-V,l26i,null
-0, No
-1, Yes
-V,l26j,null
-0, No
-1, Yes
-V,l26k,null
-0, No
-1, Yes

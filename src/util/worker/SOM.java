@@ -18,7 +18,7 @@ import view.MainFrame;
 
 public class SOM extends SwingWorker<Node[], Integer>{
 	
-	private final double initialRate = 1;
+	private final double initialRate = 0.99;
 	private double finalRate = 0.1;
 	private final double N = 1;
 	

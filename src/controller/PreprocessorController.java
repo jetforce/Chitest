@@ -6,6 +6,7 @@ import java.io.File;
 
 import res.AppString;
 import util.FileGetter;
+import util.worker.Preprocessor;
 import view.MainFrame;
 
 public class PreprocessorController {
@@ -36,7 +37,6 @@ public class PreprocessorController {
 			
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
-				
 				File file = FileGetter.getInstance().getFile(AppString.CSV_TYPE_NAME, AppString.CSV_TYPES);
 				if(file != null) {
 					varDesFilePath = FileGetter.getInstance().getCanonicalPath(file);
@@ -59,18 +59,20 @@ public class PreprocessorController {
 					
 					
 					if(!varDesFilePath.isEmpty() && !rawFilePath.isEmpty())
-						mainFrame.getButtonPreprocessorStart().setEnabled(true);mainFrame.getTextFieldPreprocessorRawFile().setText(rawFilePath);
+						mainFrame.getButtonPreprocessorStart().setEnabled(true);
+						mainFrame.getTextFieldPreprocessorRawFile().setText(rawFilePath);
 				}
 				
 			}
-		});
+		});	
 		
 		mainFrame.getButtonPreprocessorStart().addActionListener(new ActionListener() {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// TODO Auto-generated method stub
-				
+				Preprocessor preprocessor = new Preprocessor(varDesFilePath, rawFilePath, mainFrame);
+				preprocessor.execute();
 			}
 		});
 		

@@ -2,10 +2,10 @@ import numpy as np
 
 class Table(object):
 
-	def __init__(self, groups,keys):
+	def __init__(self,groups,keys,head):
 		self.rows = []
 
-		header = ['Clusters']
+		header = [head]
 		header = header + keys
 		self.rows.append(header)
 		#print keys
@@ -24,3 +24,14 @@ class Table(object):
 				else:
 					row.append(str(len(groups[i][k])))
 			self.rows.append(row)
+
+
+
+
+	def getPrintable(self, rowList):
+		for row in self.rows:
+			rowLine = []
+			for e in row:
+				rowLine.append(e)
+			rowList.append(rowLine)
+		rowList.append("***********")

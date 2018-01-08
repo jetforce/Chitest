@@ -6,6 +6,7 @@ import java.io.File;
 
 import res.AppString;
 import util.FileGetter;
+import util.worker.Descriptor;
 import view.MainFrame;
 
 public class DescriptorController {
@@ -37,7 +38,7 @@ public class DescriptorController {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				
-				File file = FileGetter.getInstance().getFile(AppString.CSV_TYPE_NAME, AppString.CSV_TYPES);
+				File file = FileGetter.getInstance().getFile(AppString.TXT_TYPE_NAME, AppString.TXT_TYPES);
 				if(file != null) {
 					varFilePath = FileGetter.getInstance().getCanonicalPath(file);
 					mainFrame.getTextFieldDescriptorVarFile().setText(varFilePath);
@@ -53,7 +54,7 @@ public class DescriptorController {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				
-				File file = FileGetter.getInstance().getFile(AppString.CSV_TYPE_NAME, AppString.CSV_TYPES);
+				File file = FileGetter.getInstance().getFile(AppString.TXT_TYPE_NAME, AppString.TXT_TYPES);
 				if(file != null) {
 					valFilePath = FileGetter.getInstance().getCanonicalPath(file);
 					mainFrame.getTextFieldDescriptorValFile().setText(valFilePath);
@@ -70,7 +71,8 @@ public class DescriptorController {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// TODO Auto-generated method stub
-				
+				Descriptor descriptor = new Descriptor(varFilePath, valFilePath, mainFrame);
+				descriptor.execute();
 			}
 		});
 		
