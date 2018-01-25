@@ -2796,8 +2796,8 @@ V,l24j,S/he has been asked on the internet for a photo or video showing her/his 
 V,b1,null
 99, Prefer not to say
 V,b10a,null
-1, No
-2, Yes
+0, No
+1, Yes
 V,c1,null
 1, Yes; always
 2, Yes; sometimes

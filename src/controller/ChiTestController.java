@@ -74,7 +74,7 @@ public class ChiTestController {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				
-				System.out.println("hello world");
+				System.out.println("\nChi Test Start");
 				PythonExecutor pe = new PythonExecutor(filesStrings);
 				pe.Execute();
 				// TODO

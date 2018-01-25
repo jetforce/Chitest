@@ -1,1766 +1,1736 @@
 v,a3a,Mother
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a3b,Father
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a3c,Step or foster mother
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a3d,Step or foster father
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a3e,Grandparent(s) or other relatives
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a3f,Siblings (including half; step or foster siblings)
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a3g,My spouse or partner (including boyfriend/girlfriend)
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a3h,My child or children
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a3i,Parents (or relatives) of my spouse or partner
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a3j,I live in a foster home or children's home
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a3k,I live alone
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a3l,Someone or somewhere else: please state____
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a4a,I am a school student
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a4g,I am a student in college
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a4h,I am attending training in technical/vocational course
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a4c,I do paid employment
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a4d,I do unpaid work
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a4e,I am looking for work
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a4f,I help out at home
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a4i,I am currently in a vacation
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a5,Schooling
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,b1,null
-1,1,
-3,3,
-4,4,
-5,5,
-6,6,
-7,7,
-8,8,
-9,9,
-10,10,
-11,11,
-12,12,
-13,13,
-14,14,
-15,15,
-16,16,
-17,17,
+10,10
+11,11
+12,12
+13,13
+14,14
+1,1
+5,5
+7,7
+8,8
+9,9
 v,b3,Age
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,b6a,At school or college
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,b6b,At home
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,b6c,In the home of friends or relatives
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,b6d,In a public place (for example; in libraries; cafés; computer shops)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,b6e,When I am on my way somewhere (e.g. on the street; in a bus or car)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,b6f,When I am somewhere by myself
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,b6g,PisoNet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,b7a,A mobile phone that is not a smartphone
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,b7b,A smartphone [iPhone; Samsung Galaxy; Cherry Mobile; Star Mobile; etc]
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,b7c,A desktop computer
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,b7d,A laptop or notebook computer
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,b7e,A tablet [iPad; Samsung Galaxy tab; PLDT Home tablet; etc]
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,b7f,A games console [Playstation; Xbox; PSP; Nintendo; 3DS; etc]
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,b8a,A mobile phone that is not a smartphone
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,b8b,A smartphone [iPhone; Samsung Galaxy; Cherry Mobile; Star Mobile; etc]
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,b8c,A desktop computer
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,b8d,A laptop or notebook computer
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,b8e,A tablet [iPad; Samsung Galaxy tab; PLDT Home tablet; etc]
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,b8f,A games console [Playstation; Xbox; PSP; Nintendo; 3DS; etc]
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,b9a,I use a postpaid plan (i.e.; with contracts)
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,b9b,I use freeWIFI (at home; in school; coffee shop or cafés; malls; etc.)
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,b9c,I pay for internet I use (e.g. in a cybercafé or internet cafe; PisoNet)
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,b9d,I use prepaid offers (e.g. GOSurf; GIGASurf; etc.)
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,b10a,null
-0,No,
-1,Yes,
+0, No
+1, Yes
 v,b10b1,My parents
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,b10b2,My siblings
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,b10b3,Relatives
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,b10c1,Friends who are the same age as I am
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,b10c2,Friends who are older than me
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,b10d,My teacher
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,b10e,Others
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,b11,Hours
-1,1,
-2,2,
-3,3,
-4,4,
-5,5,
-6,6,
-7,7,
-8,8,
-9,9,
-10,10,
-11,11,
-12,12,
+10,10
+11,11
+12,12
+1,1
+2,2
+3,3
+4,4
+5,5
+6,6
+7,7
+8,8
+9,9
 v,b12,Hours
-1,1,
-2,2,
-3,3,
-4,4,
-5,5,
-6,6,
-7,7,
-8,8,
-9,9,
-10,10,
-11,11,
-12,12,
+10,10
+11,11
+12,12
+1,1
+2,2
+3,3
+4,4
+6,6
+7,7
+8,8
+9,9
 v,c1,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c2,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4a,I learned something new by searching online
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4c,I used the internet for schoolwork
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4b,I looked for information about work or study opportunities
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4c1,Checked maps
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4c2,I looked for information about the place I want to go visit/eat
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4d,I looked for resources or events about my local neighbourhood
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4f,I got involved online in a local organisation or charity
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4g,I used the internet to help somebody else
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4e,I used the internet to talk to people from places or backgrounds different from mine
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4h,I looked for the news online
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4i,I discussed political or social problems with other people online
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4j,I got involved online in a campaign or protest
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4k,I signed a petition online
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4l,I used the internet to join a civic; religious or political group
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4o,I posted videos or music created by someone else
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4m,I created my own video or music and uploaded it to share
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4n,I created a blog or story or website online
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4o1,I created my own artwork; designs and illustrations and uploaded them on the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4r,I used instant messaging [insert local examples e.g. Viber; WhatsApp]
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4p,I visited a social network site (e.g.; Facebook [add local examples])
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4t,I helped someone else who needed or wanted to go online
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4q,I talked to family or friends who live further away (e.g. by Skype; Viber; FaceTime)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4u,I commented on the updates that friends or family have put online
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4t1,I re-posted or shared a social media post online
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4v,I showed my friends or family something that I saw online
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4w,I visited a chatroom to meet new people [insert local examples]
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4x,I watched video clips (e.g. on YouTube [insert local examples])
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4y,I played online games alone
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4z,I played games with other people online
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4bb,I listened to music online (by downloading or streaming)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4cc,I watched my favourite TV shows
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4cc1,I joined a fan site (of a celebrity or popular band)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4gg,I posted photos or comments online (e.g. on Facebook or a blog)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4ee,I looked for health information for myself or someone I know
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4ff,I participated in a site where people share my interests or hobbies
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4hh,I browsed for things to buy
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4hh1,I checked out what things cost by looking online
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c4hh2,I have sold an item online
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c6a,My mother or father (or step/foster mother or father)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c6b,My brother or sister (or step/foster/half siblings)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c6c,A friend around my age
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c6d,A teacher
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c6e,Another adult I trust
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c6f,Someone I first met on the internet; but who is friends or family of other people I know in person
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c6g,Someone I first met on the internet; but who has no other connection to my life outside of the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c6g1,A relative or friend who is an OFW (overseas Filipino worker)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c6h,Someone else
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c7a,My mother or father (or step/foster mother or father)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c7b,My brother or sister (or step/foster/half siblings)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c7c,A friend around my age
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c7d,A teacher
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c7e,Another adult I trust
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c7f,Someone I first met on the internet; but who is friends or family of other people I know in person
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c7g,Someone I first met on the internet; but who has no other connection to my life outside of the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c7g1,A relative or friend who is an OFW (overseas Filipino worker)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c7h,Someone else
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c8a,My mother or father (or step/foster mother or father)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c8b,My brother or sister (or step/foster/half siblings)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c8c,A friend around my age
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c8d,A teacher
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c8e,Another adult I trust
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c8f,Someone I first met on the internet; but who is friends or family of other people I know in person
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c8g,Someone I first met on the internet; but who has no other connection to my life outside of the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c8g1,A relative or friend who is an OFW (overseas Filipino worker)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c8h,Someone else
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c9a,My mother or father (or step/foster mother or father)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c9b,My brother or sister (or step/foster/half siblings)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c9c,A friend around my age
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c9d,A teacher
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c9e,Another adult I trust
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c9f,Someone I first met on the internet; but who is friends or family of other people I know in person
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c9g,Someone I first met on the internet; but who has no other connection to my life outside of the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c9g1,A relative or friend who is an OFW (overseas Filipino worker)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c9h,Someone else
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c10a,Making presentations
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c10b,Writing things
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c10c,Making pictures
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c10d,Practising something I am learning (e.g. maths or a language or music)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c10e,Checking out information on the school website
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c10f,Doing group work with other students
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c10g,Chatting online at school
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c10h,Communicating with teachers (e.g. submitting homework or asking a question)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,c10i,Contributing to a school blog or online discussion
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1a,I know how to save a photo that I find online
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1b,I know how to change my privacy settings (e.g. on a social networking site)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1c,I know how to use a programming language (e.g. HTML; XML; etc.)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1f1,I know how to jailbreak; crack games and apps; change IP address
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1f2,I know how to hide my IP address
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1f3,I know how to set network settings (LAN; wi-fi; device-connection)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1f4,I know how to hack certain files
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1f5,I know how to set the firewall
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1i,I find it easy to find a website I have visited before
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1g,I find it easy to check if the information I find online is true
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1h,I find it easy to choose the best keywords for online searches
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1k,Sometimes I end up on websites without knowing how I got there
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1k1,I know how to use incognito in browsing
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1l,I know which information I should and shouldn't share online
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1m,I know how to remove people from my contact lists
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1m1,I know how to block
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1n,I know when I should and shouldn't share information online
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1o,I know how to behave according to the situation online
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1p,I know how to change who I share content with (e.g. friends; friends of friends or everyone)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1p1,I know how to report abusive posts or things that I find offending in social media (e.g. Facebook report abuse)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1t,I know how to create something new from video or music that I found online
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1q,I know how to post online video or music that I have created myself
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1s,I know which different types of licences apply to online content
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1r,I know how to edit or make basic changes to online content that others have created
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1u,I know how to design a website
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1v,I know how to install apps on a mobile device (e.g. phone or tablet)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1w,I know how to safeguard my online expenses while using mobile apps
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1x,I know how to make an in-app purchase
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e1x1,I know how to download and carck to full version some paid apps without paying a fee (e.g. torrent; etc.)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,e3a,Deactivate the function showing my geographical position (on Facebook; Google Maps; etc.)
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,e3b,Connect to a Wi-Fi network
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,e3c,Block push notifications from different apps
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,e3d,Have the same documents; contacts or apps on all devices that I use (e.g. smartphone; tablet; PC)
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,e3e,Block pop ups which promote apps; games or services I have to pay for (unrequested windows that appear during web surfing)
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,e3f,Protect a smartphone with a PIN/with a screen pattern
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,e3g,Update my status on the social networking site I use the most
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,e3h,Find information on how to use smartphones safely
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,e3i,Compare similar apps to choose the one that is most reliable
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,e3j,Take a picture or a video with my smartphone and post it onto social media
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,d1d,Twitter
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,d1e,Viber
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,d1f,Skype
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,d1a,Facebook
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,d1c,Instagram
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,d1b,WhatsApp
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,d1g,YouTube
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,d1h,Spotify
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,d1i,Wikipedia
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,d1j,Tumblr
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,d2d,I find it easier to be myself online than when I am with people face-to-face
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,d2e,I talk about different things online than I do when speaking to people face-to-face
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,d2f,I talk about private things online which I do not talk about with people face-to-face
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,d2a,I feel safe on the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,d2b,I find other people are kind and helpful on the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,d2c,I know what to do if someone acts online in a way I don't like
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,d12,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,d13,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,d14a,Facebook/Messenger
-0, No,
-1, Yes,
-2,2,
-3,3,
-4,4,
-5,5,
+1, Yes
+2,2
+5,5
+0, No
 v,d14b,Skype
-0, No,
-1, Yes,
-2,2,
-3,3,
-4,4,
-5,5,
+0, No
+1, Yes
 v,d14c,Viber
-0, No,
-1, Yes,
-2,2,
-3,3,
-4,4,
-5,5,
+0, No
+1, Yes
 v,d14d,WeChat
-0, No,
-1, Yes,
-2,2,
-3,3,
-4,4,
-5,5,
+0, No
+1, Yes
+2,2
+3,3
 v,d14e,Instagram
-0, No,
-1, Yes,
-2,2,
-3,3,
-4,4,
-5,5,
+0, No
+1, Yes
+3,3
+4,4
 v,d14f,Twitter
-0, No,
-1, Yes,
-2,2,
-3,3,
-4,4,
-5,5,
+0, No
+1, Yes
+2,2
 v,d14g,YouTube/Hangout (Google)
-0, No,
-1, Yes,
-2,2,
-3,3,
-4,4,
-5,5,
+0, No
+1, Yes
+2,2
+5,5
 v,d15a,Minecraft
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,d15b,Warcraft DOTA
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,d15c,DOTA 2
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,d15d,League of Legends
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,d15e,Counterstrike
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,d15f,Others
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,d7a,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,d7b,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,d7c,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,d8,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,d9a,A photo that clearly shows your face
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,d9b,Your last name
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,d9c,Your address
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,d9d,Your phone number
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,d9e,Your school
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,d9f,Your correct age
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,d9g,An age that is not your real age
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,d9j,Places you've dined and visited
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,d9k,Pictures showing whole body
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,d10,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f1a,Looked for new friends or contacts on the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f1b,Sent my personal information (e.g.; my full name; address or phone number) to someone I have never met face-to-face
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f1c,Added people to my friends or contacts I have never met face-to-face
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f1d,Pretended to be a different kind of person online from who I really am
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f1e,Sent a photo or video of myself to someone I have never met face-to-face
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f1f,Post my current location and those I had been to
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f1g,Post my new stuff and clothes
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f1h,Post messages or love quotes that pertain to the boy/girl whom I have a crush on
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f1i,Seek to get acquainted or befriend persons who are Non-Filipinos (foreigners)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f1j,Engage in chat activities with a person whom I only met on internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f1k,Do video calls with a person whom I only met on internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f1l,Receive offers or gifts online
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f2,null
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f3,null
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f4,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f5,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f6a,I've met face to face with a person I just got acquainted on internet but is already known by my friends or relatives
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f6b,I've met face to face with a person I just got acquainted on internet and who is totally unknown to anyone I personally know
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f6c,I've met with a foreigner (different nationality)
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f6d,I've personally met with an older person
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f6e,I've met face to face with a person I just got acquainted on internet and she/he was accompanied by another girl/boy
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f6f,I've met with another woman like myself whom i just got acquainted with on internet
-1, No,
-2, Yes,
+2, Yes
+1, No
 v,f6g,I've met with another man like myself whom i just got acquainted with on internet
-1, No,
-2, Yes,
+2, Yes
+1, No
 v,f6h,I've met with LGBT person (lesbian; gay; bisexual; transgender) whom i just got acquainted with on internet
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f8,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f11,null
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f12,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f13,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f14a,My mother or father (or step/foster mother or father)
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f14b,My brother or sister (orstep/foster/half siblings)
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f14j,Cousin
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f14k,Aunt/Uncle
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f14l,Grandfather/Grandmother
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f14m,Nanny
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f14c,A friend around my age
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f14n,Classmate
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f14o,Boyfriend/Girlfriend
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f14d,A teacher
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f14e,Someone whose job it is to help children
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f14p,Godfather/Godmother
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f14q,Priest/Pastor/Nun
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f14r,Neighbor
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f14f,Another adult I trust
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f14g,Someone else
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f14h,I didn't talk to anyone
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f14i,Prefer not to say
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f15,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f16a,I ignored the problem or hoped the problem would go away by itself
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f16b,I closed the window or app
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f16c,I felt a bit guilty about what went wrong
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f16d,I tried to get the other person to leave me alone
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f16e,I tried to get back at the other person
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f16f,I stopped using the internet for a while
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f16g,I deleted any messages from the other person
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f16h,I changed my privacy/ contact settings
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f16i,I blocked the person from contacting me
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f16j,I reported the problem online  (e.g.; clicked on a ‘report abuse’ button; contacted an internet advisor or Internet Service Provider (ISP))
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f16k,Other actions taken
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f18,null
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f19,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f20a,null
-1, No,
-2, Yes,
+2,2
 v,f20b,null
-1, No,
-2, Yes,
+1,1
+2,2
 v,f21a,By mobile phone calls
-0, No,
-1, Yes,
+1, Yes
+0, No
 v,f21b,By messages sent to me on my phone (SMS/TEXT or MMS)
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f21c,On a social networking site (e.g. Facebook; Twitter etc.)
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f21d,On a media sharing platform (YouTube; Instagram; Flickr)
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f21e,By instant messaging (MSN; What’s app; Skype etc.)
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f21f,In a chatroom
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f21g,In an online game
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f21h,Some other way
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f21i,Prefer not to say
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f22a,Nasty or hurtful messages were sent to me
-1, No,
-2, Yes,
+2, Yes
+1, No
 v,f22b,Nasty or hurtful messages were passed around or posted where others could see
-1, No,
-2, Yes,
+2, Yes
+1, No
 v,f22c,I was left out or excluded from a group or activity on the internet
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f22d,I was threatened on the internet
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f22e,Other nasty or hurtful things happened to me on the internet
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f23,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f24,null
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f25,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f26a,null
-1, No,
-2, Yes,
+1,1
+2,2
 v,f26b,null
-1, No,
-2, Yes,
+1,1
+2,2
 v,f27a,By mobile phone calls
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f27b,By messages sent by the phone (SMS/Text or MMS)
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f27c,On a social networking site (e.g.; Facebook; Twitter)
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f27d,By instant messaging (MSN; WhatsApp; Skype etc.)
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f27e,On a media sharing platform (YouTube; Instagram; Flickr)
-0, No,
-1, Yes,
+1, Yes
+0, No
 v,f27f,In a chatroom
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f27g,In an online game
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f27h,Some other way
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f27i,Prefer not to say
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f28,null
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f29,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f31a,In a magazine or book
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f31b,On television; film
-1, No,
-2, Yes,
+2, Yes
+1, No
 v,f31c,Via a mobile phone; computer; tablet or anyother online device
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f32d,On an online video sharing platform (e.g. YouTube; [add local examples])
-0, No,
-1, Yes,
+1, Yes
+0, No
 v,f32e,On an online photo sharing platform (e.g. Instagram; Flickr; [add local examples])
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f32f,On a social networking site (e.g. Facebook; Twitter; [add local examples])
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f32g,In a chatroom
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f32h,In an online game
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f32i,On an adult/X-rated website
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f32j,By popups on the internet (unrequested windows that appear during web surfing)
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f32k,By instant messaging (MSN; WhatsApp; Skype; [add local examples])
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f32l,By text (SMS); images (MMS); or otherwise on my mobile phone
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f32m,By Bluetooth
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f32n,In an advert
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f32o,Prefer not to say
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,f33a,A sexual image or video of someone naked
-1, No,
-2, Yes,
+2, Yes
+1, No
 v,f33b,A sexual image or video that shows someone's 'private parts' [translate as appropriate]
-1, No,
-2, Yes,
+2, Yes
+1, No
 v,f33c,An image or video that shows sexual acts or people having sex
-1, No,
-2, Yes,
+2, Yes
+1, No
 v,f33d,An image or video that shows sexual acts in a violent way
-1, No,
-2, Yes,
+2, Yes
+1, No
 v,f33e,Something else sexual or embarrassing
-1, No,
-2, Yes,
+2, Yes
+1, No
 v,f34,null
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f35,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f37a,By mobile phone calls
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f37b,By text messages sent to me on my phone (SMS/text or MMS)
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f37c,On a social networking site (e.g.; Facebook; Twitter etc.)
-1, No,
-2, Yes,
+2, Yes
+1, No
 v,f37d,On a media sharing platform (YouTube; Instagram; Flickr)
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f37e,By IM (MSN; WhatsApp; Skype; etc.)
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f37f,In a chatroom (video chat)
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f37g,In an online game
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f37h,In a gaming community (also on the Xbox and other game consoles)
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f37i,By 'pop up' (something appears by accident)
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f38,null
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f39,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f40a,I have sent someone a sexual message (e.g.; words; pictures or video) on the internet
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f40b,I have posted a sexual message (e.g.; words; pictures or video) where other people could see it on the internet
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f40c,I have asked someone on the internet for sexual information about him or herself (like what his or her body looks like without clothes on or sexual things he or she has done)
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f41a,Ways of physically harming or hurting themselves
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f41b,Ways of committing suicide
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f41c,Ways to be very thin (such as being anorexic or bulimic)
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f41d,Hate messages that attack certain groups or individuals (e.g.; people of different colour or religion or nationality)
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f41e,Their experiences of taking drugs
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f41f,Gory or violent images
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f41g,Ways of courtship
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f41h,Ways how to find a relationship
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f41i,Ways to join in gambling
-1, No,
-2, Yes,
+1, No
+3, Prefer not to say
 v,f41j,null
-1, No,
-2, Yes,
+1,1
 v,f41k,null
-1, No,
-2, Yes,
+1,1
 v,f41l,About cheating
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f41m,null
-1, No,
-2, Yes,
+1,1
 v,f41n,About drinking alcohol
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f41o,About smoking
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f41p,About bullying
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f43a,Somebody used my personal information in a way I didn't like
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f43b,The device (e.g.; phone; tablet; computer) I use got a virus or spyware
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f43c,I lost money by being cheated on the internet
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f43d,Somebody used my password to access my information or to pretend to be me
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f43e,Somebody created a page or image about me that was hostile or hurtful
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f43f,I spent too much money on online games or in-app purchases
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f43g,I was asked to make an in-app purchase when playing an online game (e.g.; to do well in the game)
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f43h,Someone found out where I was because they tracked my phone or device
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,f45a,I have gone without eating or sleeping because of the time I spent on the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f45b,I have experienced conflicts with family or friends because of the time I spent on the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f45c,My grades have dropped because of the time I spent on the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f45d,I have tried unsuccessfully to spend less time on the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f45e,I think the amount of time I spend on the internet causes problems for me
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,f45f,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,h1,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,h2a,Your mother or father (including step/foster mother or father)
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,h2b,Your brother or sister (including step siblings)
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,h2i,Cousin
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,h2j,Aunt/Uncle
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,h2k,Grandfather/Grandmother
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,h2c,A friend around my age
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,h2l,Boyfriend/Girlfriend
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,h2d,A teacher
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,h2m,Classmate
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,h2e,Someone whose job it is to help children [give examples if needed]
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,h2n,Nanny
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,h2o,Godfather/Godmother
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,h2p,Priest/Pastor/Nun
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,h2q,Neighbor
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,h2f,Another adult you trust
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,h2g,Someone else
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,h2h,No one
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,i1,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i2a,When I speak someone listens to what I say
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i2b,My family really tries to help me
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i2c,I feel safe at home
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i3b,My parent(s)/carer(s) sets rules about what I can do at home
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i3c,My parent(s)/carer(s) sets rules about what I can do outside the home
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i3d,My parent(s)/carer(s) tells me when I am doing something well
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i3a,My parent(s)/carer(s) praises me for behaving well
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i4a,Encourages me to explore and learn things on the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i4b,Suggests ways to use the internet safely
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i4c,Talks to me about what I do on the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i4d,Sits with me while I use the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i4e,Stays nearby when I use the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i4f,Does shared activities together with me on the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i4g,Talks to me about what to do if something online bothers or upsets me
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i4h,Helps me when something is difficult to do or find on the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i4i,Explains why some websites are appropriate or inappropriate
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i4j,Helps me when something bothers me on the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i4k,Talks to me about the commercial activities I am exposed to online
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i5a,Told my parent/carer about things that bother or upset me on the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i5b,Helped my parent/carer to do something they found difficult on the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i5c,Started a discussion with my parent/carer about what I do on the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i5d,Asked for my parent's/carer's advice on how I should act online
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i5e,Asked my parent/carer for something that I have seen advertised online
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i5f,Ask for your parent's/carer's help with a situation on the internet that I could not handle
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i6a,Use a web or phone camera (e.g.; for Skype or video chat)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i6b,Download music or films
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i6c,Visit a social networking site (e.g.; Facebook; [insert local terms])
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i6d,Watch video clips (e.g.; on YouTube)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i6e,Play games with other people online
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i6f,Visit a chat room
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i6g,Use instant messaging
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i6h,Read/watch news online
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i6i,Use the internet for school work
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i6j,Spend time in a virtual world (e.g.; Habbo; Club Penguin; Minecraft [add examples as needed])
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i6k,Put (or post) photos; videos or music online to share with others (including social networking or instant messaging)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i7a,null
-1, No,
-2, Yes,
+1,1
+2,2
 v,i7b,null
-1, No,
-2, Yes,
+1,1
+2,2
 v,i7c,null
-1, No,
-2, Yes,
+0,Group 1
+1,Group 2
 v,i7d,null
-1, No,
-2, Yes,
+0,Group 1
+1,Group 2
 v,i7e,null
-1, No,
-2, Yes,
+1,1
+2,2
 v,i7f,null
-1, No,
-2, Yes,
+0,Group 1
+1,Group 2
 v,i7g,null
-1, No,
-2, Yes,
+1,1
+2,2
 v,i7h,null
-1, No,
-2, Yes,
+0,Group 1
+1,Group 2
 v,i7i,null
-1, No,
-2, Yes,
+0,Group 1
+1,Group 2
 v,i8a,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i8b,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i8c,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i8d,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i8e,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,i8f,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,j1,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,j5a,Suggested ways to use the internet safely
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,j5b,Encouraged me to explore and learn things on the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,j5c,Made rules about what I can do on the internet at school
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,j5d,Helped me when I found something difficult to do or find on the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,j5e,Talked to me about what I do on the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,j5f,Explained why some websites are good or bad
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,j5g,Suggested ways to behave towards other people online
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,j5h,Helped me in the past when something has bothered me on the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,j5i,In general; talked to me about what I would do if something on the internet ever bothered me
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,k1a,My friends really try to help me
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,k1b,I can count on my friends when things go wrong
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,k1c,I can talk about my problems with my friends
-0,Group 1,
-1,Group 2,
-v,k1d,I get worried when I ﬁnd out my friends are having fun without me 
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
+v,k1d,I get worried when I �?nd out my friends are having fun without me 
+0,Group 1
+1,Group 2
 v,k2a,Suggested ways to use the internet safely
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,k2b,Encouraged me to explore and learn things on the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,k2c,Helped me when I found something difficult to do on the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,k2d,Explained why some websites are good or bad
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,k2e,Suggested ways to behave towards other people on the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,k2f,Helped me in the past when something has bothered me on the internet
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,k3,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,k4a,I feel safe in the area where I live
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,k4b,It is safe for younger children to play outside during the day
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,k4c,You can trust people around here
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a14,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a15,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a16,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a17,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a17a,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a18,null
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,a19,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a20a,I get very angry and often lose my temper
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a20b,I usually do as I am told
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a20c,I fight a lot; I can make other people do what I want
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a20d,I am often accused of lying or cheating
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a20e,I take things that are not mine from home; school or elsewhere
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a20f,I worry a lot
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a20g,I am nervous in certain new situations; I easily lose confidence
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a20h,I get a lot of headaches; stomach-aches or sickness
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a20i,I am often unhappy; sad or tearful
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a20j,I have many fears and I am easily scared
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a20k,I am restless; I cannot stay still for long
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a20l,I finish the work I'm doing. My attention is good
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a20n,I am easily distracted and find it difficult to concentrate
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a20o,I think before I do things
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a20p,Other people my age generally like me
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a20q,Other children or young people pick on me
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a20r,I am usually on my own; I generally play alone or keep to myself
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a20s,I have at least one good friend
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a20t,I get on better with adults than with people my own age
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a20u,I am helpful if someone is hurt; upset or feeling ill
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a20v,I try to be nice to other people. I care about their feelings
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a20w,I often volunteer to help others (e.g.; parents; carers; teachers; children)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a20x,I usually share with others (food; games; pens etc.)
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a21a,Other children are treated better than me
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a21b,People seem to think I am not smart
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a21c,People seem to think they’re better than me
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a21d,I get called names or insulted by other children
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a22a,Because of where my family is from
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a22b,Because of my skin colour
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a22c,Because of my religion
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a22d,Because of my height or weight
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a22e,Because of a disability
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a22f,Because of not having enough money
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a22g,Because of my sexual orientation
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a22h,Because of how I look or behave
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a22j,null
-0, No,
-1, Yes,
+0,0
+1,1
 v,a22i,Because of my opinions or beliefs
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a22k,Because my parents are not around (i.e.; OFW)
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a22l,Because of the ethnic group I belong to
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a22m,Due to conflict / war in our area
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a22n,Because I am not studying (i.e.; out-of-school)
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a22o,Because I do not have a permanent residence / house
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,a23,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a24a,I do dangerous things for fun
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a24b,I do exciting things; even if they are dangerous
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a25a,Had so much alcohol that I got really drunk
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,a25b,Missed school lessons without my parent(s)/carer(s) knowing
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,a25c,Had sexual intercourse
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,a25d,Been in trouble with my teachers for bad behaviour
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,a25e,Been in trouble with the police
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,a25f,Met personally with someone whom I met online (i.e.; eyeball)
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,a26a,I can solve difficult problems if I try hard enough
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a26b,If someone opposes me; I can find ways to get what I want
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a26c,It's easy for me to stick to my aims and achieve my goals
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a26d,I am confident that I can deal with unexpected problems
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a26g,I can stay calm when things get difficult because I am good at coping
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a27,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a28,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a29a,When I use the internet; I learn about different things that I could study; do or become what I want to be as productive as possible.
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,a29b,When I use the internet; I feel I want to achieve more in life.
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,g1a,I was sent a message that I did not want with advertisements for or links to X-rated websites [use local term for 'X-rated']
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,g1b,I opened a message or a link in a message that showed pictures of naked people or of people having sex that I did not want
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,g1c,I have seen or received a sexual message; image or video about someone else that I did not want
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,g2a,I have been asked for sexual information about myself (like what my body looks like without clothes on or sexual things I have done) when I did not want to answer such questions
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,g2b,I have been asked to talk about sexual acts with someone on the internet when I did not want to
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,g2c,I have been asked by someone on the internet to do something sexual when I did not want to
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,g2d,I have been asked on the internet for a photo or video showing my private parts [translate as appropriate] when I did not want to
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,g3a,I have sent sexual information about myself (like what my body looks like without clothes on or sexual things I have done) when I did not want
-1, No,
-2, Yes,
+2, Yes
+1, No
 v,g3b,I have talked about sexual acts with someone on the internet when I did not want to
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,g3c,I have done something sexual on the internet when I did not want to
-1, No,
-2, Yes,
+2, Yes
+1, No
 v,g3d,I have sent someone a photo or video showing my private parts when I did not want to [translate as appropriate]
-1, No,
-2, Yes,
+1, No
+2, Yes
 v,g4,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,g5,null
-0,Group 1,
-1,Group 2,
+0,Group 1
+1,Group 2
 v,g9a,Brother (over 18)
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,g9b,Sister (over 18)
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,g9c,A younger brother or sister
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,g9d,Father or step-/foster father
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,g9e,Mother or step-/foster mother
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,g9f,Other adult relatives; such as aunts; uncles; or grandparents
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,g9g,Friend or acquaintance
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,g9h,Teacher/ educator
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,g9j,Other adult you trust e.g. coach; neighbour; doctor; or babysitter
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,g9i,Other (specify)
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,g9k,I didn’t tell anyone about it
-0, No,
-1, Yes,
+0, No
+1, Yes
 v,g9l,Prefer not to say
-0, No,
-1, Yes,
+0, No
+1, Yes

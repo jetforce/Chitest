@@ -46,15 +46,15 @@ def readCSV(filename,isHead = True):
 	count = 0
 	with open(filename) as csvfile:
 	    readCSV = csv.reader(csvfile, delimiter=',')
-	    for row in readCSV:
-	    	if(not (count==0 and isHead)):
-		    	for i in range(0,len(row)):
+	    for row in readCSV: #Iterate through each row in the dataset
+	    	if(not (count==0 and isHead)): #If not the row is not the header
+		    	for i in range(0,len(row)): #Iterate over the answers in each row
 		    		if(RepresentsInt(row[i])):
 		    			#print "REPRESENTS " + row[i]
 		    			temp = int(row[i])
 		    			row[i] = str(temp)
 
-		    		elif(RepresentsFloat(row[i])): 	
+		    		elif(RepresentsFloat(row[i])):
 		    			#print "REPRESENTS " + row[i]
 		    			temp = float(row[i])
 		    			temp = int(temp)
@@ -200,14 +200,14 @@ def doFile(table,fileNum,results,converter,z):
 	#print "proportions "+ str(proportions)
 	
 
-	errors = getStandardError(proportions,totals)
+	errors = getStandardError(proportions,totals) #Retrieve standard error of proportion
 
 	upperBounds = proportions + errors*z
 	lowerBounds = proportions - errors*z
 
 	colSum = getProportionPerColumn(numpiRows)	
 	PopulationCount = np.sum(colSum)
-	PopQuestionProp = colSum / PopulationCount
+	PopQuestionProp = colSum / PopulationCount #Actual Population Proportion
 
 	expected = np.copy(numpiRows)
 	grandTotal = np.sum(colSum) 
@@ -232,74 +232,94 @@ def doFile(table,fileNum,results,converter,z):
 			expected [i][y] = totals[i][0] * colSum[y] / grandTotal
 
 	
-	#print "Expected"
-	#print expected
+	print "Expected "
+	print expected
 	
 	#print "the data"
 	#print numpiRows
 
 	chi = ((numpiRows - expected) * (numpiRows - expected)) / expected
-	print "Expected"
-	print expected
-	# print numpiRows
+	#print "Expected"
+	#print expected
+	print "Observed "
+	print numpiRows
 
 	shapeexpected = np.reshape(expected,(-1,1))
+	print "Shape expected "
 	print shapeexpected
 
 	chistat = np.sum(chi)
 
-	higherOrLower=""
+	if(chistat > z): #If the chi score is greater than the chi-square critical value, add it to the results
+                higherOrLower=""
 
 
-	tolerableFive =  expected.size
-	tolerableFive = int(tolerableFive*0.20)
+                tolerableFive =  expected.size
+                tolerableFive = int(tolerableFive*0.20)
 
 
-	numFive = 0
-	for el in range(0,shapeexpected.size):
-		if shapeexpected[el][0] < 5:
-			numFive = numFive +1
+                numFive = 0
+                for el in range(0,shapeexpected.size):
+                        if shapeexpected[el][0] < 5:
+                                numFive = numFive +1
 
-	if numFive > tolerableFive:
-		chistat = np.nan
+                if numFive > tolerableFive:
+                        chistat = np.nan
 
-	if(not np.isnan(chistat)):
-		print "observed",
-		print numpiRows[0][1]
-		print "expected",
-		print expected[0][1]
-		if(expected[0][1] < numpiRows[0][1] ):
-			higherOrLower ="+"
-		else: 
-			higherOrLower = "-" 
+                if(not np.isnan(chistat)):
+                        print "observed",
+                        print numpiRows[0][1]
+                        print "expected",
+                        print expected[0][1]
+                        if(expected[0][1] < numpiRows[0][1] ):
+                                higherOrLower ="+"
+                        else: 
+                                higherOrLower = "-" 
 
 
-	# print chistat
-	"""
-	print "Chi-Square"
-	print chi
-	print "Chi -stat"
-	print chistat
-	print "Population count "+ str(PopulationCount)
-	print "Pop Count "+ str(colSum)
-	print "Errors" + str(errors)
-	print "Pop Proportions "+ str(PopQuestionProp) 
-	print "Lower "+ str(lowerBounds)
-	print "Upper "+str(upperBounds)
-	"""
-	#if(chistat > z):
-	thequestion = converter.convert(fileNum)
-	print "The H" + str(H)
-	print "The Question "+ thequestion
-	if(np.isnan(chistat)):
-		chistat = ""
+                # print chistat
 
-	print colSum.size
-	print totals.size		
+                print "Chi-Square"
+                print chi
+                print "Chi -stat"
+                print chistat
+                """
+                print "Population count "+ str(PopulationCount)
+                print "Pop Count "+ str(colSum)
+                print "Errors" + str(errors)
+                print "Pop Proportions "+ str(PopQuestionProp) 
+                print "Lower "+ str(lowerBounds)
+                print "Upper "+str(upperBounds)
+                """
+                #if(chistat > z):
+                thequestion = converter.convert(fileNum)
+                print "The H " + str(H)
+                print "The Question "+ thequestion
+                if(np.isnan(chistat)):
+                        chistat = ""
 
-	degreeFreedom = (colSum.size - 1) * (totals.size -1)
+                print colSum.size
+                print totals.size		
 
-	results.append([H,thequestion,chistat,higherOrLower,degreeFreedom])
+                degreeFreedom = (colSum.size - 1) * (totals.size -1)
+
+                proportions_list = proportions.tolist()
+                totals_list = totals.tolist() #populations for all groups
+                                
+                results_temp = [H,thequestion,chistat,higherOrLower,degreeFreedom];
+                results_temp.extend(totals_list) #append populations for all groups
+
+                #results_temp.extend(proportions_list[:,1])
+
+                                
+
+                for group in proportions_list: #for every group
+                        if(len(group) >= 2):
+                                results_temp.append(group[1]) #append each proportion of every answer for each group
+                                
+                                
+                results.append(results_temp)
+	
 
 
 def group(index, rows,V, header):
@@ -346,7 +366,7 @@ def getTable(col,clusters,V, header):
 	return Table(groups,keys,header)
 
 
-def getVariableList(filename):
+def getVariableList(filename): #Reads the question
 	variables = {}	
 
 	
@@ -361,53 +381,76 @@ def getVariableList(filename):
 	    		variables[lastVar].append((row[0], row[1]))			        
 	return variables
 
-
-vList = getVariableList('Updated-Variables.csv')
-header = readHeader(sys.argv[2])
+print sys.argv
+#change to ur own.
+vList = getVariableList('Updated-Variables.csv') #Get Variable Description
+header = readHeader(sys.argv[2]) #Read the header from one of the datasets which include the question codes
 
 results = []
 converter = ColConverter(header)
 
 
 #print header
-#print header
-clusternames = sys.argv[2:]
+clusternames = sys.argv[2:] #Read the dataset names
 
-print clusternames
-clusters = []
+#print clusternames
+clusters = [] #clusters contains all of the respondents and their answer in per dataset
+
+#For each data set
 for clustername in clusternames:
-	clusterRow = readCSV(clustername)
+	clusterRow = readCSV(clustername) #Get all of the respondent's IDs and answers in the dataset
 	#print clusterRow
-	clusters.append(clusterRow)
+	clusters.append(clusterRow) #Add to the clusters
 
 
-tableList = []
+tableList = [] #list of contingency tables
 
-z=[1.960]
+z=[6.640]
 zstr = ['1960']
 for y in range(0,len(z)):
-	results = []
-	results.append(clusternames)
-	results.append(["Question","Feature","Chi","Higher Or Lower", "Degrees of Freedom"])
+	results = [] #The resulting content that will be written in save.csv
 
-	for i in range(1,len(header)-1):
-		if header[i] not in vList.keys():
+        dataset_headers = []
+
+	for x in range(0, len(clusternames)):
+                dataset_headers.append("Dataset " + str(x+1))
+
+        results.append(dataset_headers)
+	results.append(clusternames) #Append dataset names
+
+        
+        population_and_proportionHeaders = [] #Headers Ni and Pi for each cluster i
+
+        for x in range(0, len(clusternames)):
+                population_and_proportionHeaders.append("N"+str(x+1)) #Add Header "Nx" for each cluster x. Total of x
+
+        for x in range(0, len(clusternames)):
+                population_and_proportionHeaders.append("P"+str(x+1)) #Add Header "Px" for each cluster x. Proportion of x
+                
+                             
+	results_headers = ["Question","Feature","Chi","Higher Or Lower", "Degrees of Freedom"] #Results headers
+	results_headers.extend(population_and_proportionHeaders) #Append the population and proportion headers for each cluster to results headers
+	results.append(results_headers) #Append these as header names to the results
+        print results
+
+	for i in range(1,len(header)-1): #Iterate over each question
+		if header[i] not in vList.keys(): #If the question code is not found in Variable Description
 			print "Warning "+ header[i] +" "+" question name not in Variable description will be assigned to null"
 			H = "null"
 		else:
-			H = vList[header[i]][0]
+			H = vList[header[i]][0] #H is the question itself
 		print "col "+str(i)+" "+ header[i]	
-		theTable = getTable(i,clusters,vList,header[i])
+		theTable = getTable(i,clusters,vList,header[i]) #Generates a table matrix for all datasets to do the chi-test for the question
 
-		doFile(theTable,i,results,converter,z[y])
+		doFile(theTable,i,results,converter,z[y]) #Chi test on the question and then writing it in the file
 		theTable.getPrintable(tableList)
-		#print "Table",
-		#print theTable.rows
+		print "Table",
+		print theTable.rows
 	#print results
-	filename = sys.argv[1]
+	filename = sys.argv[1] #Get filename of the filed to be saved on (save.csv)
 	writeOnCSV(results,filename)
 	#print tableList
-	writeOnCSV(tableList,"Tables"+filename)
+	writeOnCSV(tableList,"Tables "+filename)
 
 print sys.argv[2:]
 #results = converter.cleanRows(results)

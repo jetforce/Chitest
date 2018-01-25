@@ -33,6 +33,7 @@ public class PreprocessorController {
 	
 	private void initListeners() {
 		
+		//Action for Choose Variable Descriptor Button
 		mainFrame.getButtonPreprocessorVarDesFileChooseFile().addActionListener(new ActionListener() {
 			
 			@Override
@@ -48,6 +49,7 @@ public class PreprocessorController {
 			}
 		});
 		
+		//Action for Choose Raw File Button
 		mainFrame.getButtonPreprocessorRawFileChooseFile().addActionListener(new ActionListener() {
 			
 			@Override
@@ -66,6 +68,7 @@ public class PreprocessorController {
 			}
 		});	
 		
+		//Action for Start Button
 		mainFrame.getButtonPreprocessorStart().addActionListener(new ActionListener() {
 			
 			@Override

@@ -17,12 +17,17 @@ public class PythonExecutor {
 	public void Execute(){
 		
 		String cmd = "python readChi.py save.csv";
+		//String cmd = "python readChi.py save.csv \"C:\\Users\\Rgee\\git\\Chitest\\dataset\\e.csv\" \"C:\\Users\\Rgee\\git\\Chitest\\dataset\\f.csv\"";
+		
 		
 		for(String s: this.filenames){
 			cmd = cmd + " "+  "\"" + s +"\"";	
 		}
 		
-		System.out.print("The command is "+cmd);
+		
+		
+		
+		System.out.print("The command is "+cmd + "\n");
 		
 		Runtime rt = Runtime.getRuntime();
 		try{
