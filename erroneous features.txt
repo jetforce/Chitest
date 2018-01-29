@@ -1,0 +1,7 @@
+﻿completely non-existent features:
+f41j	
+f41k
+f41m
+
+features that have answers but do not exist in the data dictionary:
+a22j
