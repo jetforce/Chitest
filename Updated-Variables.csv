@@ -61,18 +61,19 @@ v,a4i,I am currently in a vacation
 v,a5,Schooling
 0,Group 1
 1,Group 2
-v,b1,null
+v,b1,How old were you when you first used the internet?
 10,10
 11,11
 12,12
 13,13
-14,14
+15,15
 1,1
 5,5
+6,6
 7,7
 8,8
 9,9
-v,b3,Age
+v,b3,Are you able to access the internet when you want to or need to?
 0,Group 1
 1,Group 2
 v,b6a,At school or college
@@ -144,7 +145,7 @@ v,b9c,I pay for internet I use (e.g. in a cybercafé or internet cafe; PisoNet)
 v,b9d,I use prepaid offers (e.g. GOSurf; GIGASurf; etc.)
 1, No
 2, Yes
-v,b10a,null
+v,b10a,Do you connect to the internet by yourself?
 0, No
 1, Yes
 v,b10b1,My parents
@@ -189,14 +190,15 @@ v,b12,Hours
 2,2
 3,3
 4,4
+5,5
 6,6
 7,7
 8,8
 9,9
-v,c1,null
+v,c1,Do you usually have a good time or fun when you go online?
 0,Group 1
 1,Group 2
-v,c2,null
+v,c2,What do you think about this sentence: ‘There are lots of things on the internet that are good for children of my age’?
 0,Group 1
 1,Group 2
 v,c4a,I learned something new by searching online
@@ -613,41 +615,64 @@ v,d2b,I find other people are kind and helpful on the internet
 v,d2c,I know what to do if someone acts online in a way I don't like
 0,Group 1
 1,Group 2
-v,d12,null
+v,d12,How were your social media accounts created?
 0,Group 1
 1,Group 2
-v,d13,null
-0,Group 1
-1,Group 2
+v,d13,How old were you when you first had your social media account?
+10,10
+11,11
+12,12
+13,13
+17,17
+3, 11
+6, 14
+7, 15
+8, 16
+9, 17
+1, 9
+2, 10
+4, 12
+5, 13
 v,d14a,Facebook/Messenger
+0, No
 1, Yes
 2,2
+3,3
+4,4
 5,5
-0, No
 v,d14b,Skype
 0, No
 1, Yes
+2,2
+3,3
+5,5
 v,d14c,Viber
 0, No
 1, Yes
+2,2
+5,5
 v,d14d,WeChat
 0, No
 1, Yes
 2,2
-3,3
+5,5
 v,d14e,Instagram
 0, No
 1, Yes
+2,2
 3,3
-4,4
+5,5
 v,d14f,Twitter
 0, No
 1, Yes
 2,2
+3,3
+5,5
 v,d14g,YouTube/Hangout (Google)
 0, No
 1, Yes
 2,2
+3,3
 5,5
 v,d15a,Minecraft
 0, No
@@ -667,16 +692,16 @@ v,d15e,Counterstrike
 v,d15f,Others
 0, No
 1, Yes
-v,d7a,null
+v,d7a,Thinking of the profile you use most often; about how many people are you in contact with when using [named profile]?
 0,Group 1
 1,Group 2
-v,d7b,null
+v,d7b,More or less; how many are your followers?
 0,Group 1
 1,Group 2
-v,d7c,null
+v,d7c,More or less; how many do you follow?
 0,Group 1
 1,Group 2
-v,d8,null
+v,d8,Is you [named profile] set to...?
 0,Group 1
 1,Group 2
 v,d9a,A photo that clearly shows your face
@@ -706,7 +731,7 @@ v,d9j,Places you've dined and visited
 v,d9k,Pictures showing whole body
 1, No
 2, Yes
-v,d10,null
+v,d10,How do you usually respond to requests from people to become your ‘friends’ online?
 0,Group 1
 1,Group 2
 v,f1a,Looked for new friends or contacts on the internet
@@ -745,16 +770,16 @@ v,f1k,Do video calls with a person whom I only met on internet
 v,f1l,Receive offers or gifts online
 0,Group 1
 1,Group 2
-v,f2,null
+v,f2,Have you EVER had contact on the internet with someone you have not met face-to-face before?
 1, No
 2, Yes
-v,f3,null
+v,f3,In the PAST YEAR; have you at least once met anyone face to face that you first got to know on the internet?
 1, No
 2, Yes
-v,f4,null
+v,f4,If you met anyone face-to-face that you first got to know on the internet; how did you feel about it?
 0,Group 1
 1,Group 2
-v,f5,null
+v,f5,Thinking about the LAST TIME you were bothered by meeting someone in this way; how old was the person you actually met?
 0,Group 1
 1,Group 2
 v,f6a,I've met face to face with a person I just got acquainted on internet but is already known by my friends or relatives
@@ -773,24 +798,24 @@ v,f6e,I've met face to face with a person I just got acquainted on internet and 
 1, No
 2, Yes
 v,f6f,I've met with another woman like myself whom i just got acquainted with on internet
-2, Yes
 1, No
+2, Yes
 v,f6g,I've met with another man like myself whom i just got acquainted with on internet
-2, Yes
 1, No
+2, Yes
 v,f6h,I've met with LGBT person (lesbian; gay; bisexual; transgender) whom i just got acquainted with on internet
 1, No
 2, Yes
-v,f8,null
+v,f8,In the PAST YEAR; how many people have you gone to a meeting with face-to-face that you had previously only met on the internet?
 0,Group 1
 1,Group 2
-v,f11,null
+v,f11,In the PAST YEAR; has anything EVER happened online that bothered or upset you in some way? (e.g.; made you feel uncomfortable; scared or that you shouldn’t have seen it)?
 1, No
 2, Yes
-v,f12,null
+v,f12,In the PAST YEAR; how often did this happen?
 0,Group 1
 1,Group 2
-v,f13,null
+v,f13,Thinking now about the LAST TIME this happened to you; how upset were you about what happened?
 0,Group 1
 1,Group 2
 v,f14a,My mother or father (or step/foster mother or father)
@@ -847,7 +872,7 @@ v,f14h,I didn't talk to anyone
 v,f14i,Prefer not to say
 0, No
 1, Yes
-v,f15,null
+v,f15,The last time something happened online that bothered or upset you in some way; how long did you feel like that for?
 0,Group 1
 1,Group 2
 v,f16a,I ignored the problem or hoped the problem would go away by itself
@@ -883,20 +908,21 @@ v,f16j,I reported the problem online  (e.g.; clicked on a ‘report abuse’ but
 v,f16k,Other actions taken
 0, No
 1, Yes
-v,f18,null
+v,f18,In the PAST YEAR; has anyone ever treated you in a hurtful or nasty way?
 1, No
 2, Yes
-v,f19,null
+v,f19,In the PAST YEAR; how often did this happen?
 0,Group 1
 1,Group 2
-v,f20a,null
-2,2
-v,f20b,null
-1,1
-2,2
+v,f20a,In person face-to-face (by someone with you in the same place)
+1, No
+2, Yes
+v,f20b,Via a mobile phone or online device (computer;tablet; etc.)
+1, No
+2, Yes
 v,f21a,By mobile phone calls
-1, Yes
 0, No
+1, Yes
 v,f21b,By messages sent to me on my phone (SMS/TEXT or MMS)
 0, No
 1, Yes
@@ -922,11 +948,11 @@ v,f21i,Prefer not to say
 0, No
 1, Yes
 v,f22a,Nasty or hurtful messages were sent to me
-2, Yes
 1, No
+2, Yes
 v,f22b,Nasty or hurtful messages were passed around or posted where others could see
-2, Yes
 1, No
+2, Yes
 v,f22c,I was left out or excluded from a group or activity on the internet
 1, No
 2, Yes
@@ -936,21 +962,21 @@ v,f22d,I was threatened on the internet
 v,f22e,Other nasty or hurtful things happened to me on the internet
 1, No
 2, Yes
-v,f23,null
+v,f23,Thinking of the last time someone treated you in a hurtful or nasty way; how did you feel?
 0,Group 1
 1,Group 2
-v,f24,null
+v,f24,In the PAST YEAR; have you EVER treated someone else in a hurtful or nasty way?
 1, No
 2, Yes
-v,f25,null
+v,f25,In the PAST YEAR; how often have you treated someone in this way?
 0,Group 1
 1,Group 2
-v,f26a,null
-1,1
-2,2
-v,f26b,null
-1,1
-2,2
+v,f26a,In person face-to-face (a person that is together with you in the same place at the same time)
+1, No
+2, Yes
+v,f26b,Via a mobile phone or online device (computer; tablet; etc.)
+1, No
+2, Yes
 v,f27a,By mobile phone calls
 0, No
 1, Yes
@@ -964,8 +990,8 @@ v,f27d,By instant messaging (MSN; WhatsApp; Skype etc.)
 0, No
 1, Yes
 v,f27e,On a media sharing platform (YouTube; Instagram; Flickr)
-1, Yes
 0, No
+1, Yes
 v,f27f,In a chatroom
 0, No
 1, Yes
@@ -978,24 +1004,24 @@ v,f27h,Some other way
 v,f27i,Prefer not to say
 0, No
 1, Yes
-v,f28,null
+v,f28,In the PAST YEAR; have you EVER SEEN any sexual images?
 1, No
 2, Yes
-v,f29,null
+v,f29,If you have seen images of this kind; how did you feel about what you saw?
 0,Group 1
 1,Group 2
 v,f31a,In a magazine or book
 1, No
 2, Yes
 v,f31b,On television; film
-2, Yes
 1, No
+2, Yes
 v,f31c,Via a mobile phone; computer; tablet or anyother online device
 1, No
 2, Yes
 v,f32d,On an online video sharing platform (e.g. YouTube; [add local examples])
-1, Yes
 0, No
+1, Yes
 v,f32e,On an online photo sharing platform (e.g. Instagram; Flickr; [add local examples])
 0, No
 1, Yes
@@ -1030,24 +1056,24 @@ v,f32o,Prefer not to say
 0, No
 1, Yes
 v,f33a,A sexual image or video of someone naked
-2, Yes
 1, No
+2, Yes
 v,f33b,A sexual image or video that shows someone's 'private parts' [translate as appropriate]
-2, Yes
 1, No
+2, Yes
 v,f33c,An image or video that shows sexual acts or people having sex
-2, Yes
 1, No
+2, Yes
 v,f33d,An image or video that shows sexual acts in a violent way
-2, Yes
 1, No
+2, Yes
 v,f33e,Something else sexual or embarrassing
-2, Yes
-1, No
-v,f34,null
 1, No
 2, Yes
-v,f35,null
+v,f34,In the PAST YEAR; have you received any sexual messages (this could be words; pictures or videos) at least once?
+1, No
+2, Yes
+v,f35,If you have received any sexual messages; how did you feel about what you saw?
 0,Group 1
 1,Group 2
 v,f37a,By mobile phone calls
@@ -1057,8 +1083,8 @@ v,f37b,By text messages sent to me on my phone (SMS/text or MMS)
 1, No
 2, Yes
 v,f37c,On a social networking site (e.g.; Facebook; Twitter etc.)
-2, Yes
 1, No
+2, Yes
 v,f37d,On a media sharing platform (YouTube; Instagram; Flickr)
 1, No
 2, Yes
@@ -1077,10 +1103,10 @@ v,f37h,In a gaming community (also on the Xbox and other game consoles)
 v,f37i,By 'pop up' (something appears by accident)
 1, No
 2, Yes
-v,f38,null
+v,f38,In the PAST YEAR; have you sent or posted any sexual messages at least once? This could be words; pictures or videosabout you or someone else.
 1, No
 2, Yes
-v,f39,null
+v,f39,In the PAST YEAR; how often have you sent or posted sexual messages?
 0,Group 1
 1,Group 2
 v,f40a,I have sent someone a sexual message (e.g.; words; pictures or video) on the internet
@@ -1118,16 +1144,13 @@ v,f41h,Ways how to find a relationship
 2, Yes
 v,f41i,Ways to join in gambling
 1, No
-3, Prefer not to say
+2, Yes
 v,f41j,null
-1,1
 v,f41k,null
-1,1
 v,f41l,About cheating
 1, No
 2, Yes
 v,f41m,null
-1,1
 v,f41n,About drinking alcohol
 1, No
 2, Yes
@@ -1176,10 +1199,10 @@ v,f45d,I have tried unsuccessfully to spend less time on the internet
 v,f45e,I think the amount of time I spend on the internet causes problems for me
 0,Group 1
 1,Group 2
-v,f45f,null
+v,f45f,I feel I have to check my device (e.g. phone or computer) to see if anything new has just happened
 0,Group 1
 1,Group 2
-v,h1,null
+v,h1,Here is a picture of a ladder. The top of the ladder ‘10’ is the best possible life for you and the bottom ‘0’ is the worst possible life for you. In general; where on the ladder do you feel you stand at the moment? Mark the circle next to the number that best describes where you stand.
 0,Group 1
 1,Group 2
 v,h2a,Your mother or father (including step/foster mother or father)
@@ -1233,7 +1256,7 @@ v,h2g,Someone else
 v,h2h,No one
 0, No
 1, Yes
-v,i1,null
+v,i1,How easy is it for you to talk to your parent/carer about things that upset you?
 0,Group 1
 1,Group 2
 v,i2a,When I speak someone listens to what I say
@@ -1341,52 +1364,52 @@ v,i6j,Spend time in a virtual world (e.g.; Habbo; Club Penguin; Minecraft [add e
 v,i6k,Put (or post) photos; videos or music online to share with others (including social networking or instant messaging)
 0,Group 1
 1,Group 2
-v,i7a,null
-1,1
-2,2
-v,i7b,null
-1,1
-2,2
-v,i7c,null
+v,i7a,Parental controls or other means of blocking or filtering some types of website
+1, No
+2, Yes
+v,i7b,Parental controls or other means of keeping track of the websites or apps I visit
+1, No
+2, Yes
+v,i7c,Rules about how long or when I am allowed to go online
+1, No
+2, Yes
+v,i7d,A service or contract that limits the time I spend on the internet
+1, No
+2, Yes
+v,i7e,Software to prevent spam or junk mail/viruses
+1, No
+2, Yes
+v,i7f,Parental controls that filter the apps I can download
+1, No
+2, Yes
+v,i7g,Parental controls that alert my parent/carer when I want to buy content (in-app purchase)
+1, No
+2, Yes
+v,i7h,Software that limits the people I can be in touch with (through voice calls and SMS/TEXT MMS)
+1, No
+2, Yes
+v,i7i,Ad blocking software
+1, No
+2, Yes
+v,i8a,Which friends or contacts you add to my social networking profile/instant messaging service
 0,Group 1
 1,Group 2
-v,i7d,null
+v,i8b,The messages in my email or other app for communicating with people
 0,Group 1
 1,Group 2
-v,i7e,null
-1,1
-2,2
-v,i7f,null
+v,i8c,My profile on a social networking site or online community
 0,Group 1
 1,Group 2
-v,i7g,null
-1,1
-2,2
-v,i7h,null
+v,i8d,Which websites I visited
 0,Group 1
 1,Group 2
-v,i7i,null
+v,i8e,The apps I downloaded
 0,Group 1
 1,Group 2
-v,i8a,null
+v,i8f,The in-app purchases I made
 0,Group 1
 1,Group 2
-v,i8b,null
-0,Group 1
-1,Group 2
-v,i8c,null
-0,Group 1
-1,Group 2
-v,i8d,null
-0,Group 1
-1,Group 2
-v,i8e,null
-0,Group 1
-1,Group 2
-v,i8f,null
-0,Group 1
-1,Group 2
-v,j1,null
+v,j1,How much do you like school at present?
 0,Group 1
 1,Group 2
 v,j5a,Suggested ways to use the internet safely
@@ -1446,7 +1469,7 @@ v,k2e,Suggested ways to behave towards other people on the internet
 v,k2f,Helped me in the past when something has bothered me on the internet
 0,Group 1
 1,Group 2
-v,k3,null
+v,k3,Have you suggested to your friends ways to use the internet safely?
 0,Group 1
 1,Group 2
 v,k4a,I feel safe in the area where I live
@@ -1458,25 +1481,25 @@ v,k4b,It is safe for younger children to play outside during the day
 v,k4c,You can trust people around here
 0,Group 1
 1,Group 2
-v,a14,null
+v,a14,How often do you get some new clothes to wear?
 0,Group 1
 1,Group 2
-v,a15,null
+v,a15,How easily can you find a quiet place to study or do homework?
 0,Group 1
 1,Group 2
-v,a16,null
+v,a16,How often do you go on holiday [for at least one week] away from home?
 0,Group 1
 1,Group 2
-v,a17,null
+v,a17,How often do you have fresh fruit and vegetables to eat?
 0,Group 1
 1,Group 2
-v,a17a,null
+v,a17a,How often do you have fish or meat to eat?
 0,Group 1
 1,Group 2
-v,a18,null
+v,a18,Do you have at least two pairs of properly fitting shoes? [include: boots; sandals; trainers; etc.]
 1, No
 2, Yes
-v,a19,null
+v,a19,How often do you get some new games or toys to play with?
 0,Group 1
 1,Group 2
 v,a20a,I get very angry and often lose my temper
@@ -1605,7 +1628,7 @@ v,a22n,Because I am not studying (i.e.; out-of-school)
 v,a22o,Because I do not have a permanent residence / house
 0, No
 1, Yes
-v,a23,null
+v,a23,When you were treated this way; how often did it happen on the internet?
 0,Group 1
 1,Group 2
 v,a24a,I do dangerous things for fun
@@ -1647,10 +1670,10 @@ v,a26d,I am confident that I can deal with unexpected problems
 v,a26g,I can stay calm when things get difficult because I am good at coping
 0,Group 1
 1,Group 2
-v,a27,null
+v,a27,Ideally; if you are given an opportunity; what level of education do you want to finish?
 0,Group 1
 1,Group 2
-v,a28,null
+v,a28,Imagine if given the opportunity to finish your studies or to get your desired career in the future; where do you want to work?
 0,Group 1
 1,Group 2
 v,a29a,When I use the internet; I learn about different things that I could study; do or become what I want to be as productive as possible.
@@ -1681,21 +1704,21 @@ v,g2d,I have been asked on the internet for a photo or video showing my private 
 1, No
 2, Yes
 v,g3a,I have sent sexual information about myself (like what my body looks like without clothes on or sexual things I have done) when I did not want
-2, Yes
 1, No
+2, Yes
 v,g3b,I have talked about sexual acts with someone on the internet when I did not want to
 1, No
 2, Yes
 v,g3c,I have done something sexual on the internet when I did not want to
-2, Yes
 1, No
+2, Yes
 v,g3d,I have sent someone a photo or video showing my private parts when I did not want to [translate as appropriate]
 1, No
 2, Yes
-v,g4,null
+v,g4,Thinking about the last time when you had unwanted sexual experience (that is; any of G2a-d); did it happen when you were using which of the following?
 0,Group 1
 1,Group 2
-v,g5,null
+v,g5,Thinking about the last time when you had unwanted sexual experience (that is; any of G2a-d); who was the person who did this?
 0,Group 1
 1,Group 2
 v,g9a,Brother (over 18)

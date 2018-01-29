@@ -317,7 +317,7 @@ def doFile(table,fileNum,results,converter,z):
                         if(len(group) >= 2):
                                 results_temp.append(group[1]) #append each proportion of every answer for each group
                                 
-                                
+                #if(chistat > z):                
                 results.append(results_temp)
 	
 
@@ -405,7 +405,7 @@ for clustername in clusternames:
 
 tableList = [] #list of contingency tables
 
-z=[6.640]
+z=[6.64]
 zstr = ['1960']
 for y in range(0,len(z)):
 	results = [] #The resulting content that will be written in save.csv
