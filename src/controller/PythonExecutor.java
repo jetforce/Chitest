@@ -6,17 +6,19 @@ import java.util.ArrayList;
 public class PythonExecutor {
 
 	ArrayList<String> filenames;
+	String testType; //Type of test to be conducted (Chi Test, Standard Error of Proportion etc.)
 	
 	
-	public PythonExecutor(ArrayList<String> files){
+	public PythonExecutor(ArrayList<String> files, String testType){
 		this.filenames = files;
+		this.testType = testType; 
 	}
 	
 	
 	
 	public void Execute(){
 		
-		String cmd = "python readChi.py save.csv";
+		String cmd = "python " + testType +" save.csv";
 		//String cmd = "python readChi.py save.csv \"C:\\Users\\Rgee\\git\\Chitest\\dataset\\e.csv\" \"C:\\Users\\Rgee\\git\\Chitest\\dataset\\f.csv\"";
 		
 		

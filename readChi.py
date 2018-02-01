@@ -405,7 +405,8 @@ for clustername in clusternames:
 
 tableList = [] #list of contingency tables
 
-z=[6.64]
+#z=[6.64]
+z=[0.0]
 zstr = ['1960']
 for y in range(0,len(z)):
 	results = [] #The resulting content that will be written in save.csv

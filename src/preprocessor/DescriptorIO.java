@@ -66,6 +66,63 @@ public class DescriptorIO {
             e.printStackTrace();
         }
     }
+    
+    public void readQuestions(ArrayList<Feature> varQuestions, ArrayList<Feature> valQuestions, String variableLabel, String valuesLabel, boolean test) {
+        BufferedReader varBr, valBr;
+        String line;
+        String[] lineSplit;
+        Feature question = null;
+        Response response;
+        boolean readResponses = false;
+
+        try {
+            varBr = new BufferedReader(new FileReader(new File(variableLabel)));
+            valBr = new BufferedReader(new FileReader(new File(valuesLabel)));
+
+            //Get Questions from variable file
+            while ((line = varBr.readLine()) != null) {
+                if (line.contains("=")) {
+                    lineSplit = line.split("="); 
+                    question = new Feature(); //Make a new variable
+                    question.setCode(lineSplit[0].trim());//Set the variable code
+                    
+                    question.setDescription(lineSplit[1].trim().replace("\"", "").replace(",", ";"));//Set variable meaning
+                    
+                    varQuestions.add(question);//Add to list of questions from variable file               
+                }
+            }
+            
+            //Get Questions from value file
+            while ((line = valBr.readLine()) != null) {
+                if (line.contains("value")) {//If the line contains the variable code which is written after the word "value"
+                    question = new Feature(); //Make a new variable
+                    valQuestions.add(question);//Add to list of questions from values file
+                    question.setCode(line.split(" ")[1]);//Set the variable code
+                    readResponses = true;//Start reading the possible responses to this variable. 
+                } else if (readResponses) {//If responses are being read within a variable
+                    response = new Response();//Make a new response
+                    line = line.replace("\t", "");//Remove tab indentation
+                    lineSplit = line.split("=");//Split the line by its delimiter, "="
+         
+                    response.setGroup(lineSplit[0].trim());//Set group code                  
+                    response.setKey(lineSplit[1].trim());//Set response code       
+                    //Set response meaning
+                    response.setDescription(lineSplit[2].replace("\"", "").replace(";", "").replace(",", ";"));
+                    
+                    question.addResponse(response);//Add response to the variable it responds to
+                    if (line.contains(";")) {//If all responses are read
+                        readResponses = false;//Stop reading responses for that variable 
+                    }
+                }
+            }
+            
+            varBr.close();
+            valBr.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        
+    }
 
     public void exportVariables(ArrayList<Feature> questionList, String filePath) {
      //   System.out.println("\n********\nEXPORTING VARIABLES\n*******");

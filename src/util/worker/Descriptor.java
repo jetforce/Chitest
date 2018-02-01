@@ -24,14 +24,16 @@ public class Descriptor extends SwingWorker<Void, Void>{
 		
 		this.varQuestions = new ArrayList<>();
         this.valQuestions = new ArrayList<>();
-        this.ip = new DescriptorIO();
+        this.ip = new DescriptorIO(); //Reads input of variable and values file
 	}
 	
 	@Override
 	protected Void doInBackground() throws Exception {
 		// TODO Auto-generated method stub
 	    SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaDescriptorStatus(), "PROCESS: Reading features from files. . .\n");
-		ip.readQuestions(varQuestions, valQuestions, varFilePath, valFilePath);
+		//ip.readQuestions(varQuestions, valQuestions, varFilePath, valFilePath);
+	    
+		ip.readQuestions(varQuestions, valQuestions, varFilePath, valFilePath, true);//Read from variable and values files
         
         QuestionMerger qm = new QuestionMerger();
 	    SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaDescriptorStatus(), "PROCESS: Merging descriptions of variables and values. . .\n");

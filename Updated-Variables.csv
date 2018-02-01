@@ -62,17 +62,22 @@ v,a5,Schooling
 0,Group 1
 1,Group 2
 v,b1,How old were you when you first used the internet?
-10,10
-11,11
-12,12
-13,13
-15,15
 1,1
+3,3
+4,4
 5,5
 6,6
 7,7
 8,8
 9,9
+10,10
+11,11
+12,12
+13,13
+14,14
+15,15
+16,16
+17,17
 v,b3,Are you able to access the internet when you want to or need to?
 0,Group 1
 1,Group 2
@@ -170,9 +175,6 @@ v,b10e,Others
 0, No
 1, Yes
 v,b11,Hours
-10,10
-11,11
-12,12
 1,1
 2,2
 3,3
@@ -182,10 +184,10 @@ v,b11,Hours
 7,7
 8,8
 9,9
+10,10
+11,11
+12,12
 v,b12,Hours
-10,10
-11,11
-12,12
 1,1
 2,2
 3,3
@@ -195,6 +197,9 @@ v,b12,Hours
 7,7
 8,8
 9,9
+10,10
+11,11
+12,12
 v,c1,Do you usually have a good time or fun when you go online?
 0,Group 1
 1,Group 2
@@ -619,20 +624,23 @@ v,d12,How were your social media accounts created?
 0,Group 1
 1,Group 2
 v,d13,How old were you when you first had your social media account?
-10,10
-11,11
-12,12
-13,13
-17,17
+1, 9
 3, 11
+4, 12
+5, 13
 6, 14
 7, 15
 8, 16
 9, 17
-1, 9
+10,10
+11,11
+12,12
+13,13
+14,14
+15,15
+16,16
+17,17
 2, 10
-4, 12
-5, 13
 v,d14a,Facebook/Messenger
 0, No
 1, Yes
@@ -645,34 +653,42 @@ v,d14b,Skype
 1, Yes
 2,2
 3,3
+4,4
 5,5
 v,d14c,Viber
 0, No
 1, Yes
 2,2
+3,3
+4,4
 5,5
 v,d14d,WeChat
 0, No
 1, Yes
 2,2
+3,3
+4,4
 5,5
 v,d14e,Instagram
 0, No
 1, Yes
 2,2
 3,3
+4,4
 5,5
 v,d14f,Twitter
 0, No
 1, Yes
 2,2
 3,3
+4,4
 5,5
 v,d14g,YouTube/Hangout (Google)
 0, No
 1, Yes
 2,2
 3,3
+4,4
 5,5
 v,d15a,Minecraft
 0, No
@@ -1145,12 +1161,18 @@ v,f41h,Ways how to find a relationship
 v,f41i,Ways to join in gambling
 1, No
 2, Yes
-v,f41j,null
-v,f41k,null
+v,f41j,Ways in which to buy drugs
+1, No
+2, Yes
+v,f41k,About abortion
+1, No
+2, Yes
 v,f41l,About cheating
 1, No
 2, Yes
-v,f41m,null
+v,f41m,About sex
+1, No
+2, Yes
 v,f41n,About drinking alcohol
 1, No
 2, Yes
@@ -1607,9 +1629,9 @@ v,a22g,Because of my sexual orientation
 v,a22h,Because of how I look or behave
 0, No
 1, Yes
-v,a22j,null
-0,0
-1,1
+v,a22j,Because of my attitude
+0, No
+1, Yes
 v,a22i,Because of my opinions or beliefs
 0, No
 1, Yes

@@ -35,36 +35,79 @@ public class ChiTestController {
 		return ChiTestController.CHI_TEST_CONTROLLER;
 	}
 	
+	private void clearFiles()
+	{
+		clusterFilePaths.clear();
+		filesStrings.clear();
+		mainFrame.getTextFieldFile1().setText("");
+		mainFrame.getTextFieldFile2().setText("");
+	}
+	
+	private void renameFileChoosers(String fileChooser1, String fileChooser2)
+	{
+		mainFrame.getButtonChooseFile1().setText(fileChooser1);
+		mainFrame.getButtonChooseFile2().setText(fileChooser2);
+	}
+	
 	private void initListeners() {
 		
-		mainFrame.getButtonChiChooseFiles().addActionListener(new ActionListener() {
+		mainFrame.getButtonChooseFile1().addActionListener(new ActionListener() {
 			
 			@Override
 			public void actionPerformed(ActionEvent e) {
+
+				File dataset1 = FileGetter.getInstance().getFile(AppString.CSV_TYPE_NAME, AppString.CSV_TYPES);
 				
-				File[] files = FileGetter.getInstance().getFiles(AppString.CSV_TYPE_NAME, AppString.CSV_TYPES);
-				clusterFilePaths.clear();
-				if(files != null && files.length != 0) {
+				if(dataset1 != null)
+				{
+					String filePath = FileGetter.getInstance().getCanonicalPath(dataset1);
+					String fileName = filePath.substring(filePath.lastIndexOf("\\") + 1, filePath.lastIndexOf("."));
 					
-					for(File file : files) {
-						
-						String filePath = FileGetter.getInstance().getCanonicalPath(file);
-						String fileName = filePath.substring(filePath.lastIndexOf("\\") + 1, filePath.lastIndexOf("."));
-						
-						filesStrings.add(filePath);
-						
-						clusterFilePaths.put(fileName, filePath);
-						
-						
-					}
+					if(clusterFilePaths.size() >= 2)
+						clearFiles();
 					
-					
-					mainFrame.getTextFieldChiFiles().setText(clusterFilePaths.values().stream().map(path -> path).collect(Collectors.joining(",")));
+					filesStrings.add(filePath);
+					clusterFilePaths.put(fileName, filePath);
+
+					mainFrame.getTextFieldFile1().setText(fileName);
+					//mainFrame.getTextFieldFile1().setText(clusterFilePaths.values().stream().map(path -> path).collect(Collectors.joining(",")));
 					//mainFrame.getTextFieldUploaderFileWeights().setText(clusterFilePaths.values().stream().map(path -> path).collect(Collectors.joining(",")));
-					if(!clusterFilePaths.isEmpty())
+					if(clusterFilePaths.size() >= 2)
 						mainFrame.getButtonChiStart().setEnabled(true);
-					
 				}
+				
+					
+				
+				
+			}
+		});
+		
+		mainFrame.getButtonChooseFile2().addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+
+				File dataset2 = FileGetter.getInstance().getFile(AppString.CSV_TYPE_NAME, AppString.CSV_TYPES);
+								
+				if(dataset2 != null)
+				{
+					String filePath = FileGetter.getInstance().getCanonicalPath(dataset2);
+					String fileName = filePath.substring(filePath.lastIndexOf("\\") + 1, filePath.lastIndexOf("."));
+					
+					if(clusterFilePaths.size() >= 2)
+						clearFiles();
+					
+					
+					filesStrings.add(filePath);
+					clusterFilePaths.put(fileName, filePath);
+
+					mainFrame.getTextFieldFile2().setText(fileName);
+					//mainFrame.getTextFieldFile1().setText(clusterFilePaths.values().stream().map(path -> path).collect(Collectors.joining(",")));
+					//mainFrame.getTextFieldUploaderFileWeights().setText(clusterFilePaths.values().stream().map(path -> path).collect(Collectors.joining(",")));
+					if(clusterFilePaths.size() >= 2)
+						mainFrame.getButtonChiStart().setEnabled(true);
+				}
+				
 				
 			}
 		});
@@ -74,11 +117,50 @@ public class ChiTestController {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				
-				System.out.println("\nChi Test Start");
-				PythonExecutor pe = new PythonExecutor(filesStrings);
-				pe.Execute();
-				// TODO
+				//Get selected test type
+				int testType = mainFrame.getCmbTestType().getSelectedIndex(); 
 				
+				switch(testType)
+				{
+				case 0: //Chi test
+					System.out.println("\nChi Test Start");
+					PythonExecutor pe = new PythonExecutor(filesStrings, "readChi.py");
+					pe.Execute();
+					break;
+				case 1: //Z-test of Independence of Pooled Proportions
+					System.out.println("\n Z-Test of Independence of Pooled Proportions Start");
+					break;
+				case 2: //Standard Error of Population
+					System.out.println("\n Standard Error of Population Start");
+					break;
+				}
+			}
+		});
+		
+		mainFrame.getCmbTestType().addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent arg0) {
+				
+				int testType = mainFrame.getCmbTestType().getSelectedIndex();
+				switch(testType)
+				{
+				case 0: //Chi test
+					renameFileChoosers("Choose Dataset 1...", "Choose Dataset 2...");
+					clearFiles();
+					System.out.println("\nTest Type: Chi Test\n");
+					break;
+				case 1: //Z-test of Independence of Pooled Proportions
+					renameFileChoosers("Choose Subgroup 1...", "Choose Subgroup 2...");
+					clearFiles();
+					System.out.println("\nTest Type: Z-Test of Independence of Pooled Proportions\n");
+					break;
+				case 2: //Standard Error of Population
+					renameFileChoosers("Choose Population...", "Choose Subgroup...");
+					clearFiles();
+					System.out.println("\n Test Type: Standard Error of Population\n");
+					break;
+				}
 			}
 		});
 		

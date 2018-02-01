@@ -22,7 +22,6 @@ public class DescriptorController {
 		
 		varFilePath = "";
 		valFilePath = "";
-		
 		initListeners();
 		
 	}

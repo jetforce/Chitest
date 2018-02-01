@@ -10,7 +10,25 @@ package model;
  * @author Arces
  */
 public class Response {
-    private String key, description;
+    private String key, description, group;
+    
+    
+    
+    /**
+     * 
+     * @return the group the response is in
+     */
+    public String getGroup() {
+		return group;
+	}
+
+    /**
+     * 
+     * @param group the group the response is in
+     */
+	public void setGroup(String group) {
+		this.group = group;
+	}
 
     /**
      * @return the key

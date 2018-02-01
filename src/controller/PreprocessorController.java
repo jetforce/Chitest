@@ -75,7 +75,11 @@ public class PreprocessorController {
 			public void actionPerformed(ActionEvent e) {
 				// TODO Auto-generated method stub
 				Preprocessor preprocessor = new Preprocessor(varDesFilePath, rawFilePath, mainFrame);
+				
+				//Preprocessor pre = new  Preprocessor(varDesFilePath, rawFilePath, mainFrame,true);
+				//pre.doIt();
 				preprocessor.execute();
+				
 			}
 		});
 		

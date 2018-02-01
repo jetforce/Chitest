@@ -19,8 +19,9 @@ public class QuestionMerger {
 
     public void mergeQuestions(ArrayList<Feature> varQuestions, ArrayList<Feature> valQuestions) {
         //get questions from variable
+    	//For each variable in variables list, set its list of responses from the values list
         for (Feature varQ : varQuestions) {
-            varQ.setResponseList(setResponses(varQ, valQuestions));
+            varQ.setResponseList(setResponses(varQ, valQuestions, true));
         }
 
        // System.out.println("********\nADDING QUESTIONS FROM VALUES NOT IN VARIABLES\n*******");
@@ -53,6 +54,53 @@ public class QuestionMerger {
         if (!isFound) {
             varNum = varSc.nextInt();
             varCode = varQ.getCode().charAt(0) + "" + varNum;
+            for (int i = 0; i < valQuestions.size() && !isFound; i++) {
+                valQ = valQuestions.get(i);
+                valSc = new Scanner(valQ.getCode()).useDelimiter("[^0-9]+");
+                valCode = valQ.getCode().charAt(0) + "" + valSc.nextInt();
+                if (varCode.equals(valCode)) {
+                    //System.out.println(varQ.getCode() + " vs. " + valQ.getCode());
+                    isFound = true;
+                    responses = valQ.getResponseList();
+                }
+                valSc.close();
+            }
+        }
+
+        varSc.close();
+        return responses;
+    }
+    
+    @SuppressWarnings("resource")
+	private ArrayList<Response> setResponses(Feature varQ, ArrayList<Feature> valQuestions, boolean test) {
+        ArrayList<Response> responses = new ArrayList<>();
+        boolean isFound = false;
+        Feature valQ;
+        Scanner varSc = new Scanner(varQ.getCode()).useDelimiter("[^0-9]+");
+        Scanner valSc;
+        int varNum;
+        String varCode, valCode;
+
+        //search first if question has equal
+        for (int i = 0; i < valQuestions.size() && !isFound; i++) {
+            valQ = valQuestions.get(i);
+            
+          //If the variable code from the variables list is the same as the variable code from the values list
+            if (varQ.getCode().equals(valQ.getCode())) {
+//                System.out.println(varQ.getCode() + " vs. " + valQ.getCode());
+                isFound = true;
+                responses = valQ.getResponseList();//Set list of responses to variable code from variables list
+            }
+        }
+
+        //If variable code from variables list does not find any same variable code from the variables list
+        if (!isFound) {
+        	
+            varNum = varSc.nextInt();
+            varCode = varQ.getCode().charAt(0) + "" + varNum;
+            
+            System.out.println("Variable code not found: " + varCode);
+            
             for (int i = 0; i < valQuestions.size() && !isFound; i++) {
                 valQ = valQuestions.get(i);
                 valSc = new Scanner(valQ.getCode()).useDelimiter("[^0-9]+");

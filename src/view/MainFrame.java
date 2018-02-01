@@ -19,6 +19,8 @@ import javax.swing.SpinnerNumberModel;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 import javax.swing.JCheckBox;
+import javax.swing.JComboBox;
+import javax.swing.DefaultComboBoxModel;
 
 public class MainFrame extends JFrame {
 	
@@ -67,8 +69,13 @@ public class MainFrame extends JFrame {
 	private JLabel labelUploaderInstances;
 	private JLabel labelUploaderSave;
 	private JPanel panelChi;
-	private JTextField textFieldChiFiles;
-	private JButton buttonChiChooseFiles;
+	private JTextField textFieldFile1;
+	private JButton buttonChooseFile1;
+	private JComboBox cmbTestType;
+	private JTextField textFieldFile2;
+	private JButton buttonChooseFile2;
+	
+
 	private JScrollPane scrollPaneChiStatus;
 	private JTextArea textAreaChiStatus;
 	private JButton buttonChiStart;
@@ -92,6 +99,11 @@ public class MainFrame extends JFrame {
 	private JButton buttonPreprocessorStart;
 	private JScrollPane scrollPanePreprocessorStatus;
 	private JTextArea textAreaPreprocessorStatus;
+
+
+	public JComboBox getCmbTestType() {
+		return cmbTestType;
+	}
 
 	private MainFrame() {
 		setResizable(false);
@@ -634,29 +646,55 @@ public class MainFrame extends JFrame {
 		tabbedPane.addTab("Chi Test", null, panelChi, null);
 		GridBagLayout gbl_panelChi = new GridBagLayout();
 		gbl_panelChi.columnWidths = new int[]{0, 0, 0};
-		gbl_panelChi.rowHeights = new int[]{0, 0, 0, 0};
+		gbl_panelChi.rowHeights = new int[]{0, 0, 0, 0, 0};
 		gbl_panelChi.columnWeights = new double[]{1.0, 0.0, Double.MIN_VALUE};
-		gbl_panelChi.rowWeights = new double[]{0.0, 0.0, 1.0, Double.MIN_VALUE};
+		gbl_panelChi.rowWeights = new double[]{0.0, 0.0, 0.0, 1.0, Double.MIN_VALUE};
 		panelChi.setLayout(gbl_panelChi);
 		
-		textFieldChiFiles = new JTextField();
-		textFieldChiFiles.setOpaque(false);
-		textFieldChiFiles.setEditable(false);
-		GridBagConstraints gbc_textFieldChiFiles = new GridBagConstraints();
-		gbc_textFieldChiFiles.insets = new Insets(0, 0, 5, 5);
-		gbc_textFieldChiFiles.fill = GridBagConstraints.HORIZONTAL;
-		gbc_textFieldChiFiles.gridx = 0;
-		gbc_textFieldChiFiles.gridy = 0;
-		panelChi.add(textFieldChiFiles, gbc_textFieldChiFiles);
-		textFieldChiFiles.setColumns(10);
+		textFieldFile1 = new JTextField();
+		textFieldFile1.setOpaque(false);
+		textFieldFile1.setEditable(false);
+		GridBagConstraints gbc_textFieldFile1 = new GridBagConstraints();
+		gbc_textFieldFile1.insets = new Insets(0, 0, 5, 5);
+		gbc_textFieldFile1.fill = GridBagConstraints.HORIZONTAL;
+		gbc_textFieldFile1.gridx = 0;
+		gbc_textFieldFile1.gridy = 0;
+		panelChi.add(textFieldFile1, gbc_textFieldFile1);
+		textFieldFile1.setColumns(10);
 		
-		buttonChiChooseFiles = new JButton("Choose Files...");
-		GridBagConstraints gbc_buttonChiChooseFiles = new GridBagConstraints();
-		gbc_buttonChiChooseFiles.fill = GridBagConstraints.BOTH;
-		gbc_buttonChiChooseFiles.insets = new Insets(0, 0, 5, 0);
-		gbc_buttonChiChooseFiles.gridx = 1;
-		gbc_buttonChiChooseFiles.gridy = 0;
-		panelChi.add(buttonChiChooseFiles, gbc_buttonChiChooseFiles);
+		buttonChooseFile1 = new JButton("Choose Dataset 1...");
+		GridBagConstraints gbc_buttonChooseFile1 = new GridBagConstraints();
+		gbc_buttonChooseFile1.fill = GridBagConstraints.BOTH;
+		gbc_buttonChooseFile1.insets = new Insets(0, 0, 5, 0);
+		gbc_buttonChooseFile1.gridx = 1;
+		gbc_buttonChooseFile1.gridy = 0;
+		panelChi.add(buttonChooseFile1, gbc_buttonChooseFile1);
+		
+		textFieldFile2 = new JTextField();
+		GridBagConstraints gbc_textFieldFile2 = new GridBagConstraints();
+		gbc_textFieldFile2.insets = new Insets(0, 0, 5, 5);
+		gbc_textFieldFile2.fill = GridBagConstraints.HORIZONTAL;
+		gbc_textFieldFile2.gridx = 0;
+		gbc_textFieldFile2.gridy = 1;
+		panelChi.add(textFieldFile2, gbc_textFieldFile2);
+		textFieldFile2.setColumns(10);
+		
+		buttonChooseFile2 = new JButton("Choose Dataset 2...");
+		GridBagConstraints gbc_buttonChooseFile2 = new GridBagConstraints();
+		gbc_buttonChooseFile2.fill = GridBagConstraints.HORIZONTAL;
+		gbc_buttonChooseFile2.insets = new Insets(0, 0, 5, 0);
+		gbc_buttonChooseFile2.gridx = 1;
+		gbc_buttonChooseFile2.gridy = 1;
+		panelChi.add(buttonChooseFile2, gbc_buttonChooseFile2);
+		
+		cmbTestType = new JComboBox();
+		cmbTestType.setModel(new DefaultComboBoxModel(new String[] {"Chi-Test", "Z-Score Test of Independence of Pooled Proportions (Subgroup vs Subgroup)", "Standard Error of Population (Population vs Subgroup)"}));
+		GridBagConstraints gbc_cmbTestType = new GridBagConstraints();
+		gbc_cmbTestType.fill = GridBagConstraints.HORIZONTAL;
+		gbc_cmbTestType.insets = new Insets(0, 0, 5, 5);
+		gbc_cmbTestType.gridx = 0;
+		gbc_cmbTestType.gridy = 2;
+		panelChi.add(cmbTestType, gbc_cmbTestType);
 		
 		buttonChiStart = new JButton("Start");
 		buttonChiStart.setEnabled(false);
@@ -664,7 +702,7 @@ public class MainFrame extends JFrame {
 		gbc_buttonChiStart.fill = GridBagConstraints.BOTH;
 		gbc_buttonChiStart.insets = new Insets(0, 0, 5, 0);
 		gbc_buttonChiStart.gridx = 1;
-		gbc_buttonChiStart.gridy = 1;
+		gbc_buttonChiStart.gridy = 2;
 		panelChi.add(buttonChiStart, gbc_buttonChiStart);
 		
 		scrollPaneChiStatus = new JScrollPane();
@@ -672,7 +710,7 @@ public class MainFrame extends JFrame {
 		gbc_scrollPaneChiStatus.gridwidth = 2;
 		gbc_scrollPaneChiStatus.fill = GridBagConstraints.BOTH;
 		gbc_scrollPaneChiStatus.gridx = 0;
-		gbc_scrollPaneChiStatus.gridy = 2;
+		gbc_scrollPaneChiStatus.gridy = 3;
 		panelChi.add(scrollPaneChiStatus, gbc_scrollPaneChiStatus);
 		
 		textAreaChiStatus = new JTextArea();
@@ -781,13 +819,25 @@ public class MainFrame extends JFrame {
 	public JCheckBox getCheckboxKMeansHeader() {
 		return checkboxKMeansHeader;
 	}
+	
+	public JTextField getTextFieldFile1() {
+		return textFieldFile1;
+	}
 
-	public JTextField getTextFieldChiFiles() {
-		return textFieldChiFiles;
+	public JButton getButtonChooseFile1() {
+		return buttonChooseFile1;
+	}
+
+	public JTextField getTextFieldFile2() {
+		return textFieldFile2;
+	}
+
+	public JButton getButtonChooseFile2() {
+		return buttonChooseFile2;
 	}
 
 	public JButton getButtonChiChooseFiles() {
-		return buttonChiChooseFiles;
+		return buttonChooseFile1;
 	}
 
 	public JTextArea getTextAreaChiStatus() {
