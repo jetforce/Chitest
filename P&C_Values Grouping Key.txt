@@ -232,6 +232,8 @@
 	4 = "I am looking for a job"
 	5 = "I take care of others, or I am full-time in the home";
 
+	
+
 	1 = "Permanent"
 	2 = "Contractual"
 	3 = "Under Probation";
@@ -258,24 +260,24 @@
 	7 = "Almost all the time"
 	x = 8 = "Prefer not to say";
 
-	1 = "Not at all upset"
-	2 = "A bit upset"
-	3 = "Fairly upset"
-	4 = "Very  upset"
-	5 = "Don't know"
+	a = 1 = "Not at all upset"
+	b = 2 = "A bit upset"
+	b = 3 = "Fairly upset"
+	b = 4 = "Very  upset"
+	c = 5 = "Don't know"
 	x = 6 = "Prefer not to say";
 
-	1 = "Not at all likely"
-	2 = "Not very likely"
-	3 = "Fairly likely"
-	4 = "Very likely"
-	5 = "Don't know"
+	a = 1 = "Not at all likely"
+	a = 2 = "Not very likely"
+	b = 3 = "Fairly likely"
+	b = 4 = "Very likely"
+	c = 5 = "Don't know"
 	x = 6 = "Prefer not to say";
 
-	1 = "Not at all"
-	2 = "Not very much"
-	3 = "A fair amount"
-	4 = "Definitely"
-	5 = "Don't know"
+	a = 1 = "Not at all"
+	a = 2 = "Not very much"
+	b = 3 = "A fair amount"
+	b = 4 = "Definitely"
+	c = 5 = "Don't know"
 	x = 6 = "Prefer not to say";
 

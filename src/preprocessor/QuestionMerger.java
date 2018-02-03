@@ -93,7 +93,7 @@ public class QuestionMerger {
             }
         }
 
-        //If variable code from variables list does not find any same variable code from the variables list
+        //If variable code from variables list does not find any same variable code from the values list
         if (!isFound) {
         	
             varNum = varSc.nextInt();

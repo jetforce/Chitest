@@ -98,16 +98,23 @@ public class DescriptorIO {
                     question = new Feature(); //Make a new variable
                     valQuestions.add(question);//Add to list of questions from values file
                     question.setCode(line.split(" ")[1]);//Set the variable code
+                    System.out.println("value " + question.getCode());
                     readResponses = true;//Start reading the possible responses to this variable. 
                 } else if (readResponses) {//If responses are being read within a variable
                     response = new Response();//Make a new response
                     line = line.replace("\t", "");//Remove tab indentation
-                    lineSplit = line.split("=");//Split the line by its delimiter, "="
+                    lineSplit = line.split(":");//Split the line by its delimiter, ":"
          
-                    response.setGroup(lineSplit[0].trim());//Set group code                  
-                    response.setKey(lineSplit[1].trim());//Set response code       
+                    response.setGroup(lineSplit[0].trim());//Set group code   
+                    
+                    //Split the rest of the string by = to get the response code and meaning
+                    String[] lineSplit2 = lineSplit[1].split("=");
+                    
+                    response.setKey(lineSplit2[0].trim());//Set response code       
                     //Set response meaning
-                    response.setDescription(lineSplit[2].replace("\"", "").replace(";", "").replace(",", ";"));
+                    response.setDescription(lineSplit2[1].replace("\"", "").replace(";", "").replace(",", ";"));
+                    
+                    System.out.println("\t"+response.getGroup() + " : " + response.getKey() + " = " + response.getDescription());
                     
                     question.addResponse(response);//Add response to the variable it responds to
                     if (line.contains(";")) {//If all responses are read
