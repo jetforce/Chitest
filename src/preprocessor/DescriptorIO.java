@@ -144,7 +144,7 @@ public class DescriptorIO {
 	        	pw.write("V," + q.getCode() + "," + q.getDescription() + "\n");
 	            for (Response r : q.getResponseList()) {
 	                //export += 
-	            	pw.write(r.getKey() + "," + r.getDescription() + "\n");
+	            	pw.write(r.getGroup() + "," + r.getKey() + "," + r.getDescription() + "\n");
 	            }
 	        }
         

@@ -106,7 +106,7 @@ public class QuestionMerger {
                 valSc = new Scanner(valQ.getCode()).useDelimiter("[^0-9]+");
                 valCode = valQ.getCode().charAt(0) + "" + valSc.nextInt();
                 if (varCode.equals(valCode)) {
-                    //System.out.println(varQ.getCode() + " vs. " + valQ.getCode());
+//                    System.out.println(varQ.getCode() + " vs. " + valQ.getCode());
                     isFound = true;
                     responses = valQ.getResponseList();
                 }
