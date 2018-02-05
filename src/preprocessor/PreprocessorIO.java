@@ -9,6 +9,7 @@ import model.Column;
 import model.Entry;
 import model.Feature;
 import model.Response;
+import util.SwingUpdater;
 import util.worker.Preprocessor;
 
 import java.io.BufferedReader;
@@ -58,8 +59,56 @@ public class PreprocessorIO {
 					if (!isParent) {
 						response = new Response();
 						question.addResponse(response);
-						response.setKey(lineSplit[0]);
-						response.setDescription(lineSplit[1]);
+						response.setGroup(lineSplit[0]);
+						response.setKey(lineSplit[1]);
+						response.setDescription(lineSplit[2]);
+					}
+				}
+			}
+
+			br.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+		return questionList;
+	}
+	
+	public ArrayList<Feature> readQuestions(String fileName, boolean test) {
+		BufferedReader br;
+		String line;
+		String[] lineSplit;
+		ArrayList<Feature> questionList = new ArrayList<>();
+		Feature question = null;
+		Response response;
+		boolean isParent = false;
+		try {
+			br = new BufferedReader(new FileReader(new File(fileName)));
+
+			//remove parent questions
+			while ((line = br.readLine()) != null) {
+				lineSplit = line.split(",");
+				if (line.startsWith("V")) {
+					if (!lineSplit[1].startsWith("l")) {
+						question = new Feature();
+						questionList.add(question);
+						question.setCode(lineSplit[1]);
+						question.setDescription(lineSplit[2]);
+//						System.out.println(question.getCode() + " " + question.getDescription());
+//						SwingUpdater.appendJTextAreaText(worker.mainFrame.getTextAreaPreprocessorStatus(), "\n"+ question.getCode() + " " + question.getDescription());
+
+						isParent = false;
+					} else {
+						isParent = true;
+					}
+				} else {
+					if (!isParent) {
+						response = new Response();
+						question.addResponse(response);
+						response.setGroup(lineSplit[0]);
+						response.setKey(lineSplit[1]);
+						response.setDescription(lineSplit[2]);
+//						System.out.println("\t" + response.getGroup() + " " + response.getKey() + " " + response.getDescription());
+//						SwingUpdater.appendJTextAreaText(worker.mainFrame.getTextAreaPreprocessorStatus(), "\n"+ "\t" + response.getGroup() + " " + response.getKey() + " " + response.getDescription());
 					}
 				}
 			}
@@ -126,7 +175,7 @@ public class PreprocessorIO {
 			for (Feature q : questions) {
 				//exportString += "v," + q.getCode() + "," + q.getDescription() + "\n";
 				pw.write("v," + q.getCode() + "," + q.getDescription() + "\n");
-				for (Response r : q.getResponseList()) {
+				for (Response r : q.getGroupedResponseList()) {
 					//exportString += r.getKey() + "," + r.getDescription() + "\n";
 					pw.write(r.getKey() + "," + r.getDescription() + "\n");
 				}

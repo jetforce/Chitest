@@ -533,7 +533,7 @@ value f12
 value f13
 	a : 1 = "A little upset"
 	b : 2 = "Fairly upset"
-	c : 3 = "Very upset"
+	b : 3 = "Very upset"
 	x : 4 = "Prefer not to say";
 	
 value f14a
@@ -1179,9 +1179,9 @@ value a26
 
 value a27
 	a : 1 = "Elementary"
-	b : 2 = "High School"
-	c : 3 = "College"
-	d : 4 = "Beyond college degree (MA/MS/MBA/PhD/Law/Medicine)"
+	a : 2 = "High School"
+	b : 3 = "College"
+	b : 4 = "Beyond college degree (MA/MS/MBA/PhD/Law/Medicine)"
 	x : 5 = "Prefer not to say";
 
 value a28
@@ -1204,34 +1204,34 @@ value a29
 value g1
 	a : 1 = "No"
 	b : 2 = "Yes"
-	x : 3 = "Prefer not to say";
+	c : 3 = "Prefer not to say";
 
 value g2
 	a : 1 = "No"
 	b : 2 = "Yes"
-	x : 3 = "Prefer not to say";
+	c : 3 = "Prefer not to say";
 
 value g3
 	a : 1 = "No"
 	b : 2 = "Yes"
-	x : 3 = "Prefer not to say";
+	c : 3 = "Prefer not to say";
 	
 value g3a
 	a : 1 = "No"
 	b : 2 = "Yes"
-	x : 3 = "Prefer not to say";
+	c : 3 = "Prefer not to say";
 value g3b
 	a : 1 = "No"
 	b : 2 = "Yes"
-	x : 3 = "Prefer not to say";
+	c : 3 = "Prefer not to say";
 value g3c
 	a : 1 = "No"
 	b : 2 = "Yes"
-	x : 3 = "Prefer not to say";
+	c : 3 = "Prefer not to say";
 value g3d
 	a : 1 = "No"
 	b : 2 = "Yes"
-	x : 3 = "Prefer not to say";
+	c : 3 = "Prefer not to say";
 	
 value g4
 	a : 1 = "A mobile phone that is not a smartphone"
@@ -1240,7 +1240,7 @@ value g4
 	b : 4 = "A laptop or notebook computer"
 	c : 5 = "A tablet [iPad, Samsung Galaxy tab, PLDT Home tablet, etc]"
 	d : 6 = "A games console [Playstation, Xbox, PSP, Nintendo, 3DS, etc]"
-	x : 7 = "Prefer not to say";
+	e : 7 = "Prefer not to say";
 
 value g5
 	a : 1 = "An adult in your family (over 18)"
@@ -1248,11 +1248,11 @@ value g5
 	c : 3 = "A romantic partner (or ex-)"
 	d : 4 = "Someone from work"
 	e : 5 = "A friend or acquaintance (over 18) that you knew in person before this"
-	e : 6 = "A friend or acquaintance (under 18) that you knew in person before this"
-	f : 7 = "Someone you first met online who was a contact of a friend or family member"
-	g : 8 = "Someone you met online who had no other connection with your life"
-	h : 9 = "Someone else (specify)"
-	x : 10 = "Prefer not to say";
+	f : 6 = "A friend or acquaintance (under 18) that you knew in person before this"
+	g : 7 = "Someone you first met online who was a contact of a friend or family member"
+	h : 8 = "Someone you met online who had no other connection with your life"
+	i : 9 = "Someone else (specify)"
+	j : 10 = "Prefer not to say";
 
 value g9a
 	a : 0 = "No"
@@ -1296,9 +1296,9 @@ value g9l
 value l27
 	a : 1 = "Less than P40000"
 	b : 2 = "P40000 - P59999"
-	c : 3 = "P60000 - P99999"
-	d : 4 = "P100000 - P249999"
-	e : 5 = "More than P250000";
+	b : 3 = "P60000 - P99999"
+	b : 4 = "P100000 - P249999"
+	c : 5 = "More than P250000";
 
 value l36
 	a : 1 = "No"
@@ -1307,10 +1307,10 @@ value l36
 value l28
 	a : 1 = "Post-graduate"
 	a : 2 = "College"
-	a : 3 = "High School"
-	a : 4 = "Elementary"
-	a : 5 = "Pre-school"
-	b : 6 = "Don't know"
+	b : 3 = "High School"
+	b : 4 = "Elementary"
+	b : 5 = "Pre-school"
+	c : 6 = "Don't know"
 	c : 7 = "Others";
 
 value l37
@@ -1353,7 +1353,7 @@ value l32
 value l40
 	a : 1 = "Permanent"
 	b : 2 = "Contractual"
-	c : 3 = "Under Probation";
+	b : 3 = "Under Probation";
 
 value l33
 	a : 1 = "I am sick"

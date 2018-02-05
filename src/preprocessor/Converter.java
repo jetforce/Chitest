@@ -10,6 +10,7 @@ import model.Entry;
 import model.Feature;
 import model.Response;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
@@ -43,12 +44,14 @@ public class Converter {
         ArrayList<Entry> entryList = new ArrayList<>();
         Entry newEntry;
         ArrayList<String> responses;
-        //System.out.println("\n***************\nCONVERTING ENTRIES" + "\n************************");
+//        System.out.println("\n***************\nCONVERTING ENTRIES" + "\n************************");
 
         for (Entry old : oldEntries) {
             newEntry = new Entry();
             newEntry.setLabel(old.getLabel());
             entryList.add(newEntry);
+            
+
         }
 
         for (Column col : columns) {
@@ -56,9 +59,11 @@ public class Converter {
 
             responses = col.getResponses();
             for (int i = 0; i < responses.size(); i++) {
-                entryList.get(i).addFeature(changeResponse(responses.get(i), responses, findQuestion(questions, col.getName())));
+                entryList.get(i).addFeature(changeResponse(responses.get(i), responses, findQuestion(questions, col.getName()), true));
             }
         }
+        
+        
         return entryList;
     }
 
@@ -87,9 +92,11 @@ public class Converter {
             if ((findQ = findQuestion(questions, col.getName())) != null) {
                 newQ.setNotSay(findQ.isNotSay());
                 newQ.setDescription(findQ.getDescription());
+                
 
                 if (findQ.getResponseList().size() > 0) {
                     for (Response resp : findQ.getResponseList()) {
+//                    	System.out.println("Response: " + resp.getGroup() + " " + resp.getKey() + " " + resp.getDescription());
                         newQ.addResponse(resp);
                     }
 
@@ -106,10 +113,38 @@ public class Converter {
             }
         }
 
-        //group questions
-        groupQuestions(questionList);
+        //group questions       
+        groupQuestions(questionList, true);
 
         return questionList;
+    }
+    
+    private void groupQuestions(ArrayList<Feature> questions, boolean test) {
+        Response r0;
+        for (Feature q : questions) {
+            if (q.isNotSay()) {
+                q.removeLastResp();
+            }
+
+            if (!q.isUnmatched()) {
+            	
+            	//Get the group codes in the question and make grouped responses
+            	for(Response r : q.getResponseList())
+            	{
+            		String s = r.getGroup(); 
+            		
+            		r0 = new Response();
+            		r0.setGroup(s);
+                	r0.setKey(s);
+                	r0.setDescription("Group " + s);
+                	q.addGroupedResponse(r0);
+                	
+            		
+            	}
+            	
+
+            }
+        }
     }
 
     private void groupQuestions(ArrayList<Feature> questions) {
@@ -149,11 +184,79 @@ public class Converter {
 
         return question;
     }
+    
+    /**
+     * 
+     * @param response actual response of respondent
+     * @param responses responses of the respondent
+     * @param question question
+     * @param test
+     * @return
+     */
+    private String changeResponse(String response, ArrayList<String> responses, Feature question, boolean test)
+    {
+    	String updatedResp = "";
+        String notSay = "";
+        boolean checkPrefer = false;
+        
+        Set<String> responseSet = question == null ? new HashSet<>(responses) : new HashSet<>();
+
+        if (question != null) {
+            generateResponseSet(responseSet, responses, question);
+        }
+        //remove 99 and blank from set
+        responseSet.remove("");
+        responseSet.remove("99");
+        System.out.println("Question: " + question.getCode() + " Response: " + response + " " + Arrays.toString(responseSet.toArray()));
+        
+        //change the response according to its group
+        //System.out.println(response);
+        
+        //If the set of responses has a "prefer not to say" response
+        if (responseSet.size() > 2 && (question != null ? question.isNotSay() : false)) {
+            notSay = (String) responseSet.toArray()[responseSet.toArray().length - 1];
+            responseSet.remove(notSay);
+            checkPrefer = true;
+        }
+        
+        Iterator<String> i = responseSet.iterator();
+        
+        //Iterate through every response value
+        for(String r : responseSet)
+        {
+        	if (question != null && codeList.contains(question.getCode()) && response.equals("")) { //check blank for special cases
+                updatedResp = (String) i.next();
+                continue;
+        	} else if (response.equals("99") || response.equals("")) {//If the respondent's answer is 99 orblank
+                updatedResp = "x";//Label it group x
+                continue;
+        	} else {
+        		String[] group_and_key = r.split(":");
+        		String group = group_and_key[0];
+        		String key = group_and_key[1];
+        		
+        		if(key.equals(response))
+        		{
+        			updatedResp = group; 
+        		}
+        		
+        	}
+        	
+        }
+        
+     
+        
+        
+        return updatedResp; 
+    	
+    	
+    }
 
     private String changeResponse(String response, ArrayList<String> responses, Feature question) {
         String updatedResp = "";
         String notSay = "";
         boolean checkPrefer = false;
+        
         Set<String> responseSet = question == null ? new HashSet<>(responses) : new HashSet<>();
 
         if (question != null) {
@@ -203,8 +306,8 @@ public class Converter {
     public void generateResponseSet(Set<String> responseSet, ArrayList<String> responses, Feature question) {
         boolean hasPrefer = false;
         for (Response r : question.getResponseList()) {
-            responseSet.add(r.getKey());
-            if (r.getDescription().toLowerCase().contains("prefer not to say")) {
+            responseSet.add(r.getGroup()+":"+r.getKey());//Add key and its corresponding group to the response set
+            if (r.getDescription().toLowerCase().contains("prefer not to say") && r.getGroup().equals("x")) {
                 hasPrefer = true;
             }
         }

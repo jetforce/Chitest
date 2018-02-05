@@ -99,7 +99,7 @@ public class QuestionMerger {
             varNum = varSc.nextInt();
             varCode = varQ.getCode().charAt(0) + "" + varNum;
             
-            System.out.println("Variable code not found: " + varCode);
+//            System.out.println("Variable code not found: " + varCode);
             
             for (int i = 0; i < valQuestions.size() && !isFound; i++) {
                 valQ = valQuestions.get(i);

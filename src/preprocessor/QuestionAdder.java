@@ -56,6 +56,7 @@ public class QuestionAdder {
                         newQ = new Feature();
                         questions.add(newQ);
                         newQ.setCode(col.getName());
+                        newQ.setGroupedResponseList(checkQ.getGroupedResponseList());
                         newQ.setResponseList(checkQ.getResponseList());
                         isFound = true;
                     }

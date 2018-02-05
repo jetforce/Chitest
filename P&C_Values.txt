@@ -359,7 +359,6 @@ value d14b
 	0 = "No"
 	1 = "Yes";
 
- blank, no, yes, prefer not to say, pass
 value d14c
 	0 = "No"
 	1 = "Yes";

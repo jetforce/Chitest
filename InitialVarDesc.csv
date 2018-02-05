@@ -1644,7 +1644,7 @@ x,5, Prefer not to say
 V,f13,Thinking now about the LAST TIME this happened to you; how upset were you about what happened?
 a,1, A little upset
 b,2, Fairly upset
-c,3, Very upset
+b,3, Very upset
 x,4, Prefer not to say
 V,f14a,My mother or father (or step/foster mother or father)
 a,0, No
@@ -2595,7 +2595,7 @@ b,2, A bit true for me
 b,3, Fairly true for me
 b,4, Very true for me
 x,5, Prefer not to say
-V,k1d,I get worried when I ﬁnd out my friends are having fun without me 
+V,k1d,I get worried when I �?nd out my friends are having fun without me 
 a,1, Not true for me
 b,2, A bit true for me
 b,3, Fairly true for me
@@ -2988,9 +2988,9 @@ b,4, Very true for me
 x,5, Prefer not to say
 V,a27,Ideally; if you are given an opportunity; what level of education do you want to finish?
 a,1, Elementary
-b,2, High School
-c,3, College
-d,4, Beyond college degree (MA/MS/MBA/PhD/Law/Medicine)
+a,2, High School
+b,3, College
+b,4, Beyond college degree (MA/MS/MBA/PhD/Law/Medicine)
 x,5, Prefer not to say
 V,a28,Imagine if given the opportunity to finish your studies or to get your desired career in the future; where do you want to work?
 a,1, In the Philippines
@@ -3015,47 +3015,47 @@ x,6, Prefer not to say
 V,g1a,I was sent a message that I did not want with advertisements for or links to X-rated websites [use local term for 'X-rated']
 a,1, No
 b,2, Yes
-x,3, Prefer not to say
+c,3, Prefer not to say
 V,g1b,I opened a message or a link in a message that showed pictures of naked people or of people having sex that I did not want
 a,1, No
 b,2, Yes
-x,3, Prefer not to say
+c,3, Prefer not to say
 V,g1c,I have seen or received a sexual message; image or video about someone else that I did not want
 a,1, No
 b,2, Yes
-x,3, Prefer not to say
+c,3, Prefer not to say
 V,g2a,I have been asked for sexual information about myself (like what my body looks like without clothes on or sexual things I have done) when I did not want to answer such questions
 a,1, No
 b,2, Yes
-x,3, Prefer not to say
+c,3, Prefer not to say
 V,g2b,I have been asked to talk about sexual acts with someone on the internet when I did not want to
 a,1, No
 b,2, Yes
-x,3, Prefer not to say
+c,3, Prefer not to say
 V,g2c,I have been asked by someone on the internet to do something sexual when I did not want to
 a,1, No
 b,2, Yes
-x,3, Prefer not to say
+c,3, Prefer not to say
 V,g2d,I have been asked on the internet for a photo or video showing my private parts [translate as appropriate] when I did not want to
 a,1, No
 b,2, Yes
-x,3, Prefer not to say
+c,3, Prefer not to say
 V,g3a,I have sent sexual information about myself (like what my body looks like without clothes on or sexual things I have done) when I did not want
 a,1, No
 b,2, Yes
-x,3, Prefer not to say
+c,3, Prefer not to say
 V,g3b,I have talked about sexual acts with someone on the internet when I did not want to
 a,1, No
 b,2, Yes
-x,3, Prefer not to say
+c,3, Prefer not to say
 V,g3c,I have done something sexual on the internet when I did not want to
 a,1, No
 b,2, Yes
-x,3, Prefer not to say
+c,3, Prefer not to say
 V,g3d,I have sent someone a photo or video showing my private parts when I did not want to [translate as appropriate]
 a,1, No
 b,2, Yes
-x,3, Prefer not to say
+c,3, Prefer not to say
 V,g4,Thinking about the last time when you had unwanted sexual experience (that is; any of G2a-d); did it happen when you were using which of the following?
 a,1, A mobile phone that is not a smartphone
 a,2, A smartphone [iPhone; Samsung Galaxy; Cherry Mobile; Star Mobile; etc]
@@ -3063,18 +3063,18 @@ b,3, A desktop computer
 b,4, A laptop or notebook computer
 c,5, A tablet [iPad; Samsung Galaxy tab; PLDT Home tablet; etc]
 d,6, A games console [Playstation; Xbox; PSP; Nintendo; 3DS; etc]
-x,7, Prefer not to say
+e,7, Prefer not to say
 V,g5,Thinking about the last time when you had unwanted sexual experience (that is; any of G2a-d); who was the person who did this?
 a,1, An adult in your family (over 18)
 b,2, A child or young person in your family (under 18)
 c,3, A romantic partner (or ex-)
 d,4, Someone from work
 e,5, A friend or acquaintance (over 18) that you knew in person before this
-e,6, A friend or acquaintance (under 18) that you knew in person before this
-f,7, Someone you first met online who was a contact of a friend or family member
-g,8, Someone you met online who had no other connection with your life
-h,9, Someone else (specify)
-x,10, Prefer not to say
+f,6, A friend or acquaintance (under 18) that you knew in person before this
+g,7, Someone you first met online who was a contact of a friend or family member
+h,8, Someone you met online who had no other connection with your life
+i,9, Someone else (specify)
+j,10, Prefer not to say
 V,g9a,Brother (over 18)
 a,0, No
 b,1, Yes
@@ -3891,19 +3891,19 @@ x,4, Prefer not to say
 V,l27,Estimated total annual income bracket
 a,1, Less than P40000
 b,2, P40000 - P59999
-c,3, P60000 - P99999
-d,4, P100000 - P249999
-e,5, More than P250000
+b,3, P60000 - P99999
+b,4, P100000 - P249999
+c,5, More than P250000
 V,l36,Attended school or pre-school
 a,1, No
 b,2, Yes
 V,l28,Highest level of education
 a,1, Post-graduate
 a,2, College
-a,3, High School
-a,4, Elementary
-a,5, Pre-school
-b,6, Don't know
+b,3, High School
+b,4, Elementary
+b,5, Pre-school
+c,6, Don't know
 c,7, Others
 V,l37,Language
 a,1, Tagalog
@@ -3940,7 +3940,7 @@ x,3, Prefer not to say
 V,l40,Job status
 a,1, Permanent
 b,2, Contractual
-c,3, Under Probation
+b,3, Under Probation
 V,l33,Why do you not have a job
 a,1, I am sick
 a,2, I am retired

@@ -98,7 +98,7 @@ public class DescriptorIO {
                     question = new Feature(); //Make a new variable
                     valQuestions.add(question);//Add to list of questions from values file
                     question.setCode(line.split(" ")[1]);//Set the variable code
-                    System.out.println("value " + question.getCode());
+//                    System.out.println("value " + question.getCode());
                     readResponses = true;//Start reading the possible responses to this variable. 
                 } else if (readResponses) {//If responses are being read within a variable
                     response = new Response();//Make a new response
@@ -114,7 +114,7 @@ public class DescriptorIO {
                     //Set response meaning
                     response.setDescription(lineSplit2[1].replace("\"", "").replace(";", "").replace(",", ";"));
                     
-                    System.out.println("\t"+response.getGroup() + " : " + response.getKey() + " = " + response.getDescription());
+//                    System.out.println("\t"+response.getGroup() + " : " + response.getKey() + " = " + response.getDescription());
                     
                     question.addResponse(response);//Add response to the variable it responds to
                     if (line.contains(";")) {//If all responses are read

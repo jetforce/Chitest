@@ -13,11 +13,14 @@ import java.util.ArrayList;
  */
 public class Feature {
     private String code, description;
-    private ArrayList<Response> responseList;
+    private ArrayList<Response> responseList, groupedResponseList;
+    private ArrayList<String>groups; 
     private boolean notSay, unmatchedVal;
 
     public Feature(){
         this.responseList = new ArrayList<>();
+        this.setGroupedResponseList(new ArrayList<>());
+        setGroups(new ArrayList<>());
     }
     
     /**
@@ -33,6 +36,29 @@ public class Feature {
     public void setCode(String code) {
         this.code = code;
     }
+
+	public ArrayList<Response> getGroupedResponseList() {
+		return groupedResponseList;
+	}
+
+	public void setGroupedResponseList(ArrayList<Response> groupedResponseList) {
+		this.groupedResponseList = groupedResponseList;
+	}
+	
+	public void addGroupedResponse(Response response)
+	{
+		boolean isFound = false;
+        for (int i = 0; i < groupedResponseList.size() && !isFound; i++) {
+            if (groupedResponseList.get(i).getKey().equals(response.getKey())) {
+            	groupedResponseList.get(i).setDescription(response.getDescription());
+            	groupedResponseList.get(i).setGroup(response.getGroup());
+                isFound = true;
+            }
+        }
+        if (!isFound) {
+        	getGroupedResponseList().add(response);
+        }
+	}
 
 	/**
      * @return the description
@@ -54,6 +80,7 @@ public class Feature {
         for (int i = 0; i < responseList.size() && !isFound; i++) {
             if (responseList.get(i).getKey().equals(response.getKey())) {
                 responseList.get(i).setDescription(response.getDescription());
+                responseList.get(i).setGroup(response.getGroup());
                 isFound = true;
             }
         }
@@ -107,4 +134,28 @@ public class Feature {
     public void setUnmatchedVal(boolean noValues) {
         this.unmatchedVal = noValues;
     }
+
+	public ArrayList<String> getGroups() {
+		return groups;
+	}
+	
+	public void addToGroup(String s)
+	{
+		boolean isFound = false;
+		for(String g : groups)
+		{
+			if(g.equals(s))
+			{
+				g = s;
+				isFound = true;
+			}
+			
+		}
+		if(!isFound)
+			groups.add(s);
+	}
+
+	public void setGroups(ArrayList<String> groups) {
+		this.groups = groups;
+	}
 }
