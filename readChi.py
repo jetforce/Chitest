@@ -12,6 +12,7 @@ def writeOnCSV(rows, filename):
 	    writer = csv.writer(f)
 	    #writer.writerow(header)
 	    writer.writerows(rows)
+        
 
 
 def readHeader(filename):
@@ -59,6 +60,7 @@ def readCSV(filename,isHead = True):
 		    			temp = float(row[i])
 		    			temp = int(temp)
 		    			row[i] = str(temp)
+
 		        rows.append(row)
 	        count =  count +1
 	return rows
@@ -337,7 +339,7 @@ def group(index, rows,V, header):
 
 		entry = rows[i][index]
 
-		if(entry != '-1' and entry!='' and entry != '-1.0'):
+		if(entry != '-1' and entry!='' and entry != '-1.0' and entry != 'x'):
 
 			if entry in groups:
 				groups[entry].append(i)

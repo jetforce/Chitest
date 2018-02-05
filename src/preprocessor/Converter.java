@@ -230,14 +230,15 @@ public class Converter {
         	} else if (response.equals("99") || response.equals("")) {//If the respondent's answer is 99 orblank
                 updatedResp = "x";//Label it group x
                 continue;
-        	} else {
+        	} else {//If the respondent's answer has a value
         		String[] group_and_key = r.split(":");
         		String group = group_and_key[0];
         		String key = group_and_key[1];
         		
-        		if(key.equals(response))
+        		if(key.equals(response))//If the respondent's answer is the same as the response value
         		{
-        			updatedResp = group; 
+        			updatedResp = group;//Replace the respondent's answer with the response's group
+        			continue; 
         		}
         		
         	}
