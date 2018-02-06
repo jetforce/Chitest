@@ -74,9 +74,9 @@ b10c2 = "Friends who are older than me"
 b10d = "My teacher"
 b10e = "Others"
 
-b11 = "Hours"
+b11 = "About how long do you spend on the internet on an ordinary week day (school day or working day)?"
 
-b12 = "Hours"
+b12 = "About how long do you spend on the internet on a day at the weekend?"
 
 /*Opportunities & practices*/
 

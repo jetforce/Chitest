@@ -50,7 +50,7 @@ r,18, Manila+B3
 s,19, Marikina
 t,20, Quezon City
 u,21, Abra
-v,22, Benguet
+u,22, Benguet
 w,23, Surigao del Sur
 x,24, Occidental Mindoro
 y,25, Negros Occidental
@@ -59,6 +59,15 @@ V,a1,Gender
 a,1, Male
 b,2, Female
 V,a2,Birthdate
+a,9, 9-11
+a,10, 9-11
+a,11, 9-11
+b,12, 12-14
+b,13, 12-14
+b,14, 12-14
+c,15, 15-17
+c,16, 15-17
+c,17, 15-17
 V,a3a,Mother
 a,0, No
 b,1, Yes
@@ -317,8 +326,8 @@ b,1, Yes
 V,b10e,Others
 a,0, No
 b,1, Yes
-V,b11,Hours
-V,b12,Hours
+V,b11,About how long do you spend on the internet on an ordinary week day (school day or working day)?
+V,b12,About how long do you spend on the internet on a day at the weekend?
 V,c1,Do you usually have a good time or fun when you go online?
 a,1, Yes; always
 a,2, Yes; sometimes
@@ -1047,15 +1056,15 @@ c,3, My parents; brother; sister; or relatives created it for me
 d,4, My friends created it for me
 e,5, Other person created for me
 V,d13,How old were you when you first had your social media account?
-a,1, 9
-a,2, 10
-a,3, 11
-b,4, 12
-b,5, 13
-b,6, 14
-c,7, 15
-c,8, 16
-c,9, 17
+a,9, 9-11
+a,10, 9-11
+a,11, 9-11
+b,12, 12-14
+b,13, 12-14
+b,14, 12-14
+c,15, 15-17
+c,16, 15-17
+c,17, 15-17
 V,d7a,Thinking of the profile you use most often; about how many people are you in contact with when using [named profile]?
 a,1, Up to 10
 b,2, 11-50
@@ -2142,17 +2151,17 @@ b,4, Often
 b,5, Very often
 x,6, Prefer not to say
 V,h1,Here is a picture of a ladder. The top of the ladder ‘10’ is the best possible life for you and the bottom ‘0’ is the worst possible life for you. In general; where on the ladder do you feel you stand at the moment? Mark the circle next to the number that best describes where you stand.
-a,0, 0
-a,1, 1
-a,2, 2
-a,3, 3
-a,4, 4
-b,5, 5
-b,6, 6
-b,7, 7
-b,8, 8
-b,9, 9
-b,10, 10
+a,0,0
+a,1,1
+a,2,2
+a,3,3
+a,4,4
+b,5,5
+b,6,6
+b,7,7
+b,8,8
+b,9,9
+b,10,10
 V,h2a,Your mother or father (including step/foster mother or father)
 a,0, No
 b,1, Yes

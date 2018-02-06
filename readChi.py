@@ -25,6 +25,11 @@ def readHeader(filename):
 	    	if(num==0):
 	    		return row
 
+def readCSVDict(filename):
+        f = open(filename, 'rU')
+        rows = csv.DictReader(f)
+        return rows
+                        
 
 def readCSVtoDouble(filename):
 	num=0
@@ -124,7 +129,7 @@ def getProportionPerColumn(numpiRows):
 def sortTableColumns(header, rows):
 
 	newheader = header[1:]
-	newheader = [float(i) for i in newheader]
+	newheader = [str(i) for i in newheader]
 
 	pihead = np.asarray(newheader[0:])
 	pirows = np.asarray(rows)
@@ -180,7 +185,7 @@ def readTableToFloat(table):
 	return table.rows[0], rows
 
 
-def doFile(table,fileNum,results,converter,z):
+def doFile(table,fileNum,results,converter,z, ccv):
 
 	header, rows = readTableToFloat(table)
 	header , rows = sortTableColumns(header,rows)
@@ -309,15 +314,36 @@ def doFile(table,fileNum,results,converter,z):
                 totals_list = totals.tolist() #populations for all groups
                                 
                 results_temp = [H,thequestion,chistat,higherOrLower,degreeFreedom];
-                results_temp.extend(totals_list) #append populations for all groups
+                
 
                 #results_temp.extend(proportions_list[:,1])
 
+                chiCritical = 0.0 
+                
+                #Determine the chi critical value to compare chi score with
+                #based on the degree of freedom
+                for r in ccv:
+                        if float(r['degree of freedom']) == degreeFreedom:
+                                results_temp.append(r['chi-critical']) #Append critical value
+                                chiCritical = float(r['chi-critical'])
+                                break
+
+                #Determine if the chi score is > than the chi critical value
+                if( not(type(chistat) is str) and (float(chistat) > float(chiCritical)) ):#If yes
+                        results_temp.append('1')#Chi score is significant
+                else:#otherwise
+                        results_temp.append('0')#Chi score is insignificant
+
+                results_temp.extend(totals_list) #append populations for all groups
                                 
 
                 for group in proportions_list: #for every group
                         if(len(group) >= 2):
-                                results_temp.append(group[1]) #append each proportion of every answer for each group
+                                results_temp.append(group[0]) #append proportion of answer a for each group
+                                results_temp.append(group[1]) #append proportion of answer b for each group
+                                results_temp.append(1-(float(group[0])+float(group[1]))) #apend proportion of other answers for each group
+                                #results_temp.append(group[i]) #append each proportion of every answer for each group
+                                #print group[i]
                                 
                 #if(chistat > z):                
                 results.append(results_temp)
@@ -339,7 +365,7 @@ def group(index, rows,V, header):
 
 		entry = rows[i][index]
 
-		if(entry != '-1' and entry!='' and entry != '-1.0' and entry != 'x'):
+		if(entry != '-1' and entry!='' and entry != '-1.0'):
 
 			if entry in groups:
 				groups[entry].append(i)
@@ -387,6 +413,8 @@ print sys.argv
 #change to ur own.
 vList = getVariableList('Updated-Variables.csv') #Get Variable Description
 header = readHeader(sys.argv[2]) #Read the header from one of the datasets which include the question codes
+chiCriticalValues = readCSVDict('ChiScores99Confidence.csv') #Get chi square critical values at 99% confidence
+
 
 results = []
 converter = ColConverter(header)
@@ -428,10 +456,12 @@ for y in range(0,len(z)):
                 population_and_proportionHeaders.append("N"+str(x+1)) #Add Header "Nx" for each cluster x. Total of x
 
         for x in range(0, len(clusternames)):
-                population_and_proportionHeaders.append("P"+str(x+1)) #Add Header "Px" for each cluster x. Proportion of x
+                population_and_proportionHeaders.append("P"+str(x+1)+"(a)") #Add Header "Px" for each cluster x. Proportion of x
+                population_and_proportionHeaders.append("P"+str(x+1)+"(b)")
+                population_and_proportionHeaders.append("P"+str(x+1)+"(etc)")
                 
                              
-	results_headers = ["Question","Feature","Chi","Higher Or Lower", "Degrees of Freedom"] #Results headers
+	results_headers = ["Question","Feature","Chi","Higher Or Lower", "Degrees of Freedom", "Cut-off", "Is significant"] #Results headers
 	results_headers.extend(population_and_proportionHeaders) #Append the population and proportion headers for each cluster to results headers
 	results.append(results_headers) #Append these as header names to the results
         print results
@@ -445,7 +475,7 @@ for y in range(0,len(z)):
 		print "col "+str(i)+" "+ header[i]	
 		theTable = getTable(i,clusters,vList,header[i]) #Generates a table matrix for all datasets to do the chi-test for the question
 
-		doFile(theTable,i,results,converter,z[y]) #Chi test on the question and then writing it in the file
+		doFile(theTable,i,results,converter,z[y], chiCriticalValues) #Chi test on the question and then writing it in the file
 		theTable.getPrintable(tableList)
 		print "Table",
 		print theTable.rows

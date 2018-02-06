@@ -1,6 +1,6 @@
 ﻿proc format;
 
-/*** a : Group A, b : Group B, x : Group not to be considered ***/
+/*** a : Group A, b : Group B, x : Group X etc. ***/
 
 /***   Child identity & resources (P1)   ***/
 
@@ -67,6 +67,17 @@ value prov1
 value a1
 	a : 1 = "Male"
 	b : 2 = "Female";
+
+value a2
+	a : 9 = "9-11"
+	a : 10 = "9-11"
+	a : 11 = "9-11"
+	b : 12 = "12-14"
+	b : 13 = "12-14"
+	b : 14 = "12-14"
+	c : 15 = "15-17"
+	c : 16 = "15-17"
+	c : 17 = "15-17";
 
 value a3a
 	a : 0 = "No"
@@ -344,15 +355,15 @@ value d12
 	e : 5 = "Other person created for me";
 
 value d13
-	a : 1 = "9"
-	a : 2 = "10"
-	a : 3 = "11"
-	b : 4 = "12"
-	b : 5 = "13"
-	b : 6 = "14"
-	c : 7 = "15"
-	c : 8 = "16"
-	c : 9 = "17";
+	a : 9 = "9-11"
+	a : 10 = "9-11"
+	a : 11 = "9-11"
+	b : 12 = "12-14"
+	b : 13 = "12-14"
+	b : 14 = "12-14"
+	c : 15 = "15-17"
+	c : 16 = "15-17"
+	c : 17 = "15-17";
 	
 value d14a
 	a : 0 = "No"
@@ -361,7 +372,6 @@ value d14b
 	a : 0 = "No"
 	b : 1 = "Yes";
 
- blank, no, yes, prefer not to say, pass
 value d14c
 	a : 0 = "No"
 	b : 1 = "Yes";

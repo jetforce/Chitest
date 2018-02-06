@@ -214,7 +214,8 @@ public class Converter {
         
         //If the set of responses has a "prefer not to say" response
         if (responseSet.size() > 2 && (question != null ? question.isNotSay() : false)) {
-            notSay = (String) responseSet.toArray()[responseSet.toArray().length - 1];
+            //notSay = (String) responseSet.toArray()[responseSet.toArray().length - 1];
+            notSay = ((String) responseSet.toArray()[responseSet.toArray().length - 1]).split(":")[0];//Get "prefer not to say" code
             responseSet.remove(notSay);
             checkPrefer = true;
         }
@@ -222,12 +223,13 @@ public class Converter {
         Iterator<String> i = responseSet.iterator();
         
         //Iterate through every response value
+        /*
         for(String r : responseSet)
         {
         	if (question != null && codeList.contains(question.getCode()) && response.equals("")) { //check blank for special cases
-                updatedResp = (String) i.next();
+                updatedResp = r;
                 continue;
-        	} else if (response.equals("99") || response.equals("")) {//If the respondent's answer is 99 orblank
+        	} else if (response.equals("99") || response.equals("") || response.equals("#NULL!")) {//If the respondent's answer is 99 or blank. Replace with invalid values
                 updatedResp = "x";//Label it group x
                 continue;
         	} else {//If the respondent's answer has a value
@@ -237,17 +239,96 @@ public class Converter {
         		
         		if(key.equals(response))//If the respondent's answer is the same as the response value
         		{
-        			updatedResp = group;//Replace the respondent's answer with the response's group
+        			updatedResp = group;//Replace the respondent's answer with the response value's group
+        			if (checkPrefer) {
+                        if (notSay.equals(response)) {
+                            updatedResp = "x";
+                        }
+                    }
         			continue; 
         		}
         		
         	}
         	
+        	
+        }*/
+        
+        boolean foundKey = false;//Checks if the response has found a response value in the response set
+        
+        for(String r : responseSet)
+        {
+        	//check blank for special cases
+        	if (question != null && codeList.contains(question.getCode()) && response.equals("")) { 
+                updatedResp = r;
+                foundKey = true;
+              //If the respondent's answer is 99 or blank. Add condition with invalid values if needed
+        	} else if (response.equals("99") || response.equals("") || response.equals("#NULL!")) {
+                updatedResp = "-1";//Label it group -1
+                foundKey = true; 
+        	
+              //If the respondent's answer is the same as the response value from response set	
+        	} else if(response.equals(r)) {	        		
+        			
+        			//Look for the group of that response value from response set
+        			for(Response resp : question.getResponseList())
+        			{
+        				if(resp.getKey().equals(r))//If found
+        				{
+        					updatedResp = resp.getGroup();//Label it with that group
+        					foundKey = true;
+        					break;
+        				}
+        			}
+        			
+        			//If the respondent's answer is considered invalid based on response set (not 99 or blank or #NULL!)
+        			if (checkPrefer) 
+        			{
+                        if (notSay.equals(response)) {
+                            updatedResp = "x";//Label it group x
+                            foundKey = true;
+                        }
+                    }
+        	} 
+        	
+        	
         }
+        
+        if(!foundKey)//If no response value is found
+			updatedResp = "x";
+        
+        /*
+        String[] group_and_key = i.next().split(":");
+		String group = group_and_key[0];
+		String key = group_and_key[1];
+    
+	  //check blank for special cases
+	    if (question != null && codeList.contains(question.getCode()) && response.equals("")) {
+	        updatedResp = (String) group;
+	    } else if (response.equals("99") || response.equals("") || response.equals("#NULL!")) {
+	        updatedResp = "x";
+	    } else if (responseSet.size() > 2) {
+	        //last = (String) responseSet.toArray()[responseSet.toArray().length - 1];
+	    	
+	        if (key.equals(response) || key.equals(response)) {
+	            updatedResp = group;
+	        } else if (notSay.equals(response) && (question != null ? question.isNotSay() : false)) {
+	            updatedResp = "x";
+	        }
+	    } else {
+	        updatedResp = group;
+	        if (checkPrefer) {
+	            if (notSay.equals(response)) {
+	                updatedResp = "x";
+	            }
+	        }
+	    }
+	    */
+	    
+	    
         
      
         
-        
+        responseSet.clear(); 
         return updatedResp; 
     	
     	
@@ -307,7 +388,8 @@ public class Converter {
     public void generateResponseSet(Set<String> responseSet, ArrayList<String> responses, Feature question) {
         boolean hasPrefer = false;
         for (Response r : question.getResponseList()) {
-            responseSet.add(r.getGroup()+":"+r.getKey());//Add key and its corresponding group to the response set
+        	responseSet.add(r.getKey());
+            //responseSet.add(r.getGroup()+":"+r.getKey());//Add key and its corresponding group to the response set
             if (r.getDescription().toLowerCase().contains("prefer not to say") && r.getGroup().equals("x")) {
                 hasPrefer = true;
             }
