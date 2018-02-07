@@ -1,9 +1,5 @@
-/controller/
-/factory/
-/grouper/
-/main/
-/model/
-/preprocessor/
-/res/
 /util/
 /view/
+/controller/
+/model/
+/preprocessor/
