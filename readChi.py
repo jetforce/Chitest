@@ -315,24 +315,92 @@ def doFile(table,fileNum,results,converter,z, ccv):
                                 
                 results_temp = [H,thequestion,chistat,higherOrLower,degreeFreedom];
                 
-
+                
                 #results_temp.extend(proportions_list[:,1])
 
                 chiCritical = 0.0 
                 
                 #Determine the chi critical value to compare chi score with
                 #based on the degree of freedom
+                '''
                 for r in ccv:
                         if float(r['degree of freedom']) == degreeFreedom:
                                 results_temp.append(r['chi-critical']) #Append critical value
                                 chiCritical = float(r['chi-critical'])
                                 break
+                                '''
+                if(degreeFreedom == 1):
+                        chiCritical = '6.635'
+                        results_temp.append(str(chiCritical))
+                elif(degreeFreedom == 2):
+                        chiCritical = '9.21'
+                        results_temp.append(str(chiCritical))
+                elif(degreeFreedom == 3):
+                        chiCritical = '11.345'
+                        results_temp.append(str(chiCritical))
+                elif(degreeFreedom == 4):
+                        chiCritical = '13.277'
+                        results_temp.append(str(chiCritical))
+                elif(degreeFreedom == 5):
+                        chiCritical = '15.086'
+                        results_temp.append(str(chiCritical))
+                elif(degreeFreedom == 6):
+                        chiCritical = '16.812'
+                        results_temp.append(str(chiCritical))
+                elif(degreeFreedom == 7):
+                        chiCritical = '18.475'
+                        results_temp.append(str(chiCritical))
+                elif(degreeFreedom == 8):
+                        chiCritical = '20.09'
+                        results_temp.append(str(chiCritical))
+                elif(degreeFreedom == 9):
+                        chiCritical = '21.666'
+                        results_temp.append(str(chiCritical))
+                elif(degreeFreedom == 10):
+                        chiCritical = '23.209'
+                        results_temp.append(str(chiCritical))
+                elif(degreeFreedom == 11):
+                        chiCritical = '24.725'
+                        results_temp.append(str(chiCritical))
+                elif(degreeFreedom == 12):
+                        chiCritical = '26.217'
+                        results_temp.append(str(chiCritical))
+                elif(degreeFreedom == 13):
+                        chiCritical = '27.688'
+                        results_temp.append(str(chiCritical))
+                elif(degreeFreedom == 14):
+                        chiCritical = '29.141'
+                        results_temp.append(str(chiCritical))
+                elif(degreeFreedom == 15):
+                        chiCritical = '30.578'
+                        results_temp.append(str(chiCritical))
+                elif(degreeFreedom == 16):
+                        chiCritical = '32'
+                        results_temp.append(str(chiCritical))
+                elif(degreeFreedom == 17):
+                        chiCritical = '33.409'
+                        results_temp.append(str(chiCritical))
+                elif(degreeFreedom == 18):
+                        chiCritical = '34.805'
+                        results_temp.append(str(chiCritical))
+                elif(degreeFreedom == 19):
+                        chiCritical = '36.191'
+                        results_temp.append(str(chiCritical))
+                elif(degreeFreedom == 20):
+                        chiCritical = '37.566'
+                        results_temp.append(str(chiCritical))
+                
+                else:
+                        chiCritical = '100'
+                        results_temp.append(str(chiCritical))
+                                            
 
                 #Determine if the chi score is > than the chi critical value
                 if( not(type(chistat) is str) and (float(chistat) > float(chiCritical)) ):#If yes
                         results_temp.append('1')#Chi score is significant
                 else:#otherwise
                         results_temp.append('0')#Chi score is insignificant
+                
 
                 results_temp.extend(totals_list) #append populations for all groups
                                 
@@ -460,7 +528,7 @@ for y in range(0,len(z)):
                 population_and_proportionHeaders.append("P"+str(x+1)+"(b)")
                 population_and_proportionHeaders.append("P"+str(x+1)+"(etc)")
                 
-                             
+        #results_headers = ["Question","Feature","Chi","Higher Or Lower", "Degrees of Freedom"] #Results headers                     
 	results_headers = ["Question","Feature","Chi","Higher Or Lower", "Degrees of Freedom", "Cut-off", "Is significant"] #Results headers
 	results_headers.extend(population_and_proportionHeaders) #Append the population and proportion headers for each cluster to results headers
 	results.append(results_headers) #Append these as header names to the results
