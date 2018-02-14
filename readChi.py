@@ -2,6 +2,7 @@ import csv
 import math
 import numpy as np
 import sys
+import string
 from Table import Table
 from clean import ColConverter
 
@@ -312,8 +313,10 @@ def doFile(table,fileNum,results,converter,z, ccv):
 
                 proportions_list = proportions.tolist()
                 totals_list = totals.tolist() #populations for all groups
+
+                thequestion = string.capwords(thequestion)
                                 
-                results_temp = [H,thequestion,chistat,higherOrLower,degreeFreedom];
+                results_temp = [thequestion,H,chistat,higherOrLower,degreeFreedom];
                 
                 
                 #results_temp.extend(proportions_list[:,1])
@@ -407,13 +410,12 @@ def doFile(table,fileNum,results,converter,z, ccv):
 
                 for group in proportions_list: #for every group
                         if(len(group) >= 2):
-                                results_temp.append(group[0]) #append proportion of answer a for each group
-                                results_temp.append(group[1]) #append proportion of answer b for each group
-                                results_temp.append(1-(float(group[0])+float(group[1]))) #apend proportion of other answers for each group
+                                results_temp.append(str(round(float(group[0])*100,2))+'%') #append proportion of answer a for each group
+                                results_temp.append(str(round(float(group[1])*100,2))+'%') #append proportion of answer b for each group
+                                results_temp.append(str(round((1-(float(group[0])+float(group[1])))*100, 2))+'%') #apend proportion of other answers for each group
                                 #results_temp.append(group[i]) #append each proportion of every answer for each group
                                 #print group[i]
-                                
-                #if(chistat > z):                
+                                             
                 results.append(results_temp)
 	
 
@@ -477,6 +479,8 @@ def getVariableList(filename): #Reads the question
 	    		variables[lastVar].append((row[0], row[1]))			        
 	return variables
 
+
+
 print sys.argv
 #change to ur own.
 vList = getVariableList('Updated-Variables.csv') #Get Variable Description
@@ -489,7 +493,7 @@ converter = ColConverter(header)
 
 
 #print header
-clusternames = sys.argv[2:] #Read the dataset names
+clusternames = sys.argv[2:] #Read the filepaths of the datasets
 
 #print clusternames
 clusters = [] #clusters contains all of the respondents and their answer in per dataset
@@ -510,12 +514,15 @@ for y in range(0,len(z)):
 	results = [] #The resulting content that will be written in save.csv
 
         dataset_headers = []
+        dataset_names = []
 
 	for x in range(0, len(clusternames)):
+                clustername_arr = clusternames[x].split('\\')
+                dataset_names.append(clustername_arr[len(clustername_arr)-1])#Getting the dataset name from its file path
                 dataset_headers.append("Dataset " + str(x+1))
 
         results.append(dataset_headers)
-	results.append(clusternames) #Append dataset names
+	results.append(dataset_names) #Append dataset names
 
         
         population_and_proportionHeaders = [] #Headers Ni and Pi for each cluster i
@@ -529,7 +536,7 @@ for y in range(0,len(z)):
                 population_and_proportionHeaders.append("P"+str(x+1)+"(etc)")
                 
         #results_headers = ["Question","Feature","Chi","Higher Or Lower", "Degrees of Freedom"] #Results headers                     
-	results_headers = ["Question","Feature","Chi","Higher Or Lower", "Degrees of Freedom", "Cut-off", "Is significant"] #Results headers
+	results_headers = ["Feature","Question","Chi","Higher Or Lower", "Degrees of Freedom", "Cut-off", "Is significant"] #Results headers
 	results_headers.extend(population_and_proportionHeaders) #Append the population and proportion headers for each cluster to results headers
 	results.append(results_headers) #Append these as header names to the results
         print results
