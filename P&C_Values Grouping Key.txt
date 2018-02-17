@@ -1,0 +1,283 @@
+	c = "Other (please specify)"
+
+	a = 1 = "Not true"
+	b = 2 = "A bit true"
+	b = 3 = "Fairly true"
+	b = 4 = "Very true"
+	x = 5 = "Prefer not to say";
+
+	a = 1 = "Never"
+	a = 2 = "Hardly ever"
+	b = 3 = "At least every week"
+	b = 4 = "Daily or almost daily"
+	b = 5 = "Several times each day"
+	b = 6 = "Almost all the time"
+	x = 7 = "Prefer not to say";
+
+	a = 1 = "Never"
+	a = 2 = "Hardly ever"
+	b = 3 = "Sometimes"
+	b = 4 = "Often"
+	b = 5 = "Very often"
+	x = 6 = "Prefer not to say";
+
+	a = 1 = "No"
+	b = 2 = "Yes"
+	x = 3 = "Prefer not to say";
+
+	a = 1 = "No"
+	b = 2 = "Yes"
+	c = 3 = "Don't know"
+	x = 4 = "Prefer not to say";
+
+	a = 1 = "9"
+	a = 2 = "10"
+	a = 3 = "11"
+	b = 4 = "12"
+	b = 5 = "13"
+	b = 6 = "14"
+	c = 7 = "15"
+	c = 8 = "16"
+	c = 9 = "17";
+
+	a = 1 = "Up to 10"			
+	b = 2 = "11-50"		
+	c = 3 = "51-100"		
+	d = 4 = "101-300"			
+	e = 5 = "301-500"		
+	f = 6 = "501-1000"			
+	g = 7 = "1001-1500"		
+	h = 8 = "1501-2000"		
+	i = 9 = "2001-2500"		
+	j = 10 = "2501-3000"			
+	k = 11 = "3001-3500"			
+	l = 12 = "3501-4000"			
+	m = 13 = "4001-4500"			
+	n = 14 = "4501-5000"		
+	o = 15 = "More than 5000"			
+	x = 16 = "Prefer not to say";
+
+	a = 1 = "I was happy"
+	a = 2 = "I was not happy or upset"
+	b = 3 = "I was a little upset"
+	b = 4 = "I was fairly upset"
+	b = 5 = "I was very upset"
+	x = 6 = "Prefer not to say";
+
+	a = 1 = "Just once or twice"
+	b = 2 = "At least every month"
+	b = 3 = "At least every week"
+	b = 4 = "Daily or almost daily"
+	x = 5 = "Prefer not to say";
+
+	a = 1 = "A little upset"
+	b = 2 = "Fairly upset"
+	b = 3 = "Very upset"
+	x = 4 = "Prefer not to say";
+
+	a = 1 = "I got over it straight away"
+	b = 2 = "I felt like that for a few days"
+	b = 3 = "I felt like that for a few weeks"
+	b = 4 = "I felt like that for a few months or more"
+	x = 5 = "Prefer not to say";
+
+	a = 1 = "I wasn't at all upset"
+	b = 2 = "I was a little upset"
+	b = 3 = "I was fairly upset"
+	b = 4 = "I was very upset"
+	x = 5 = "Prefer not to say";
+
+	a = 1 = "Never"
+	b = 2 = "Sometimes"
+	b = 3 = "Often"
+	b = 4 = "Always";
+
+	a = 1 = "Not true for me"
+	b = 2 = "A bit true for me"
+	b = 3 = "Fairly true for me"
+	b = 4 = "Very true for me"
+	x = 5 = "Prefer not to say";
+
+	a = 1 = "Very easy"
+	a = 2 = "Fairly easy"
+	b = 3 = "Fairly difficult"
+	b = 4 = "Very difficult"
+	x = 5 = "Prefer not to say";
+
+	a = 1 = "Allowed to do this anytime"
+	b = 2 = "Allowed to do tis with permission or supervision"
+	b = 3 = "Can never do this"
+	x = 4 = "Prefer not to say";
+
+	a = 1 = "I don't like it at all"
+	a = 2 = "I don't like it very much"
+	b = 3 = "I like it a bit"
+	b = 4 = "I like it a lot"
+	x = 5 = "Prefer not to say";
+
+	a = 1 = "Hardly ever"
+	b = 2 = "Once or twice a year"
+	b = 3 = "Every few months"
+	b = 4 = "Every few weeks"
+	x = 5 = "Prefer not to say";
+
+	a = 1 = "Not at all"
+	b = 2 = "Not very easily"
+	b = 3 = "Quite easily"
+	b = 4 = "Very easily"
+	x = 5 = "Prefer not to say";
+
+	a = 1 = "Less than once a month"
+	b = 2 = "Once or twice a month"
+	b = 3 = "Once or twice a week"
+	b = 4 = "Every day or almost every day"
+	x = 5 = "Prefer not to say";
+
+	//Imagine if given the opportunity to finish your studies or to get your own desired career in the future, where do you want to work?
+	a = 1 = "In the Philippines"
+	a = 2 = "Abroad"
+	a = 3 = "I have other plans--I want to do business." 
+	b = 4 = "I don't like to work."
+	x = 5 = "Prefer not to say";
+
+	a = 1 = "Elementary"
+	b = 2 = "High School"
+	c = 3 = "College"
+	d = 4 = "Beyond college degree (MA/MS/MBA/PhD/Law/Medicine)"
+	x = 5 = "Prefer not to say";
+
+	a = 1 = "Not true"
+	b = 2 = "A bit true"
+	b = 3 = "Very true"
+	x = 4 = "Prefer not to say";
+
+	a = 1 = "A mobile phone that is not a smartphone"
+	a = 2 = "A smartphone [iPhone, Samsung Galaxy, Cherry Mobile, Star Mobile, etc]"
+	b = 3 = "A desktop computer"
+	b = 4 = "A laptop or notebook computer"
+	c = 5 = "A tablet [iPad, Samsung Galaxy tab, PLDT Home tablet, etc]"
+	d = 6 = "A games console [Playstation, Xbox, PSP, Nintendo, 3DS, etc]"
+	x = 7 = "Prefer not to say";
+
+	a = 1 = "An adult in your family (over 18)"
+	b = 2 = "A child or young person in your family (under 18)"
+	c = 3 = "A romantic partner (or ex-)"
+	d = 4 = "Someone from work"
+	e = 5 = "A friend or acquaintance (over 18) that you knew in person before this"
+	e = 6 = "A friend or acquaintance (under 18) that you knew in person before this"
+	f = 7 = "Someone you first met online who was a contact of a friend or family member"
+	g = 8 = "Someone you met online who had no other connection with your life"
+	h = 9 = "Someone else (specify)"
+	x = 10 = "Prefer not to say";
+
+//About parents
+
+	a = 1 = "Less than P40000"
+	b = 2 = "P40000 - P59999"
+	c = 3 = "P60000 - P99999"
+	d = 4 = "P100000 - P249999"
+	e = 5 = "More than P250000";
+
+	1 = "Post-graduate"
+	2 = "College"
+	3 = "High School"
+	4 = "Elementary"
+	5 = "Pre-school"
+	6 = "Don't know"
+	7 = "Others";
+
+	1 = "Tagalog"
+	2 = "Cebuano"
+	3 = "Ilocano"
+	4 = "Bisaya"
+	5 = "Illonggo"
+	6 = "Bicol"
+	7 = "Waray"
+	8 = "Others";
+
+	1 = "Roman Catholic"
+	2 = "Islam"
+	3 = "Born-Again Christian"
+	4 = "Protestant"
+	5 = "Iglesia ni Cristo"
+	6 = "Others";
+
+	a = 1 = "Never"
+	a = 2 = "Hardly ever"
+	b = 3 = "At least every month"
+	b = 4 = "At least every week"
+	b = 5 = "Daily or almost daily";
+
+	a = 1 = "Never"
+	a = 2 = "Hardly ever"
+	b = 3 = "At least every month"
+	b = 4 = "At least every week"
+	b = 5 = "Daily or almost daily"
+	b = 6 = "Several times each day"
+	b = 7 = "Almost all the time"
+	x = 8 = "Prefer not to say";
+
+	a = 1 = "I have never been to school"
+	b = 2 = "Preschool"
+	b = 3 = "Elementary"
+	b = 4 = "High School"
+	b = 5 = "Senior High School"
+	b = 6 = "Technical-vocational course"
+	b = 7 = "College"
+	c = 8 = "Other (please, specify)"
+
+	1 = "I am sick"
+	2 = "I am retired"
+	3 = "I am a student"
+	4 = "I am looking for a job"
+	5 = "I take care of others, or I am full-time in the home";
+
+	
+
+	1 = "Permanent"
+	2 = "Contractual"
+	3 = "Under Probation";
+
+	1 = "Single"
+	2 = "Married"
+	3 = "Separated from spouse"
+	4 = "Has a live-in partner"
+	5 = "Widowed";
+
+
+	1 = "No, I have never used it"
+	2 = "Yes, I have used it for a few months"
+	3 = "Yes, I have used it for about a year"
+	4 = "Yes, I have used if for a few years"
+	x = 5 = "Prefer not to say";
+
+	a = 1 = "Never"
+	a = 2 = "Hardly ever"
+	b = 3 = "At least every month"
+	b = 4 = "At least every week"
+	5 = "Daily of almost daily"
+	6 = "Several times each day"
+	7 = "Almost all the time"
+	x = 8 = "Prefer not to say";
+
+	a = 1 = "Not at all upset"
+	b = 2 = "A bit upset"
+	b = 3 = "Fairly upset"
+	b = 4 = "Very  upset"
+	c = 5 = "Don't know"
+	x = 6 = "Prefer not to say";
+
+	a = 1 = "Not at all likely"
+	a = 2 = "Not very likely"
+	b = 3 = "Fairly likely"
+	b = 4 = "Very likely"
+	c = 5 = "Don't know"
+	x = 6 = "Prefer not to say";
+
+	a = 1 = "Not at all"
+	a = 2 = "Not very much"
+	b = 3 = "A fair amount"
+	b = 4 = "Definitely"
+	c = 5 = "Don't know"
+	x = 6 = "Prefer not to say";
+

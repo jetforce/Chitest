@@ -1,0 +1,4 @@
+Dataset 1 : 9to11.csv,Dataset 2 : 15to17.csv
+e1c: I know how to use a programming language (e.g. HTML; XML; etc.)
+z,z^2,99% (2.58),95% (1.96),n1,n2,n1+n2,p1,p2,p^,SEp
+-10.44,108.95,Reject,Reject,494,598,1092,0.1,0.37,0.24,0.03
