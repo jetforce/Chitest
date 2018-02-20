@@ -50,7 +50,7 @@ r,18, Manila+B3
 s,19, Marikina
 t,20, Quezon City
 u,21, Abra
-u,22, Benguet
+v,22, Benguet
 w,23, Surigao del Sur
 x,24, Occidental Mindoro
 y,25, Negros Occidental
@@ -2151,17 +2151,17 @@ b,4, Often
 b,5, Very often
 x,6, Prefer not to say
 V,h1,Here is a picture of a ladder. The top of the ladder ‘10’ is the best possible life for you and the bottom ‘0’ is the worst possible life for you. In general; where on the ladder do you feel you stand at the moment? Mark the circle next to the number that best describes where you stand.
-a,0,0
-a,1,1
-a,2,2
-a,3,3
-a,4,4
-b,5,5
-b,6,6
-b,7,7
-b,8,8
-b,9,9
-b,10,10
+a,0, 0
+a,1, 1
+a,2, 2
+a,3, 3
+a,4, 4
+b,5, 5
+b,6, 6
+b,7, 7
+b,8, 8
+b,9, 9
+b,10, 10
 V,h2a,Your mother or father (including step/foster mother or father)
 a,0, No
 b,1, Yes
@@ -2526,65 +2526,65 @@ x,5, Prefer not to say
 V,j5a,Suggested ways to use the internet safely
 a,1, Never
 a,2, Hardly ever
-b,3, Sometimes
 b,4, Often
 b,5, Very often
+c,3, Sometimes
 x,6, Prefer not to say
 V,j5b,Encouraged me to explore and learn things on the internet
 a,1, Never
 a,2, Hardly ever
-b,3, Sometimes
 b,4, Often
 b,5, Very often
+c,3, Sometimes
 x,6, Prefer not to say
 V,j5c,Made rules about what I can do on the internet at school
 a,1, Never
 a,2, Hardly ever
-b,3, Sometimes
 b,4, Often
 b,5, Very often
+c,3, Sometimes
 x,6, Prefer not to say
 V,j5d,Helped me when I found something difficult to do or find on the internet
 a,1, Never
 a,2, Hardly ever
-b,3, Sometimes
 b,4, Often
 b,5, Very often
+c,3, Sometimes
 x,6, Prefer not to say
 V,j5e,Talked to me about what I do on the internet
 a,1, Never
 a,2, Hardly ever
-b,3, Sometimes
 b,4, Often
 b,5, Very often
+c,3, Sometimes
 x,6, Prefer not to say
 V,j5f,Explained why some websites are good or bad
 a,1, Never
 a,2, Hardly ever
-b,3, Sometimes
 b,4, Often
 b,5, Very often
+c,3, Sometimes
 x,6, Prefer not to say
 V,j5g,Suggested ways to behave towards other people online
 a,1, Never
 a,2, Hardly ever
-b,3, Sometimes
 b,4, Often
 b,5, Very often
+c,3, Sometimes
 x,6, Prefer not to say
 V,j5h,Helped me in the past when something has bothered me on the internet
 a,1, Never
 a,2, Hardly ever
-b,3, Sometimes
 b,4, Often
 b,5, Very often
+c,3, Sometimes
 x,6, Prefer not to say
 V,j5i,In general; talked to me about what I would do if something on the internet ever bothered me
 a,1, Never
 a,2, Hardly ever
-b,3, Sometimes
 b,4, Often
 b,5, Very often
+c,3, Sometimes
 x,6, Prefer not to say
 V,k1a,My friends really try to help me
 a,1, Not true for me

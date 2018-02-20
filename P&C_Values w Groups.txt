@@ -1015,9 +1015,9 @@ value j1
 value j5
 	a : 1 = "Never"
 	a : 2 = "Hardly ever"
-	b : 3 = "Sometimes"
 	b : 4 = "Often"
 	b : 5 = "Very often"
+	c : 3 = "Sometimes"
 	x : 6 = "Prefer not to say";
 
 /***   Peers&Community   ***/

@@ -1,566 +1,563 @@
 Dataset 1,Dataset 2
-male_p.csv,female_p.csv
+9to11_p.csv,15to17_p.csv
 Feature,Question,Chi,Higher Or Lower,Degrees of Freedom,Cut-off,Is significant,N1,N2,P1(a),P1(b),P1(etc),P2(a),P2(b),P2(etc)
-A1,Gender,1882.0,-,1,6.635,1,[858.0],[1024.0],100.0%,0.0%,0.0%,0.0%,100.0%,0.0%
-A2,Birthdate,2.837988134478829,-,2,9.21,0,[858.0],[1024.0],33.1%,33.8%,33.1%,29.49%,35.74%,34.77%
-A3a,Mother,0.05783179028303318,+,1,6.635,0,[842.0],[1002.0],15.56%,84.44%,0.0%,15.97%,84.03%,0.0%
-A3b,Father,0.03863039998941733,-,1,6.635,0,[842.0],[1002.0],23.04%,76.96%,0.0%,22.65%,77.35%,0.0%
-A3c,Step or foster mother,3.3164709814110642,+,1,6.635,0,[842.0],[1001.0],97.03%,2.97%,0.0%,98.3%,1.7%,0.0%
-A3d,Step or foster father,2.8351478781648902,+,1,6.635,0,[842.0],[1001.0],97.27%,2.73%,0.0%,98.4%,1.6%,0.0%
-A3e,Grandparent(s) or other relatives,0.054658787438370646,-,1,6.635,0,[842.0],[1001.0],69.83%,30.17%,0.0%,69.33%,30.67%,0.0%
-A3f,Siblings (including half; step or foster siblings),1.8621341858757878,-,1,6.635,0,[842.0],[1002.0],30.64%,69.36%,0.0%,27.74%,72.26%,0.0%
-A3g,My spouse or partner (including boyfriend/girlfriend),0.7068220817181063,+,1,6.635,0,[842.0],[1001.0],98.69%,1.31%,0.0%,99.1%,0.9%,0.0%
-A3h,My child or children,0.13864505765849297,-,1,6.635,0,[842.0],[1001.0],97.86%,2.14%,0.0%,97.6%,2.4%,0.0%
-A3i,Parents (or relatives) of my spouse or partner,0.12323396306772451,+,1,6.635,0,[842.0],[1001.0],97.03%,2.97%,0.0%,97.3%,2.7%,0.0%
-A3j,I live in a foster home or children's home,,,1,6.635,0,[842.0],[1001.0],100.0%,0.0%,0.0%,99.7%,0.3%,0.0%
-A3k,I live alone,,,1,6.635,0,[842.0],[1001.0],100.0%,0.0%,0.0%,99.8%,0.2%,0.0%
-A3l,Someone or somewhere else: please state____,1.8538458265829297e-06,-,1,6.635,0,[842.0],[1001.0],95.61%,4.39%,0.0%,95.6%,4.4%,0.0%
-A4a,I am a school student,7.770148628221187,-,1,6.635,1,[849.0],[1012.0],6.6%,93.4%,0.0%,3.75%,96.25%,0.0%
-A4g,I am a student in college,0.7811112142212608,-,1,6.635,0,[849.0],[1009.0],99.06%,0.94%,0.0%,98.61%,1.39%,0.0%
-A4h,I am attending training in technical/vocational course,1.5652303091823287,+,1,6.635,0,[849.0],[1009.0],98.35%,1.65%,0.0%,99.01%,0.99%,0.0%
-A4c,I do paid employment,8.993943476883992,+,1,6.635,1,[849.0],[1009.0],97.29%,2.71%,0.0%,99.11%,0.89%,0.0%
-A4d,I do unpaid work,0.18165139505974665,+,1,6.635,0,[849.0],[1009.0],98.59%,1.41%,0.0%,98.81%,1.19%,0.0%
-A4e,I am looking for work,5.154654857504417,+,1,6.635,0,[849.0],[1009.0],98.47%,1.53%,0.0%,99.5%,0.5%,0.0%
-A4f,I help out at home,10.631318154533007,-,1,6.635,1,[849.0],[1009.0],73.85%,26.15%,0.0%,66.9%,33.1%,0.0%
-A4i,I am currently in a vacation,1.202511531481455,+,1,6.635,0,[849.0],[1010.0],88.1%,11.9%,0.0%,89.7%,10.3%,0.0%
-A5,Schooling,,,3,11.345,0,[837.0],[1013.0],1.08%,98.21%,0.72%,0.3%,99.51%,0.2%
-B1,How old were you when you first used the internet?,0.03626707100353869,+,1,6.635,0,[834.0],[1001.0],81.77%,18.23%,0.0%,82.12%,17.88%,0.0%
-B3,Are you able to access the internet when you want to or need to?,5.067574317206859,-,1,6.635,0,[835.0],[1008.0],10.54%,89.46%,0.0%,7.54%,92.46%,0.0%
-B6a,At school or college,2.7286285135380837,-,2,9.21,0,[821.0],[1002.0],72.84%,26.07%,1.1%,69.86%,29.34%,0.8%
-B6b,At home,16.445124495721874,-,2,9.21,1,[820.0],[1003.0],54.63%,44.27%,1.1%,46.06%,53.44%,0.5%
-B6c,In the home of friends or relatives,,,2,9.21,0,[825.0],[996.0],74.18%,25.58%,0.24%,70.88%,28.82%,0.3%
-B6d,In a public place (for example; in libraries; cafés; computer shops),22.47595530172008,+,2,9.21,1,[827.0],[989.0],60.1%,39.18%,0.73%,70.68%,28.72%,0.61%
-B6e,When I am on my way somewhere (e.g. on the street; in a bus or car),4.211583655786394,+,2,9.21,0,[819.0],[982.0],85.59%,13.19%,1.22%,87.27%,12.32%,0.41%
-B6f,When I am somewhere by myself,14.997147878130665,-,2,9.21,1,[822.0],[986.0],72.75%,26.28%,0.97%,64.6%,34.69%,0.71%
-B6g,PisoNet,27.422043602917302,+,2,9.21,1,[825.0],[981.0],62.18%,36.61%,1.21%,73.5%,25.99%,0.51%
-B7a,A mobile phone that is not a smartphone,0.7870398753866177,+,2,9.21,0,[817.0],[983.0],74.42%,24.85%,0.73%,75.89%,23.6%,0.51%
-B7b,A smartphone [iPhone; Samsung Galaxy; Cherry Mobile; Star Mobile; etc],,,2,9.21,0,[818.0],[987.0],58.44%,41.08%,0.49%,50.15%,49.44%,0.41%
-B7c,A desktop computer,14.009528678131101,+,2,9.21,1,[817.0],[993.0],63.77%,35.37%,0.86%,71.8%,27.79%,0.4%
-B7d,A laptop or notebook computer,4.761481790967974,-,2,9.21,0,[815.0],[992.0],81.47%,17.06%,1.47%,81.35%,18.15%,0.5%
-B7e,A tablet [iPad; Samsung Galaxy tab; PLDT Home tablet; etc],,,2,9.21,0,[814.0],[990.0],76.41%,22.73%,0.86%,80.71%,19.09%,0.2%
-B7f,A games console [Playstation; Xbox; PSP; Nintendo; 3DS; etc],31.668361346805565,+,2,9.21,1,[807.0],[975.0],81.78%,17.1%,1.12%,90.46%,8.31%,1.23%
-B8a,A mobile phone that is not a smartphone,,,2,9.21,0,[206.0],[235.0],43.69%,53.4%,2.91%,37.02%,61.7%,1.28%
-B8b,A smartphone [iPhone; Samsung Galaxy; Cherry Mobile; Star Mobile; etc],,,2,9.21,0,[337.0],[491.0],27.6%,70.92%,1.48%,30.14%,69.65%,0.2%
-B8c,A desktop computer,,,2,9.21,0,[290.0],[282.0],68.28%,29.66%,2.07%,75.53%,24.11%,0.35%
-B8d,A laptop or notebook computer,,,2,9.21,0,[138.0],[185.0],57.97%,40.58%,1.45%,53.51%,44.86%,1.62%
-B8e,A tablet [iPad; Samsung Galaxy tab; PLDT Home tablet; etc],,,2,9.21,0,[187.0],[194.0],50.8%,47.06%,2.14%,45.88%,53.09%,1.03%
-B8f,A games console [Playstation; Xbox; PSP; Nintendo; 3DS; etc],3.0800705730598663,-,2,9.21,0,[140.0],[83.0],62.86%,32.14%,5.0%,59.04%,39.76%,1.2%
-B9a,I use a postpaid plan (i.e.; with contracts),5.245446122619001,-,2,9.21,0,[812.0],[980.0],81.9%,14.41%,3.69%,82.86%,15.2%,1.94%
-B9b,I use freeWIFI (at home; in school; coffee shop or cafés; malls; etc.),30.917974471548025,-,2,9.21,1,[816.0],[994.0],60.05%,38.73%,1.23%,47.28%,51.81%,0.91%
-B9c,I pay for internet I use (e.g. in a cybercafé or internet cafe; PisoNet),5.812991946330718,+,2,9.21,0,[814.0],[990.0],42.26%,56.39%,1.35%,47.68%,50.71%,1.62%
-B9d,I use prepaid offers (e.g. GOSurf; GIGASurf; etc.),41.74488467660308,-,2,9.21,1,[806.0],[986.0],65.63%,33.37%,0.99%,50.51%,48.38%,1.12%
-B10a,Do you connect to the internet by yourself?,4.022775712696692,-,1,6.635,0,[826.0],[1000.0],42.01%,57.99%,0.0%,37.4%,62.6%,0.0%
-B10b1,My parents,4.18088356266054,+,1,6.635,0,[318.0],[362.0],71.07%,28.93%,0.0%,77.9%,22.1%,0.0%
-B10b2,My siblings,2.1517117881894263,-,1,6.635,0,[319.0],[362.0],68.34%,31.66%,0.0%,62.98%,37.02%,0.0%
-B10b3,Relatives,0.006321252630557984,-,1,6.635,0,[318.0],[362.0],85.85%,14.15%,0.0%,85.64%,14.36%,0.0%
-B10c1,Friends who are the same age as I am,0.22547203131223326,+,1,6.635,0,[318.0],[362.0],60.38%,39.62%,0.0%,62.15%,37.85%,0.0%
-B10c2,Friends who are older than me,9.346963431699537,+,1,6.635,1,[318.0],[362.0],79.87%,20.13%,0.0%,88.4%,11.6%,0.0%
-B10d,My teacher,0.13195519168624592,+,1,6.635,0,[318.0],[362.0],95.28%,4.72%,0.0%,95.86%,4.14%,0.0%
-B10e,Others,0.6532411349726055,+,1,6.635,0,[318.0],[362.0],89.62%,10.38%,0.0%,91.44%,8.56%,0.0%
-C1,Do you usually have a good time or fun when you go online?,,,3,11.345,0,[826.0],[1003.0],90.44%,8.72%,0.85%,89.13%,10.37%,0.5%
-C2,What do you think about this sentence: ‘There are lots of things on the internet that are good for children of my age’?,0.010792822087655815,+,2,9.21,0,[811.0],[988.0],15.66%,82.37%,1.97%,15.79%,82.29%,1.92%
-C4a,I learned something new by searching online,7.845122022141621,-,2,9.21,0,[803.0],[982.0],57.78%,40.85%,1.37%,55.6%,44.09%,0.31%
-C4c,I used the internet for schoolwork,,,2,9.21,0,[804.0],[992.0],55.72%,43.53%,0.75%,48.59%,51.11%,0.3%
-C4b,I looked for information about work or study opportunities,3.5613198996460036,+,2,9.21,0,[786.0],[964.0],75.95%,22.26%,1.78%,78.73%,20.33%,0.93%
-C4c1,Checked maps,2.3654198986886295,+,2,9.21,0,[788.0],[978.0],83.12%,15.36%,1.52%,85.58%,13.39%,1.02%
-C4c2,I looked for information about the place I want to go visit/eat,2.8925979856442865,-,2,9.21,0,[792.0],[975.0],82.95%,16.04%,1.01%,80.1%,19.08%,0.82%
-C4d,I looked for resources or events about my local neighbourhood,5.411548130905352,+,2,9.21,0,[783.0],[949.0],87.1%,10.47%,2.43%,89.36%,9.59%,1.05%
-C4f,I got involved online in a local organisation or charity,6.105809419862211,+,2,9.21,0,[779.0],[946.0],89.35%,8.86%,1.8%,92.71%,5.92%,1.37%
-C4g,I used the internet to help somebody else,2.928563038604315,+,2,9.21,0,[790.0],[964.0],81.01%,17.47%,1.52%,82.78%,16.49%,0.73%
-C4e,I used the internet to talk to people from places or backgrounds different from mine,9.134274382552919,+,2,9.21,0,[792.0],[964.0],78.79%,19.32%,1.89%,83.09%,16.29%,0.62%
-C4h,I looked for the news online,8.567087395430871,-,2,9.21,0,[802.0],[978.0],75.06%,23.57%,1.37%,74.85%,24.95%,0.2%
-C4i,I discussed political or social problems with other people online,3.428075748132338,-,2,9.21,0,[779.0],[955.0],89.6%,8.47%,1.93%,89.63%,9.42%,0.94%
-C4j,I got involved online in a campaign or protest,8.936231087034551,+,2,9.21,0,[777.0],[945.0],92.41%,6.18%,1.42%,95.24%,3.17%,1.59%
-C4k,I signed a petition online,2.5152921803018056,+,2,9.21,0,[768.0],[931.0],94.27%,4.17%,1.56%,95.92%,2.9%,1.18%
-C4l,I used the internet to join a civic; religious or political group,5.155845538089549,+,2,9.21,0,[777.0],[948.0],91.89%,6.56%,1.54%,94.62%,4.32%,1.05%
-C4o,I posted videos or music created by someone else,3.7891809075940874,+,2,9.21,0,[788.0],[979.0],85.66%,13.2%,1.14%,88.66%,10.62%,0.72%
-C4m,I created my own video or music and uploaded it to share,0.7915415614281242,+,2,9.21,0,[786.0],[972.0],88.3%,10.81%,0.89%,89.4%,9.98%,0.62%
-C4n,I created a blog or story or website online,2.916790401271,+,2,9.21,0,[784.0],[953.0],92.73%,5.74%,1.53%,94.65%,4.41%,0.94%
-C4o1,I created my own artwork; designs and illustrations and uploaded them on the internet,2.2725290685019384,+,2,9.21,0,[772.0],[956.0],90.54%,8.16%,1.3%,91.74%,7.64%,0.63%
-C4r,I used instant messaging [insert local examples e.g. Viber; WhatsApp],1.5318543199897237,+,2,9.21,0,[771.0],[954.0],80.93%,17.64%,1.43%,82.81%,16.25%,0.94%
-C4p,I visited a social network site (e.g.; Facebook [add local examples]),15.519453867563763,-,2,9.21,1,[795.0],[972.0],51.19%,47.67%,1.13%,42.28%,57.0%,0.72%
-C4t,I helped someone else who needed or wanted to go online,3.484159608822979,+,2,9.21,0,[787.0],[967.0],79.29%,19.95%,0.76%,82.52%,16.55%,0.93%
-C4q,I talked to family or friends who live further away (e.g. by Skype; Viber; FaceTime),6.7338372373392295,-,2,9.21,0,[778.0],[965.0],78.15%,20.69%,1.16%,74.92%,24.66%,0.41%
-C4u,I commented on the updates that friends or family have put online,14.247398434930464,-,2,9.21,1,[784.0],[968.0],71.68%,27.3%,1.02%,64.05%,35.43%,0.52%
-C4t1,I re-posted or shared a social media post online,9.448764539733537,-,2,9.21,1,[780.0],[962.0],77.44%,21.28%,1.28%,71.31%,27.65%,1.04%
-C4v,I showed my friends or family something that I saw online,0.9559543276802366,-,2,9.21,0,[785.0],[963.0],76.05%,22.93%,1.02%,74.14%,24.92%,0.93%
-C4w,I visited a chatroom to meet new people [insert local examples],16.01097448323053,+,2,9.21,1,[785.0],[955.0],82.42%,16.18%,1.4%,89.01%,10.37%,0.63%
-C4x,I watched video clips (e.g. on YouTube [insert local examples]),,,2,9.21,0,[798.0],[981.0],50.75%,48.62%,0.63%,56.88%,42.81%,0.31%
-C4y,I played online games alone,,,2,9.21,0,[815.0],[978.0],50.55%,48.83%,0.61%,76.48%,23.31%,0.2%
-C4z,I played games with other people online,176.56673549277446,+,2,9.21,1,[810.0],[966.0],59.63%,39.51%,0.86%,87.06%,12.32%,0.62%
-C4bb,I listened to music online (by downloading or streaming),,,2,9.21,0,[799.0],[975.0],62.83%,36.67%,0.5%,65.13%,34.46%,0.41%
-C4cc,I watched my favourite TV shows,,,2,9.21,0,[804.0],[979.0],51.49%,48.13%,0.37%,50.26%,49.44%,0.31%
-C4cc1,I joined a fan site (of a celebrity or popular band),8.719803589802376,-,2,9.21,0,[777.0],[957.0],89.83%,8.75%,1.42%,86.52%,12.75%,0.73%
-C4gg,I posted photos or comments online (e.g. on Facebook or a blog),20.812784274460018,-,2,9.21,1,[785.0],[969.0],70.57%,28.41%,1.02%,61.61%,38.08%,0.31%
-C4ee,I looked for health information for myself or someone I know,1.7453154626641934,+,2,9.21,0,[779.0],[961.0],80.62%,18.23%,1.16%,82.1%,17.27%,0.62%
-C4ff,I participated in a site where people share my interests or hobbies,4.285615827439184,+,2,9.21,0,[772.0],[947.0],83.55%,15.03%,1.42%,86.91%,12.25%,0.84%
-C4hh,I browsed for things to buy,2.0951247611911867,-,2,9.21,0,[781.0],[950.0],86.56%,12.29%,1.15%,87.05%,12.42%,0.53%
-C4hh1,I checked out what things cost by looking online,5.05236767114177,-,2,9.21,0,[767.0],[946.0],89.05%,9.78%,1.17%,87.63%,11.95%,0.42%
-C4hh2,I have sold an item online,7.390983781912072,+,2,9.21,0,[767.0],[946.0],92.83%,6.13%,1.04%,95.35%,3.38%,1.27%
-C6a,My mother or father (or step/foster mother or father),4.985145278666024,-,2,9.21,0,[777.0],[970.0],71.69%,27.54%,0.77%,67.53%,32.06%,0.41%
-C6b,My brother or sister (or step/foster/half siblings),1.017927120338162,-,2,9.21,0,[773.0],[967.0],76.58%,22.25%,1.16%,75.39%,23.78%,0.83%
-C6c,A friend around my age,,,2,9.21,0,[781.0],[975.0],69.4%,29.83%,0.77%,63.28%,36.51%,0.21%
-C6d,A teacher,1.133987782379203,+,2,9.21,0,[773.0],[969.0],86.55%,12.42%,1.03%,87.62%,11.76%,0.62%
-C6e,Another adult I trust,0.9271365749230305,-,2,9.21,0,[773.0],[961.0],80.72%,18.37%,0.91%,80.96%,18.52%,0.52%
-C6f,Someone I first met on the internet; but who is friends or family of other people I know in person,2.224868247876,+,2,9.21,0,[765.0],[948.0],83.66%,15.82%,0.52%,84.7%,14.24%,1.05%
-C6g,Someone I first met on the internet; but who has no other connection to my life outside of the internet,7.565610359263484,+,2,9.21,0,[759.0],[944.0],86.3%,12.65%,1.05%,90.47%,8.58%,0.95%
-C6g1,A relative or friend who is an OFW (overseas Filipino worker),3.0211926411908863,-,2,9.21,0,[758.0],[953.0],82.59%,16.23%,1.19%,80.27%,18.99%,0.73%
-C6h,Someone else,10.320991607226714,+,2,9.21,1,[761.0],[951.0],85.41%,13.4%,1.18%,90.33%,9.15%,0.53%
-C7a,My mother or father (or step/foster mother or father),6.375725247166285,-,2,9.21,0,[764.0],[949.0],74.35%,24.87%,0.79%,69.02%,30.35%,0.63%
-C7b,My brother or sister (or step/foster/half siblings),2.462411113614488,-,2,9.21,0,[762.0],[945.0],76.38%,22.44%,1.18%,74.71%,24.66%,0.63%
-C7c,A friend around my age,15.594021002653303,-,2,9.21,1,[766.0],[950.0],69.45%,29.63%,0.91%,61.16%,38.42%,0.42%
-C7d,A teacher,1.7373915085240457,-,2,9.21,0,[756.0],[946.0],86.9%,12.04%,1.06%,86.68%,12.79%,0.53%
-C7e,Another adult I trust,0.5749188138000547,-,2,9.21,0,[754.0],[945.0],82.63%,16.31%,1.06%,81.69%,17.46%,0.85%
-C7f,Someone I first met on the internet; but who is friends or family of other people I know in person,0.07526762663897715,+,2,9.21,0,[747.0],[939.0],85.27%,13.65%,1.07%,85.62%,13.42%,0.96%
-C7g,Someone I first met on the internet; but who has no other connection to my life outside of the internet,6.097214969725403,+,2,9.21,0,[748.0],[932.0],86.76%,12.17%,1.07%,90.56%,8.58%,0.86%
-C7g1,A relative or friend who is an OFW (overseas Filipino worker),5.631549050504665,-,2,9.21,0,[742.0],[935.0],85.44%,12.94%,1.62%,82.78%,16.36%,0.86%
-C7h,Someone else,7.452043333889188,+,2,9.21,0,[748.0],[932.0],86.23%,12.17%,1.6%,89.7%,9.76%,0.54%
-C8a,My mother or father (or step/foster mother or father),1.664884929516188,-,2,9.21,0,[581.0],[808.0],75.9%,22.38%,1.72%,74.38%,24.5%,1.11%
-C8b,My brother or sister (or step/foster/half siblings),4.012202476532707,-,2,9.21,0,[575.0],[804.0],74.61%,24.0%,1.39%,73.01%,26.49%,0.5%
-C8c,A friend around my age,12.267315620316468,-,2,9.21,1,[577.0],[815.0],58.93%,40.03%,1.04%,50.8%,48.83%,0.37%
-C8d,A teacher,3.429861400390564,+,2,9.21,0,[571.0],[809.0],84.06%,14.36%,1.58%,86.03%,13.35%,0.62%
-C8e,Another adult I trust,0.7519204420570645,+,2,9.21,0,[569.0],[805.0],78.91%,20.04%,1.05%,80.5%,18.76%,0.75%
-C8f,Someone I first met on the internet; but who is friends or family of other people I know in person,1.4672432020209176,+,2,9.21,0,[572.0],[800.0],81.82%,17.13%,1.05%,83.88%,15.5%,0.62%
-C8g,Someone I first met on the internet; but who has no other connection to my life outside of the internet,8.689048358297105,+,2,9.21,0,[566.0],[799.0],81.45%,17.49%,1.06%,87.23%,12.14%,0.63%
-C8g1,A relative or friend who is an OFW (overseas Filipino worker),5.268989239584702,-,2,9.21,0,[568.0],[804.0],81.51%,16.9%,1.58%,79.1%,20.27%,0.62%
-C8h,Someone else,4.4032172135777445,+,2,9.21,0,[571.0],[808.0],84.76%,14.01%,1.23%,88.61%,10.52%,0.87%
-C9a,My mother or father (or step/foster mother or father),2.0342715444648416,+,2,9.21,0,[590.0],[481.0],83.56%,15.42%,1.02%,82.54%,15.38%,2.08%
-C9b,My brother or sister (or step/foster/half siblings),5.852829880054214,+,2,9.21,0,[587.0],[478.0],75.98%,22.83%,1.19%,80.96%,17.15%,1.88%
-C9c,A friend around my age,23.208802151845173,+,2,9.21,1,[603.0],[482.0],58.04%,40.96%,1.0%,71.99%,26.97%,1.04%
-C9d,A teacher,0.24283768540780715,+,2,9.21,0,[593.0],[475.0],87.52%,10.96%,1.52%,88.21%,10.11%,1.68%
-C9e,Another adult I trust,10.397153324218326,+,2,9.21,1,[590.0],[481.0],80.17%,18.81%,1.02%,87.11%,11.64%,1.25%
-C9f,Someone I first met on the internet; but who is friends or family of other people I know in person,8.135481811267047,+,2,9.21,0,[595.0],[474.0],79.33%,19.5%,1.18%,85.23%,13.08%,1.69%
-C9g,Someone I first met on the internet; but who has no other connection to my life outside of the internet,6.501210709894511,+,2,9.21,0,[591.0],[469.0],82.06%,16.92%,1.02%,86.99%,11.51%,1.49%
-C9g1,A relative or friend who is an OFW (overseas Filipino worker),0.17265147157959815,-,2,9.21,0,[584.0],[466.0],88.87%,9.76%,1.37%,88.2%,10.52%,1.29%
-C9h,Someone else,7.577504875609939,+,2,9.21,0,[586.0],[469.0],79.69%,18.94%,1.37%,86.14%,12.79%,1.07%
-C10a,Making presentations,10.903513517043454,-,2,9.21,1,[771.0],[942.0],77.95%,21.01%,1.04%,72.29%,27.28%,0.42%
-C10b,Writing things,8.481916561200023,-,2,9.21,0,[773.0],[949.0],76.2%,23.03%,0.78%,70.6%,28.98%,0.42%
-C10c,Making pictures,,,2,9.21,0,[768.0],[951.0],72.53%,26.82%,0.65%,60.88%,38.91%,0.21%
-C10d,Practising something I am learning (e.g. maths or a language or music),18.181015971369284,-,2,9.21,1,[780.0],[958.0],68.08%,30.64%,1.28%,61.17%,38.62%,0.21%
-C10e,Checking out information on the school website,6.874739431476643,-,2,9.21,0,[767.0],[948.0],79.92%,19.17%,0.91%,76.27%,23.42%,0.32%
-C10f,Doing group work with other students,7.505484917486928,-,2,9.21,0,[775.0],[957.0],71.61%,27.74%,0.65%,65.62%,33.86%,0.52%
-C10g,Chatting online at school,0.4961783987288675,-,2,9.21,0,[770.0],[952.0],78.18%,21.04%,0.78%,77.1%,22.27%,0.63%
-C10h,Communicating with teachers (e.g. submitting homework or asking a question),0.4749348480576569,+,2,9.21,0,[770.0],[953.0],82.86%,16.49%,0.65%,83.95%,15.32%,0.73%
-C10i,Contributing to a school blog or online discussion,2.7730269046772493,+,2,9.21,0,[751.0],[927.0],87.08%,11.98%,0.93%,89.43%,9.49%,1.08%
-E1a,I know how to save a photo that I find online,35.477795294597094,-,2,9.21,1,[799.0],[975.0],30.66%,68.34%,1.0%,18.56%,80.51%,0.92%
-E1b,I know how to change my privacy settings (e.g. on a social networking site),4.807258427335568,-,2,9.21,0,[591.0],[824.0],46.53%,51.95%,1.52%,41.5%,57.52%,0.97%
-E1c,I know how to use a programming language (e.g. HTML; XML; etc.),4.479373255197154,-,2,9.21,0,[755.0],[929.0],75.36%,22.52%,2.12%,71.37%,26.91%,1.72%
-E1f1,I know how to jailbreak; crack games and apps; change IP address,9.982200174471647,+,2,9.21,1,[760.0],[920.0],72.24%,25.39%,2.37%,78.7%,19.89%,1.41%
-E1f2,I know how to hide my IP address,2.799798503982704,-,2,9.21,0,[766.0],[933.0],78.07%,20.23%,1.7%,74.6%,23.37%,2.04%
-E1f3,I know how to set network settings (LAN; wi-fi; device-connection),8.211654032688026,-,2,9.21,0,[757.0],[932.0],61.16%,37.52%,1.32%,54.4%,44.42%,1.18%
-E1f4,I know how to hack certain files,6.105549019563475,+,2,9.21,0,[759.0],[936.0],79.18%,18.71%,2.11%,83.76%,14.85%,1.39%
-E1f5,I know how to set the firewall,0.23437227662311788,+,2,9.21,0,[756.0],[920.0],82.54%,15.34%,2.12%,83.26%,14.89%,1.85%
-E1i,I find it easy to find a website I have visited before,28.942807260001366,-,2,9.21,1,[777.0],[940.0],53.41%,44.66%,1.93%,41.06%,57.66%,1.28%
-E1g,I find it easy to check if the information I find online is true,25.066700547767994,-,2,9.21,1,[780.0],[949.0],53.21%,45.13%,1.67%,41.52%,57.22%,1.26%
-E1h,I find it easy to choose the best keywords for online searches,36.91468923708669,-,2,9.21,1,[772.0],[945.0],59.2%,39.9%,0.91%,45.08%,54.5%,0.42%
-E1k,Sometimes I end up on websites without knowing how I got there,16.90113716564337,-,2,9.21,1,[777.0],[947.0],56.89%,41.18%,1.93%,48.79%,50.37%,0.84%
-E1k1,I know how to use incognito in browsing,1.0828869046006298,+,2,9.21,0,[756.0],[923.0],76.85%,20.5%,2.65%,78.22%,19.83%,1.95%
-E1l,I know which information I should and shouldn't share online,19.11822227347479,-,2,9.21,1,[586.0],[826.0],28.33%,70.48%,1.19%,18.64%,80.51%,0.85%
-E1m,I know how to remove people from my contact lists,15.381940579460553,-,2,9.21,1,[588.0],[836.0],19.05%,80.27%,0.68%,11.6%,87.8%,0.6%
-E1m1,I know how to block,,,2,9.21,0,[586.0],[836.0],32.59%,66.72%,0.68%,21.77%,77.75%,0.48%
-E1n,I know when I should and shouldn't share information online,15.081812604987622,-,2,9.21,1,[585.0],[826.0],24.96%,74.36%,0.68%,16.59%,82.81%,0.61%
-E1o,I know how to behave according to the situation online,21.47182624737045,-,2,9.21,1,[586.0],[828.0],21.67%,77.3%,1.02%,12.56%,86.71%,0.72%
-E1p,I know how to change who I share content with (e.g. friends; friends of friends or everyone),14.631507239454816,-,2,9.21,1,[578.0],[815.0],45.33%,52.94%,1.73%,37.67%,61.84%,0.49%
-E1p1,I know how to report abusive posts or things that I find offending in social media (e.g. Facebook report abuse),5.233268285668163,-,2,9.21,0,[568.0],[813.0],55.99%,42.25%,1.76%,50.8%,48.09%,1.11%
-E1t,I know how to create something new from video or music that I found online,1.7785985334304628,-,2,9.21,0,[756.0],[943.0],65.61%,32.67%,1.72%,63.84%,34.99%,1.17%
-E1q,I know how to post online video or music that I have created myself,,,2,9.21,0,[260.0],[304.0],32.31%,65.77%,1.92%,23.03%,75.66%,1.32%
-E1s,I know which different types of licences apply to online content,10.380508279381013,-,2,9.21,1,[738.0],[903.0],73.98%,23.17%,2.85%,69.1%,29.35%,1.55%
-E1r,I know how to edit or make basic changes to online content that others have created,4.508893754445436,-,2,9.21,0,[740.0],[916.0],67.57%,30.81%,1.62%,63.21%,35.59%,1.2%
-E1u,I know how to design a website,5.765479870010758,-,2,9.21,0,[739.0],[913.0],74.29%,22.87%,2.84%,75.68%,23.11%,1.2%
-E1v,I know how to install apps on a mobile device (e.g. phone or tablet),,,2,9.21,0,[764.0],[953.0],29.19%,69.9%,0.92%,19.41%,80.38%,0.21%
-E1w,I know how to safeguard my online expenses while using mobile apps,8.873743219607391,-,2,9.21,0,[738.0],[921.0],49.73%,49.05%,1.22%,42.45%,55.92%,1.63%
-E1x,I know how to make an in-app purchase,4.073178674808841,+,2,9.21,0,[742.0],[915.0],64.42%,34.23%,1.35%,68.31%,29.84%,1.86%
-E1x1,I know how to download and carck to full version some paid apps without paying a fee (e.g. torrent; etc.),0.19683378053279652,-,2,9.21,0,[730.0],[905.0],73.15%,25.07%,1.78%,72.38%,25.97%,1.66%
-E3a,Deactivate the function showing my geographical position (on Facebook; Google Maps; etc.),9.38686728184888,-,2,9.21,1,[548.0],[790.0],62.77%,31.2%,6.02%,61.52%,35.57%,2.91%
-E3b,Connect to a Wi-Fi network,3.478642119755307,-,2,9.21,0,[576.0],[822.0],20.49%,77.78%,1.74%,18.25%,80.9%,0.85%
-E3c,Block push notifications from different apps,7.402937472277717,-,2,9.21,0,[542.0],[794.0],64.94%,32.47%,2.58%,60.33%,38.41%,1.26%
-E3d,Have the same documents; contacts or apps on all devices that I use (e.g. smartphone; tablet; PC),1.2397848057865861,+,2,9.21,0,[536.0],[780.0],65.3%,31.16%,3.54%,67.05%,30.38%,2.56%
-E3e,Block pop ups which promote apps; games or services I have to pay for (unrequested windows that appear during web surfing),0.7426129695597596,+,2,9.21,0,[529.0],[771.0],73.53%,23.63%,2.84%,75.23%,21.66%,3.11%
-E3f,Protect a smartphone with a PIN/with a screen pattern,9.54710493989586,-,2,9.21,1,[562.0],[814.0],22.42%,74.91%,2.67%,17.2%,81.45%,1.35%
-E3g,Update my status on the social networking site I use the most,34.57513621831541,-,2,9.21,1,[554.0],[802.0],43.32%,54.69%,1.99%,27.93%,69.83%,2.24%
-E3h,Find information on how to use smartphones safely,3.9283355034609237,-,2,9.21,0,[554.0],[795.0],47.47%,50.18%,2.35%,42.52%,55.6%,1.89%
-E3i,Compare similar apps to choose the one that is most reliable,4.039657001663033,-,2,9.21,0,[544.0],[788.0],50.0%,46.69%,3.31%,45.94%,51.78%,2.28%
-E3j,Take a picture or a video with my smartphone and post it onto social media,12.647366330502877,-,2,9.21,1,[549.0],[796.0],46.27%,51.55%,2.19%,36.93%,61.31%,1.76%
-D1d,Twitter,25.496029141701413,-,1,6.635,1,[748.0],[954.0],91.71%,8.29%,0.0%,83.44%,16.56%,0.0%
-D1e,Viber,0.24809638953545288,-,1,6.635,0,[748.0],[950.0],97.06%,2.94%,0.0%,96.63%,3.37%,0.0%
-D1f,Skype,2.0195859556220577,-,1,6.635,0,[748.0],[950.0],93.98%,6.02%,0.0%,92.21%,7.79%,0.0%
-D1a,Facebook,24.327285843727108,-,1,6.635,1,[749.0],[956.0],12.55%,87.45%,0.0%,5.75%,94.25%,0.0%
-D1c,Instagram,20.126026882716836,-,1,6.635,1,[748.0],[950.0],87.43%,12.57%,0.0%,79.16%,20.84%,0.0%
-D1b,WhatsApp,0.042741856280656285,-,1,6.635,0,[748.0],[948.0],97.73%,2.27%,0.0%,97.57%,2.43%,0.0%
-D1g,YouTube,5.621178652346501,+,1,6.635,0,[748.0],[955.0],37.97%,62.03%,0.0%,43.66%,56.34%,0.0%
-D1h,Spotify,0.31700263995126193,+,1,6.635,0,[748.0],[948.0],93.98%,6.02%,0.0%,94.62%,5.38%,0.0%
-D1i,Wikipedia,12.594530183800503,-,1,6.635,1,[748.0],[950.0],90.78%,9.22%,0.0%,85.05%,14.95%,0.0%
-D1j,Tumblr,3.566656069385229,-,1,6.635,0,[748.0],[948.0],99.6%,0.4%,0.0%,98.73%,1.27%,0.0%
-D2d,I find it easier to be myself online than when I am with people face-to-face,0.3659257915473534,+,2,9.21,0,[583.0],[832.0],48.37%,48.54%,3.09%,49.52%,47.84%,2.64%
-D2e,I talk about different things online than I do when speaking to people face-to-face,0.36512525948156027,-,2,9.21,0,[582.0],[821.0],49.31%,47.77%,2.92%,47.99%,49.33%,2.68%
-D2f,I talk about private things online which I do not talk about with people face-to-face,2.2500972287179577,+,2,9.21,0,[579.0],[815.0],59.41%,38.34%,2.25%,63.31%,34.85%,1.84%
-D2a,I feel safe on the internet,13.33699915026532,+,2,9.21,1,[784.0],[962.0],44.9%,50.51%,4.59%,53.53%,42.0%,4.47%
-D2b,I find other people are kind and helpful on the internet,0.7041452005848648,-,2,9.21,0,[779.0],[962.0],36.84%,58.28%,4.88%,37.42%,58.52%,4.05%
-D2c,I know what to do if someone acts online in a way I don't like,9.443596750476376,-,2,9.21,1,[589.0],[820.0],34.8%,60.61%,4.58%,28.66%,68.29%,3.05%
-D12,How were your social media accounts created?,11.463571716528758,+,4,13.277,0,[552.0],[800.0],37.68%,16.3%,46.01%,32.0%,15.0%,53.0%
-D13,How old were you when you first had your social media account?,23.08264890525338,-,3,11.345,1,[573.0],[814.0],39.62%,31.41%,28.97%,41.65%,38.82%,19.53%
-D14a,Facebook/Messenger,4.759089218785685,+,2,9.21,0,[570.0],[823.0],5.26%,57.37%,37.37%,3.52%,54.43%,42.04%
-D14b,Skype,0.5792516959820647,-,2,9.21,0,[500.0],[715.0],82.4%,13.4%,4.2%,80.7%,14.55%,4.76%
-D14c,Viber,2.7966528844854075,-,2,9.21,0,[489.0],[704.0],89.98%,7.16%,2.86%,87.36%,9.94%,2.7%
-D14d,WeChat,2.3761586711528353,-,2,9.21,0,[486.0],[704.0],90.53%,7.0%,2.47%,88.78%,7.1%,4.12%
-D14e,Instagram,12.270134500993569,-,2,9.21,1,[488.0],[717.0],77.25%,17.42%,5.33%,68.76%,21.62%,9.62%
-D14f,Twitter,13.596742193010298,-,2,9.21,1,[488.0],[710.0],83.2%,12.09%,4.71%,74.23%,19.01%,6.76%
-D14g,YouTube/Hangout (Google),1.9698690210624703,+,2,9.21,0,[516.0],[737.0],59.3%,31.4%,9.3%,62.55%,29.99%,7.46%
-D15a,Minecraft,5.54862863837921,-,1,6.635,0,[583.0],[404.0],61.23%,38.77%,0.0%,53.71%,46.29%,0.0%
-D15b,Warcraft DOTA,18.20002361635462,+,1,6.635,1,[582.0],[403.0],81.27%,18.73%,0.0%,91.07%,8.93%,0.0%
-D15c,DOTA 2,55.05204062853416,+,1,6.635,1,[582.0],[403.0],69.93%,30.07%,0.0%,89.83%,10.17%,0.0%
-D15d,League of Legends,19.28241594413842,+,1,6.635,1,[583.0],[403.0],66.9%,33.1%,0.0%,79.65%,20.35%,0.0%
-D15e,Counterstrike,45.98241814320215,+,1,6.635,1,[583.0],[403.0],58.49%,41.51%,0.0%,79.16%,20.84%,0.0%
-D15f,Others,20.261242462263663,-,1,6.635,1,[583.0],[405.0],58.49%,41.51%,0.0%,43.95%,56.05%,0.0%
-D7a,Thinking of the profile you use most often; about how many people are you in contact with when using [named profile]?,39.81579982781798,+,14,29.141,1,[539.0],[786.0],8.35%,13.91%,77.74%,7.12%,9.03%,83.84%
-D7b,More or less; how many are your followers?,,,14,29.141,0,[462.0],[669.0],22.73%,17.75%,59.52%,16.89%,17.64%,65.47%
-D7c,More or less; how many do you follow?,,,14,29.141,0,[459.0],[680.0],25.71%,20.04%,54.25%,23.68%,18.68%,57.65%
-D8,Is you [named profile] set to...?,3.8805592184825737,+,3,11.345,0,[545.0],[802.0],56.51%,28.26%,15.23%,61.47%,26.06%,12.47%
-D9a,A photo that clearly shows your face,17.42133230856828,-,2,9.21,1,[568.0],[815.0],18.31%,78.7%,2.99%,10.92%,87.12%,1.96%
-D9b,Your last name,2.5458262936534366,-,2,9.21,0,[565.0],[816.0],11.68%,85.31%,3.01%,11.76%,86.52%,1.72%
-D9c,Your address,1.0654478448200866,-,2,9.21,0,[561.0],[810.0],35.65%,59.54%,4.81%,34.2%,61.85%,3.95%
-D9d,Your phone number,3.8432743208587095,+,2,9.21,0,[559.0],[806.0],55.81%,39.71%,4.47%,60.67%,36.1%,3.23%
-D9e,Your school,5.846784633133322,-,2,9.21,0,[558.0],[811.0],38.71%,57.71%,3.58%,32.55%,64.12%,3.33%
-D9f,Your correct age,9.737697822878282,+,2,9.21,1,[562.0],[809.0],30.78%,65.66%,3.56%,38.94%,57.6%,3.46%
-D9g,An age that is not your real age,2.55435955859725,-,2,9.21,0,[557.0],[801.0],69.48%,26.57%,3.95%,65.42%,30.46%,4.12%
-D9j,Places you've dined and visited,8.551809141360913,-,2,9.21,0,[551.0],[795.0],66.97%,28.86%,4.17%,59.12%,35.85%,5.03%
-D9k,Pictures showing whole body,1.268093762826137,+,2,9.21,0,[554.0],[800.0],61.73%,35.02%,3.25%,63.13%,32.75%,4.13%
-D10,How do you usually respond to requests from people to become your ‘friends’ online?,36.70993962882682,-,3,11.345,1,[554.0],[805.0],26.53%,68.41%,5.05%,13.66%,79.13%,7.2%
-F1a,Looked for new friends or contacts on the internet,1.3006888231381606,+,2,9.21,0,[765.0],[951.0],78.82%,20.26%,0.92%,80.97%,18.09%,0.95%
-F1b,Sent my personal information (e.g.; my full name; address or phone number) to someone I have never met face-to-face,12.920910236447831,+,2,9.21,1,[746.0],[936.0],88.87%,10.05%,1.07%,93.16%,5.45%,1.39%
-F1c,Added people to my friends or contacts I have never met face-to-face,5.557634570002549,+,2,9.21,0,[747.0],[944.0],80.19%,18.61%,1.2%,84.53%,14.41%,1.06%
-F1d,Pretended to be a different kind of person online from who I really am,5.628771510113029,+,2,9.21,0,[740.0],[928.0],90.0%,8.78%,1.22%,92.35%,5.93%,1.72%
-F1e,Sent a photo or video of myself to someone I have never met face-to-face,14.497436846602103,+,2,9.21,1,[743.0],[935.0],88.96%,9.83%,1.21%,93.48%,5.03%,1.5%
-F1f,Post my current location and those I had been to,7.895108679675042,+,2,9.21,0,[735.0],[928.0],86.67%,11.84%,1.5%,90.63%,7.76%,1.62%
-F1g,Post my new stuff and clothes,2.9836032376306245,+,2,9.21,0,[746.0],[935.0],87.67%,10.86%,1.47%,90.05%,9.09%,0.86%
-F1h,Post messages or love quotes that pertain to the boy/girl whom I have a crush on,1.7515497100483777,+,2,9.21,0,[750.0],[937.0],87.2%,11.6%,1.2%,86.55%,11.42%,2.03%
-F1i,Seek to get acquainted or befriend persons who are Non-Filipinos (foreigners),7.49853425260483,+,2,9.21,0,[745.0],[929.0],91.54%,7.38%,1.07%,93.97%,4.41%,1.61%
-F1j,Engage in chat activities with a person whom I only met on internet,11.050081640340984,+,2,9.21,1,[746.0],[933.0],79.76%,19.3%,0.94%,85.85%,13.4%,0.75%
-F1k,Do video calls with a person whom I only met on internet,28.056211759211,+,2,9.21,1,[735.0],[927.0],86.8%,12.11%,1.09%,93.85%,4.96%,1.19%
-F1l,Receive offers or gifts online,19.93224890456689,+,2,9.21,1,[734.0],[924.0],88.69%,10.49%,0.82%,93.72%,4.87%,1.41%
-F2,Have you EVER had contact on the internet with someone you have not met face-to-face before?,1.8849909610143978,+,2,9.21,0,[559.0],[663.0],68.52%,27.55%,3.94%,71.95%,24.13%,3.92%
-F3,In the PAST YEAR; have you at least once met anyone face to face that you first got to know on the internet?,36.131629448327764,+,2,9.21,1,[753.0],[947.0],77.29%,19.92%,2.79%,88.07%,9.93%,2.01%
-F4,If you met anyone face-to-face that you first got to know on the internet; how did you feel about it?,2.6620631471336957,-,3,11.345,0,[150.0],[94.0],62.0%,17.33%,20.67%,58.51%,23.4%,18.09%
-F5,Thinking about the LAST TIME you were bothered by meeting someone in this way; how old was the person you actually met?,,,2,9.21,0,[24.0],[14.0],83.33%,12.5%,4.17%,64.29%,21.43%,14.29%
-F6a,I've met face to face with a person I just got acquainted on internet but is already known by my friends or relatives,,,2,9.21,0,[148.0],[91.0],40.54%,57.43%,2.03%,36.26%,63.74%,0.0%
-F6b,I've met face to face with a person I just got acquainted on internet and who is totally unknown to anyone I personally know,,,2,9.21,0,[147.0],[88.0],59.18%,38.1%,2.72%,55.68%,44.32%,0.0%
-F6c,I've met with a foreigner (different nationality),,,2,9.21,0,[148.0],[91.0],70.27%,28.38%,1.35%,68.13%,30.77%,1.1%
-F6d,I've personally met with an older person,,,2,9.21,0,[151.0],[92.0],49.01%,47.68%,3.31%,54.35%,42.39%,3.26%
-F6e,I've met face to face with a person I just got acquainted on internet and she/he was accompanied by another girl/boy,,,2,9.21,0,[149.0],[92.0],55.7%,42.28%,2.01%,58.7%,41.3%,0.0%
-F6h,I've met with LGBT person (lesbian; gay; bisexual; transgender) whom i just got acquainted with on internet,,,2,9.21,0,[146.0],[90.0],74.66%,23.97%,1.37%,75.56%,21.11%,3.33%
-F8,In the PAST YEAR; how many people have you gone to a meeting with face-to-face that you had previously only met on the internet?,,,2,9.21,0,[145.0],[93.0],17.93%,80.0%,2.07%,11.83%,87.1%,1.08%
-F11,In the PAST YEAR; has anything EVER happened online that bothered or upset you in some way? (e.g.; made you feel uncomfortable; scared or that you shouldn’t have seen it)?,1.0249389150030976,+,2,9.21,0,[738.0],[928.0],78.59%,18.16%,3.25%,80.28%,17.13%,2.59%
-F12,In the PAST YEAR; how often did this happen?,11.196639506082576,+,2,9.21,1,[134.0],[160.0],38.06%,57.46%,4.48%,56.88%,38.13%,5.0%
-F13,Thinking now about the LAST TIME this happened to you; how upset were you about what happened?,3.4558856389780077,-,2,9.21,0,[135.0],[157.0],37.78%,54.07%,8.15%,39.49%,57.32%,3.18%
-F14a,My mother or father (or step/foster mother or father),0.22043443727211995,+,1,6.635,0,[131.0],[160.0],64.89%,35.11%,0.0%,67.5%,32.5%,0.0%
-F14b,My brother or sister (orstep/foster/half siblings),0.4167074153322632,+,1,6.635,0,[131.0],[160.0],70.99%,29.01%,0.0%,74.38%,25.62%,0.0%
-F14j,Cousin,0.627109310290794,+,1,6.635,0,[131.0],[160.0],65.65%,34.35%,0.0%,70.0%,30.0%,0.0%
-F14k,Aunt/Uncle,3.501926200893689,+,1,6.635,0,[131.0],[160.0],80.15%,19.85%,0.0%,88.13%,11.88%,0.0%
-F14l,Grandfather/Grandmother,15.303806822406056,+,1,6.635,1,[131.0],[160.0],82.44%,17.56%,0.0%,96.25%,3.75%,0.0%
-F14m,Nanny,,,1,6.635,0,[131.0],[160.0],98.47%,1.53%,0.0%,100.0%,0.0%,0.0%
-F14c,A friend around my age,7.059814882341062,-,1,6.635,1,[131.0],[160.0],58.78%,41.22%,0.0%,43.13%,56.88%,0.0%
-F14n,Classmate,0.9359430795218853,-,1,6.635,0,[131.0],[160.0],67.94%,32.06%,0.0%,62.5%,37.5%,0.0%
-F14o,Boyfriend/Girlfriend,0.17221825023258425,-,1,6.635,0,[131.0],[160.0],90.84%,9.16%,0.0%,89.38%,10.63%,0.0%
-F14d,A teacher,5.468832572452776,+,1,6.635,0,[131.0],[160.0],85.5%,14.5%,0.0%,93.75%,6.25%,0.0%
-F14e,Someone whose job it is to help children,,,1,6.635,0,[131.0],[160.0],97.71%,2.29%,0.0%,97.5%,2.5%,0.0%
-F14p,Godfather/Godmother,4.144941911507073,+,1,6.635,0,[131.0],[160.0],92.37%,7.63%,0.0%,97.5%,2.5%,0.0%
-F14q,Priest/Pastor/Nun,,,1,6.635,0,[131.0],[160.0],97.71%,2.29%,0.0%,100.0%,0.0%,0.0%
-F14r,Neighbor,8.527993797709922,+,1,6.635,1,[131.0],[160.0],80.15%,19.85%,0.0%,91.88%,8.13%,0.0%
-F14f,Another adult I trust,0.10110363240966394,-,1,6.635,0,[131.0],[160.0],89.31%,10.69%,0.0%,88.13%,11.88%,0.0%
-F14g,Someone else,5.737151088415401,+,1,6.635,0,[131.0],[160.0],90.08%,9.92%,0.0%,96.88%,3.13%,0.0%
-F14h,I didn't talk to anyone,0.045401051390825536,+,1,6.635,0,[131.0],[160.0],93.13%,6.87%,0.0%,93.75%,6.25%,0.0%
-F14i,Prefer not to say,0.1475319156998375,+,1,6.635,0,[131.0],[160.0],94.66%,5.34%,0.0%,95.63%,4.38%,0.0%
-F15,The last time something happened online that bothered or upset you in some way; how long did you feel like that for?,,,2,9.21,0,[129.0],[155.0],43.41%,52.71%,3.88%,52.26%,46.45%,1.29%
-F16a,I ignored the problem or hoped the problem would go away by itself,0.21622272143774013,+,1,6.635,0,[125.0],[150.0],43.2%,56.8%,0.0%,46.0%,54.0%,0.0%
-F16b,I closed the window or app,4.532839684546386,+,1,6.635,0,[125.0],[150.0],76.8%,23.2%,0.0%,86.67%,13.33%,0.0%
-F16c,I felt a bit guilty about what went wrong,8.966536438384146,+,1,6.635,1,[125.0],[150.0],69.6%,30.4%,0.0%,84.67%,15.33%,0.0%
-F16d,I tried to get the other person to leave me alone,2.4546722454672247,-,1,6.635,0,[125.0],[150.0],90.4%,9.6%,0.0%,84.0%,16.0%,0.0%
-F16e,I tried to get back at the other person,,,1,6.635,0,[125.0],[150.0],96.0%,4.0%,0.0%,100.0%,0.0%,0.0%
-F16f,I stopped using the internet for a while,0.027652086475616015,-,1,6.635,0,[125.0],[150.0],80.8%,19.2%,0.0%,80.0%,20.0%,0.0%
-F16g,I deleted any messages from the other person,5.58365523901497,-,1,6.635,0,[125.0],[150.0],85.6%,14.4%,0.0%,74.0%,26.0%,0.0%
-F16h,I changed my privacy/ contact settings,0.7971014492753623,+,1,6.635,0,[125.0],[150.0],90.4%,9.6%,0.0%,93.33%,6.67%,0.0%
-F16i,I blocked the person from contacting me,9.075136866990169,-,1,6.635,1,[125.0],[150.0],90.4%,9.6%,0.0%,76.67%,23.33%,0.0%
-F16j,I reported the problem online  (e.g.; clicked on a ‘report abuse’ button; contacted an internet advisor or Internet Service Provider (ISP)),0.32999999999999996,-,1,6.635,0,[125.0],[150.0],92.0%,8.0%,0.0%,90.0%,10.0%,0.0%
-F16k,Other actions taken,4.146153846153846,-,1,6.635,0,[125.0],[150.0],97.6%,2.4%,0.0%,92.0%,8.0%,0.0%
-F18,In the PAST YEAR; has anyone ever treated you in a hurtful or nasty way?,0.8124791541944788,+,2,9.21,0,[790.0],[953.0],72.15%,24.56%,3.29%,73.77%,23.5%,2.73%
-F19,In the PAST YEAR; how often did this happen?,6.066255360377157,+,2,9.21,0,[190.0],[224.0],45.26%,52.11%,2.63%,54.46%,40.63%,4.91%
-F20a,In person face-to-face (by someone with you in the same place),,,2,9.21,0,[192.0],[220.0],41.15%,55.21%,3.65%,57.73%,41.82%,0.45%
-F20b,Via a mobile phone or online device (computer;tablet; etc.),5.447348543527047,-,2,9.21,0,[188.0],[223.0],48.4%,46.28%,5.32%,43.95%,54.26%,1.79%
-F21a,By mobile phone calls,0.3023967193575403,+,1,6.635,0,[83.0],[118.0],71.08%,28.92%,0.0%,74.58%,25.42%,0.0%
-F21b,By messages sent to me on my phone (SMS/TEXT or MMS),0.5769348254832701,-,1,6.635,0,[83.0],[118.0],66.27%,33.73%,0.0%,61.02%,38.98%,0.0%
-F21c,On a social networking site (e.g. Facebook; Twitter etc.),2.5245890315215394,-,1,6.635,0,[83.0],[118.0],49.4%,50.6%,0.0%,38.14%,61.86%,0.0%
-F21d,On a media sharing platform (YouTube; Instagram; Flickr),12.27237849261,+,1,6.635,1,[83.0],[118.0],81.93%,18.07%,0.0%,96.61%,3.39%,0.0%
-F21e,By instant messaging (MSN; What’s app; Skype etc.),,,1,6.635,0,[83.0],[118.0],91.57%,8.43%,0.0%,97.46%,2.54%,0.0%
-F21f,In a chatroom,0.02453440392550471,-,1,6.635,0,[49.0],[61.0],73.47%,26.53%,0.0%,72.13%,27.87%,0.0%
-F21g,In an online game,6.3520824533243205,+,1,6.635,0,[63.0],[45.0],74.6%,25.4%,0.0%,93.33%,6.67%,0.0%
-F21h,Some other way,1.6588677577774287,+,1,6.635,0,[83.0],[118.0],87.95%,12.05%,0.0%,93.22%,6.78%,0.0%
-F21i,Prefer not to say,,,1,6.635,0,[83.0],[118.0],98.8%,1.2%,0.0%,99.15%,0.85%,0.0%
-F22a,Nasty or hurtful messages were sent to me,,,2,9.21,0,[188.0],[222.0],50.53%,45.74%,3.72%,38.29%,61.26%,0.45%
-F22b,Nasty or hurtful messages were passed around or posted where others could see,,,2,9.21,0,[188.0],[216.0],65.43%,31.38%,3.19%,74.07%,25.46%,0.46%
-F22c,I was left out or excluded from a group or activity on the internet,4.440869088400792,+,2,9.21,0,[185.0],[216.0],63.78%,31.89%,4.32%,73.15%,24.54%,2.31%
-F22d,I was threatened on the internet,,,2,9.21,0,[183.0],[216.0],69.4%,28.42%,2.19%,69.91%,29.17%,0.93%
-F22e,Other nasty or hurtful things happened to me on the internet,0.8724205559236611,+,2,9.21,0,[187.0],[213.0],58.82%,37.97%,3.21%,61.5%,36.62%,1.88%
-F23,Thinking of the last time someone treated you in a hurtful or nasty way; how did you feel?,2.2379075879951897,-,2,9.21,0,[182.0],[207.0],34.07%,59.34%,6.59%,28.02%,66.67%,5.31%
-F24,In the PAST YEAR; have you EVER treated someone else in a hurtful or nasty way?,3.159047400741226,+,2,9.21,0,[777.0],[940.0],79.41%,17.37%,3.22%,82.77%,14.47%,2.77%
-F25,In the PAST YEAR; how often have you treated someone in this way?,,,2,9.21,0,[138.0],[136.0],48.55%,47.83%,3.62%,58.09%,38.97%,2.94%
-F26a,In person face-to-face (a person that is together with you in the same place at the same time),,,2,9.21,0,[137.0],[136.0],48.91%,49.64%,1.46%,50.0%,47.79%,2.21%
-F26b,Via a mobile phone or online device (computer; tablet; etc.),,,2,9.21,0,[132.0],[131.0],57.58%,40.91%,1.52%,42.75%,53.44%,3.82%
-F27a,By mobile phone calls,0.10549645390070911,-,1,6.635,0,[51.0],[68.0],80.39%,19.61%,0.0%,77.94%,22.06%,0.0%
-F27b,By messages sent by the phone (SMS/Text or MMS),0.5078535353535348,-,1,6.635,0,[51.0],[68.0],66.67%,33.33%,0.0%,60.29%,39.71%,0.0%
-F27c,On a social networking site (e.g.; Facebook; Twitter),4.5541523153463475,-,1,6.635,0,[51.0],[68.0],54.9%,45.1%,0.0%,35.29%,64.71%,0.0%
-F27d,By instant messaging (MSN; WhatsApp; Skype etc.),,,1,6.635,0,[51.0],[68.0],90.2%,9.8%,0.0%,95.59%,4.41%,0.0%
-F27e,On a media sharing platform (YouTube; Instagram; Flickr),,,1,6.635,0,[51.0],[68.0],88.24%,11.76%,0.0%,97.06%,2.94%,0.0%
-F27f,In a chatroom,0.25508392277365516,+,1,6.635,0,[33.0],[32.0],72.73%,27.27%,0.0%,78.13%,21.88%,0.0%
-F27g,In an online game,0.6543549905838044,+,1,6.635,0,[45.0],[32.0],73.33%,26.67%,0.0%,81.25%,18.75%,0.0%
-F27h,Some other way,,,1,6.635,0,[51.0],[68.0],96.08%,3.92%,0.0%,89.71%,10.29%,0.0%
-F27i,Prefer not to say,,,1,6.635,0,[51.0],[68.0],100.0%,0.0%,0.0%,97.06%,2.94%,0.0%
-F28,In the PAST YEAR; have you EVER SEEN any sexual images?,0.3227947895747253,-,2,9.21,0,[764.0],[918.0],68.32%,28.66%,3.01%,67.54%,29.74%,2.72%
-F29,If you have seen images of this kind; how did you feel about what you saw?,49.85208489167673,+,3,11.345,1,[220.0],[273.0],15.45%,28.18%,56.36%,5.49%,10.26%,84.25%
-F31a,In a magazine or book,1.8676765901139984,-,2,9.21,0,[227.0],[276.0],61.23%,36.12%,2.64%,57.25%,38.04%,4.71%
-F31b,On television; film,1.646675802134068,-,2,9.21,0,[225.0],[276.0],34.67%,63.11%,2.22%,29.35%,68.48%,2.17%
-F31c,Via a mobile phone; computer; tablet or anyother online device,7.875110635520238,-,2,9.21,0,[227.0],[273.0],33.92%,63.44%,2.64%,22.71%,74.73%,2.56%
-F32d,On an online video sharing platform (e.g. YouTube; [add local examples]),6.111813739657656,+,1,6.635,0,[132.0],[174.0],38.64%,61.36%,0.0%,52.87%,47.13%,0.0%
-F32e,On an online photo sharing platform (e.g. Instagram; Flickr; [add local examples]),0.004340175953079138,+,1,6.635,0,[110.0],[75.0],83.64%,16.36%,0.0%,84.0%,16.0%,0.0%
-F32f,On a social networking site (e.g. Facebook; Twitter; [add local examples]),2.805322067536409,-,1,6.635,0,[94.0],[81.0],30.85%,69.15%,0.0%,19.75%,80.25%,0.0%
-F32g,In a chatroom,1.6513797824608263,+,1,6.635,0,[142.0],[200.0],86.62%,13.38%,0.0%,91.0%,9.0%,0.0%
-F32h,In an online game,5.8266499934184575,+,1,6.635,0,[142.0],[200.0],90.14%,9.86%,0.0%,96.5%,3.5%,0.0%
-F32i,On an adult/X-rated website,1.824028854656603,+,1,6.635,0,[142.0],[200.0],89.44%,10.56%,0.0%,93.5%,6.5%,0.0%
-F32j,By popups on the internet (unrequested windows that appear during web surfing),1.2659419014084508,+,1,6.635,0,[142.0],[200.0],86.62%,13.38%,0.0%,90.5%,9.5%,0.0%
-F32k,By instant messaging (MSN; WhatsApp; Skype; [add local examples]),,,1,6.635,0,[142.0],[200.0],97.18%,2.82%,0.0%,98.0%,2.0%,0.0%
-F32l,By text (SMS); images (MMS); or otherwise on my mobile phone,0.0669014084507041,+,1,6.635,0,[142.0],[200.0],94.37%,5.63%,0.0%,95.0%,5.0%,0.0%
-F32m,By Bluetooth,0.034362902877387115,+,1,6.635,0,[142.0],[200.0],95.07%,4.93%,0.0%,95.5%,4.5%,0.0%
-F32n,In an advert,9.542714292268267,-,1,6.635,1,[142.0],[200.0],95.77%,4.23%,0.0%,85.5%,14.5%,0.0%
-F32o,Prefer not to say,,,1,6.635,0,[142.0],[200.0],95.77%,4.23%,0.0%,98.0%,2.0%,0.0%
-F33a,A sexual image or video of someone naked,2.3849217604410304,-,2,9.21,0,[140.0],[201.0],27.14%,66.43%,6.43%,29.35%,67.66%,2.99%
-F33b,A sexual image or video that shows someone's 'private parts' [translate as appropriate],0.2620729796713304,-,2,9.21,0,[141.0],[200.0],34.75%,60.28%,4.96%,32.5%,63.0%,4.5%
-F33c,An image or video that shows sexual acts or people having sex,8.356671851473733,+,2,9.21,0,[139.0],[200.0],40.29%,55.4%,4.32%,55.0%,39.5%,5.5%
-F33d,An image or video that shows sexual acts in a violent way,2.146587962413566,+,2,9.21,0,[139.0],[199.0],59.71%,35.97%,4.32%,67.34%,28.64%,4.02%
-F33e,Something else sexual or embarrassing,,,2,9.21,0,[142.0],[200.0],30.28%,64.79%,4.93%,35.0%,64.5%,0.5%
-F34,In the PAST YEAR; have you received any sexual messages (this could be words; pictures or videos) at least once?,0.5691649466550687,-,2,9.21,0,[757.0],[916.0],82.43%,15.19%,2.38%,81.0%,16.48%,2.51%
-F35,If you have received any sexual messages; how did you feel about what you saw?,12.095971756780603,+,3,11.345,1,[115.0],[150.0],13.91%,23.48%,62.61%,10.0%,11.33%,78.67%
-F37a,By mobile phone calls,3.007454345930694,+,2,9.21,0,[118.0],[153.0],66.95%,27.97%,5.08%,74.51%,23.53%,1.96%
-F37b,By text messages sent to me on my phone (SMS/text or MMS),,,2,9.21,0,[117.0],[154.0],64.1%,35.04%,0.85%,64.94%,34.42%,0.65%
-F37c,On a social networking site (e.g.; Facebook; Twitter etc.),,,2,9.21,0,[120.0],[152.0],28.33%,68.33%,3.33%,22.37%,75.0%,2.63%
-F37d,On a media sharing platform (YouTube; Instagram; Flickr),,,2,9.21,0,[119.0],[153.0],57.98%,38.66%,3.36%,75.82%,22.22%,1.96%
-F37e,By IM (MSN; WhatsApp; Skype; etc.),,,2,9.21,0,[118.0],[149.0],73.73%,23.73%,2.54%,80.54%,18.12%,1.34%
-F37f,In a chatroom (video chat),,,2,9.21,0,[117.0],[149.0],61.54%,35.04%,3.42%,77.18%,21.48%,1.34%
-F37g,In an online game,,,2,9.21,0,[119.0],[149.0],60.5%,35.29%,4.2%,86.58%,12.75%,0.67%
-F37h,In a gaming community (also on the Xbox and other game consoles),,,2,9.21,0,[116.0],[146.0],78.45%,19.83%,1.72%,90.41%,8.9%,0.68%
-F37i,By 'pop up' (something appears by accident),8.340160834834585,+,2,9.21,0,[116.0],[149.0],48.28%,47.41%,4.31%,65.1%,30.2%,4.7%
-F38,In the PAST YEAR; have you sent or posted any sexual messages at least once? This could be words; pictures or videosabout you or someone else.,10.143417867908958,+,2,9.21,1,[746.0],[919.0],89.14%,8.31%,2.55%,93.47%,4.79%,1.74%
-F39,In the PAST YEAR; how often have you sent or posted sexual messages?,0.9468646416825116,+,2,9.21,0,[61.0],[44.0],31.15%,57.38%,11.48%,29.55%,52.27%,18.18%
-F40a,I have sent someone a sexual message (e.g.; words; pictures or video) on the internet,,,2,9.21,0,[62.0],[44.0],61.29%,37.1%,1.61%,70.45%,25.0%,4.55%
-F40b,I have posted a sexual message (e.g.; words; pictures or video) where other people could see it on the internet,,,2,9.21,0,[62.0],[44.0],62.9%,33.87%,3.23%,65.91%,29.55%,4.55%
-F40c,I have asked someone on the internet for sexual information about him or herself (like what his or her body looks like without clothes on or sexual things he or she has done),,,2,9.21,0,[62.0],[44.0],62.9%,30.65%,6.45%,77.27%,15.91%,6.82%
-F41a,Ways of physically harming or hurting themselves,0.0499488506659438,+,2,9.21,0,[740.0],[915.0],84.05%,13.92%,2.03%,84.37%,13.55%,2.08%
-F41b,Ways of committing suicide,,,1,6.635,0,[3.0],[2.0],66.67%,33.33%,0.0%,100.0%,0.0%,0.0%
-F41c,Ways to be very thin (such as being anorexic or bulimic),4.731971239767785,-,2,9.21,0,[735.0],[899.0],87.76%,9.66%,2.59%,84.87%,13.01%,2.11%
-F41d,Hate messages that attack certain groups or individuals (e.g.; people of different colour or religion or nationality),8.960399969188465,-,2,9.21,0,[733.0],[902.0],88.81%,9.69%,1.5%,83.7%,13.75%,2.55%
-F41e,Their experiences of taking drugs,7.816610659145693,-,2,9.21,0,[742.0],[911.0],87.74%,8.89%,3.37%,84.85%,12.84%,2.31%
-F41f,Gory or violent images,0.5090677457884226,-,2,9.21,0,[739.0],[905.0],77.94%,20.57%,1.49%,76.46%,21.99%,1.55%
-F41g,Ways of courtship,0.41680110939071935,-,2,9.21,0,[740.0],[911.0],70.0%,27.57%,2.43%,70.03%,27.99%,1.98%
-F41h,Ways how to find a relationship,3.2190780965089325,-,2,9.21,0,[737.0],[900.0],91.59%,6.65%,1.76%,89.78%,8.89%,1.33%
-F41i,Ways to join in gambling,8.113457733733915,+,2,9.21,0,[737.0],[903.0],89.82%,8.14%,2.04%,93.47%,4.76%,1.77%
-F41l,About cheating,5.702992187392862,-,2,9.21,0,[743.0],[908.0],86.0%,11.57%,2.42%,83.7%,14.87%,1.43%
-F41m,About sex,,,1,6.635,0,[4.0],[1.0],75.0%,25.0%,0.0%,100.0%,0.0%,0.0%
-F41n,About drinking alcohol,0.06995071332914912,+,2,9.21,0,[740.0],[910.0],87.57%,10.95%,1.49%,87.47%,10.88%,1.65%
-F41o,About smoking,6.05924208548988,-,2,9.21,0,[741.0],[911.0],89.07%,9.99%,0.94%,84.96%,13.61%,1.43%
-F41p,About bullying,13.892239140035898,-,2,9.21,1,[743.0],[914.0],79.27%,19.25%,1.48%,71.44%,27.02%,1.53%
-F43a,Somebody used my personal information in a way I didn't like,0.5089514795125722,+,2,9.21,0,[747.0],[907.0],83.8%,13.52%,2.68%,85.01%,12.35%,2.65%
-F43b,The device (e.g.; phone; tablet; computer) I use got a virus or spyware,0.061836005521321694,-,2,9.21,0,[751.0],[905.0],78.56%,19.71%,1.73%,78.23%,19.89%,1.88%
-F43c,I lost money by being cheated on the internet,9.007339686104697,+,2,9.21,0,[746.0],[906.0],89.41%,9.12%,1.47%,92.6%,5.41%,1.99%
-F43d,Somebody used my password to access my information or to pretend to be me,3.0413342175394096,+,2,9.21,0,[742.0],[909.0],86.52%,11.46%,2.02%,87.57%,11.44%,0.99%
-F43e,Somebody created a page or image about me that was hostile or hurtful,0.05767498690393676,+,2,9.21,0,[740.0],[907.0],93.38%,5.41%,1.22%,93.61%,5.29%,1.1%
-F43f,I spent too much money on online games or in-app purchases,9.298098334734895,+,2,9.21,1,[580.0],[474.0],79.31%,19.14%,1.55%,86.29%,12.24%,1.48%
-F43g,I was asked to make an in-app purchase when playing an online game (e.g.; to do well in the game),6.2900884882960755,+,2,9.21,0,[577.0],[467.0],84.23%,14.73%,1.04%,88.01%,10.06%,1.93%
-F43h,Someone found out where I was because they tracked my phone or device,4.595928864874758,+,2,9.21,0,[733.0],[896.0],91.81%,7.23%,0.95%,93.64%,4.91%,1.45%
-F45a,I have gone without eating or sleeping because of the time I spent on the internet,0.3589943082323707,+,2,9.21,0,[750.0],[921.0],75.47%,23.87%,0.67%,76.55%,22.69%,0.76%
-F45b,I have experienced conflicts with family or friends because of the time I spent on the internet,5.207985655202056,-,2,9.21,0,[750.0],[919.0],75.2%,24.27%,0.53%,73.56%,24.7%,1.74%
-F45c,My grades have dropped because of the time I spent on the internet,25.751857210773082,+,2,9.21,1,[756.0],[920.0],76.06%,23.15%,0.79%,85.0%,13.7%,1.3%
-F45d,I have tried unsuccessfully to spend less time on the internet,2.1441251986472785,+,2,9.21,0,[742.0],[915.0],69.68%,28.98%,1.35%,69.84%,27.87%,2.3%
-F45e,I think the amount of time I spend on the internet causes problems for me,5.811723491118887,-,2,9.21,0,[740.0],[907.0],72.97%,25.81%,1.22%,67.81%,30.21%,1.98%
-F45f,I feel I have to check my device (e.g. phone or computer) to see if anything new has just happened,29.036068121485563,-,2,9.21,1,[736.0],[906.0],70.79%,28.13%,1.09%,57.95%,40.29%,1.77%
-H1,Here is a picture of a ladder. The top of the ladder ‘10’ is the best possible life for you and the bottom ‘0’ is the worst possible life for you. In general; where on the ladder do you feel you stand at the moment? Mark the circle next to the number that best describes where you stand.,0.00014496672213427472,+,1,6.635,0,[748.0],[907.0],14.97%,85.03%,0.0%,14.99%,85.01%,0.0%
-H2a,Your mother or father (including step/foster mother or father),0.004836434906449073,+,1,6.635,0,[766.0],[931.0],37.86%,62.14%,0.0%,38.02%,61.98%,0.0%
-H2b,Your brother or sister (including step siblings),0.3199671172816949,+,1,6.635,0,[765.0],[930.0],65.36%,34.64%,0.0%,66.67%,33.33%,0.0%
-H2i,Cousin,1.6026530389734017,-,1,6.635,0,[765.0],[929.0],80.65%,19.35%,0.0%,78.15%,21.85%,0.0%
-H2j,Aunt/Uncle,5.727596677154388,+,1,6.635,0,[765.0],[931.0],86.01%,13.99%,0.0%,89.8%,10.2%,0.0%
-H2k,Grandfather/Grandmother,1.9214514624175738,+,1,6.635,0,[765.0],[930.0],85.1%,14.9%,0.0%,87.42%,12.58%,0.0%
-H2c,A friend around my age,13.324486230836987,-,1,6.635,1,[765.0],[930.0],66.41%,33.59%,0.0%,57.74%,42.26%,0.0%
-H2l,Boyfriend/Girlfriend,0.7767987155159833,-,1,6.635,0,[765.0],[930.0],96.34%,3.66%,0.0%,95.48%,4.52%,0.0%
-H2d,A teacher,3.455926791276746,+,1,6.635,0,[765.0],[930.0],89.67%,10.33%,0.0%,92.26%,7.74%,0.0%
-H2m,Classmate,0.9627113346880134,-,1,6.635,0,[765.0],[930.0],82.09%,17.91%,0.0%,80.22%,19.78%,0.0%
-H2e,Someone whose job it is to help children [give examples if needed],0.4783115791111776,-,1,6.635,0,[765.0],[929.0],98.69%,1.31%,0.0%,98.28%,1.72%,0.0%
-H2n,Nanny,,,1,6.635,0,[765.0],[929.0],99.35%,0.65%,0.0%,99.89%,0.11%,0.0%
-H2o,Godfather/Godmother,6.361587787766943,+,1,6.635,0,[765.0],[929.0],96.47%,3.53%,0.0%,98.39%,1.61%,0.0%
-H2p,Priest/Pastor/Nun,0.08267442178177173,+,1,6.635,0,[765.0],[929.0],98.43%,1.57%,0.0%,98.6%,1.4%,0.0%
-H2q,Neighbor,4.865851018982879,+,1,6.635,0,[765.0],[929.0],95.16%,4.84%,0.0%,97.2%,2.8%,0.0%
-H2f,Another adult you trust,0.28919842131754736,+,1,6.635,0,[765.0],[929.0],93.33%,6.67%,0.0%,93.97%,6.03%,0.0%
-H2g,Someone else,8.0440232784086,+,1,6.635,1,[765.0],[929.0],96.34%,3.66%,0.0%,98.49%,1.51%,0.0%
-H2h,No one,14.273915779563929,+,1,6.635,1,[765.0],[929.0],92.42%,7.58%,0.0%,96.56%,3.44%,0.0%
-I1,How easy is it for you to talk to your parent/carer about things that upset you?,3.9774072432111067,-,2,9.21,0,[737.0],[910.0],64.45%,30.53%,5.02%,59.78%,35.05%,5.16%
-I2a,When I speak someone listens to what I say,10.3262676475765,-,2,9.21,1,[766.0],[931.0],13.45%,84.07%,2.48%,8.59%,88.94%,2.47%
-I2b,My family really tries to help me,1.343332907289731,-,2,9.21,0,[764.0],[944.0],5.1%,93.32%,1.57%,4.13%,93.86%,2.01%
-I2c,I feel safe at home,6.789809833962848,-,2,9.21,0,[779.0],[956.0],6.16%,92.43%,1.41%,3.77%,95.4%,0.84%
-I3b,My parent(s)/carer(s) sets rules about what I can do at home,17.631670490892862,-,2,9.21,1,[763.0],[938.0],27.39%,70.9%,1.7%,18.87%,79.53%,1.6%
-I3c,My parent(s)/carer(s) sets rules about what I can do outside the home,11.058975577318213,-,2,9.21,1,[758.0],[933.0],27.31%,71.11%,1.58%,20.47%,77.49%,2.04%
-I3d,My parent(s)/carer(s) tells me when I am doing something well,7.051967201059079,-,2,9.21,0,[769.0],[947.0],22.89%,75.16%,1.95%,17.85%,80.46%,1.69%
-I3a,My parent(s)/carer(s) praises me for behaving well,11.517059602089226,-,2,9.21,1,[769.0],[944.0],22.76%,75.42%,1.82%,16.42%,82.1%,1.48%
-I4a,Encourages me to explore and learn things on the internet,0.7762150112358475,-,2,9.21,0,[740.0],[916.0],56.89%,41.08%,2.03%,54.8%,42.9%,2.29%
-I4b,Suggests ways to use the internet safely,2.77641751379842,-,2,9.21,0,[734.0],[911.0],45.91%,52.59%,1.5%,42.04%,55.98%,1.98%
-I4c,Talks to me about what I do on the internet,3.6417805382351904,-,2,9.21,0,[726.0],[922.0],52.62%,45.73%,1.65%,48.05%,49.78%,2.17%
-I4d,Sits with me while I use the internet,2.33729273237846,-,2,9.21,0,[729.0],[923.0],57.89%,41.02%,1.1%,55.25%,42.9%,1.84%
-I4e,Stays nearby when I use the internet,11.342534483975868,-,2,9.21,1,[724.0],[915.0],58.01%,40.61%,1.38%,49.73%,48.31%,1.97%
-I4f,Does shared activities together with me on the internet,6.140505706713153,-,2,9.21,0,[733.0],[922.0],59.75%,38.74%,1.5%,53.69%,44.47%,1.84%
-I4g,Talks to me about what to do if something online bothers or upsets me,8.561345516656555,-,2,9.21,0,[710.0],[904.0],60.99%,37.04%,1.97%,53.98%,43.03%,2.99%
-I4h,Helps me when something is difficult to do or find on the internet,6.380550647302721,-,2,9.21,0,[725.0],[917.0],57.38%,41.38%,1.24%,52.45%,45.04%,2.51%
-I4i,Explains why some websites are appropriate or inappropriate,2.3109391007981044,-,2,9.21,0,[715.0],[903.0],56.5%,41.26%,2.24%,52.71%,44.85%,2.44%
-I4j,Helps me when something bothers me on the internet,8.453393125570782,-,2,9.21,0,[715.0],[904.0],57.06%,40.98%,1.96%,49.89%,47.46%,2.65%
-I4k,Talks to me about the commercial activities I am exposed to online,0.12131079890541406,+,2,9.21,0,[255.0],[344.0],58.82%,36.86%,4.31%,59.59%,36.63%,3.78%
-I5a,Told my parent/carer about things that bother or upset me on the internet,1.4874730175772146,-,2,9.21,0,[713.0],[891.0],57.5%,40.39%,2.1%,54.66%,42.76%,2.58%
-I5b,Helped my parent/carer to do something they found difficult on the internet,16.0049307620498,-,2,9.21,1,[723.0],[902.0],57.54%,40.94%,1.52%,47.56%,50.55%,1.88%
-I5c,Started a discussion with my parent/carer about what I do on the internet,9.816768098777349,-,2,9.21,1,[728.0],[915.0],54.26%,43.27%,2.47%,46.78%,51.04%,2.19%
-I5d,Asked for my parent's/carer's advice on how I should act online,2.8363701813654094,-,2,9.21,0,[730.0],[908.0],57.26%,40.68%,2.05%,53.19%,44.27%,2.53%
-I5e,Asked my parent/carer for something that I have seen advertised online,1.3909136612330324,-,2,9.21,0,[718.0],[901.0],67.97%,29.94%,2.09%,66.04%,31.08%,2.89%
-I5f,Ask for your parent's/carer's help with a situation on the internet that I could not handle,7.010286908039966,-,2,9.21,0,[722.0],[912.0],66.76%,31.58%,1.66%,60.64%,36.84%,2.52%
-I6a,Use a web or phone camera (e.g.; for Skype or video chat),4.426120297143205,-,2,9.21,0,[654.0],[851.0],31.8%,57.49%,10.7%,30.2%,61.81%,7.99%
-I6b,Download music or films,0.3336876762569443,+,2,9.21,0,[681.0],[852.0],44.05%,51.25%,4.7%,45.42%,49.77%,4.81%
-I6c,Visit a social networking site (e.g.; Facebook; [insert local terms]),5.599748259943073,+,2,9.21,0,[688.0],[885.0],51.31%,43.6%,5.09%,56.38%,40.23%,3.39%
-I6d,Watch video clips (e.g.; on YouTube),1.5813453507120343,-,2,9.21,0,[715.0],[887.0],53.15%,43.08%,3.78%,50.85%,44.31%,4.85%
-I6e,Play games with other people online,25.099500724971616,-,2,9.21,1,[728.0],[856.0],52.47%,43.27%,4.26%,39.95%,55.26%,4.79%
-I6f,Visit a chat room,1.8130234327496482,+,2,9.21,0,[646.0],[832.0],32.97%,59.29%,7.74%,36.3%,56.61%,7.09%
-I6g,Use instant messaging,2.4695361449850566,-,2,9.21,0,[647.0],[825.0],41.73%,52.24%,6.03%,38.91%,56.12%,4.97%
-I6h,Read/watch news online,2.4072781818174582,+,2,9.21,0,[657.0],[866.0],52.36%,42.77%,4.87%,56.35%,39.26%,4.39%
-I6i,Use the internet for school work,4.483271663791971,+,2,9.21,0,[698.0],[903.0],60.89%,35.1%,4.01%,64.56%,33.0%,2.44%
-I6j,Spend time in a virtual world (e.g.; Habbo; Club Penguin; Minecraft [add examples as needed]),17.475088060106774,-,2,9.21,1,[644.0],[795.0],44.88%,47.98%,7.14%,34.09%,57.74%,8.18%
-I6k,Put (or post) photos; videos or music online to share with others (including social networking or instant messaging),0.9710493353700353,-,2,9.21,0,[642.0],[855.0],46.88%,47.04%,6.07%,47.6%,47.49%,4.91%
-I7a,Parental controls or other means of blocking or filtering some types of website,1.8444176122463363,-,2,9.21,0,[643.0],[823.0],77.92%,13.53%,8.55%,78.01%,15.07%,6.93%
-I7b,Parental controls or other means of keeping track of the websites or apps I visit,0.2317328680386539,+,2,9.21,0,[649.0],[817.0],75.96%,18.49%,5.55%,76.5%,17.63%,5.88%
-I7c,Rules about how long or when I am allowed to go online,1.3161607634886694,-,2,9.21,0,[693.0],[878.0],51.8%,43.58%,4.62%,50.8%,45.56%,3.64%
-I7d,A service or contract that limits the time I spend on the internet,1.3474200717336153,+,2,9.21,0,[669.0],[852.0],62.03%,33.33%,4.63%,64.2%,32.16%,3.64%
-I7e,Software to prevent spam or junk mail/viruses,0.45325796543795593,+,2,9.21,0,[641.0],[821.0],70.2%,23.56%,6.24%,71.38%,23.14%,5.48%
-I7f,Parental controls that filter the apps I can download,0.9573320789635347,+,2,9.21,0,[643.0],[814.0],72.47%,22.86%,4.67%,74.32%,21.87%,3.81%
-I7g,Parental controls that alert my parent/carer when I want to buy content (in-app purchase),0.13489136331420631,+,2,9.21,0,[639.0],[811.0],77.62%,17.68%,4.69%,78.18%,17.51%,4.32%
-I7h,Software that limits the people I can be in touch with (through voice calls and SMS/TEXT MMS),1.7921349571433112,-,2,9.21,0,[640.0],[805.0],71.56%,24.06%,4.38%,69.32%,26.96%,3.73%
-I7i,Ad blocking software,4.860540160549022,+,2,9.21,0,[641.0],[807.0],76.44%,16.54%,7.02%,80.92%,12.64%,6.44%
-I8a,Which friends or contacts you add to my social networking profile/instant messaging service,3.9189846973456244,-,2,9.21,0,[525.0],[750.0],64.76%,32.57%,2.67%,60.27%,37.73%,2.0%
-I8b,The messages in my email or other app for communicating with people,5.2428277997848864,+,2,9.21,0,[672.0],[855.0],69.35%,27.23%,3.42%,71.58%,26.78%,1.64%
-I8c,My profile on a social networking site or online community,3.9675128161893243,-,2,9.21,0,[533.0],[772.0],54.78%,41.09%,4.13%,53.76%,43.91%,2.33%
-I8d,Which websites I visited,1.5092382731253133,+,2,9.21,0,[686.0],[867.0],71.87%,25.36%,2.77%,72.9%,25.26%,1.85%
-I8e,The apps I downloaded,6.2640360212565325,+,2,9.21,0,[507.0],[712.0],58.97%,38.26%,2.76%,65.59%,32.72%,1.69%
-I8f,The in-app purchases I made,6.07731552968994,+,2,9.21,0,[483.0],[683.0],73.5%,23.4%,3.11%,79.65%,17.86%,2.49%
-J1,How much do you like school at present?,6.661794502983843,-,2,9.21,0,[744.0],[932.0],12.37%,86.56%,1.08%,8.8%,89.48%,1.72%
-J5a,Suggested ways to use the internet safely,9.860174610934074,-,2,9.21,1,[728.0],[916.0],41.48%,57.28%,1.24%,33.95%,64.74%,1.31%
-J5b,Encouraged me to explore and learn things on the internet,0.4423346738028823,-,2,9.21,0,[711.0],[905.0],53.73%,45.01%,1.27%,52.15%,46.41%,1.44%
-J5c,Made rules about what I can do on the internet at school,3.94884098405075,-,2,9.21,0,[699.0],[889.0],57.08%,41.63%,1.29%,52.42%,45.67%,1.91%
-J5d,Helped me when I found something difficult to do or find on the internet,2.1733518423685525,-,2,9.21,0,[691.0],[877.0],59.33%,39.22%,1.45%,55.64%,42.87%,1.48%
-J5e,Talked to me about what I do on the internet,0.39619623323929265,+,2,9.21,0,[693.0],[883.0],61.47%,36.94%,1.59%,62.17%,35.9%,1.93%
-J5f,Explained why some websites are good or bad,7.984594270996002,-,2,9.21,0,[702.0],[878.0],53.7%,44.44%,1.85%,46.58%,51.48%,1.94%
-J5g,Suggested ways to behave towards other people online,10.159374859521755,-,2,9.21,1,[701.0],[880.0],52.92%,45.36%,1.71%,44.89%,53.3%,1.82%
-J5h,Helped me in the past when something has bothered me on the internet,3.528716322762025,-,2,9.21,0,[679.0],[857.0],66.57%,31.81%,1.62%,61.96%,36.06%,1.98%
-J5i,In general; talked to me about what I would do if something on the internet ever bothered me,5.441853036938184,-,2,9.21,0,[670.0],[855.0],65.82%,32.54%,1.64%,60.0%,38.01%,1.99%
-K1a,My friends really try to help me,4.393109724086258,-,2,9.21,0,[756.0],[931.0],17.2%,79.5%,3.31%,13.96%,83.46%,2.58%
-K1b,I can count on my friends when things go wrong,7.8875840997258795,-,2,9.21,0,[753.0],[933.0],19.39%,78.22%,2.39%,15.01%,83.49%,1.5%
-K1c,I can talk about my problems with my friends,21.902441244608962,-,2,9.21,1,[755.0],[933.0],23.71%,73.77%,2.52%,16.08%,82.85%,1.07%
-K1d,I get worried when I �?nd out my friends are having fun without me ,1.382089418144486,-,2,9.21,0,[732.0],[921.0],37.84%,59.84%,2.32%,35.29%,62.65%,2.06%
-K2a,Suggested ways to use the internet safely,22.64754460184333,-,2,9.21,1,[735.0],[914.0],52.38%,45.58%,2.04%,41.25%,57.33%,1.42%
-K2b,Encouraged me to explore and learn things on the internet,1.5476561149790262,-,2,9.21,0,[734.0],[908.0],48.5%,49.73%,1.77%,46.26%,52.42%,1.32%
-K2c,Helped me when I found something difficult to do on the internet,1.8487938995944078,-,2,9.21,0,[723.0],[902.0],55.88%,42.05%,2.07%,52.88%,45.34%,1.77%
-K2d,Explained why some websites are good or bad,0.45061759964216086,-,2,9.21,0,[722.0],[894.0],56.79%,40.86%,2.35%,56.49%,41.61%,1.9%
-K2e,Suggested ways to behave towards other people on the internet,4.072223004612628,-,2,9.21,0,[721.0],[902.0],58.81%,39.39%,1.8%,53.88%,44.35%,1.77%
-K2f,Helped me in the past when something has bothered me on the internet,2.7424085903200113,-,2,9.21,0,[719.0],[884.0],60.5%,37.69%,1.81%,56.67%,41.74%,1.58%
-K3,Have you suggested to your friends ways to use the internet safely?,3.595049724807502,-,2,9.21,0,[724.0],[910.0],48.48%,49.03%,2.49%,45.71%,52.75%,1.54%
-K4a,I feel safe in the area where I live,19.310434923528167,-,2,9.21,1,[755.0],[925.0],14.7%,83.05%,2.25%,8.0%,89.95%,2.05%
-K4b,It is safe for younger children to play outside during the day,1.9032958610648187,-,2,9.21,0,[752.0],[932.0],23.01%,75.4%,1.6%,20.28%,77.9%,1.82%
-K4c,You can trust people around here,5.0985294684505185,-,2,9.21,0,[750.0],[932.0],20.13%,77.6%,2.27%,17.17%,81.55%,1.29%
-A14,How often do you get some new clothes to wear?,10.583791662968288,-,2,9.21,1,[784.0],[948.0],10.59%,86.35%,3.06%,6.33%,90.93%,2.74%
-A15,How easily can you find a quiet place to study or do homework?,0.8885665567246166,-,2,9.21,0,[771.0],[950.0],17.9%,80.16%,1.95%,18.11%,80.53%,1.37%
-A16,How often do you go on holiday [for at least one week] away from home?,4.98954204811744,-,2,9.21,0,[772.0],[931.0],35.36%,62.69%,1.94%,30.4%,67.13%,2.47%
-A17,How often do you have fresh fruit and vegetables to eat?,0.36890343125296854,-,2,9.21,0,[775.0],[944.0],12.39%,85.55%,2.06%,12.08%,86.23%,1.69%
-A17a,How often do you have fish or meat to eat?,0.41489603194289726,-,2,9.21,0,[778.0],[951.0],12.08%,85.86%,2.06%,11.67%,86.65%,1.68%
-A18,Do you have at least two pairs of properly fitting shoes? [include: boots; sandals; trainers; etc.],27.55345339818304,-,2,9.21,1,[784.0],[957.0],19.39%,78.57%,2.04%,10.76%,87.88%,1.36%
-A19,How often do you get some new games or toys to play with?,12.190568126021539,+,2,9.21,1,[730.0],[861.0],51.37%,43.84%,4.79%,55.17%,36.82%,8.01%
-A20a,I get very angry and often lose my temper,19.960544542408734,-,2,9.21,1,[786.0],[955.0],41.22%,57.63%,1.15%,30.99%,67.96%,1.05%
-A20b,I usually do as I am told,1.4423175546204883,-,2,9.21,0,[787.0],[954.0],11.05%,87.8%,1.14%,9.43%,89.62%,0.94%
-A20c,I fight a lot; I can make other people do what I want,31.597957483372006,+,2,9.21,1,[783.0],[948.0],70.88%,27.33%,1.79%,82.28%,16.56%,1.16%
-A20d,I am often accused of lying or cheating,13.3788400715121,+,2,9.21,1,[779.0],[943.0],67.01%,31.71%,1.28%,74.13%,23.97%,1.91%
-A20e,I take things that are not mine from home; school or elsewhere,52.86413178959853,+,2,9.21,1,[775.0],[937.0],78.45%,19.48%,2.06%,90.93%,8.0%,1.07%
-A20f,I worry a lot,17.759760944205457,-,2,9.21,1,[779.0],[942.0],32.61%,65.6%,1.8%,24.31%,74.73%,0.96%
-A20g,I am nervous in certain new situations; I easily lose confidence,30.93859614347559,-,2,9.21,1,[766.0],[920.0],51.04%,47.39%,1.57%,37.61%,60.76%,1.63%
-A20h,I get a lot of headaches; stomach-aches or sickness,6.586992328695541,-,2,9.21,0,[761.0],[939.0],60.97%,37.19%,1.84%,56.23%,42.71%,1.06%
-A20i,I am often unhappy; sad or tearful,12.119198024184426,-,2,9.21,1,[764.0],[945.0],51.7%,46.86%,1.44%,44.34%,54.92%,0.74%
-A20j,I have many fears and I am easily scared,17.528354556086185,-,2,9.21,1,[766.0],[941.0],40.86%,57.57%,1.57%,31.24%,67.38%,1.38%
-A20k,I am restless; I cannot stay still for long,1.9861406645750839,-,2,9.21,0,[757.0],[932.0],59.84%,38.57%,1.59%,56.44%,41.85%,1.72%
-A20l,I finish the work I'm doing. My attention is good,11.310474662155654,-,2,9.21,1,[760.0],[925.0],24.74%,73.68%,1.58%,18.05%,80.43%,1.51%
-A20n,I am easily distracted and find it difficult to concentrate,0.47913096184664317,-,2,9.21,0,[753.0],[930.0],38.25%,60.42%,1.33%,37.53%,60.75%,1.72%
-A20o,I think before I do things,8.472994549124397,-,2,9.21,0,[761.0],[940.0],16.82%,81.34%,1.84%,12.02%,86.49%,1.49%
-A20p,Other people my age generally like me,7.704598286459448,-,2,9.21,0,[756.0],[925.0],28.97%,69.31%,1.72%,23.03%,75.03%,1.95%
-A20q,Other children or young people pick on me,4.1696378120905715,-,2,9.21,0,[755.0],[933.0],50.2%,47.02%,2.78%,50.16%,48.45%,1.39%
-A20r,I am usually on my own; I generally play alone or keep to myself,5.017114488214996,+,2,9.21,0,[750.0],[929.0],57.07%,41.33%,1.6%,62.43%,36.06%,1.51%
-A20s,I have at least one good friend,6.127429364518875,-,2,9.21,0,[769.0],[941.0],12.87%,85.96%,1.17%,9.14%,89.59%,1.28%
-A20t,I get on better with adults than with people my own age,0.33868956561432445,+,2,9.21,0,[742.0],[923.0],44.88%,53.77%,1.35%,45.61%,52.76%,1.63%
-A20u,I am helpful if someone is hurt; upset or feeling ill,19.06636733593187,-,2,9.21,1,[750.0],[933.0],25.47%,72.53%,2.0%,17.04%,81.46%,1.5%
-A20v,I try to be nice to other people. I care about their feelings,13.082401499091281,-,2,9.21,1,[750.0],[923.0],21.07%,77.47%,1.47%,14.63%,84.4%,0.98%
-A20w,I often volunteer to help others (e.g.; parents; carers; teachers; children),12.99826948402535,-,2,9.21,1,[746.0],[922.0],22.39%,75.07%,2.55%,16.92%,81.89%,1.19%
-A20x,I usually share with others (food; games; pens etc.),10.317289007228405,-,2,9.21,1,[750.0],[927.0],16.93%,81.6%,1.47%,11.76%,87.27%,0.97%
-A21a,Other children are treated better than me,3.7279983111214943,-,2,9.21,0,[752.0],[911.0],34.84%,61.97%,3.19%,31.5%,66.19%,2.31%
-A21b,People seem to think I am not smart,0.6093932516210548,+,2,9.21,0,[756.0],[925.0],57.14%,40.08%,2.78%,57.73%,38.92%,3.35%
-A21c,People seem to think they’re better than me,1.6015079746298093,-,2,9.21,0,[748.0],[923.0],47.19%,50.0%,2.81%,44.1%,52.98%,2.93%
-A21d,I get called names or insulted by other children,0.8126596185330067,+,2,9.21,0,[750.0],[921.0],45.07%,52.67%,2.27%,47.01%,50.49%,2.5%
-A22a,Because of where my family is from,5.9931643197732125,+,1,6.635,0,[442.0],[548.0],77.83%,22.17%,0.0%,83.94%,16.06%,0.0%
-A22b,Because of my skin colour,0.49854548605496063,+,1,6.635,0,[442.0],[549.0],78.51%,21.49%,0.0%,80.33%,19.67%,0.0%
-A22c,Because of my religion,7.419339055539954,+,1,6.635,1,[442.0],[548.0],86.2%,13.8%,0.0%,91.61%,8.39%,0.0%
-A22d,Because of my height or weight,4.8204361301997976,-,1,6.635,0,[442.0],[548.0],73.76%,26.24%,0.0%,67.34%,32.66%,0.0%
-A22e,Because of a disability,6.454334486438604,+,1,6.635,0,[442.0],[548.0],90.05%,9.95%,0.0%,94.34%,5.66%,0.0%
-A22f,Because of not having enough money,0.5307898439218073,+,1,6.635,0,[442.0],[548.0],82.58%,17.42%,0.0%,84.31%,15.69%,0.0%
-A22g,Because of my sexual orientation,9.067673044865897,+,1,6.635,1,[442.0],[548.0],92.99%,7.01%,0.0%,97.08%,2.92%,0.0%
-A22h,Because of how I look or behave,2.0247631042409213,+,1,6.635,0,[442.0],[548.0],70.59%,29.41%,0.0%,74.64%,25.36%,0.0%
-A22j,Because of my attitude,0.0545419450929419,+,1,6.635,0,[442.0],[548.0],71.04%,28.96%,0.0%,71.72%,28.28%,0.0%
-A22i,Because of my opinions or beliefs,0.22863373894597963,-,1,6.635,0,[442.0],[548.0],84.16%,15.84%,0.0%,83.03%,16.97%,0.0%
-A22k,Because my parents are not around (i.e.; OFW),6.606679709881657,+,1,6.635,0,[442.0],[548.0],93.44%,6.56%,0.0%,96.9%,3.1%,0.0%
-A22l,Because of the ethnic group I belong to,5.207027880554046,+,1,6.635,0,[442.0],[548.0],93.89%,6.11%,0.0%,96.9%,3.1%,0.0%
-A22m,Due to conflict / war in our area,12.269839089029357,+,1,6.635,1,[442.0],[548.0],96.38%,3.62%,0.0%,99.45%,0.55%,0.0%
-A22n,Because I am not studying (i.e.; out-of-school),9.920550837688102,+,1,6.635,1,[442.0],[548.0],94.8%,5.2%,0.0%,98.36%,1.64%,0.0%
-A22o,Because I do not have a permanent residence / house,1.8388375703701714,+,1,6.635,0,[442.0],[548.0],96.61%,3.39%,0.0%,97.99%,2.01%,0.0%
-A23,When you were treated this way; how often did it happen on the internet?,6.339889761401394,+,2,9.21,0,[548.0],[685.0],71.17%,27.55%,1.28%,75.91%,21.9%,2.19%
-A24a,I do dangerous things for fun,29.13510690524455,+,2,9.21,1,[743.0],[904.0],73.22%,24.36%,2.42%,83.96%,14.16%,1.88%
-A24b,I do exciting things; even if they are dangerous,23.872717327919283,+,2,9.21,1,[749.0],[906.0],70.76%,27.37%,1.87%,80.79%,17.44%,1.77%
-A25a,Had so much alcohol that I got really drunk,18.96164199290678,+,2,9.21,1,[741.0],[897.0],88.26%,9.58%,2.16%,93.87%,4.24%,1.9%
-A25b,Missed school lessons without my parent(s)/carer(s) knowing,22.705918529084204,+,2,9.21,1,[757.0],[914.0],81.64%,16.64%,1.72%,88.73%,8.97%,2.3%
-A25c,Had sexual intercourse,7.554145428912808,+,2,9.21,0,[733.0],[901.0],87.04%,9.41%,3.55%,90.9%,5.88%,3.22%
-A25d,Been in trouble with my teachers for bad behaviour,7.060747309254892,+,2,9.21,0,[749.0],[903.0],83.98%,14.15%,1.87%,88.37%,9.97%,1.66%
-A25e,Been in trouble with the police,3.6914723562709915,+,2,9.21,0,[745.0],[903.0],91.81%,5.64%,2.55%,94.13%,3.77%,2.1%
-A25f,Met personally with someone whom I met online (i.e.; eyeball),18.229132214118316,+,2,9.21,1,[732.0],[905.0],84.43%,13.8%,1.78%,91.27%,7.73%,0.99%
-A26a,I can solve difficult problems if I try hard enough,5.682494885084957,-,2,9.21,0,[727.0],[900.0],33.7%,63.55%,2.75%,31.33%,67.33%,1.33%
-A26b,If someone opposes me; I can find ways to get what I want,2.49676439510805,+,2,9.21,0,[708.0],[873.0],40.82%,56.36%,2.82%,44.22%,53.72%,2.06%
-A26c,It's easy for me to stick to my aims and achieve my goals,4.73772675886195,-,2,9.21,0,[717.0],[882.0],26.5%,70.15%,3.35%,23.7%,74.26%,2.04%
-A26d,I am confident that I can deal with unexpected problems,1.4599398300640565,-,2,9.21,0,[718.0],[877.0],29.94%,66.71%,3.34%,28.62%,68.87%,2.51%
-A26g,I can stay calm when things get difficult because I am good at coping,2.5917696604696534,-,2,9.21,0,[728.0],[889.0],23.21%,73.63%,3.16%,23.28%,74.8%,1.91%
-A27,Ideally; if you are given an opportunity; what level of education do you want to finish?,12.48871301019342,-,2,9.21,1,[804.0],[966.0],8.83%,89.68%,1.49%,4.87%,94.2%,0.93%
-A28,Imagine if given the opportunity to finish your studies or to get your desired career in the future; where do you want to work?,,,2,9.21,0,[796.0],[953.0],97.86%,0.88%,1.26%,98.11%,0.21%,1.68%
-A29a,When I use the internet; I learn about different things that I could study; do or become what I want to be as productive as possible.,9.024939320705531,-,2,9.21,0,[743.0],[914.0],39.03%,59.22%,1.75%,31.95%,66.08%,1.97%
-A29b,When I use the internet; I feel I want to achieve more in life.,2.0544261860654123,+,2,9.21,0,[737.0],[909.0],40.43%,58.21%,1.36%,39.49%,58.2%,2.31%
-G1a,I was sent a message that I did not want with advertisements for or links to X-rated websites [use local term for 'X-rated'],1.7947066364923878,+,2,9.21,0,[730.0],[903.0],84.52%,12.6%,2.88%,85.71%,12.4%,1.88%
-G1b,I opened a message or a link in a message that showed pictures of naked people or of people having sex that I did not want,12.792750806310698,+,2,9.21,1,[719.0],[890.0],86.09%,11.68%,2.23%,91.57%,6.74%,1.69%
-G1c,I have seen or received a sexual message; image or video about someone else that I did not want,0.3071640169995242,-,2,9.21,0,[725.0],[896.0],80.41%,17.38%,2.21%,80.02%,18.08%,1.9%
-G2a,I have been asked for sexual information about myself (like what my body looks like without clothes on or sexual things I have done) when I did not want to answer such questions,4.9948184152604505,+,2,9.21,0,[705.0],[870.0],86.95%,10.21%,2.84%,90.46%,7.24%,2.3%
-G2b,I have been asked to talk about sexual acts with someone on the internet when I did not want to,1.3752084728638212,+,2,9.21,0,[717.0],[890.0],84.38%,12.55%,3.07%,86.18%,10.67%,3.15%
-G2c,I have been asked by someone on the internet to do something sexual when I did not want to,3.856356433687833,+,2,9.21,0,[717.0],[891.0],87.31%,9.62%,3.07%,90.35%,7.52%,2.13%
-G2d,I have been asked on the internet for a photo or video showing my private parts [translate as appropriate] when I did not want to,0.27436556972619514,+,2,9.21,0,[717.0],[899.0],89.4%,8.37%,2.23%,89.99%,7.68%,2.34%
-G3a,I have sent sexual information about myself (like what my body looks like without clothes on or sexual things I have done) when I did not want,,,2,9.21,0,[74.0],[65.0],55.41%,40.54%,4.05%,80.0%,20.0%,0.0%
-G3b,I have talked about sexual acts with someone on the internet when I did not want to,,,2,9.21,0,[93.0],[94.0],51.61%,44.09%,4.3%,69.15%,25.53%,5.32%
-G3c,I have done something sexual on the internet when I did not want to,,,2,9.21,0,[69.0],[70.0],46.38%,47.83%,5.8%,62.86%,31.43%,5.71%
-G3d,I have sent someone a photo or video showing my private parts when I did not want to [translate as appropriate],,,2,9.21,0,[61.0],[70.0],57.38%,39.34%,3.28%,85.71%,14.29%,0.0%
-G4,Thinking about the last time when you had unwanted sexual experience (that is; any of G2a-d); did it happen when you were using which of the following?,2.4347727439548743,+,4,13.277,0,[146.0],[145.0],63.7%,20.55%,15.75%,68.97%,14.48%,16.55%
-G5,Thinking about the last time when you had unwanted sexual experience (that is; any of G2a-d); who was the person who did this?,28.529141753238843,+,9,21.666,1,[140.0],[129.0],20.0%,21.43%,58.57%,20.16%,9.3%,70.54%
-G9a,Brother (over 18),7.037280978580002,+,1,6.635,1,[128.0],[129.0],72.66%,27.34%,0.0%,86.05%,13.95%,0.0%
-G9b,Sister (over 18),0.30027722187802636,+,1,6.635,0,[128.0],[129.0],83.59%,16.41%,0.0%,86.05%,13.95%,0.0%
-G9c,A younger brother or sister,2.939896538884168,+,1,6.635,0,[128.0],[129.0],79.69%,20.31%,0.0%,87.6%,12.4%,0.0%
-G9d,Father or step-/foster father,3.9452582394948417,+,1,6.635,0,[128.0],[129.0],87.5%,12.5%,0.0%,94.57%,5.43%,0.0%
-G9e,Mother or step-/foster mother,2.356144622093023,+,1,6.635,0,[128.0],[129.0],84.38%,15.63%,0.0%,90.7%,9.3%,0.0%
-G9f,Other adult relatives; such as aunts; uncles; or grandparents,0.34026994535261323,+,1,6.635,0,[128.0],[129.0],85.94%,14.06%,0.0%,88.37%,11.63%,0.0%
-G9g,Friend or acquaintance,4.951365987286386,-,1,6.635,0,[128.0],[129.0],79.69%,20.31%,0.0%,67.44%,32.56%,0.0%
-G9h,Teacher/ educator,3.5272918301674245,+,1,6.635,0,[128.0],[129.0],91.41%,8.59%,0.0%,96.9%,3.1%,0.0%
-G9j,Other adult you trust e.g. coach; neighbour; doctor; or babysitter,6.0580323758734895,+,1,6.635,0,[128.0],[129.0],89.06%,10.94%,0.0%,96.9%,3.1%,0.0%
-G9i,Other (specify),0.08942682290902947,+,1,6.635,0,[128.0],[129.0],94.53%,5.47%,0.0%,95.35%,4.65%,0.0%
-G9k,I didn’t tell anyone about it,0.04372865909929874,-,1,6.635,0,[128.0],[129.0],92.19%,7.81%,0.0%,91.47%,8.53%,0.0%
+A1,Gender,2.0571352713258717,-,1,6.635,0,[586.0],[640.0],48.46%,51.54%,0.0%,44.38%,55.63%,0.0%
+A3a,Mother,1.8915955051325113,+,1,6.635,0,[571.0],[627.0],15.06%,84.94%,0.0%,18.02%,81.98%,0.0%
+A3b,Father,1.0569310904707814,+,1,6.635,0,[571.0],[627.0],21.89%,78.11%,0.0%,24.4%,75.6%,0.0%
+A3c,Step or foster mother,0.3996032481467041,+,1,6.635,0,[570.0],[627.0],97.02%,2.98%,0.0%,97.61%,2.39%,0.0%
+A3d,Step or foster father,0.6774437583748008,-,1,6.635,0,[570.0],[627.0],98.42%,1.58%,0.0%,97.77%,2.23%,0.0%
+A3e,Grandparent(s) or other relatives,6.154331603231232,+,1,6.635,0,[570.0],[627.0],65.61%,34.39%,0.0%,72.25%,27.75%,0.0%
+A3f,Siblings (including half; step or foster siblings),0.5066884493885216,+,1,6.635,0,[571.0],[627.0],28.9%,71.1%,0.0%,30.78%,69.22%,0.0%
+A3g,My spouse or partner (including boyfriend/girlfriend),4.645486848177203,-,1,6.635,0,[570.0],[627.0],99.47%,0.53%,0.0%,98.09%,1.91%,0.0%
+A3h,My child or children,0.0031002331002330467,+,1,6.635,0,[570.0],[627.0],97.72%,2.28%,0.0%,97.77%,2.23%,0.0%
+A3i,Parents (or relatives) of my spouse or partner,0.206519979551845,+,1,6.635,0,[570.0],[627.0],97.02%,2.98%,0.0%,97.45%,2.55%,0.0%
+A3j,I live in a foster home or children's home,,,1,6.635,0,[570.0],[627.0],99.82%,0.18%,0.0%,99.84%,0.16%,0.0%
+A3l,Someone or somewhere else: please state____,1.4280601288475312,+,1,6.635,0,[570.0],[627.0],94.74%,5.26%,0.0%,96.17%,3.83%,0.0%
+A4a,I am a school student,40.63646748473425,+,1,6.635,1,[577.0],[634.0],1.04%,98.96%,0.0%,9.31%,90.69%,0.0%
+A4g,I am a student in college,12.032650000623041,-,1,6.635,1,[576.0],[634.0],99.83%,0.17%,0.0%,97.48%,2.52%,0.0%
+A4h,I am attending training in technical/vocational course,7.011111627537362,-,1,6.635,1,[576.0],[634.0],99.48%,0.52%,0.0%,97.63%,2.37%,0.0%
+A4c,I do paid employment,12.424078851115727,-,1,6.635,1,[576.0],[634.0],99.65%,0.35%,0.0%,97.0%,3.0%,0.0%
+A4d,I do unpaid work,1.2399780370169937,-,1,6.635,0,[576.0],[634.0],99.13%,0.87%,0.0%,98.42%,1.58%,0.0%
+A4e,I am looking for work,5.411917683927655,-,1,6.635,0,[576.0],[634.0],99.48%,0.52%,0.0%,97.95%,2.05%,0.0%
+A4f,I help out at home,29.329913838520305,-,1,6.635,1,[576.0],[634.0],79.17%,20.83%,0.0%,65.14%,34.86%,0.0%
+A4i,I am currently in a vacation,3.9338535889846176,-,1,6.635,0,[577.0],[634.0],92.03%,7.97%,0.0%,88.64%,11.36%,0.0%
+A5,Schooling,,,3,11.345,0,[576.0],[627.0],0.52%,99.31%,0.17%,0.8%,98.88%,0.32%
+B1,How old were you when you first used the internet?,25.563252900643356,+,1,6.635,1,[565.0],[632.0],79.82%,20.18%,0.0%,90.19%,9.81%,0.0%
+B3,Are you able to access the internet when you want to or need to?,25.842725206101797,-,1,6.635,1,[566.0],[630.0],13.78%,86.22%,0.0%,5.24%,94.76%,0.0%
+B6a,At school or college,99.81839198096405,-,2,9.21,1,[560.0],[627.0],84.82%,13.93%,1.25%,59.49%,39.87%,0.64%
+B6b,At home,,,2,9.21,0,[561.0],[625.0],59.71%,39.57%,0.71%,41.28%,57.92%,0.8%
+B6c,In the home of friends or relatives,,,2,9.21,0,[559.0],[625.0],80.32%,19.32%,0.36%,66.88%,33.12%,0.0%
+B6d,In a public place (for example; in libraries; cafés; computer shops),,,2,9.21,0,[555.0],[623.0],66.85%,32.43%,0.72%,64.85%,34.35%,0.8%
+B6e,When I am on my way somewhere (e.g. on the street; in a bus or car),,,2,9.21,0,[549.0],[619.0],92.9%,6.56%,0.55%,82.39%,17.29%,0.32%
+B6f,When I am somewhere by myself,,,2,9.21,0,[554.0],[621.0],79.96%,19.49%,0.54%,56.04%,43.16%,0.81%
+B6g,PisoNet,5.544810567821448,+,2,9.21,0,[551.0],[619.0],64.97%,34.3%,0.73%,70.76%,28.11%,1.13%
+B7a,A mobile phone that is not a smartphone,,,2,9.21,0,[555.0],[616.0],81.98%,17.66%,0.36%,68.02%,31.49%,0.49%
+B7b,A smartphone [iPhone; Samsung Galaxy; Cherry Mobile; Star Mobile; etc],,,2,9.21,0,[556.0],[617.0],66.73%,33.09%,0.18%,41.33%,58.18%,0.49%
+B7c,A desktop computer,,,2,9.21,0,[554.0],[623.0],68.41%,31.23%,0.36%,66.45%,32.58%,0.96%
+B7d,A laptop or notebook computer,14.92393103471885,-,2,9.21,1,[554.0],[620.0],86.46%,13.18%,0.36%,78.39%,20.0%,1.61%
+B7e,A tablet [iPad; Samsung Galaxy tab; PLDT Home tablet; etc],,,2,9.21,0,[555.0],[617.0],80.18%,19.64%,0.18%,77.47%,21.88%,0.65%
+B7f,A games console [Playstation; Xbox; PSP; Nintendo; 3DS; etc],2.674867555449557,-,2,9.21,0,[545.0],[607.0],88.62%,10.83%,0.55%,86.16%,12.52%,1.32%
+B8a,A mobile phone that is not a smartphone,,,2,9.21,0,[101.0],[194.0],53.47%,44.55%,1.98%,32.47%,66.49%,1.03%
+B8b,A smartphone [iPhone; Samsung Galaxy; Cherry Mobile; Star Mobile; etc],,,2,9.21,0,[187.0],[355.0],48.66%,50.8%,0.53%,19.44%,80.0%,0.56%
+B8c,A desktop computer,,,2,9.21,0,[174.0],[202.0],75.86%,23.56%,0.57%,64.85%,33.66%,1.49%
+B8d,A laptop or notebook computer,,,2,9.21,0,[75.0],[123.0],54.67%,44.0%,1.33%,52.03%,44.72%,3.25%
+B8e,A tablet [iPad; Samsung Galaxy tab; PLDT Home tablet; etc],,,2,9.21,0,[114.0],[133.0],49.12%,47.37%,3.51%,47.37%,51.88%,0.75%
+B8f,A games console [Playstation; Xbox; PSP; Nintendo; 3DS; etc],,,2,9.21,0,[61.0],[75.0],57.38%,36.07%,6.56%,64.0%,30.67%,5.33%
+B9a,I use a postpaid plan (i.e.; with contracts),1.2303119218703844,-,2,9.21,0,[551.0],[615.0],82.76%,13.97%,3.27%,80.33%,16.26%,3.41%
+B9b,I use freeWIFI (at home; in school; coffee shop or cafés; malls; etc.),46.03478541639339,-,2,9.21,1,[556.0],[622.0],62.95%,36.15%,0.9%,43.25%,55.79%,0.96%
+B9c,I pay for internet I use (e.g. in a cybercafé or internet cafe; PisoNet),0.0009229932845721824,-,2,9.21,0,[552.0],[618.0],44.75%,53.8%,1.45%,44.66%,53.88%,1.46%
+B9d,I use prepaid offers (e.g. GOSurf; GIGASurf; etc.),116.12133239224542,-,2,9.21,1,[544.0],[619.0],74.82%,24.82%,0.37%,43.62%,55.09%,1.29%
+B10a,Do you connect to the internet by yourself?,46.73841569716362,-,1,6.635,1,[558.0],[626.0],49.46%,50.54%,0.0%,30.03%,69.97%,0.0%
+B10b1,My parents,30.236633771694304,+,1,6.635,1,[254.0],[179.0],63.39%,36.61%,0.0%,87.15%,12.85%,0.0%
+B10b2,My siblings,1.8448788821243676,+,1,6.635,0,[254.0],[179.0],61.81%,38.19%,0.0%,68.16%,31.84%,0.0%
+B10b3,Relatives,0.00014749118914869896,+,1,6.635,0,[254.0],[179.0],85.43%,14.57%,0.0%,85.47%,14.53%,0.0%
+B10c1,Friends who are the same age as I am,63.92968322878157,-,1,6.635,1,[254.0],[179.0],77.56%,22.44%,0.0%,39.66%,60.34%,0.0%
+B10c2,Friends who are older than me,0.016091077075969643,-,1,6.635,0,[254.0],[179.0],84.25%,15.75%,0.0%,83.8%,16.2%,0.0%
+B10d,My teacher,0.8664653903809916,+,1,6.635,0,[254.0],[179.0],94.09%,5.91%,0.0%,96.09%,3.91%,0.0%
+B10e,Others,0.003741334818587112,+,1,6.635,0,[254.0],[179.0],89.76%,10.24%,0.0%,89.94%,10.06%,0.0%
+C1,Do you usually have a good time or fun when you go online?,,,3,11.345,0,[557.0],[630.0],87.61%,11.31%,1.08%,91.43%,8.1%,0.48%
+C2,What do you think about this sentence: ‘There are lots of things on the internet that are good for children of my age’?,42.58324156789561,-,2,9.21,1,[549.0],[616.0],22.59%,75.96%,1.46%,8.93%,88.47%,2.6%
+C4a,I learned something new by searching online,16.785502433942884,-,2,9.21,1,[548.0],[616.0],64.23%,34.31%,1.46%,53.25%,45.94%,0.81%
+C4c,I used the internet for schoolwork,,,2,9.21,0,[551.0],[619.0],62.98%,35.93%,1.09%,44.43%,55.57%,0.0%
+C4b,I looked for information about work or study opportunities,36.67301520886925,-,2,9.21,1,[529.0],[611.0],84.88%,13.8%,1.32%,69.89%,28.48%,1.64%
+C4c1,Checked maps,6.946937713896655,-,2,9.21,0,[536.0],[612.0],87.31%,11.38%,1.31%,82.03%,16.83%,1.14%
+C4c2,I looked for information about the place I want to go visit/eat,40.200307623128204,-,2,9.21,1,[537.0],[610.0],88.83%,10.24%,0.93%,74.43%,24.59%,0.98%
+C4d,I looked for resources or events about my local neighbourhood,14.450712053968104,-,2,9.21,1,[523.0],[605.0],91.59%,7.46%,0.96%,84.13%,13.72%,2.15%
+C4f,I got involved online in a local organisation or charity,6.04788355204083,-,2,9.21,0,[520.0],[600.0],93.65%,4.81%,1.54%,90.17%,8.5%,1.33%
+C4g,I used the internet to help somebody else,15.833429415950539,-,2,9.21,1,[531.0],[610.0],86.63%,12.43%,0.94%,77.54%,21.15%,1.31%
+C4e,I used the internet to talk to people from places or backgrounds different from mine,27.102686914661028,-,2,9.21,1,[534.0],[610.0],86.7%,11.61%,1.69%,75.08%,23.44%,1.48%
+C4h,I looked for the news online,75.63906088821767,-,2,9.21,1,[543.0],[616.0],85.45%,13.81%,0.74%,62.99%,36.04%,0.97%
+C4i,I discussed political or social problems with other people online,30.893728158403484,-,2,9.21,1,[517.0],[608.0],94.58%,4.26%,1.16%,84.7%,13.98%,1.32%
+C4j,I got involved online in a campaign or protest,2.5241942221693585,-,2,9.21,0,[516.0],[604.0],94.96%,4.26%,0.78%,93.38%,4.8%,1.82%
+C4k,I signed a petition online,1.2994133592207366,+,2,9.21,0,[511.0],[593.0],94.32%,4.31%,1.37%,95.45%,3.04%,1.52%
+C4l,I used the internet to join a civic; religious or political group,5.673365383377159,-,2,9.21,0,[518.0],[603.0],94.59%,3.86%,1.54%,91.54%,7.13%,1.33%
+C4o,I posted videos or music created by someone else,8.941451843388815,-,2,9.21,0,[533.0],[616.0],89.68%,9.19%,1.13%,84.25%,14.94%,0.81%
+C4m,I created my own video or music and uploaded it to share,,,2,9.21,0,[528.0],[610.0],92.05%,7.2%,0.76%,85.74%,13.61%,0.66%
+C4n,I created a blog or story or website online,3.4299756941282284,-,2,9.21,0,[520.0],[607.0],94.62%,4.23%,1.15%,92.26%,6.75%,0.99%
+C4o1,I created my own artwork; designs and illustrations and uploaded them on the internet,,,2,9.21,0,[516.0],[603.0],91.86%,7.17%,0.97%,90.05%,9.45%,0.5%
+C4r,I used instant messaging [insert local examples e.g. Viber; WhatsApp],17.84725795467708,-,2,9.21,1,[513.0],[603.0],86.94%,12.09%,0.97%,77.11%,21.23%,1.66%
+C4p,I visited a social network site (e.g.; Facebook [add local examples]),68.3870650725598,-,2,9.21,1,[528.0],[615.0],59.28%,39.02%,1.7%,36.59%,63.09%,0.33%
+C4t,I helped someone else who needed or wanted to go online,,,2,9.21,0,[527.0],[612.0],86.91%,12.14%,0.95%,76.96%,22.39%,0.65%
+C4q,I talked to family or friends who live further away (e.g. by Skype; Viber; FaceTime),,,2,9.21,0,[520.0],[606.0],81.73%,17.31%,0.96%,72.11%,27.23%,0.66%
+C4u,I commented on the updates that friends or family have put online,75.84903676689203,-,2,9.21,1,[523.0],[615.0],80.31%,18.55%,1.15%,56.75%,42.6%,0.65%
+C4t1,I re-posted or shared a social media post online,51.71983496846682,-,2,9.21,1,[515.0],[609.0],82.33%,15.92%,1.75%,65.68%,33.99%,0.33%
+C4v,I showed my friends or family something that I saw online,19.895541322567432,-,2,9.21,1,[520.0],[611.0],80.77%,18.08%,1.15%,69.39%,29.46%,1.15%
+C4w,I visited a chatroom to meet new people [insert local examples],19.284350017238125,-,2,9.21,1,[515.0],[615.0],90.68%,8.16%,1.17%,82.28%,16.91%,0.81%
+C4x,I watched video clips (e.g. on YouTube [insert local examples]),,,2,9.21,0,[537.0],[617.0],57.54%,41.53%,0.93%,52.51%,47.33%,0.16%
+C4y,I played online games alone,,,2,9.21,0,[547.0],[616.0],60.51%,38.94%,0.55%,71.27%,28.57%,0.16%
+C4z,I played games with other people online,,,2,9.21,0,[541.0],[611.0],71.9%,27.17%,0.92%,80.03%,19.64%,0.33%
+C4bb,I listened to music online (by downloading or streaming),,,2,9.21,0,[535.0],[613.0],71.03%,28.04%,0.93%,57.75%,42.25%,0.0%
+C4cc,I watched my favourite TV shows,,,2,9.21,0,[541.0],[614.0],52.87%,46.58%,0.55%,49.51%,50.33%,0.16%
+C4cc1,I joined a fan site (of a celebrity or popular band),12.39662761043836,-,2,9.21,1,[523.0],[601.0],92.16%,6.69%,1.15%,86.19%,12.98%,0.83%
+C4gg,I posted photos or comments online (e.g. on Facebook or a blog),,,2,9.21,0,[517.0],[616.0],77.18%,22.05%,0.77%,56.82%,43.02%,0.16%
+C4ee,I looked for health information for myself or someone I know,,,2,9.21,0,[517.0],[608.0],86.85%,12.38%,0.77%,75.33%,23.85%,0.82%
+C4ff,I participated in a site where people share my interests or hobbies,,,2,9.21,0,[513.0],[600.0],91.03%,7.99%,0.97%,81.5%,17.83%,0.67%
+C4hh,I browsed for things to buy,,,2,9.21,0,[515.0],[607.0],92.04%,7.38%,0.58%,82.04%,17.3%,0.66%
+C4hh1,I checked out what things cost by looking online,,,2,9.21,0,[508.0],[603.0],92.13%,7.09%,0.79%,83.75%,15.42%,0.83%
+C4hh2,I have sold an item online,3.530902267521192,-,2,9.21,0,[506.0],[602.0],94.86%,3.75%,1.38%,93.69%,5.65%,0.66%
+C6a,My mother or father (or step/foster mother or father),,,2,9.21,0,[531.0],[602.0],75.52%,23.92%,0.56%,62.46%,36.71%,0.83%
+C6b,My brother or sister (or step/foster/half siblings),47.12850563350125,-,2,9.21,1,[524.0],[609.0],85.11%,13.93%,0.95%,67.98%,31.2%,0.82%
+C6c,A friend around my age,,,2,9.21,0,[528.0],[614.0],82.39%,17.23%,0.38%,52.28%,47.23%,0.49%
+C6d,A teacher,,,2,9.21,0,[528.0],[608.0],92.23%,7.2%,0.57%,83.55%,15.95%,0.49%
+C6e,Another adult I trust,,,2,9.21,0,[524.0],[602.0],86.26%,12.98%,0.76%,75.91%,23.42%,0.66%
+C6f,Someone I first met on the internet; but who is friends or family of other people I know in person,,,2,9.21,0,[516.0],[600.0],90.31%,8.91%,0.78%,79.5%,19.83%,0.67%
+C6g,Someone I first met on the internet; but who has no other connection to my life outside of the internet,26.825362722960083,-,2,9.21,1,[508.0],[593.0],92.52%,5.91%,1.57%,84.82%,14.84%,0.34%
+C6g1,A relative or friend who is an OFW (overseas Filipino worker),,,2,9.21,0,[512.0],[599.0],86.72%,12.5%,0.78%,77.3%,21.87%,0.83%
+C6h,Someone else,16.773388842799687,-,2,9.21,1,[509.0],[598.0],92.34%,6.88%,0.79%,84.45%,14.55%,1.0%
+C7a,My mother or father (or step/foster mother or father),,,2,9.21,0,[510.0],[598.0],77.25%,22.35%,0.39%,66.22%,32.94%,0.84%
+C7b,My brother or sister (or step/foster/half siblings),,,2,9.21,0,[504.0],[600.0],85.91%,13.49%,0.6%,66.17%,32.83%,1.0%
+C7c,A friend around my age,,,2,9.21,0,[506.0],[604.0],83.2%,16.4%,0.4%,50.17%,49.34%,0.5%
+C7d,A teacher,,,2,9.21,0,[506.0],[593.0],90.51%,9.09%,0.4%,83.31%,16.02%,0.67%
+C7e,Another adult I trust,28.849026248374415,-,2,9.21,1,[499.0],[596.0],88.98%,10.42%,0.6%,76.51%,22.15%,1.34%
+C7f,Someone I first met on the internet; but who is friends or family of other people I know in person,30.86076178037493,-,2,9.21,1,[494.0],[591.0],91.5%,7.29%,1.21%,80.54%,18.78%,0.68%
+C7g,Someone I first met on the internet; but who has no other connection to my life outside of the internet,,,2,9.21,0,[494.0],[588.0],94.13%,5.06%,0.81%,83.67%,15.65%,0.68%
+C7g1,A relative or friend who is an OFW (overseas Filipino worker),23.154388575619866,-,2,9.21,1,[494.0],[589.0],89.88%,9.11%,1.01%,79.63%,19.52%,0.85%
+C7h,Someone else,26.073165393706976,-,2,9.21,1,[496.0],[589.0],93.15%,6.05%,0.81%,83.02%,15.79%,1.19%
+C8a,My mother or father (or step/foster mother or father),1.4191594210728877,-,2,9.21,0,[349.0],[526.0],77.65%,20.92%,1.43%,74.14%,24.33%,1.52%
+C8b,My brother or sister (or step/foster/half siblings),,,2,9.21,0,[345.0],[521.0],79.42%,19.71%,0.87%,68.71%,30.52%,0.77%
+C8c,A friend around my age,,,2,9.21,0,[348.0],[527.0],70.4%,28.74%,0.86%,43.64%,55.79%,0.57%
+C8d,A teacher,,,2,9.21,0,[348.0],[520.0],89.37%,10.06%,0.57%,82.5%,16.35%,1.15%
+C8e,Another adult I trust,,,2,9.21,0,[346.0],[520.0],85.55%,13.58%,0.87%,75.58%,23.85%,0.58%
+C8f,Someone I first met on the internet; but who is friends or family of other people I know in person,,,2,9.21,0,[341.0],[521.0],88.86%,10.56%,0.59%,79.85%,19.58%,0.58%
+C8g,Someone I first met on the internet; but who has no other connection to my life outside of the internet,,,2,9.21,0,[339.0],[520.0],92.04%,7.67%,0.29%,80.77%,18.27%,0.96%
+C8g1,A relative or friend who is an OFW (overseas Filipino worker),,,2,9.21,0,[346.0],[518.0],84.97%,14.45%,0.58%,75.29%,23.55%,1.16%
+C8h,Someone else,,,2,9.21,0,[345.0],[523.0],90.72%,8.12%,1.16%,84.32%,14.91%,0.76%
+C9a,My mother or father (or step/foster mother or father),,,2,9.21,0,[350.0],[333.0],87.43%,11.43%,1.14%,77.48%,21.02%,1.5%
+C9b,My brother or sister (or step/foster/half siblings),,,2,9.21,0,[346.0],[333.0],82.08%,16.76%,1.16%,74.77%,24.32%,0.9%
+C9c,A friend around my age,,,2,9.21,0,[351.0],[341.0],71.23%,27.92%,0.85%,58.94%,40.18%,0.88%
+C9d,A teacher,,,2,9.21,0,[349.0],[334.0],91.69%,7.74%,0.57%,83.83%,14.07%,2.1%
+C9e,Another adult I trust,,,2,9.21,0,[346.0],[334.0],89.31%,10.4%,0.29%,78.44%,20.06%,1.5%
+C9f,Someone I first met on the internet; but who is friends or family of other people I know in person,,,2,9.21,0,[343.0],[339.0],87.17%,11.66%,1.17%,76.99%,21.53%,1.47%
+C9g,Someone I first met on the internet; but who has no other connection to my life outside of the internet,,,2,9.21,0,[339.0],[336.0],89.09%,10.03%,0.88%,81.25%,17.26%,1.49%
+C9g1,A relative or friend who is an OFW (overseas Filipino worker),,,2,9.21,0,[336.0],[330.0],92.26%,7.14%,0.6%,86.06%,12.12%,1.82%
+C9h,Someone else,,,2,9.21,0,[336.0],[333.0],87.5%,11.9%,0.6%,79.28%,19.52%,1.2%
+C10a,Making presentations,,,2,9.21,0,[508.0],[594.0],85.43%,14.57%,0.0%,68.18%,30.98%,0.84%
+C10b,Writing things,,,2,9.21,0,[512.0],[599.0],80.27%,19.73%,0.0%,66.78%,32.39%,0.83%
+C10c,Making pictures,,,2,9.21,0,[510.0],[601.0],77.84%,21.96%,0.2%,55.74%,43.76%,0.5%
+C10d,Practising something I am learning (e.g. maths or a language or music),,,2,9.21,0,[521.0],[603.0],71.02%,28.79%,0.19%,60.2%,38.81%,1.0%
+C10e,Checking out information on the school website,,,2,9.21,0,[513.0],[597.0],88.89%,10.92%,0.19%,68.68%,30.82%,0.5%
+C10f,Doing group work with other students,,,2,9.21,0,[515.0],[602.0],82.14%,17.86%,0.0%,59.97%,39.2%,0.83%
+C10g,Chatting online at school,,,2,9.21,0,[510.0],[600.0],90.2%,9.41%,0.39%,71.67%,27.5%,0.83%
+C10h,Communicating with teachers (e.g. submitting homework or asking a question),,,2,9.21,0,[511.0],[599.0],92.37%,6.85%,0.78%,77.8%,21.7%,0.5%
+C10i,Contributing to a school blog or online discussion,,,2,9.21,0,[497.0],[585.0],93.36%,6.04%,0.6%,84.79%,14.19%,1.03%
+E1a,I know how to save a photo that I find online,,,2,9.21,0,[536.0],[615.0],44.78%,54.29%,0.93%,10.41%,89.11%,0.49%
+E1b,I know how to change my privacy settings (e.g. on a social networking site),138.17639805738452,-,2,9.21,1,[360.0],[535.0],65.83%,32.5%,1.67%,26.73%,72.15%,1.12%
+E1c,I know how to use a programming language (e.g. HTML; XML; etc.),117.4451443704523,-,2,9.21,1,[494.0],[598.0],89.27%,9.51%,1.21%,60.2%,36.79%,3.01%
+E1f1,I know how to jailbreak; crack games and apps; change IP address,25.134264465250627,-,2,9.21,1,[495.0],[598.0],83.03%,16.16%,0.81%,70.57%,26.42%,3.01%
+E1f2,I know how to hide my IP address,67.03563718125469,-,2,9.21,1,[502.0],[599.0],87.45%,11.55%,1.0%,66.28%,30.72%,3.01%
+E1f3,I know how to set network settings (LAN; wi-fi; device-connection),98.97468289442948,-,2,9.21,1,[493.0],[601.0],74.85%,24.34%,0.81%,45.09%,52.58%,2.33%
+E1f4,I know how to hack certain files,20.228624401243597,-,2,9.21,1,[497.0],[603.0],87.53%,11.47%,1.01%,77.28%,19.73%,2.99%
+E1f5,I know how to set the firewall,26.70804929147764,-,2,9.21,1,[491.0],[596.0],89.61%,9.37%,1.02%,78.02%,18.62%,3.36%
+E1i,I find it easy to find a website I have visited before,119.79026303369103,-,2,9.21,1,[516.0],[595.0],65.7%,32.75%,1.55%,32.94%,65.21%,1.85%
+E1g,I find it easy to check if the information I find online is true,134.7876280332307,-,2,9.21,1,[522.0],[600.0],66.28%,32.18%,1.53%,31.83%,66.67%,1.5%
+E1h,I find it easy to choose the best keywords for online searches,,,2,9.21,0,[514.0],[597.0],73.15%,26.46%,0.39%,34.34%,64.99%,0.67%
+E1k,Sometimes I end up on websites without knowing how I got there,97.47527408062562,-,2,9.21,1,[522.0],[596.0],70.11%,28.74%,1.15%,40.77%,57.89%,1.34%
+E1k1,I know how to use incognito in browsing,65.54628674195679,-,2,9.21,1,[502.0],[584.0],89.64%,9.36%,1.0%,69.52%,27.05%,3.42%
+E1l,I know which information I should and shouldn't share online,64.95872204157297,-,2,9.21,1,[359.0],[536.0],37.6%,61.0%,1.39%,14.55%,84.7%,0.75%
+E1m,I know how to remove people from my contact lists,,,2,9.21,0,[359.0],[538.0],28.97%,70.47%,0.56%,7.06%,92.57%,0.37%
+E1m1,I know how to block,,,2,9.21,0,[358.0],[539.0],51.12%,48.32%,0.56%,12.24%,87.2%,0.56%
+E1n,I know when I should and shouldn't share information online,,,2,9.21,0,[355.0],[537.0],36.34%,62.82%,0.85%,9.5%,90.13%,0.37%
+E1o,I know how to behave according to the situation online,,,2,9.21,0,[356.0],[538.0],30.62%,68.26%,1.12%,7.06%,92.38%,0.56%
+E1p,I know how to change who I share content with (e.g. friends; friends of friends or everyone),144.921761881863,-,2,9.21,1,[347.0],[529.0],64.84%,33.72%,1.44%,24.57%,74.67%,0.76%
+E1p1,I know how to report abusive posts or things that I find offending in social media (e.g. Facebook report abuse),98.27477936108507,-,2,9.21,1,[344.0],[527.0],72.97%,25.58%,1.45%,39.09%,59.77%,1.14%
+E1t,I know how to create something new from video or music that I found online,52.3888971239088,-,2,9.21,1,[508.0],[590.0],75.98%,23.23%,0.79%,55.08%,43.05%,1.86%
+E1q,I know how to post online video or music that I have created myself,,,2,9.21,0,[145.0],[204.0],38.62%,59.31%,2.07%,19.61%,78.92%,1.47%
+E1s,I know which different types of licences apply to online content,90.10034412659479,-,2,9.21,1,[479.0],[582.0],86.01%,12.11%,1.88%,59.79%,36.94%,3.26%
+E1r,I know how to edit or make basic changes to online content that others have created,81.24377222431607,-,2,9.21,1,[482.0],[586.0],80.5%,18.46%,1.04%,54.27%,43.52%,2.22%
+E1u,I know how to design a website,31.666019946882557,-,2,9.21,1,[482.0],[591.0],83.4%,15.35%,1.24%,68.53%,28.6%,2.88%
+E1v,I know how to install apps on a mobile device (e.g. phone or tablet),,,2,9.21,0,[513.0],[602.0],41.72%,57.89%,0.39%,12.79%,86.54%,0.66%
+E1w,I know how to safeguard my online expenses while using mobile apps,139.6354294874635,-,2,9.21,1,[487.0],[592.0],65.91%,33.26%,0.82%,29.9%,67.91%,2.2%
+E1x,I know how to make an in-app purchase,50.211634904034504,-,2,9.21,1,[492.0],[586.0],78.46%,20.12%,1.42%,58.19%,39.59%,2.22%
+E1x1,I know how to download and carck to full version some paid apps without paying a fee (e.g. torrent; etc.),72.1638656826781,-,2,9.21,1,[478.0],[583.0],85.56%,13.6%,0.84%,62.26%,34.82%,2.92%
+E3a,Deactivate the function showing my geographical position (on Facebook; Google Maps; etc.),68.91398331873437,-,2,9.21,1,[344.0],[523.0],78.2%,16.86%,4.94%,51.43%,43.59%,4.97%
+E3b,Connect to a Wi-Fi network,80.2062312318636,-,2,9.21,1,[371.0],[540.0],34.23%,64.42%,1.35%,10.19%,88.7%,1.11%
+E3c,Block push notifications from different apps,81.02940202907902,-,2,9.21,1,[346.0],[520.0],80.92%,17.92%,1.16%,50.77%,46.92%,2.31%
+E3d,Have the same documents; contacts or apps on all devices that I use (e.g. smartphone; tablet; PC),81.52700712740662,-,2,9.21,1,[340.0],[515.0],83.82%,15.0%,1.18%,53.98%,40.97%,5.05%
+E3e,Block pop ups which promote apps; games or services I have to pay for (unrequested windows that appear during web surfing),38.098779353829826,-,2,9.21,1,[336.0],[509.0],85.12%,11.9%,2.98%,66.4%,29.47%,4.13%
+E3f,Protect a smartphone with a PIN/with a screen pattern,82.3784708978737,-,2,9.21,1,[358.0],[535.0],36.03%,62.01%,1.96%,10.84%,86.92%,2.24%
+E3g,Update my status on the social networking site I use the most,122.22172178988417,-,2,9.21,1,[351.0],[527.0],54.99%,42.17%,2.85%,19.54%,78.37%,2.09%
+E3h,Find information on how to use smartphones safely,95.52769422995486,-,2,9.21,1,[356.0],[522.0],65.45%,32.87%,1.69%,31.99%,64.56%,3.45%
+E3i,Compare similar apps to choose the one that is most reliable,115.32507722775568,-,2,9.21,1,[339.0],[521.0],70.21%,27.73%,2.06%,32.82%,63.53%,3.65%
+E3j,Take a picture or a video with my smartphone and post it onto social media,41.133282045769285,-,2,9.21,1,[353.0],[523.0],54.39%,43.91%,1.7%,32.7%,65.39%,1.91%
+D1d,Twitter,32.411202444177164,-,1,6.635,1,[494.0],[601.0],93.12%,6.88%,0.0%,81.36%,18.64%,0.0%
+D1e,Viber,1.1928092047344974,-,1,6.635,0,[493.0],[600.0],97.77%,2.23%,0.0%,96.67%,3.33%,0.0%
+D1f,Skype,1.96439201928948,-,1,6.635,0,[493.0],[600.0],94.32%,5.68%,0.0%,92.17%,7.83%,0.0%
+D1a,Facebook,72.56977253166785,-,1,6.635,1,[494.0],[602.0],17.81%,82.19%,0.0%,2.66%,97.34%,0.0%
+D1c,Instagram,43.18431634630302,-,1,6.635,1,[494.0],[599.0],90.69%,9.31%,0.0%,75.46%,24.54%,0.0%
+D1b,WhatsApp,0.633428938051749,-,1,6.635,0,[493.0],[598.0],97.77%,2.23%,0.0%,96.99%,3.01%,0.0%
+D1g,YouTube,0.08858882997516004,+,1,6.635,0,[494.0],[601.0],39.88%,60.12%,0.0%,40.77%,59.23%,0.0%
+D1h,Spotify,19.992149473751926,-,1,6.635,1,[493.0],[598.0],97.77%,2.23%,0.0%,91.47%,8.53%,0.0%
+D1i,Wikipedia,46.57546569639982,-,1,6.635,1,[493.0],[600.0],94.32%,5.68%,0.0%,80.17%,19.83%,0.0%
+D1j,Tumblr,,,1,6.635,0,[493.0],[598.0],100.0%,0.0%,0.0%,98.16%,1.84%,0.0%
+D2d,I find it easier to be myself online than when I am with people face-to-face,20.464093138200795,-,2,9.21,1,[364.0],[531.0],57.97%,37.91%,4.12%,44.44%,53.11%,2.45%
+D2e,I talk about different things online than I do when speaking to people face-to-face,59.13089905560515,-,2,9.21,1,[360.0],[529.0],63.61%,31.94%,4.44%,40.45%,57.84%,1.7%
+D2f,I talk about private things online which I do not talk about with people face-to-face,37.47741357759238,-,2,9.21,1,[354.0],[526.0],71.75%,23.73%,4.52%,56.27%,42.4%,1.33%
+D2a,I feel safe on the internet,4.295408467698859,-,2,9.21,0,[531.0],[596.0],52.54%,43.13%,4.33%,47.65%,45.81%,6.54%
+D2b,I find other people are kind and helpful on the internet,10.824734153872853,-,2,9.21,1,[525.0],[598.0],42.48%,52.95%,4.57%,33.11%,62.37%,4.52%
+D2c,I know what to do if someone acts online in a way I don't like,81.545862933608,-,2,9.21,1,[364.0],[527.0],46.7%,48.08%,5.22%,19.73%,77.23%,3.04%
+D12,How were your social media accounts created?,107.16189193339454,+,4,13.277,1,[333.0],[519.0],19.82%,16.22%,63.96%,47.4%,13.49%,39.11%
+D13,How old were you when you first had your social media account?,454.4800481600974,-,3,11.345,1,[346.0],[524.0],58.67%,1.45%,39.88%,20.99%,53.63%,25.38%
+D14a,Facebook/Messenger,43.87447081776907,+,2,9.21,1,[349.0],[529.0],8.02%,63.32%,28.65%,1.7%,51.04%,47.26%
+D14b,Skype,11.032002398794198,-,2,9.21,1,[296.0],[471.0],84.46%,9.8%,5.74%,78.34%,18.05%,3.61%
+D14c,Viber,4.67451748831059,-,2,9.21,0,[290.0],[468.0],91.03%,6.9%,2.07%,85.9%,11.54%,2.56%
+D14d,WeChat,0.9706478663247387,-,2,9.21,0,[290.0],[466.0],91.03%,5.86%,3.1%,89.06%,7.73%,3.22%
+D14e,Instagram,29.390447330339732,-,2,9.21,1,[292.0],[472.0],82.19%,11.99%,5.82%,63.98%,26.06%,9.96%
+D14f,Twitter,32.67264484771258,-,2,9.21,1,[291.0],[471.0],87.97%,7.9%,4.12%,70.28%,22.29%,7.43%
+D14g,YouTube/Hangout (Google),12.48978550673917,-,2,9.21,1,[315.0],[474.0],68.89%,22.86%,8.25%,57.38%,34.39%,8.23%
+D15a,Minecraft,74.99983602339398,+,1,6.635,1,[325.0],[296.0],40.92%,59.08%,0.0%,75.34%,24.66%,0.0%
+D15b,Warcraft DOTA,0.4634335474219141,+,1,6.635,0,[325.0],[294.0],85.54%,14.46%,0.0%,87.41%,12.59%,0.0%
+D15c,DOTA 2,5.846890714155306,-,1,6.635,0,[325.0],[294.0],82.46%,17.54%,0.0%,74.49%,25.51%,0.0%
+D15d,League of Legends,4.365058670143416,-,1,6.635,0,[325.0],[295.0],78.46%,21.54%,0.0%,71.19%,28.81%,0.0%
+D15e,Counterstrike,0.24605959838700597,+,1,6.635,0,[325.0],[295.0],65.23%,34.77%,0.0%,67.12%,32.88%,0.0%
+D15f,Others,3.712817111590118,-,1,6.635,0,[326.0],[296.0],53.68%,46.32%,0.0%,45.95%,54.05%,0.0%
+D7a,Thinking of the profile you use most often; about how many people are you in contact with when using [named profile]?,172.8277456356063,+,14,29.141,1,[316.0],[517.0],11.39%,19.94%,68.67%,6.0%,6.96%,87.04%
+D7b,More or less; how many are your followers?,,,14,29.141,0,[270.0],[454.0],30.74%,21.48%,47.78%,12.78%,15.64%,71.59%
+D7c,More or less; how many do you follow?,,,14,29.141,0,[266.0],[454.0],32.71%,22.18%,45.11%,20.48%,16.08%,63.44%
+D8,Is you [named profile] set to...?,30.105716932708095,+,3,11.345,1,[320.0],[521.0],55.31%,28.75%,15.94%,58.93%,28.02%,13.05%
+D9a,A photo that clearly shows your face,19.871672746037145,-,2,9.21,1,[340.0],[529.0],18.53%,77.65%,3.82%,9.45%,88.85%,1.7%
+D9b,Your last name,8.899641564207645,-,2,9.21,0,[341.0],[526.0],14.66%,81.82%,3.52%,10.27%,88.4%,1.33%
+D9c,Your address,44.20849196997967,-,2,9.21,1,[335.0],[524.0],45.07%,47.16%,7.76%,29.58%,68.32%,2.1%
+D9d,Your phone number,14.766563533062111,-,2,9.21,1,[330.0],[526.0],65.15%,30.0%,4.85%,57.03%,41.06%,1.9%
+D9e,Your school,118.6111350608296,-,2,9.21,1,[337.0],[527.0],54.3%,39.17%,6.53%,22.96%,75.71%,1.33%
+D9f,Your correct age,48.33103627196578,-,2,9.21,1,[335.0],[530.0],43.88%,49.55%,6.57%,26.98%,71.51%,1.51%
+D9g,An age that is not your real age,23.31662462220259,+,2,9.21,1,[328.0],[528.0],64.33%,28.05%,7.62%,74.05%,24.43%,1.52%
+D9j,Places you've dined and visited,18.444249600603033,-,2,9.21,1,[326.0],[521.0],65.34%,26.99%,7.67%,57.58%,39.16%,3.26%
+D9k,Pictures showing whole body,15.165839861713197,-,2,9.21,1,[326.0],[522.0],68.71%,26.99%,4.29%,55.94%,40.04%,4.02%
+D10,How do you usually respond to requests from people to become your ‘friends’ online?,10.535378848515023,-,3,11.345,0,[329.0],[527.0],16.41%,75.08%,8.51%,20.11%,75.52%,4.36%
+F1a,Looked for new friends or contacts on the internet,12.167332155657764,-,2,9.21,1,[513.0],[593.0],84.41%,14.04%,1.56%,77.74%,21.59%,0.67%
+F1b,Sent my personal information (e.g.; my full name; address or phone number) to someone I have never met face-to-face,1.8034360990157519,-,2,9.21,0,[496.0],[586.0],93.15%,5.65%,1.21%,91.64%,7.51%,0.85%
+F1c,Added people to my friends or contacts I have never met face-to-face,5.740535889036477,-,2,9.21,0,[495.0],[587.0],86.26%,12.32%,1.41%,81.26%,17.55%,1.19%
+F1d,Pretended to be a different kind of person online from who I really am,1.5148941341808388,-,2,9.21,0,[493.0],[579.0],92.09%,6.29%,1.62%,92.06%,7.08%,0.86%
+F1e,Sent a photo or video of myself to someone I have never met face-to-face,0.3534650781027595,-,2,9.21,0,[498.0],[581.0],92.57%,6.22%,1.2%,92.6%,6.54%,0.86%
+F1f,Post my current location and those I had been to,5.09792131739637,-,2,9.21,0,[489.0],[578.0],90.8%,7.77%,1.43%,86.68%,11.94%,1.38%
+F1g,Post my new stuff and clothes,1.9692647679055557,+,2,9.21,0,[496.0],[582.0],88.71%,10.69%,0.6%,89.18%,9.45%,1.37%
+F1h,Post messages or love quotes that pertain to the boy/girl whom I have a crush on,36.639722733946854,-,2,9.21,1,[497.0],[586.0],92.15%,5.43%,2.41%,82.08%,16.89%,1.02%
+F1i,Seek to get acquainted or befriend persons who are Non-Filipinos (foreigners),1.3149639421966062,-,2,9.21,0,[493.0],[579.0],93.71%,5.07%,1.22%,92.06%,6.74%,1.21%
+F1j,Engage in chat activities with a person whom I only met on internet,,,2,9.21,0,[491.0],[584.0],88.39%,10.79%,0.81%,79.11%,20.21%,0.68%
+F1k,Do video calls with a person whom I only met on internet,1.8274732321443086,+,2,9.21,0,[491.0],[578.0],89.82%,9.16%,1.02%,92.04%,6.92%,1.04%
+F1l,Receive offers or gifts online,0.8210114826675468,+,2,9.21,0,[493.0],[573.0],90.67%,8.11%,1.22%,92.15%,6.98%,0.87%
+F2,Have you EVER had contact on the internet with someone you have not met face-to-face before?,45.35411155546546,-,2,9.21,1,[337.0],[458.0],82.49%,12.76%,4.75%,62.88%,33.62%,3.49%
+F3,In the PAST YEAR; have you at least once met anyone face to face that you first got to know on the internet?,4.199639317817915,-,2,9.21,0,[504.0],[588.0],85.71%,11.71%,2.58%,81.8%,15.99%,2.21%
+F4,If you met anyone face-to-face that you first got to know on the internet; how did you feel about it?,,,3,11.345,0,[63.0],[92.0],57.14%,25.4%,17.46%,60.87%,11.96%,27.17%
+F5,Thinking about the LAST TIME you were bothered by meeting someone in this way; how old was the person you actually met?,,,2,9.21,0,[9.0],[22.0],44.44%,55.56%,0.0%,86.36%,4.55%,9.09%
+F6a,I've met face to face with a person I just got acquainted on internet but is already known by my friends or relatives,,,2,9.21,0,[62.0],[90.0],48.39%,50.0%,1.61%,40.0%,58.89%,1.11%
+F6b,I've met face to face with a person I just got acquainted on internet and who is totally unknown to anyone I personally know,,,2,9.21,0,[62.0],[86.0],67.74%,32.26%,0.0%,61.63%,36.05%,2.33%
+F6c,I've met with a foreigner (different nationality),,,2,9.21,0,[63.0],[87.0],60.32%,36.51%,3.17%,79.31%,20.69%,0.0%
+F6d,I've personally met with an older person,,,2,9.21,0,[64.0],[91.0],45.31%,51.56%,3.13%,60.44%,36.26%,3.3%
+F6e,I've met face to face with a person I just got acquainted on internet and she/he was accompanied by another girl/boy,,,2,9.21,0,[63.0],[90.0],66.67%,31.75%,1.59%,53.33%,44.44%,2.22%
+F6f,I've met with another woman like myself whom i just got acquainted with on internet,1.2742063492063498,-,1,6.635,0,[21.0],[36.0],57.14%,42.86%,0.0%,41.67%,58.33%,0.0%
+F6g,I've met with another man like myself whom i just got acquainted with on internet,2.168422114962701,+,1,6.635,0,[40.0],[53.0],45.0%,55.0%,0.0%,60.38%,39.62%,0.0%
+F6h,I've met with LGBT person (lesbian; gay; bisexual; transgender) whom i just got acquainted with on internet,,,2,9.21,0,[64.0],[88.0],82.81%,15.63%,1.56%,78.41%,19.32%,2.27%
+F8,In the PAST YEAR; how many people have you gone to a meeting with face-to-face that you had previously only met on the internet?,,,2,9.21,0,[60.0],[91.0],21.67%,78.33%,0.0%,9.89%,86.81%,3.3%
+F11,In the PAST YEAR; has anything EVER happened online that bothered or upset you in some way? (e.g.; made you feel uncomfortable; scared or that you shouldn’t have seen it)?,25.817798144257445,-,2,9.21,1,[499.0],[577.0],86.37%,11.42%,2.2%,74.18%,23.05%,2.77%
+F12,In the PAST YEAR; how often did this happen?,0.8616157324825134,-,2,9.21,0,[59.0],[132.0],50.85%,42.37%,6.78%,50.76%,45.45%,3.79%
+F13,Thinking now about the LAST TIME this happened to you; how upset were you about what happened?,1.9803670507895856,+,2,9.21,0,[57.0],[133.0],29.82%,64.91%,5.26%,40.6%,54.89%,4.51%
+F14a,My mother or father (or step/foster mother or father),0.4343319489162049,+,1,6.635,0,[58.0],[134.0],63.79%,36.21%,0.0%,68.66%,31.34%,0.0%
+F14b,My brother or sister (orstep/foster/half siblings),0.08361376143156914,-,1,6.635,0,[58.0],[134.0],75.86%,24.14%,0.0%,73.88%,26.12%,0.0%
+F14j,Cousin,0.031785982858349215,-,1,6.635,0,[58.0],[134.0],70.69%,29.31%,0.0%,69.4%,30.6%,0.0%
+F14k,Aunt/Uncle,1.6531262184375928,+,1,6.635,0,[58.0],[134.0],81.03%,18.97%,0.0%,88.06%,11.94%,0.0%
+F14l,Grandfather/Grandmother,,,1,6.635,0,[58.0],[134.0],86.21%,13.79%,0.0%,94.78%,5.22%,0.0%
+F14c,A friend around my age,22.895298619347034,-,1,6.635,1,[58.0],[134.0],74.14%,25.86%,0.0%,36.57%,63.43%,0.0%
+F14n,Classmate,4.027861982183085,-,1,6.635,0,[58.0],[134.0],74.14%,25.86%,0.0%,58.96%,41.04%,0.0%
+F14o,Boyfriend/Girlfriend,11.310076834761107,-,1,6.635,1,[58.0],[134.0],100.0%,0.0%,0.0%,82.84%,17.16%,0.0%
+F14d,A teacher,3.4358528404351607,-,1,6.635,0,[58.0],[134.0],96.55%,3.45%,0.0%,88.06%,11.94%,0.0%
+F14e,Someone whose job it is to help children,,,1,6.635,0,[58.0],[134.0],98.28%,1.72%,0.0%,97.01%,2.99%,0.0%
+F14p,Godfather/Godmother,,,1,6.635,0,[58.0],[134.0],89.66%,10.34%,0.0%,98.51%,1.49%,0.0%
+F14r,Neighbor,1.704606967008953,-,1,6.635,0,[58.0],[134.0],93.1%,6.9%,0.0%,86.57%,13.43%,0.0%
+F14f,Another adult I trust,2.385706933313727,-,1,6.635,0,[58.0],[134.0],93.1%,6.9%,0.0%,85.07%,14.93%,0.0%
+F14g,Someone else,,,1,6.635,0,[58.0],[134.0],96.55%,3.45%,0.0%,93.28%,6.72%,0.0%
+F14h,I didn't talk to anyone,,,1,6.635,0,[58.0],[134.0],91.38%,8.62%,0.0%,93.28%,6.72%,0.0%
+F14i,Prefer not to say,,,1,6.635,0,[58.0],[134.0],96.55%,3.45%,0.0%,97.76%,2.24%,0.0%
+F15,The last time something happened online that bothered or upset you in some way; how long did you feel like that for?,,,2,9.21,0,[57.0],[132.0],49.12%,49.12%,1.75%,50.76%,48.48%,0.76%
+F16a,I ignored the problem or hoped the problem would go away by itself,0.715697346132129,-,1,6.635,0,[54.0],[126.0],53.7%,46.3%,0.0%,46.83%,53.17%,0.0%
+F16b,I closed the window or app,1.0424710424710426,+,1,6.635,0,[54.0],[126.0],77.78%,22.22%,0.0%,84.13%,15.87%,0.0%
+F16c,I felt a bit guilty about what went wrong,0.17605548415258138,+,1,6.635,0,[54.0],[126.0],74.07%,25.93%,0.0%,76.98%,23.02%,0.0%
+F16d,I tried to get the other person to leave me alone,0.05529953917050691,+,1,6.635,0,[54.0],[126.0],85.19%,14.81%,0.0%,86.51%,13.49%,0.0%
+F16e,I tried to get back at the other person,,,1,6.635,0,[54.0],[126.0],98.15%,1.85%,0.0%,100.0%,0.0%,0.0%
+F16f,I stopped using the internet for a while,0.3800140745953554,-,1,6.635,0,[54.0],[126.0],83.33%,16.67%,0.0%,79.37%,20.63%,0.0%
+F16g,I deleted any messages from the other person,1.1363104980126257,-,1,6.635,0,[54.0],[126.0],83.33%,16.67%,0.0%,76.19%,23.81%,0.0%
+F16h,I changed my privacy/ contact settings,,,1,6.635,0,[54.0],[126.0],94.44%,5.56%,0.0%,90.48%,9.52%,0.0%
+F16i,I blocked the person from contacting me,3.8296332046332053,-,1,6.635,0,[54.0],[126.0],90.74%,9.26%,0.0%,78.57%,21.43%,0.0%
+F16j,I reported the problem online  (e.g.; clicked on a ‘report abuse’ button; contacted an internet advisor or Internet Service Provider (ISP)),0.37428468319843256,-,1,6.635,0,[54.0],[126.0],92.59%,7.41%,0.0%,89.68%,10.32%,0.0%
+F16k,Other actions taken,,,1,6.635,0,[54.0],[126.0],90.74%,9.26%,0.0%,96.83%,3.17%,0.0%
+F18,In the PAST YEAR; has anyone ever treated you in a hurtful or nasty way?,11.296345224688062,-,2,9.21,1,[529.0],[596.0],76.94%,21.36%,1.7%,68.96%,27.01%,4.03%
+F19,In the PAST YEAR; how often did this happen?,15.837670837276622,+,2,9.21,1,[112.0],[161.0],41.96%,57.14%,0.89%,59.01%,34.78%,6.21%
+F20a,In person face-to-face (by someone with you in the same place),,,2,9.21,0,[112.0],[163.0],34.82%,63.39%,1.79%,51.53%,46.01%,2.45%
+F20b,Via a mobile phone or online device (computer;tablet; etc.),,,2,9.21,0,[110.0],[160.0],65.45%,30.91%,3.64%,38.75%,58.75%,2.5%
+F21a,By mobile phone calls,0.3208091562416818,+,1,6.635,0,[34.0],[90.0],64.71%,35.29%,0.0%,70.0%,30.0%,0.0%
+F21b,By messages sent to me on my phone (SMS/TEXT or MMS),5.557422969187673,-,1,6.635,0,[34.0],[90.0],73.53%,26.47%,0.0%,50.0%,50.0%,0.0%
+F21c,On a social networking site (e.g. Facebook; Twitter etc.),2.5168615984405447,-,1,6.635,0,[34.0],[90.0],50.0%,50.0%,0.0%,34.44%,65.56%,0.0%
+F21d,On a media sharing platform (YouTube; Instagram; Flickr),,,1,6.635,0,[34.0],[90.0],91.18%,8.82%,0.0%,92.22%,7.78%,0.0%
+F21e,By instant messaging (MSN; What’s app; Skype etc.),,,1,6.635,0,[34.0],[90.0],94.12%,5.88%,0.0%,96.67%,3.33%,0.0%
+F21f,In a chatroom,,,1,6.635,0,[16.0],[56.0],81.25%,18.75%,0.0%,71.43%,28.57%,0.0%
+F21g,In an online game,,,1,6.635,0,[24.0],[41.0],75.0%,25.0%,0.0%,82.93%,17.07%,0.0%
+F21h,Some other way,,,1,6.635,0,[34.0],[90.0],85.29%,14.71%,0.0%,92.22%,7.78%,0.0%
+F22a,Nasty or hurtful messages were sent to me,,,2,9.21,0,[112.0],[158.0],65.18%,32.14%,2.68%,35.44%,63.92%,0.63%
+F22b,Nasty or hurtful messages were passed around or posted where others could see,,,2,9.21,0,[111.0],[158.0],73.87%,24.32%,1.8%,65.82%,32.28%,1.9%
+F22c,I was left out or excluded from a group or activity on the internet,,,2,9.21,0,[109.0],[157.0],71.56%,27.52%,0.92%,73.25%,24.2%,2.55%
+F22d,I was threatened on the internet,,,2,9.21,0,[106.0],[161.0],72.64%,26.42%,0.94%,69.57%,29.81%,0.62%
+F22e,Other nasty or hurtful things happened to me on the internet,,,2,9.21,0,[107.0],[158.0],62.62%,36.45%,0.93%,60.76%,37.34%,1.9%
+F23,Thinking of the last time someone treated you in a hurtful or nasty way; how did you feel?,5.211814659881548,-,2,9.21,0,[104.0],[155.0],37.5%,57.69%,4.81%,24.52%,70.97%,4.52%
+F24,In the PAST YEAR; have you EVER treated someone else in a hurtful or nasty way?,5.250739894933368,-,2,9.21,0,[527.0],[591.0],83.87%,13.85%,2.28%,78.85%,17.26%,3.89%
+F25,In the PAST YEAR; how often have you treated someone in this way?,,,2,9.21,0,[72.0],[103.0],47.22%,52.78%,0.0%,54.37%,41.75%,3.88%
+F26a,In person face-to-face (a person that is together with you in the same place at the same time),,,2,9.21,0,[72.0],[101.0],44.44%,55.56%,0.0%,49.5%,49.5%,0.99%
+F26b,Via a mobile phone or online device (computer; tablet; etc.),,,2,9.21,0,[71.0],[97.0],66.2%,32.39%,1.41%,43.3%,54.64%,2.06%
+F27a,By mobile phone calls,2.890304543772913,+,1,6.635,0,[22.0],[51.0],59.09%,40.91%,0.0%,78.43%,21.57%,0.0%
+F27b,By messages sent by the phone (SMS/Text or MMS),2.039573310087786,-,1,6.635,0,[22.0],[51.0],72.73%,27.27%,0.0%,54.9%,45.1%,0.0%
+F27c,On a social networking site (e.g.; Facebook; Twitter),1.2039961084078723,-,1,6.635,0,[22.0],[51.0],59.09%,40.91%,0.0%,45.1%,54.9%,0.0%
+F27d,By instant messaging (MSN; WhatsApp; Skype etc.),,,1,6.635,0,[22.0],[51.0],81.82%,18.18%,0.0%,98.04%,1.96%,0.0%
+F27e,On a media sharing platform (YouTube; Instagram; Flickr),,,1,6.635,0,[22.0],[51.0],77.27%,22.73%,0.0%,98.04%,1.96%,0.0%
+F27f,In a chatroom,,,1,6.635,0,[10.0],[27.0],90.0%,10.0%,0.0%,77.78%,22.22%,0.0%
+F27g,In an online game,,,1,6.635,0,[16.0],[27.0],81.25%,18.75%,0.0%,85.19%,14.81%,0.0%
+F27h,Some other way,,,1,6.635,0,[22.0],[51.0],95.45%,4.55%,0.0%,90.2%,9.8%,0.0%
+F27i,Prefer not to say,,,1,6.635,0,[22.0],[51.0],100.0%,0.0%,0.0%,96.08%,3.92%,0.0%
+F28,In the PAST YEAR; have you EVER SEEN any sexual images?,106.26306055175354,-,2,9.21,1,[512.0],[579.0],81.84%,16.41%,1.76%,52.33%,44.39%,3.28%
+F29,If you have seen images of this kind; how did you feel about what you saw?,20.36531671858775,+,3,11.345,1,[85.0],[255.0],16.47%,30.59%,52.94%,7.06%,14.9%,78.04%
+F31a,In a magazine or book,5.537837750552195,+,2,9.21,0,[85.0],[264.0],63.53%,36.47%,0.0%,57.58%,36.36%,6.06%
+F31b,On television; film,7.472332392721612,-,2,9.21,0,[86.0],[262.0],38.37%,61.63%,0.0%,25.57%,70.99%,3.44%
+F31c,Via a mobile phone; computer; tablet or anyother online device,14.455229156914752,-,2,9.21,1,[87.0],[260.0],43.68%,56.32%,0.0%,23.85%,72.69%,3.46%
+F32d,On an online video sharing platform (e.g. YouTube; [add local examples]),1.5131262886318237,+,1,6.635,0,[41.0],[171.0],39.02%,60.98%,0.0%,49.71%,50.29%,0.0%
+F32e,On an online photo sharing platform (e.g. Instagram; Flickr; [add local examples]),0.021607142857142818,+,1,6.635,0,[33.0],[88.0],81.82%,18.18%,0.0%,82.95%,17.05%,0.0%
+F32f,On a social networking site (e.g. Facebook; Twitter; [add local examples]),2.61305669353773,-,1,6.635,0,[23.0],[94.0],34.78%,65.22%,0.0%,19.15%,80.85%,0.0%
+F32g,In a chatroom,1.8728650284103625,-,1,6.635,0,[48.0],[186.0],93.75%,6.25%,0.0%,86.56%,13.44%,0.0%
+F32h,In an online game,,,1,6.635,0,[48.0],[186.0],85.42%,14.58%,0.0%,96.24%,3.76%,0.0%
+F32i,On an adult/X-rated website,,,1,6.635,0,[48.0],[186.0],95.83%,4.17%,0.0%,91.94%,8.06%,0.0%
+F32j,By popups on the internet (unrequested windows that appear during web surfing),0.2667964404894325,+,1,6.635,0,[48.0],[186.0],85.42%,14.58%,0.0%,88.17%,11.83%,0.0%
+F32k,By instant messaging (MSN; WhatsApp; Skype; [add local examples]),,,1,6.635,0,[48.0],[186.0],95.83%,4.17%,0.0%,97.85%,2.15%,0.0%
+F32l,By text (SMS); images (MMS); or otherwise on my mobile phone,,,1,6.635,0,[48.0],[186.0],93.75%,6.25%,0.0%,94.09%,5.91%,0.0%
+F32m,By Bluetooth,,,1,6.635,0,[48.0],[186.0],93.75%,6.25%,0.0%,95.7%,4.3%,0.0%
+F32n,In an advert,0.07445067788686317,-,1,6.635,0,[48.0],[186.0],89.58%,10.42%,0.0%,88.17%,11.83%,0.0%
+F32o,Prefer not to say,,,1,6.635,0,[48.0],[186.0],95.83%,4.17%,0.0%,96.24%,3.76%,0.0%
+F33a,A sexual image or video of someone naked,0.8801538686007778,+,2,9.21,0,[47.0],[187.0],25.53%,68.09%,6.38%,32.62%,61.5%,5.88%
+F33b,A sexual image or video that shows someone's 'private parts' [translate as appropriate],0.4724258571318566,+,2,9.21,0,[47.0],[187.0],34.04%,63.83%,2.13%,33.69%,62.03%,4.28%
+F33c,An image or video that shows sexual acts or people having sex,0.6774002038904687,-,2,9.21,0,[47.0],[187.0],51.06%,44.68%,4.26%,45.99%,47.06%,6.95%
+F33d,An image or video that shows sexual acts in a violent way,1.2679634516892564,+,2,9.21,0,[46.0],[185.0],58.7%,39.13%,2.17%,61.62%,32.97%,5.41%
+F33e,Something else sexual or embarrassing,2.369595864661654,-,2,9.21,0,[47.0],[188.0],31.91%,61.7%,6.38%,32.45%,65.43%,2.13%
+F34,In the PAST YEAR; have you received any sexual messages (this could be words; pictures or videos) at least once?,38.12311921275565,-,2,9.21,1,[504.0],[581.0],88.49%,9.33%,2.18%,74.01%,23.06%,2.93%
+F35,If you have received any sexual messages; how did you feel about what you saw?,14.287876930221756,+,3,11.345,1,[50.0],[132.0],16.0%,28.0%,56.0%,7.58%,10.61%,81.82%
+F37a,By mobile phone calls,,,2,9.21,0,[52.0],[133.0],65.38%,30.77%,3.85%,72.18%,24.81%,3.01%
+F37b,By text messages sent to me on my phone (SMS/text or MMS),,,2,9.21,0,[49.0],[136.0],59.18%,40.82%,0.0%,68.38%,30.88%,0.74%
+F37c,On a social networking site (e.g.; Facebook; Twitter etc.),,,2,9.21,0,[52.0],[135.0],36.54%,63.46%,0.0%,20.0%,77.04%,2.96%
+F37d,On a media sharing platform (YouTube; Instagram; Flickr),,,2,9.21,0,[51.0],[135.0],66.67%,29.41%,3.92%,71.85%,25.93%,2.22%
+F37e,By IM (MSN; WhatsApp; Skype; etc.),,,2,9.21,0,[50.0],[132.0],64.0%,36.0%,0.0%,80.3%,17.42%,2.27%
+F37f,In a chatroom (video chat),,,2,9.21,0,[48.0],[133.0],70.83%,29.17%,0.0%,71.43%,25.56%,3.01%
+F37g,In an online game,,,2,9.21,0,[50.0],[132.0],58.0%,40.0%,2.0%,83.33%,13.64%,3.03%
+F37h,In a gaming community (also on the Xbox and other game consoles),,,2,9.21,0,[48.0],[132.0],70.83%,29.17%,0.0%,93.18%,5.3%,1.52%
+F37i,By 'pop up' (something appears by accident),13.427406891450529,+,2,9.21,1,[49.0],[132.0],38.78%,59.18%,2.04%,65.91%,29.55%,4.55%
+F38,In the PAST YEAR; have you sent or posted any sexual messages at least once? This could be words; pictures or videosabout you or someone else.,1.1797020405302816,+,2,9.21,0,[498.0],[584.0],91.57%,6.43%,2.01%,91.95%,5.31%,2.74%
+F39,In the PAST YEAR; how often have you sent or posted sexual messages?,8.448850762527233,+,2,9.21,0,[30.0],[32.0],26.67%,70.0%,3.33%,31.25%,40.63%,28.13%
+F40a,I have sent someone a sexual message (e.g.; words; pictures or video) on the internet,,,2,9.21,0,[32.0],[31.0],78.13%,18.75%,3.13%,67.74%,29.03%,3.23%
+F40b,I have posted a sexual message (e.g.; words; pictures or video) where other people could see it on the internet,,,2,9.21,0,[31.0],[31.0],67.74%,32.26%,0.0%,70.97%,25.81%,3.23%
+F40c,I have asked someone on the internet for sexual information about him or herself (like what his or her body looks like without clothes on or sexual things he or she has done),,,2,9.21,0,[32.0],[31.0],75.0%,21.88%,3.13%,67.74%,25.81%,6.45%
+F41a,Ways of physically harming or hurting themselves,12.359396845173237,-,2,9.21,1,[494.0],[578.0],88.87%,9.72%,1.42%,81.14%,16.78%,2.08%
+F41b,Ways of committing suicide,,,1,6.635,0,[2.0],[1.0],100.0%,0.0%,0.0%,0.0%,100.0%,0.0%
+F41c,Ways to be very thin (such as being anorexic or bulimic),33.601574946017486,-,2,9.21,1,[493.0],[571.0],93.31%,5.68%,1.01%,81.26%,15.76%,2.98%
+F41d,Hate messages that attack certain groups or individuals (e.g.; people of different colour or religion or nationality),36.31546303170614,-,2,9.21,1,[493.0],[573.0],92.7%,6.29%,1.01%,79.76%,17.28%,2.97%
+F41e,Their experiences of taking drugs,19.02877529957442,-,2,9.21,1,[496.0],[578.0],90.32%,6.45%,3.23%,82.87%,14.71%,2.42%
+F41f,Gory or violent images,24.82585741046033,-,2,9.21,1,[496.0],[576.0],84.07%,14.92%,1.01%,71.35%,26.22%,2.43%
+F41g,Ways of courtship,137.9879634912383,-,2,9.21,1,[497.0],[576.0],87.12%,11.07%,1.81%,54.17%,42.19%,3.65%
+F41h,Ways how to find a relationship,20.996130505094772,-,2,9.21,1,[491.0],[574.0],95.11%,4.07%,0.81%,86.93%,10.98%,2.09%
+F41i,Ways to join in gambling,1.2963740924967693,+,2,9.21,0,[493.0],[574.0],91.89%,6.49%,1.62%,92.51%,5.23%,2.26%
+F41l,About cheating,21.01856605540366,-,2,9.21,1,[496.0],[577.0],90.52%,7.86%,1.61%,80.59%,16.64%,2.77%
+F41m,About sex,,,1,6.635,0,[2.0],[1.0],50.0%,50.0%,0.0%,100.0%,0.0%,0.0%
+F41n,About drinking alcohol,12.334825607916635,-,2,9.21,1,[493.0],[577.0],91.08%,7.51%,1.42%,83.88%,13.69%,2.43%
+F41o,About smoking,10.605315089772468,-,2,9.21,1,[494.0],[577.0],90.08%,9.11%,0.81%,83.36%,14.73%,1.91%
+F41p,About bullying,49.24851612101565,-,2,9.21,1,[498.0],[578.0],85.14%,13.65%,1.2%,66.61%,30.8%,2.6%
+F43a,Somebody used my personal information in a way I didn't like,16.237917977673742,-,2,9.21,1,[496.0],[575.0],89.31%,9.27%,1.41%,80.87%,14.96%,4.17%
+F43b,The device (e.g.; phone; tablet; computer) I use got a virus or spyware,22.416975664900008,-,2,9.21,1,[496.0],[573.0],84.07%,14.11%,1.81%,72.08%,25.48%,2.44%
+F43c,I lost money by being cheated on the internet,5.2252259392925895,+,2,9.21,0,[502.0],[572.0],89.04%,8.57%,2.39%,92.48%,5.07%,2.45%
+F43d,Somebody used my password to access my information or to pretend to be me,4.889447479460099,-,2,9.21,0,[502.0],[572.0],89.64%,8.57%,1.79%,85.49%,12.76%,1.75%
+F43e,Somebody created a page or image about me that was hostile or hurtful,1.4344054805369018,-,2,9.21,0,[501.0],[570.0],94.41%,4.39%,1.2%,92.63%,5.61%,1.75%
+F43f,I spent too much money on online games or in-app purchases,5.921256057111213,-,2,9.21,0,[343.0],[332.0],85.71%,12.83%,1.46%,78.61%,19.58%,1.81%
+F43g,I was asked to make an in-app purchase when playing an online game (e.g.; to do well in the game),13.651918544371727,-,2,9.21,1,[342.0],[327.0],90.64%,7.6%,1.75%,81.04%,16.82%,2.14%
+F43h,Someone found out where I was because they tracked my phone or device,1.3172992719879524,-,2,9.21,0,[487.0],[562.0],93.22%,4.93%,1.85%,92.17%,6.41%,1.42%
+F45a,I have gone without eating or sleeping because of the time I spent on the internet,,,2,9.21,0,[509.0],[573.0],84.28%,14.54%,1.18%,67.19%,32.29%,0.52%
+F45b,I have experienced conflicts with family or friends because of the time I spent on the internet,16.63003472481176,-,2,9.21,1,[505.0],[579.0],79.8%,18.61%,1.58%,70.12%,29.02%,0.86%
+F45c,My grades have dropped because of the time I spent on the internet,15.761984725129746,-,2,9.21,1,[510.0],[577.0],85.1%,13.14%,1.76%,78.16%,21.32%,0.52%
+F45d,I have tried unsuccessfully to spend less time on the internet,25.051041559741417,-,2,9.21,1,[501.0],[573.0],77.84%,20.76%,1.4%,63.87%,33.68%,2.44%
+F45e,I think the amount of time I spend on the internet causes problems for me,39.642167180590604,-,2,9.21,1,[497.0],[569.0],80.89%,17.1%,2.01%,64.32%,34.09%,1.58%
+F45f,I feel I have to check my device (e.g. phone or computer) to see if anything new has just happened,116.72530962445181,-,2,9.21,1,[495.0],[568.0],81.21%,16.97%,1.82%,50.0%,48.24%,1.76%
+H1,Here is a picture of a ladder. The top of the ladder ‘10’ is the best possible life for you and the bottom ‘0’ is the worst possible life for you. In general; where on the ladder do you feel you stand at the moment? Mark the circle next to the number that best describes where you stand.,0.5124193652963482,+,1,6.635,0,[507.0],[560.0],13.81%,86.19%,0.0%,15.36%,84.64%,0.0%
+H2a,Your mother or father (including step/foster mother or father),18.218653481896737,+,1,6.635,1,[514.0],[580.0],29.96%,70.04%,0.0%,42.41%,57.59%,0.0%
+H2b,Your brother or sister (including step siblings),1.7153324009391886,-,1,6.635,0,[514.0],[580.0],67.9%,32.1%,0.0%,64.14%,35.86%,0.0%
+H2i,Cousin,23.764743597514304,-,1,6.635,1,[513.0],[580.0],85.19%,14.81%,0.0%,73.1%,26.9%,0.0%
+H2j,Aunt/Uncle,3.1471064364839383,+,1,6.635,0,[514.0],[581.0],86.19%,13.81%,0.0%,89.67%,10.33%,0.0%
+H2k,Grandfather/Grandmother,4.487538622024964,+,1,6.635,0,[514.0],[580.0],84.05%,15.95%,0.0%,88.45%,11.55%,0.0%
+H2c,A friend around my age,119.64775168044775,-,1,6.635,1,[513.0],[581.0],78.56%,21.44%,0.0%,46.3%,53.7%,0.0%
+H2l,Boyfriend/Girlfriend,35.718081506405,-,1,6.635,1,[514.0],[580.0],99.22%,0.78%,0.0%,91.38%,8.62%,0.0%
+H2d,A teacher,5.537326521887497,-,1,6.635,0,[514.0],[580.0],92.22%,7.78%,0.0%,87.93%,12.07%,0.0%
+H2m,Classmate,34.648994429570195,-,1,6.635,1,[514.0],[580.0],88.72%,11.28%,0.0%,74.83%,25.17%,0.0%
+H2e,Someone whose job it is to help children [give examples if needed],1.6039496552401302,-,1,6.635,0,[513.0],[580.0],99.03%,0.97%,0.0%,98.1%,1.9%,0.0%
+H2n,Nanny,,,1,6.635,0,[513.0],[580.0],99.42%,0.58%,0.0%,99.83%,0.17%,0.0%
+H2o,Godfather/Godmother,0.8260152176342991,+,1,6.635,0,[513.0],[580.0],97.08%,2.92%,0.0%,97.93%,2.07%,0.0%
+H2p,Priest/Pastor/Nun,0.7169121046075322,-,1,6.635,0,[513.0],[580.0],99.03%,0.97%,0.0%,98.45%,1.55%,0.0%
+H2q,Neighbor,1.070305324100294,-,1,6.635,0,[513.0],[580.0],96.88%,3.12%,0.0%,95.69%,4.31%,0.0%
+H2f,Another adult you trust,32.900875191277734,-,1,6.635,1,[513.0],[580.0],98.05%,1.95%,0.0%,89.48%,10.52%,0.0%
+H2g,Someone else,1.0889725897356355,-,1,6.635,0,[513.0],[580.0],98.05%,1.95%,0.0%,97.07%,2.93%,0.0%
+H2h,No one,4.499613522115215,+,1,6.635,0,[513.0],[580.0],93.37%,6.63%,0.0%,96.21%,3.79%,0.0%
+I1,How easy is it for you to talk to your parent/carer about things that upset you?,15.462422779004104,-,2,9.21,1,[509.0],[566.0],68.37%,26.33%,5.3%,57.42%,37.46%,5.12%
+I2a,When I speak someone listens to what I say,1.8980634627508126,-,2,9.21,0,[524.0],[580.0],11.45%,85.69%,2.86%,8.97%,88.28%,2.76%
+I2b,My family really tries to help me,1.9010135620922621,+,2,9.21,0,[527.0],[581.0],4.55%,93.93%,1.52%,3.79%,93.63%,2.58%
+I2c,I feel safe at home,1.267663984250213,-,2,9.21,0,[534.0],[589.0],5.43%,93.63%,0.94%,4.24%,94.4%,1.36%
+I3b,My parent(s)/carer(s) sets rules about what I can do at home,10.477277127268803,-,2,9.21,1,[525.0],[575.0],25.33%,73.52%,1.14%,18.09%,79.48%,2.43%
+I3c,My parent(s)/carer(s) sets rules about what I can do outside the home,7.905110716378856,-,2,9.21,0,[527.0],[571.0],25.43%,72.68%,1.9%,18.56%,78.81%,2.63%
+I3d,My parent(s)/carer(s) tells me when I am doing something well,1.906292179609637,-,2,9.21,0,[527.0],[587.0],20.87%,76.85%,2.28%,17.89%,80.24%,1.87%
+I3a,My parent(s)/carer(s) praises me for behaving well,1.8706822818237738,-,2,9.21,0,[528.0],[588.0],19.89%,78.03%,2.08%,17.69%,80.95%,1.36%
+I4a,Encourages me to explore and learn things on the internet,7.444316723863563,-,2,9.21,0,[509.0],[575.0],58.35%,39.49%,2.16%,50.09%,47.48%,2.43%
+I4b,Suggests ways to use the internet safely,13.514937712387445,-,2,9.21,1,[501.0],[571.0],49.5%,48.9%,1.6%,38.35%,59.54%,2.1%
+I4c,Talks to me about what I do on the internet,7.989707318865636,-,2,9.21,0,[504.0],[573.0],53.57%,45.04%,1.39%,45.38%,52.18%,2.44%
+I4d,Sits with me while I use the internet,8.166844265025976,-,2,9.21,0,[505.0],[574.0],59.01%,39.41%,1.58%,50.35%,47.91%,1.74%
+I4e,Stays nearby when I use the internet,4.11061038217896,-,2,9.21,0,[505.0],[566.0],55.25%,42.97%,1.78%,49.12%,49.12%,1.77%
+I4f,Does shared activities together with me on the internet,5.181962542925933,-,2,9.21,0,[506.0],[571.0],58.5%,39.53%,1.98%,51.84%,46.41%,1.75%
+I4g,Talks to me about what to do if something online bothers or upsets me,20.751666725534932,-,2,9.21,1,[488.0],[563.0],63.52%,35.25%,1.23%,50.09%,46.89%,3.02%
+I4h,Helps me when something is difficult to do or find on the internet,6.028607384803062,-,2,9.21,0,[494.0],[577.0],59.31%,39.47%,1.21%,52.69%,44.89%,2.43%
+I4i,Explains why some websites are appropriate or inappropriate,10.255108805584749,-,2,9.21,1,[492.0],[563.0],58.74%,40.04%,1.22%,50.44%,46.36%,3.2%
+I4j,Helps me when something bothers me on the internet,11.181263962395759,-,2,9.21,1,[490.0],[568.0],58.98%,39.59%,1.43%,49.82%,46.83%,3.35%
+I4k,Talks to me about the commercial activities I am exposed to online,0.21776380987551613,+,2,9.21,0,[128.0],[262.0],59.38%,36.72%,3.91%,58.78%,36.26%,4.96%
+I5a,Told my parent/carer about things that bother or upset me on the internet,6.036237746888967,-,2,9.21,0,[492.0],[561.0],59.55%,38.82%,1.63%,52.41%,44.92%,2.67%
+I5b,Helped my parent/carer to do something they found difficult on the internet,26.194466840771433,-,2,9.21,1,[495.0],[565.0],60.81%,37.98%,1.21%,45.13%,52.74%,2.12%
+I5c,Started a discussion with my parent/carer about what I do on the internet,3.0008604047457403,-,2,9.21,0,[499.0],[572.0],52.71%,45.69%,1.6%,48.25%,49.13%,2.62%
+I5d,Asked for my parent's/carer's advice on how I should act online,2.0458257547458647,+,2,9.21,0,[502.0],[570.0],53.39%,43.63%,2.99%,55.61%,42.63%,1.75%
+I5e,Asked my parent/carer for something that I have seen advertised online,1.199288423520594,-,2,9.21,0,[491.0],[563.0],67.01%,29.94%,3.05%,66.07%,31.79%,2.13%
+I5f,Ask for your parent's/carer's help with a situation on the internet that I could not handle,2.5859020305905265,+,2,9.21,0,[500.0],[567.0],61.4%,36.2%,2.4%,66.14%,31.75%,2.12%
+I6a,Use a web or phone camera (e.g.; for Skype or video chat),15.604849196187518,+,2,9.21,1,[443.0],[538.0],25.28%,65.24%,9.48%,36.43%,53.35%,10.22%
+I6b,Download music or films,84.36641668081947,+,2,9.21,1,[446.0],[552.0],28.48%,67.49%,4.04%,55.8%,38.41%,5.8%
+I6c,Visit a social networking site (e.g.; Facebook; [insert local terms]),127.58688765858824,+,2,9.21,1,[459.0],[562.0],34.2%,62.09%,3.7%,67.62%,27.05%,5.34%
+I6d,Watch video clips (e.g.; on YouTube),70.0209074135736,+,2,9.21,1,[479.0],[560.0],37.58%,57.83%,4.59%,62.68%,32.32%,5.0%
+I6e,Play games with other people online,31.308350908666583,+,2,9.21,1,[490.0],[537.0],37.76%,59.39%,2.86%,50.28%,42.83%,6.89%
+I6f,Visit a chat room,72.9080117194961,+,2,9.21,1,[428.0],[524.0],19.86%,73.13%,7.01%,44.47%,46.37%,9.16%
+I6g,Use instant messaging,73.81329907581416,+,2,9.21,1,[422.0],[524.0],23.93%,70.85%,5.21%,49.81%,43.32%,6.87%
+I6h,Read/watch news online,70.57447005177698,+,2,9.21,1,[435.0],[548.0],39.31%,54.71%,5.98%,65.69%,29.2%,5.11%
+I6i,Use the internet for school work,56.99599426905054,+,2,9.21,1,[470.0],[565.0],49.79%,46.17%,4.04%,72.39%,24.42%,3.19%
+I6j,Spend time in a virtual world (e.g.; Habbo; Club Penguin; Minecraft [add examples as needed]),8.694280614292033,+,2,9.21,0,[432.0],[507.0],34.26%,58.8%,6.94%,39.45%,49.9%,10.65%
+I6k,Put (or post) photos; videos or music online to share with others (including social networking or instant messaging),45.42300945655425,+,2,9.21,1,[423.0],[545.0],34.99%,58.16%,6.86%,56.7%,37.98%,5.32%
+I7a,Parental controls or other means of blocking or filtering some types of website,9.356031737405202,-,2,9.21,1,[413.0],[529.0],82.81%,10.17%,7.02%,74.67%,16.07%,9.26%
+I7b,Parental controls or other means of keeping track of the websites or apps I visit,3.365561407252379,-,2,9.21,0,[413.0],[531.0],78.93%,14.77%,6.3%,74.2%,19.21%,6.59%
+I7c,Rules about how long or when I am allowed to go online,1.6121274886753931,-,2,9.21,0,[466.0],[553.0],52.36%,43.99%,3.65%,50.45%,44.3%,5.24%
+I7d,A service or contract that limits the time I spend on the internet,6.164676964853031,-,2,9.21,0,[438.0],[540.0],67.35%,29.45%,3.2%,59.81%,35.56%,4.63%
+I7e,Software to prevent spam or junk mail/viruses,32.14433797031435,-,2,9.21,1,[417.0],[525.0],80.34%,14.87%,4.8%,63.62%,29.14%,7.24%
+I7f,Parental controls that filter the apps I can download,20.061528093154454,-,2,9.21,1,[413.0],[527.0],81.36%,15.5%,3.15%,68.5%,25.62%,5.88%
+I7g,Parental controls that alert my parent/carer when I want to buy content (in-app purchase),14.445340576481154,-,2,9.21,1,[411.0],[527.0],83.94%,13.14%,2.92%,74.0%,19.54%,6.45%
+I7h,Software that limits the people I can be in touch with (through voice calls and SMS/TEXT MMS),55.69646076622936,-,2,9.21,1,[411.0],[524.0],82.73%,13.87%,3.41%,60.5%,34.16%,5.34%
+I7i,Ad blocking software,13.677387446964035,-,2,9.21,1,[414.0],[524.0],84.3%,9.9%,5.8%,74.43%,16.98%,8.59%
+I8a,Which friends or contacts you add to my social networking profile/instant messaging service,0.08812225277612078,+,2,9.21,0,[311.0],[494.0],62.06%,36.01%,1.93%,62.15%,35.63%,2.23%
+I8b,The messages in my email or other app for communicating with people,6.140434622945117,-,2,9.21,0,[432.0],[552.0],74.31%,23.38%,2.31%,67.03%,30.07%,2.9%
+I8c,My profile on a social networking site or online community,0.6243719642721495,-,2,9.21,0,[325.0],[501.0],56.0%,40.31%,3.69%,53.89%,42.91%,3.19%
+I8d,Which websites I visited,0.7931299038240369,-,2,9.21,0,[450.0],[549.0],74.67%,23.11%,2.22%,72.5%,25.5%,2.0%
+I8e,The apps I downloaded,7.170889176230477,+,2,9.21,0,[282.0],[484.0],58.51%,38.3%,3.19%,67.56%,30.79%,1.65%
+I8f,The in-app purchases I made,0.39616061867051966,+,2,9.21,0,[262.0],[475.0],76.34%,20.99%,2.67%,78.32%,19.37%,2.32%
+J1,How much do you like school at present?,1.6699923417642917,+,2,9.21,0,[539.0],[550.0],10.2%,88.68%,1.11%,11.09%,86.91%,2.0%
+J5a,Suggested ways to use the internet safely,40.795796475693315,-,2,9.21,1,[530.0],[542.0],47.74%,51.32%,0.94%,28.78%,69.93%,1.29%
+J5b,Encouraged me to explore and learn things on the internet,34.258333746158556,-,2,9.21,1,[520.0],[535.0],61.54%,37.31%,1.15%,43.55%,54.95%,1.5%
+J5c,Made rules about what I can do on the internet at school,33.43344574092985,-,2,9.21,1,[510.0],[525.0],63.73%,35.1%,1.18%,45.9%,51.81%,2.29%
+J5d,Helped me when I found something difficult to do or find on the internet,34.244292321137976,-,2,9.21,1,[509.0],[515.0],66.8%,31.83%,1.38%,48.74%,49.32%,1.94%
+J5e,Talked to me about what I do on the internet,18.20259423174447,-,2,9.21,1,[507.0],[526.0],67.65%,30.18%,2.17%,55.13%,42.97%,1.9%
+J5f,Explained why some websites are good or bad,34.002897484754605,-,2,9.21,1,[509.0],[523.0],58.55%,39.29%,2.16%,40.73%,57.36%,1.91%
+J5g,Suggested ways to behave towards other people online,55.803405125975246,-,2,9.21,1,[509.0],[525.0],60.71%,37.52%,1.77%,37.52%,60.19%,2.29%
+J5h,Helped me in the past when something has bothered me on the internet,25.983956844959394,-,2,9.21,1,[495.0],[509.0],72.73%,26.06%,1.21%,57.56%,39.69%,2.75%
+J5i,In general; talked to me about what I would do if something on the internet ever bothered me,26.617644240906543,-,2,9.21,1,[488.0],[512.0],70.49%,27.66%,1.84%,54.88%,43.16%,1.95%
+K1a,My friends really try to help me,49.75017360129403,-,2,9.21,1,[521.0],[583.0],25.14%,71.98%,2.88%,9.26%,87.31%,3.43%
+K1b,I can count on my friends when things go wrong,46.584991641839665,-,2,9.21,1,[520.0],[579.0],26.73%,70.58%,2.69%,11.05%,87.05%,1.9%
+K1c,I can talk about my problems with my friends,76.53939978889092,-,2,9.21,1,[519.0],[582.0],30.25%,67.44%,2.31%,9.62%,88.66%,1.72%
+K1d,I get worried when I �?nd out my friends are having fun without me ,33.12926192877934,-,2,9.21,1,[511.0],[568.0],45.21%,52.84%,1.96%,28.35%,69.37%,2.29%
+K2a,Suggested ways to use the internet safely,43.01340618165959,-,2,9.21,1,[509.0],[566.0],57.17%,40.86%,1.96%,37.46%,60.78%,1.77%
+K2b,Encouraged me to explore and learn things on the internet,49.259753956990835,-,2,9.21,1,[504.0],[566.0],58.53%,39.68%,1.79%,37.46%,61.13%,1.41%
+K2c,Helped me when I found something difficult to do on the internet,59.093350736368336,-,2,9.21,1,[502.0],[559.0],65.94%,32.07%,1.99%,42.75%,55.46%,1.79%
+K2d,Explained why some websites are good or bad,43.18476451857147,-,2,9.21,1,[489.0],[558.0],67.69%,29.86%,2.45%,48.21%,49.82%,1.97%
+K2e,Suggested ways to behave towards other people on the internet,44.40048907205286,-,2,9.21,1,[491.0],[560.0],65.58%,31.77%,2.65%,46.07%,52.14%,1.79%
+K2f,Helped me in the past when something has bothered me on the internet,40.97908258497943,-,2,9.21,1,[487.0],[553.0],69.61%,28.54%,1.85%,50.27%,47.74%,1.99%
+K3,Have you suggested to your friends ways to use the internet safely?,55.70097483454896,-,2,9.21,1,[499.0],[563.0],60.12%,37.47%,2.4%,37.83%,60.39%,1.78%
+K4a,I feel safe in the area where I live,9.825543780011456,-,2,9.21,1,[519.0],[566.0],14.84%,83.24%,1.93%,8.83%,88.52%,2.65%
+K4b,It is safe for younger children to play outside during the day,15.308692246196243,-,2,9.21,1,[520.0],[569.0],27.88%,70.0%,2.12%,18.1%,80.14%,1.76%
+K4c,You can trust people around here,23.234080472441278,-,2,9.21,1,[520.0],[569.0],25.19%,73.65%,1.15%,14.06%,83.48%,2.46%
+A14,How often do you get some new clothes to wear?,3.4641713138589383,-,2,9.21,0,[542.0],[582.0],10.7%,86.16%,3.14%,7.56%,88.83%,3.61%
+A15,How easily can you find a quiet place to study or do homework?,0.5701469881779622,+,2,9.21,0,[530.0],[581.0],19.25%,79.43%,1.32%,19.1%,79.0%,1.89%
+A16,How often do you go on holiday [for at least one week] away from home?,4.841804585820697,+,2,9.21,0,[529.0],[570.0],30.62%,67.3%,2.08%,35.61%,61.23%,3.16%
+A17,How often do you have fresh fruit and vegetables to eat?,1.8791503123897157,-,2,9.21,0,[532.0],[574.0],12.78%,85.53%,1.69%,10.28%,87.63%,2.09%
+A17a,How often do you have fish or meat to eat?,8.529848678752332,-,2,9.21,0,[536.0],[580.0],12.31%,85.45%,2.24%,7.41%,91.03%,1.55%
+A18,Do you have at least two pairs of properly fitting shoes? [include: boots; sandals; trainers; etc.],11.278660270598456,-,2,9.21,1,[538.0],[585.0],17.1%,81.04%,1.86%,10.43%,88.21%,1.37%
+A19,How often do you get some new games or toys to play with?,64.75770768612361,+,2,9.21,1,[514.0],[519.0],45.91%,51.75%,2.33%,58.77%,30.44%,10.79%
+A20a,I get very angry and often lose my temper,17.09234923399754,-,2,9.21,1,[535.0],[595.0],42.24%,56.82%,0.93%,30.42%,68.4%,1.18%
+A20b,I usually do as I am told,4.6503325871297845,-,2,9.21,0,[535.0],[593.0],12.71%,86.36%,0.93%,8.77%,90.39%,0.84%
+A20c,I fight a lot; I can make other people do what I want,0.7181032277783606,+,2,9.21,0,[530.0],[589.0],76.23%,22.45%,1.32%,78.27%,20.37%,1.36%
+A20d,I am often accused of lying or cheating,2.662050891831766,+,2,9.21,0,[529.0],[585.0],69.75%,29.11%,1.13%,73.5%,24.96%,1.54%
+A20e,I take things that are not mine from home; school or elsewhere,1.6298366036732803,+,2,9.21,0,[527.0],[583.0],84.25%,14.42%,1.33%,86.79%,11.84%,1.37%
+A20f,I worry a lot,43.09518769952154,-,2,9.21,1,[527.0],[588.0],38.52%,59.96%,1.52%,20.92%,78.06%,1.02%
+A20g,I am nervous in certain new situations; I easily lose confidence,25.854025777311804,-,2,9.21,1,[525.0],[572.0],51.24%,47.24%,1.52%,36.01%,61.89%,2.1%
+A20h,I get a lot of headaches; stomach-aches or sickness,2.059663369559447,-,2,9.21,0,[524.0],[581.0],58.97%,39.31%,1.72%,54.73%,43.55%,1.72%
+A20i,I am often unhappy; sad or tearful,18.582414360120154,-,2,9.21,1,[529.0],[580.0],54.82%,44.23%,0.95%,41.9%,57.07%,1.03%
+A20j,I have many fears and I am easily scared,0.26852062056251247,-,2,9.21,0,[529.0],[579.0],35.73%,62.95%,1.32%,35.06%,63.9%,1.04%
+A20k,I am restless; I cannot stay still for long,10.59099051180153,-,2,9.21,1,[525.0],[572.0],62.29%,35.62%,2.1%,52.97%,45.28%,1.75%
+A20l,I finish the work I'm doing. My attention is good,17.057638719792738,-,2,9.21,1,[519.0],[578.0],25.82%,72.64%,1.54%,15.74%,82.35%,1.9%
+A20n,I am easily distracted and find it difficult to concentrate,24.402301963160067,-,2,9.21,1,[516.0],[577.0],44.57%,53.68%,1.74%,30.16%,67.94%,1.91%
+A20o,I think before I do things,25.63502934959677,-,2,9.21,1,[520.0],[585.0],20.96%,76.92%,2.12%,10.43%,88.38%,1.2%
+A20p,Other people my age generally like me,20.671270662640907,-,2,9.21,1,[515.0],[578.0],31.07%,66.41%,2.52%,20.24%,78.55%,1.21%
+A20q,Other children or young people pick on me,16.930282301485732,+,2,9.21,1,[520.0],[575.0],43.08%,55.0%,1.92%,55.3%,42.61%,2.09%
+A20r,I am usually on my own; I generally play alone or keep to myself,3.199377083216929,+,2,9.21,0,[518.0],[569.0],57.92%,40.93%,1.16%,60.46%,37.26%,2.28%
+A20s,I have at least one good friend,0.9477546131978212,-,2,9.21,0,[524.0],[585.0],12.4%,86.26%,1.34%,10.6%,87.86%,1.54%
+A20t,I get on better with adults than with people my own age,51.159568467365375,-,2,9.21,1,[513.0],[572.0],57.7%,41.13%,1.17%,36.01%,62.24%,1.75%
+A20u,I am helpful if someone is hurt; upset or feeling ill,19.67058082180224,-,2,9.21,1,[519.0],[577.0],27.94%,70.71%,1.35%,17.16%,80.24%,2.6%
+A20v,I try to be nice to other people. I care about their feelings,6.40721764271177,-,2,9.21,0,[517.0],[573.0],20.7%,78.14%,1.16%,15.18%,82.9%,1.92%
+A20w,I often volunteer to help others (e.g.; parents; carers; teachers; children),16.021030481976467,-,2,9.21,1,[513.0],[574.0],24.95%,73.88%,1.17%,16.03%,81.18%,2.79%
+A20x,I usually share with others (food; games; pens etc.),12.503824523323019,-,2,9.21,1,[519.0],[574.0],17.92%,81.12%,0.96%,10.63%,87.8%,1.57%
+A21a,Other children are treated better than me,3.3066280453736416,-,2,9.21,0,[510.0],[573.0],36.47%,60.59%,2.94%,31.24%,65.62%,3.14%
+A21b,People seem to think I am not smart,3.7018917985584467,-,2,9.21,0,[516.0],[575.0],59.5%,37.79%,2.71%,53.74%,42.96%,3.3%
+A21c,People seem to think they’re better than me,28.480602954117842,-,2,9.21,1,[516.0],[569.0],53.88%,43.22%,2.91%,37.79%,58.88%,3.34%
+A21d,I get called names or insulted by other children,3.098607155253585,+,2,9.21,0,[515.0],[571.0],45.05%,53.01%,1.94%,48.16%,48.69%,3.15%
+A22a,Because of where my family is from,0.011109018360399476,-,1,6.635,0,[275.0],[362.0],81.82%,18.18%,0.0%,81.49%,18.51%,0.0%
+A22b,Because of my skin colour,0.32619085886489246,+,1,6.635,0,[275.0],[362.0],78.55%,21.45%,0.0%,80.39%,19.61%,0.0%
+A22c,Because of my religion,0.1390844177209959,+,1,6.635,0,[275.0],[362.0],88.0%,12.0%,0.0%,88.95%,11.05%,0.0%
+A22d,Because of my height or weight,0.4102731572757044,+,1,6.635,0,[275.0],[362.0],68.36%,31.64%,0.0%,70.72%,29.28%,0.0%
+A22e,Because of a disability,0.11997739829231524,-,1,6.635,0,[275.0],[362.0],92.73%,7.27%,0.0%,91.99%,8.01%,0.0%
+A22f,Because of not having enough money,0.5449830270372265,-,1,6.635,0,[275.0],[362.0],84.0%,16.0%,0.0%,81.77%,18.23%,0.0%
+A22g,Because of my sexual orientation,0.1266703903196566,+,1,6.635,0,[275.0],[362.0],95.27%,4.73%,0.0%,95.86%,4.14%,0.0%
+A22h,Because of how I look or behave,4.554297914265778,-,1,6.635,0,[275.0],[362.0],77.45%,22.55%,0.0%,69.89%,30.11%,0.0%
+A22j,Because of my attitude,1.4202841760692397,-,1,6.635,0,[275.0],[362.0],74.18%,25.82%,0.0%,69.89%,30.11%,0.0%
+A22i,Because of my opinions or beliefs,11.291938198822816,-,1,6.635,1,[275.0],[362.0],89.45%,10.55%,0.0%,79.56%,20.44%,0.0%
+A22k,Because my parents are not around (i.e.; OFW),3.3181627931753495,-,1,6.635,0,[275.0],[362.0],98.18%,1.82%,0.0%,95.58%,4.42%,0.0%
+A22l,Because of the ethnic group I belong to,0.7848874646865867,-,1,6.635,0,[275.0],[362.0],96.0%,4.0%,0.0%,94.48%,5.52%,0.0%
+A22m,Due to conflict / war in our area,,,1,6.635,0,[275.0],[362.0],99.64%,0.36%,0.0%,98.07%,1.93%,0.0%
+A22n,Because I am not studying (i.e.; out-of-school),0.06296537311793754,-,1,6.635,0,[275.0],[362.0],97.82%,2.18%,0.0%,97.51%,2.49%,0.0%
+A22o,Because I do not have a permanent residence / house,0.06296537311793754,-,1,6.635,0,[275.0],[362.0],97.82%,2.18%,0.0%,97.51%,2.49%,0.0%
+A23,When you were treated this way; how often did it happen on the internet?,0.7634618367149186,-,2,9.21,0,[356.0],[430.0],75.56%,23.03%,1.4%,73.02%,25.12%,1.86%
+A24a,I do dangerous things for fun,1.8925511758235611,-,2,9.21,0,[510.0],[563.0],81.57%,16.47%,1.96%,78.51%,18.65%,2.84%
+A24b,I do exciting things; even if they are dangerous,1.790738851135466,-,2,9.21,0,[512.0],[566.0],78.71%,19.73%,1.56%,75.62%,22.08%,2.3%
+A25a,Had so much alcohol that I got really drunk,18.440833711949114,-,2,9.21,1,[496.0],[568.0],94.35%,4.84%,0.81%,86.62%,10.56%,2.82%
+A25b,Missed school lessons without my parent(s)/carer(s) knowing,25.79685885913615,-,2,9.21,1,[512.0],[574.0],90.43%,8.2%,1.37%,79.27%,17.6%,3.14%
+A25c,Had sexual intercourse,1.124567645920321,+,2,9.21,0,[485.0],[573.0],88.66%,8.45%,2.89%,88.83%,7.33%,3.84%
+A25d,Been in trouble with my teachers for bad behaviour,2.118704202221185,-,2,9.21,0,[502.0],[565.0],86.25%,12.15%,1.59%,86.02%,13.27%,0.71%
+A25e,Been in trouble with the police,0.9256264034281521,+,2,9.21,0,[499.0],[569.0],92.59%,4.61%,2.81%,93.67%,4.39%,1.93%
+A25f,Met personally with someone whom I met online (i.e.; eyeball),7.8404786520155785,-,2,9.21,0,[489.0],[570.0],90.8%,7.57%,1.64%,85.44%,12.81%,1.75%
+A26a,I can solve difficult problems if I try hard enough,58.493910961788494,-,2,9.21,1,[489.0],[561.0],43.56%,53.99%,2.45%,21.93%,76.29%,1.78%
+A26b,If someone opposes me; I can find ways to get what I want,39.15090238156139,-,2,9.21,1,[480.0],[545.0],52.71%,44.79%,2.5%,33.58%,64.04%,2.39%
+A26c,It's easy for me to stick to my aims and achieve my goals,37.060568316232455,-,2,9.21,1,[485.0],[549.0],34.85%,61.44%,3.71%,18.94%,78.69%,2.37%
+A26d,I am confident that I can deal with unexpected problems,59.01622539130966,-,2,9.21,1,[489.0],[553.0],40.7%,55.83%,3.48%,19.53%,77.94%,2.53%
+A26g,I can stay calm when things get difficult because I am good at coping,43.3298965307677,-,2,9.21,1,[498.0],[557.0],32.73%,63.86%,3.41%,15.8%,81.51%,2.69%
+A27,Ideally; if you are given an opportunity; what level of education do you want to finish?,1.053651271001272,+,2,9.21,0,[543.0],[604.0],6.45%,92.82%,0.74%,5.96%,92.72%,1.32%
+A28,Imagine if given the opportunity to finish your studies or to get your desired career in the future; where do you want to work?,,,2,9.21,0,[534.0],[603.0],97.94%,0.37%,1.69%,97.51%,0.83%,1.66%
+A29a,When I use the internet; I learn about different things that I could study; do or become what I want to be as productive as possible.,33.06037085726504,-,2,9.21,1,[505.0],[571.0],44.75%,53.27%,1.98%,28.02%,70.05%,1.93%
+A29b,When I use the internet; I feel I want to achieve more in life.,20.992339741552644,-,2,9.21,1,[496.0],[571.0],47.18%,50.4%,2.42%,34.15%,64.27%,1.58%
+G1a,I was sent a message that I did not want with advertisements for or links to X-rated websites [use local term for 'X-rated'],8.99087658838749,-,2,9.21,0,[469.0],[577.0],88.06%,10.02%,1.92%,81.28%,15.77%,2.95%
+G1b,I opened a message or a link in a message that showed pictures of naked people or of people having sex that I did not want,4.7688793503088025,-,2,9.21,0,[468.0],[565.0],91.03%,7.69%,1.28%,86.73%,11.15%,2.12%
+G1c,I have seen or received a sexual message; image or video about someone else that I did not want,39.49862840932644,-,2,9.21,1,[477.0],[571.0],86.58%,10.9%,2.52%,72.5%,26.09%,1.4%
+G2a,I have been asked for sexual information about myself (like what my body looks like without clothes on or sexual things I have done) when I did not want to answer such questions,11.58339038409368,-,2,9.21,1,[461.0],[557.0],93.06%,4.99%,1.95%,86.54%,10.23%,3.23%
+G2b,I have been asked to talk about sexual acts with someone on the internet when I did not want to,10.961388593249223,-,2,9.21,1,[470.0],[562.0],88.94%,7.45%,3.62%,83.1%,13.88%,3.02%
+G2c,I have been asked by someone on the internet to do something sexual when I did not want to,8.477483717705937,-,2,9.21,0,[468.0],[568.0],91.45%,5.56%,2.99%,86.44%,10.56%,2.99%
+G2d,I have been asked on the internet for a photo or video showing my private parts [translate as appropriate] when I did not want to,18.37670616468241,-,2,9.21,1,[467.0],[572.0],93.58%,3.64%,2.78%,87.06%,10.66%,2.27%
+G3a,I have sent sexual information about myself (like what my body looks like without clothes on or sexual things I have done) when I did not want,,,2,9.21,0,[23.0],[61.0],43.48%,52.17%,4.35%,77.05%,22.95%,0.0%
+G3b,I have talked about sexual acts with someone on the internet when I did not want to,,,2,9.21,0,[34.0],[82.0],55.88%,41.18%,2.94%,59.76%,34.15%,6.1%
+G3c,I have done something sexual on the internet when I did not want to,,,2,9.21,0,[26.0],[61.0],46.15%,42.31%,11.54%,65.57%,29.51%,4.92%
+G3d,I have sent someone a photo or video showing my private parts when I did not want to [translate as appropriate],,,2,9.21,0,[16.0],[63.0],50.0%,50.0%,0.0%,82.54%,15.87%,1.59%
+G4,Thinking about the last time when you had unwanted sexual experience (that is; any of G2a-d); did it happen when you were using which of the following?,,,4,13.277,0,[51.0],[128.0],56.86%,29.41%,13.73%,71.09%,9.38%,19.53%
+G5,Thinking about the last time when you had unwanted sexual experience (that is; any of G2a-d); who was the person who did this?,,,9,21.666,0,[46.0],[118.0],19.57%,19.57%,60.87%,19.49%,11.86%,68.64%
+G9a,Brother (over 18),3.5644167785786705,+,1,6.635,0,[50.0],[107.0],70.0%,30.0%,0.0%,83.18%,16.82%,0.0%
+G9b,Sister (over 18),0.4360357600984317,+,1,6.635,0,[50.0],[107.0],84.0%,16.0%,0.0%,87.85%,12.15%,0.0%
+G9c,A younger brother or sister,1.6796230145493578,+,1,6.635,0,[50.0],[107.0],80.0%,20.0%,0.0%,87.85%,12.15%,0.0%
+G9d,Father or step-/foster father,,,1,6.635,0,[50.0],[107.0],88.0%,12.0%,0.0%,96.26%,3.74%,0.0%
+G9e,Mother or step-/foster mother,5.265118746124596,+,1,6.635,0,[50.0],[107.0],80.0%,20.0%,0.0%,92.52%,7.48%,0.0%
+G9f,Other adult relatives; such as aunts; uncles; or grandparents,0.2484767281877999,+,1,6.635,0,[50.0],[107.0],86.0%,14.0%,0.0%,88.79%,11.21%,0.0%
+G9g,Friend or acquaintance,0.4673317757009349,-,1,6.635,0,[50.0],[107.0],78.0%,22.0%,0.0%,72.9%,27.1%,0.0%
+G9h,Teacher/ educator,,,1,6.635,0,[50.0],[107.0],92.0%,8.0%,0.0%,97.2%,2.8%,0.0%
+G9j,Other adult you trust e.g. coach; neighbour; doctor; or babysitter,,,1,6.635,0,[50.0],[107.0],96.0%,4.0%,0.0%,94.39%,5.61%,0.0%
+G9i,Other (specify),,,1,6.635,0,[50.0],[107.0],96.0%,4.0%,0.0%,95.33%,4.67%,0.0%
+G9k,I didn’t tell anyone about it,,,1,6.635,0,[50.0],[107.0],94.0%,6.0%,0.0%,90.65%,9.35%,0.0%

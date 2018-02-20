@@ -660,7 +660,7 @@ public class MainFrame extends JFrame {
 		tabbedPane.addTab("Chi Test", null, panelChi, null);
 		GridBagLayout gbl_panelChi = new GridBagLayout();
 		gbl_panelChi.columnWidths = new int[]{0, 0, 0};
-		gbl_panelChi.rowHeights = new int[]{0, 0, 0, 30, 30, 0, 250, 133, 0};
+		gbl_panelChi.rowHeights = new int[]{0, 0, 0, 30, 30, 0, 181, 241, 0};
 		gbl_panelChi.columnWeights = new double[]{1.0, 0.0, Double.MIN_VALUE};
 		gbl_panelChi.rowWeights = new double[]{0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, Double.MIN_VALUE};
 		panelChi.setLayout(gbl_panelChi);
@@ -748,7 +748,6 @@ public class MainFrame extends JFrame {
 		
 		buttonEnterFeature = new JButton("Enter Code");
 		GridBagConstraints gbc_buttonEnterFeature = new GridBagConstraints();
-		gbc_buttonEnterFeature.anchor = GridBagConstraints.NORTH;
 		gbc_buttonEnterFeature.fill = GridBagConstraints.HORIZONTAL;
 		gbc_buttonEnterFeature.insets = new Insets(0, 0, 5, 0);
 		gbc_buttonEnterFeature.gridx = 1;
@@ -757,7 +756,7 @@ public class MainFrame extends JFrame {
 		
 		buttonStore = new JButton("Start");
 		GridBagConstraints gbc_buttonStore = new GridBagConstraints();
-		gbc_buttonStore.fill = GridBagConstraints.BOTH;
+		gbc_buttonStore.fill = GridBagConstraints.HORIZONTAL;
 		gbc_buttonStore.insets = new Insets(0, 0, 5, 0);
 		gbc_buttonStore.gridx = 1;
 		gbc_buttonStore.gridy = 5;
@@ -765,9 +764,8 @@ public class MainFrame extends JFrame {
 		
 		listAttributes = new JList();
 		GridBagConstraints gbc_listAttributes = new GridBagConstraints();
-		gbc_listAttributes.gridwidth = 2;
-		gbc_listAttributes.insets = new Insets(0, 0, 5, 0);
-		gbc_listAttributes.fill = GridBagConstraints.BOTH;
+		gbc_listAttributes.insets = new Insets(0, 0, 5, 5);
+		gbc_listAttributes.fill = GridBagConstraints.HORIZONTAL;
 		gbc_listAttributes.gridx = 0;
 		gbc_listAttributes.gridy = 6;
 		panelChi.add(listAttributes, gbc_listAttributes);

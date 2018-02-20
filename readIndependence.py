@@ -1,4 +1,7 @@
+'''
+This file performs Z-Test of Independence of Pooled Proportions between two sample groups
 
+'''
 import sys
 import csv
 import math
@@ -59,6 +62,7 @@ def getTotalsAndProportions(datasets, featureValues, selectedFeatureValues):
         countN = 0
         countP = 0
         c = Counter(dataset['ColumnData']) #Counts the number of occurrences of each feature value in the group
+        featureValues.remove
         for x in c:
             if x in featureValues:
                 countN = countN + int(c[x])
@@ -71,7 +75,7 @@ def getTotalsAndProportions(datasets, featureValues, selectedFeatureValues):
 
 '''
 Z-Test of Independence of Pooled Proportions
-Needs total amount and proportion 
+Requires total amount and proportion of the two groups that will be compared with each other
 '''
 def ZTest(n1,p1,n2,p2):
     
@@ -97,7 +101,7 @@ def getPPrime(n1,p1,n2,p2):
 '''
 Returns the standard error between the two groups
 
-Where n represents respectivly the total of each group
+Where n represents respectively the total of each group
 and PPrime is P^
 
 '''
@@ -131,8 +135,10 @@ datasets = generateGroups(datasets, datasetPaths,selectedFeature, selectedFeatur
 
 n1 = datasets[0]['Total']
 p1 = datasets[0]['ProportionPercent']
+fp1 = datasets[0]['Proportion']
 n2 = datasets[1]['Total']
 p2 = datasets[1]['ProportionPercent']
+fp2 = datasets[1]['Proportion']
 
 z,PPrime,standardError = ZTest(n1,p1,n2,p2) #Perform Z-Test on the two groups and get the z-score
 
@@ -168,10 +174,12 @@ print 'Standard Error: ' + str(standardError)
 print 'N1: ' + str(n1)
 print 'N2: ' + str(n2)
 print 'N1+N2: ' + str(n1+n2)
+print 'freq(p1): ' + str(fp1)
+print 'freq(p2): ' + str(fp2)
 
 
-headers = ['z', 'z^2', '99% (' + str(z99) + ')', '95% (' + str(z95) + ')', 'n1', 'n2', 'n1+n2','p1', 'p2', 'p^', 'SEp']
-results = [round(z,2), round(zSquared,2), greaterThanZ99, greaterThanZ95, n1, n2, n1+n2, round(p1,2),round(p2,2),round(PPrime,2),round(standardError,2)]
+headers = ['','z', 'z^2', '99% (' + str(z99) + ')', '95% (' + str(z95) + ')', 'n1', 'n2', 'n1+n2','p1','1-p1', 'p2','1-p2', 'p^', 'SEp','freq(p1)', 'freq(p2)']
+results = ['v',round(z,2), round(zSquared,2), greaterThanZ99, greaterThanZ95, n1, n2, n1+n2, round(p1,2),round(1-p1,2),round(p2,2),round(1-p2,2),round(PPrime,2),round(standardError,2), fp1,fp2]
 datasetHeaders = []
 datasetHeaders.append('Dataset 1 : ' + datasets[0]['Name'])
 datasetHeaders.append('Dataset 2 : ' + datasets[1]['Name'])
@@ -179,14 +187,23 @@ featureHeader = []
 featureHeader.append(selectedFeature + ': ' + selectedFeatureDesc)
 
 
+selectedFeatureValueHeader = ['Selected Values: ']
+
+for i in selectedFeatureValues:
+    selectedFeatureValueHeader.append(i)
+
+
+
 summary = []
 
 summary.append(datasetHeaders)
 summary.append(featureHeader)
+summary.append(selectedFeatureValueHeader)
 summary.append(headers)
 summary.append(results)
 
-summaryName = 'Test of Independence ' + datasets[0]['Name'] + ' VS ' + datasets[1]['Name'] + ' .csv'
+#summaryName = 'ToI of Samples_' + selectedFeature+ '_' + datasets[0]['Name'] + '_VS_' + datasets[1]['Name'] + '.csv'
+summaryName = sys.argv[1]
 
 writeOnCSV(summary, summaryName)
 

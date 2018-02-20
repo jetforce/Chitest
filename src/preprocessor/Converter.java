@@ -96,7 +96,7 @@ public class Converter {
 
                 if (findQ.getResponseList().size() > 0) {
                     for (Response resp : findQ.getResponseList()) {
-//                    	System.out.println("Response: " + resp.getGroup() + " " + resp.getKey() + " " + resp.getDescription());
+                   	System.out.println("Response: " + resp.getGroup() + " " + resp.getKey() + " " + resp.getDescription());
                         newQ.addResponse(resp);
                     }
 
@@ -207,7 +207,7 @@ public class Converter {
         //remove 99 and blank from set
         responseSet.remove("");
         responseSet.remove("99");
-        System.out.println("Question: " + question.getCode() + " Response: " + response + " " + Arrays.toString(responseSet.toArray()));
+        //System.out.println("Question: " + question.getCode() + " Response: " + response + " " + Arrays.toString(responseSet.toArray()));
         
         //change the response according to its group
         //System.out.println(response);

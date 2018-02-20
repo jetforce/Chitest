@@ -83,7 +83,7 @@ public class ChiTestController {
 			break;
 		case 1: //Z-test of Independence of Pooled Proportions
 			System.out.println("\n Z-Test of Independence of Pooled Proportions Start");
-			pe = new PythonExecutor(filesStrings, "readIndependence.py", " "+initVarDiscPath+" "+sf.getFeature()+" "+attributesString+" "+selectedAttributesString );
+			pe = new PythonExecutor(filesStrings, "readIndependence.py", " "+initVarDiscPath+" "+sf.getFeature()+" "+attributesString+" "+selectedAttributesString,sf.getFeature() );
 			pe.Execute();
 			break;
 		case 2: //Standard Error of Population
@@ -91,7 +91,7 @@ public class ChiTestController {
 			break;
 		}
 	}
-	
+
 	private void clearFiles()
 	{
 		clusterFilePaths.clear();
@@ -265,8 +265,16 @@ public class ChiTestController {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				// TODO Auto-generated method stub
+				
+				attributesString=""; 
+				selectedAttributesString="";
 				ArrayList<String> storedAttributes = new ArrayList<>();
 				int[] selectedAttributes = mainFrame.getListAttributes().getSelectedIndices();
+				
+				for(int i = 0; i < selectedAttributes.length; i++)
+					System.out.println(selectedAttributes);
+				
+				
 				for(int i = 0; i < selectedAttributes.length; i++) {
 					storedAttributes.add(attributes.get(selectedAttributes[i]));
 				}
