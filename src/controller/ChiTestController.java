@@ -9,7 +9,11 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.Scanner;
 import java.util.stream.Collectors;
+
+import javax.swing.ComboBoxModel;
+import javax.swing.DefaultComboBoxModel;
 import javax.swing.DefaultListModel;
+import javax.swing.JComboBox;
 
 import res.AppString;
 import util.FileGetter;
@@ -17,6 +21,7 @@ import view.MainFrame;
 import model.Feature;
 import model.Response;
 import model.SelectedFeature;
+import preprocessor.PreprocessorIO;
 
 public class ChiTestController {
 	
@@ -36,11 +41,13 @@ public class ChiTestController {
 	
 	
 	private String featureCode; //Input feature code
-	private ArrayList<Feature> questionList; //All the features in the file
+	private ArrayList<Feature> questionList = new ArrayList<>();; //All the features in the file
 	
 	private SelectedFeature sf;
 
-	protected String initVarDiscPath;
+	protected String initVarDiscPath = "src\\..\\InitialVarDesc.csv";
+	
+	private int testType = mainFrame.getCmbTestType().getSelectedIndex(); 
 	
 	//END OF NEW ATTRIBUTES
 	
@@ -57,6 +64,41 @@ public class ChiTestController {
 		return ChiTestController.CHI_TEST_CONTROLLER;
 	}
 	
+	private void showSEPViews(boolean toShow)
+	{
+		mainFrame.getCmbSEPFeatures().setVisible(toShow);
+		mainFrame.getLblGetSamplesBy().setVisible(toShow);
+		
+		if(toShow==true)
+		{
+			if(mainFrame.getCmbSEPFeatures().getItemCount()<=0)
+			{
+				if(questionList.isEmpty())
+					questionList = PreprocessorIO.readQuestions(initVarDiscPath);
+				
+				ArrayList<String>questions = new ArrayList<>(); 
+				
+				for(Feature question : questionList)
+					questions.add(question.getCode());
+					//questions.add(question.getCode() + " - " + question.getDescription());
+				
+				loadIntoCMB(mainFrame.getCmbSEPFeatures(), questions);
+				
+			}
+		}
+	}
+	
+	private void loadIntoCMB(JComboBox cb, ArrayList<String> elements)
+	{
+		cb.setModel(new DefaultComboBoxModel(elements.toArray()));
+	}
+	
+	private void showDataset2Input(boolean toShow)
+	{
+		mainFrame.getTextFieldFile2().setVisible(toShow);
+		mainFrame.getButtonChooseFile2().setVisible(toShow);
+	}
+	
 	private void showZTestIndependenceViews(boolean toShow)
 	{
 		mainFrame.getButtonEnterFeature().setVisible(toShow);
@@ -71,7 +113,7 @@ public class ChiTestController {
 	private void startTest()
 	{
 		//Get selected test type
-		int testType = mainFrame.getCmbTestType().getSelectedIndex(); 
+		testType = mainFrame.getCmbTestType().getSelectedIndex(); 
 		PythonExecutor pe;
 		
 		switch(testType)
@@ -122,7 +164,7 @@ public class ChiTestController {
 					String filePath = FileGetter.getInstance().getCanonicalPath(dataset1);
 					String fileName = filePath.substring(filePath.lastIndexOf("\\") + 1, filePath.lastIndexOf("."));
 					
-					if(clusterFilePaths.size() >= 2)
+					if(clusterFilePaths.size() >= 2 || (clusterFilePaths.size() >= 1 && testType==2 ))
 						clearFiles();
 					
 					filesStrings.add(filePath);
@@ -131,7 +173,7 @@ public class ChiTestController {
 					mainFrame.getTextFieldFile1().setText(fileName);
 					//mainFrame.getTextFieldFile1().setText(clusterFilePaths.values().stream().map(path -> path).collect(Collectors.joining(",")));
 					//mainFrame.getTextFieldUploaderFileWeights().setText(clusterFilePaths.values().stream().map(path -> path).collect(Collectors.joining(",")));
-					if(clusterFilePaths.size() >= 2)
+					if(clusterFilePaths.size() >= 2 || (clusterFilePaths.size() >= 1 && testType==2 ))
 					{
 						mainFrame.getButtonChiStart().setEnabled(true);
 						mainFrame.getButtonStore().setEnabled(true);
@@ -192,25 +234,29 @@ public class ChiTestController {
 			@Override
 			public void actionPerformed(ActionEvent arg0) {
 				
-				int testType = mainFrame.getCmbTestType().getSelectedIndex();
+				testType = mainFrame.getCmbTestType().getSelectedIndex();
 				switch(testType)
 				{
 				case 0: //Chi test
 					renameFileChoosers("Choose Dataset 1...", "Choose Dataset 2...");
 					clearFiles();
+					showDataset2Input(true);
 					showZTestIndependenceViews(false);
 					System.out.println("\nTest Type: Chi Test\n");
 					break;
 				case 1: //Z-test of Independence of Pooled Proportions
 					renameFileChoosers("Choose Subgroup 1...", "Choose Subgroup 2...");
 					clearFiles();
+					showDataset2Input(true);
 					showZTestIndependenceViews(true);
 					System.out.println("\nTest Type: Z-Test of Independence of Pooled Proportions\n");
 					break;
 				case 2: //Standard Error of Population
-					renameFileChoosers("Choose Population...", "Choose Subgroup...");
+					renameFileChoosers("Choose Population Dataset", "");
 					clearFiles();
-					showZTestIndependenceViews(false);
+					showDataset2Input(false);
+					showZTestIndependenceViews(true);
+					showSEPViews(true);
 					System.out.println("\n Test Type: Standard Error of Population\n");
 					break;
 				}
@@ -227,10 +273,9 @@ public class ChiTestController {
 				featureCode = mainFrame.getTextFieldFeature().getText();
 
 				
-				//****************HARD CODED DIRECTORY OF THE INITIAL VARIABLE DESCRIPTION FILE**********************
-				initVarDiscPath = "src\\..\\InitialVarDesc.csv";
 				
-				questionList = preprocessor.PreprocessorIO.staticReadQuestions(initVarDiscPath);
+				if(questionList.isEmpty())
+					questionList = preprocessor.PreprocessorIO.readQuestions(initVarDiscPath);
 				
 				for (Feature q:questionList) {
 					//TEST
@@ -314,6 +359,7 @@ public class ChiTestController {
 		});
 		
 		showZTestIndependenceViews(false);
+		showSEPViews(false);
 		
 	}
 	

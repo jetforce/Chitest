@@ -14,6 +14,7 @@ import util.worker.Preprocessor;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -30,7 +31,9 @@ public class PreprocessorIO {
 		this.worker = worker;
 	}
 
-	public ArrayList<Feature> readQuestions(String fileName) {
+
+	
+	public static ArrayList<Feature> readQuestions(String fileName) {
 		BufferedReader br;
 		String line;
 		String[] lineSplit;
@@ -45,24 +48,16 @@ public class PreprocessorIO {
 			while ((line = br.readLine()) != null) {
 				lineSplit = line.split(",");
 				if (line.startsWith("V")) {
-					if (!lineSplit[1].startsWith("l")) {
 						question = new Feature();
 						questionList.add(question);
 						question.setCode(lineSplit[1]);
 						question.setDescription(lineSplit[2]);
-
-						isParent = false;
-					} else {
-						isParent = true;
-					}
 				} else {
-					if (!isParent) {
 						response = new Response();
 						question.addResponse(response);
 						response.setGroup(lineSplit[0]);
 						response.setKey(lineSplit[1]);
 						response.setDescription(lineSplit[2]);
-					}
 				}
 			}
 
@@ -73,96 +68,7 @@ public class PreprocessorIO {
 		return questionList;
 	}
 	
-	//STATIC VERSION OF PREVIOUS FUNCTION
-	static public ArrayList<Feature> staticReadQuestions(String fileName) {
-		BufferedReader br;
-		String line;
-		String[] lineSplit;
-		ArrayList<Feature> questionList = new ArrayList<>();
-		Feature question = null;
-		Response response;
-		boolean isParent = false;
-		try {
-			br = new BufferedReader(new FileReader(new File(fileName)));
 
-			//remove parent questions
-			while ((line = br.readLine()) != null) {
-				lineSplit = line.split(",");
-				if (line.startsWith("V")) {
-					if (!lineSplit[1].startsWith("l")) {
-						question = new Feature();
-						questionList.add(question);
-						question.setCode(lineSplit[1]);
-						question.setDescription(lineSplit[2]);
-
-						isParent = false;
-					} else {
-						isParent = true;
-					}
-				} else {
-					if (!isParent) {
-						response = new Response();
-						question.addResponse(response);
-						response.setGroup(lineSplit[0]);
-						response.setKey(lineSplit[1]);
-						response.setDescription(lineSplit[2]);
-					}
-				}
-			}
-
-			br.close();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		return questionList;
-	}
-	
-	public ArrayList<Feature> readQuestions(String fileName, boolean test) {
-		BufferedReader br;
-		String line;
-		String[] lineSplit;
-		ArrayList<Feature> questionList = new ArrayList<>();
-		Feature question = null;
-		Response response;
-		boolean isParent = false;
-		try {
-			br = new BufferedReader(new FileReader(new File(fileName)));
-
-			//remove parent questions
-			while ((line = br.readLine()) != null) {
-				lineSplit = line.split(",");
-				if (line.startsWith("V")) {
-					if (!lineSplit[1].startsWith("l")) {
-						question = new Feature();
-						questionList.add(question);
-						question.setCode(lineSplit[1]);
-						question.setDescription(lineSplit[2]);
-//						System.out.println(question.getCode() + " " + question.getDescription());
-//						SwingUpdater.appendJTextAreaText(worker.mainFrame.getTextAreaPreprocessorStatus(), "\n"+ question.getCode() + " " + question.getDescription());
-
-						isParent = false;
-					} else {
-						isParent = true;
-					}
-				} else {
-					if (!isParent) {
-						response = new Response();
-						question.addResponse(response);
-						response.setGroup(lineSplit[0]);
-						response.setKey(lineSplit[1]);
-						response.setDescription(lineSplit[2]);
-//						System.out.println("\t" + response.getGroup() + " " + response.getKey() + " " + response.getDescription());
-//						SwingUpdater.appendJTextAreaText(worker.mainFrame.getTextAreaPreprocessorStatus(), "\n"+ "\t" + response.getGroup() + " " + response.getKey() + " " + response.getDescription());
-					}
-				}
-			}
-
-			br.close();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-		return questionList;
-	}
 
 	public ArrayList<Entry> readCSV(ArrayList<String> header, ArrayList<Column> columns, String fileName, int colSkip) {
 		ArrayList<Entry> entryList = new ArrayList<>();

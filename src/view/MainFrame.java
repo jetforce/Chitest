@@ -110,6 +110,8 @@ public class MainFrame extends JFrame {
 	private JList listAttributes;
 	private JTextArea textAreaFeature;
 	private JButton buttonStore;
+	private JComboBox cmbSEPFeatures;
+	private JLabel lblGetSamplesBy;
 
 	public JLabel getLblNewLabel() {
 		return lblNewLabel;
@@ -659,18 +661,18 @@ public class MainFrame extends JFrame {
 		panelChi.setBackground(new Color(255, 255, 255));
 		tabbedPane.addTab("Chi Test", null, panelChi, null);
 		GridBagLayout gbl_panelChi = new GridBagLayout();
-		gbl_panelChi.columnWidths = new int[]{0, 0, 0};
-		gbl_panelChi.rowHeights = new int[]{0, 0, 0, 30, 30, 0, 181, 241, 0};
-		gbl_panelChi.columnWeights = new double[]{1.0, 0.0, Double.MIN_VALUE};
-		gbl_panelChi.rowWeights = new double[]{0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, Double.MIN_VALUE};
+		gbl_panelChi.columnWidths = new int[]{306, 181, 0};
+		gbl_panelChi.rowHeights = new int[]{0, 0, 0, 33, 30, 59, 0, 181, 241, 0};
+		gbl_panelChi.columnWeights = new double[]{0.0, 0.0, Double.MIN_VALUE};
+		gbl_panelChi.rowWeights = new double[]{0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, Double.MIN_VALUE};
 		panelChi.setLayout(gbl_panelChi);
 		
 		textFieldFile1 = new JTextField();
 		textFieldFile1.setOpaque(false);
 		textFieldFile1.setEditable(false);
 		GridBagConstraints gbc_textFieldFile1 = new GridBagConstraints();
-		gbc_textFieldFile1.insets = new Insets(0, 0, 5, 5);
 		gbc_textFieldFile1.fill = GridBagConstraints.HORIZONTAL;
+		gbc_textFieldFile1.insets = new Insets(0, 0, 5, 5);
 		gbc_textFieldFile1.gridx = 0;
 		gbc_textFieldFile1.gridy = 0;
 		panelChi.add(textFieldFile1, gbc_textFieldFile1);
@@ -719,12 +721,28 @@ public class MainFrame extends JFrame {
 		gbc_buttonChiStart.gridy = 2;
 		panelChi.add(buttonChiStart, gbc_buttonChiStart);
 		
+		lblGetSamplesBy = new JLabel("Generate samples by:");
+		GridBagConstraints gbc_lblGetSamplesBy = new GridBagConstraints();
+		gbc_lblGetSamplesBy.insets = new Insets(0, 0, 5, 5);
+		gbc_lblGetSamplesBy.anchor = GridBagConstraints.EAST;
+		gbc_lblGetSamplesBy.gridx = 0;
+		gbc_lblGetSamplesBy.gridy = 3;
+		panelChi.add(lblGetSamplesBy, gbc_lblGetSamplesBy);
+		
+		cmbSEPFeatures = new JComboBox();
+		GridBagConstraints gbc_cmbSEPFeatures = new GridBagConstraints();
+		gbc_cmbSEPFeatures.fill = GridBagConstraints.HORIZONTAL;
+		gbc_cmbSEPFeatures.insets = new Insets(0, 0, 5, 0);
+		gbc_cmbSEPFeatures.gridx = 1;
+		gbc_cmbSEPFeatures.gridy = 3;
+		panelChi.add(cmbSEPFeatures, gbc_cmbSEPFeatures);
+		
 		lblNewLabel = new JLabel("Enter Feature Code : ");
 		GridBagConstraints gbc_lblNewLabel = new GridBagConstraints();
 		gbc_lblNewLabel.anchor = GridBagConstraints.EAST;
 		gbc_lblNewLabel.insets = new Insets(0, 0, 5, 5);
 		gbc_lblNewLabel.gridx = 0;
-		gbc_lblNewLabel.gridy = 3;
+		gbc_lblNewLabel.gridy = 4;
 		panelChi.add(lblNewLabel, gbc_lblNewLabel);
 		
 		textFieldFeature = new JTextField();
@@ -732,7 +750,7 @@ public class MainFrame extends JFrame {
 		gbc_textFieldFeature.insets = new Insets(0, 0, 5, 0);
 		gbc_textFieldFeature.fill = GridBagConstraints.HORIZONTAL;
 		gbc_textFieldFeature.gridx = 1;
-		gbc_textFieldFeature.gridy = 3;
+		gbc_textFieldFeature.gridy = 4;
 		panelChi.add(textFieldFeature, gbc_textFieldFeature);
 		textFieldFeature.setColumns(10);
 		
@@ -743,7 +761,7 @@ public class MainFrame extends JFrame {
 		gbc_textAreaFeature.insets = new Insets(0, 0, 5, 5);
 		gbc_textAreaFeature.fill = GridBagConstraints.BOTH;
 		gbc_textAreaFeature.gridx = 0;
-		gbc_textAreaFeature.gridy = 4;
+		gbc_textAreaFeature.gridy = 5;
 		panelChi.add(textAreaFeature, gbc_textAreaFeature);
 		
 		buttonEnterFeature = new JButton("Enter Code");
@@ -751,7 +769,7 @@ public class MainFrame extends JFrame {
 		gbc_buttonEnterFeature.fill = GridBagConstraints.HORIZONTAL;
 		gbc_buttonEnterFeature.insets = new Insets(0, 0, 5, 0);
 		gbc_buttonEnterFeature.gridx = 1;
-		gbc_buttonEnterFeature.gridy = 4;
+		gbc_buttonEnterFeature.gridy = 5;
 		panelChi.add(buttonEnterFeature, gbc_buttonEnterFeature);
 		
 		buttonStore = new JButton("Start");
@@ -759,7 +777,7 @@ public class MainFrame extends JFrame {
 		gbc_buttonStore.fill = GridBagConstraints.HORIZONTAL;
 		gbc_buttonStore.insets = new Insets(0, 0, 5, 0);
 		gbc_buttonStore.gridx = 1;
-		gbc_buttonStore.gridy = 5;
+		gbc_buttonStore.gridy = 6;
 		panelChi.add(buttonStore, gbc_buttonStore);
 		
 		listAttributes = new JList();
@@ -767,7 +785,7 @@ public class MainFrame extends JFrame {
 		gbc_listAttributes.insets = new Insets(0, 0, 5, 5);
 		gbc_listAttributes.fill = GridBagConstraints.HORIZONTAL;
 		gbc_listAttributes.gridx = 0;
-		gbc_listAttributes.gridy = 6;
+		gbc_listAttributes.gridy = 7;
 		panelChi.add(listAttributes, gbc_listAttributes);
 		
 		scrollPaneChiStatus = new JScrollPane();
@@ -775,7 +793,7 @@ public class MainFrame extends JFrame {
 		gbc_scrollPaneChiStatus.gridwidth = 2;
 		gbc_scrollPaneChiStatus.fill = GridBagConstraints.BOTH;
 		gbc_scrollPaneChiStatus.gridx = 0;
-		gbc_scrollPaneChiStatus.gridy = 7;
+		gbc_scrollPaneChiStatus.gridy = 8;
 		panelChi.add(scrollPaneChiStatus, gbc_scrollPaneChiStatus);
 		
 		textAreaChiStatus = new JTextArea();
@@ -787,6 +805,14 @@ public class MainFrame extends JFrame {
 	
 	//NEW GETTERS FOR CHI TEST PANEL
 	
+	public JComboBox getCmbSEPFeatures() {
+		return cmbSEPFeatures;
+	}
+
+	public JLabel getLblGetSamplesBy() {
+		return lblGetSamplesBy;
+	}
+
 	public JButton getButtonEnterFeature() {
 		return buttonEnterFeature;
 	}

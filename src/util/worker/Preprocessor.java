@@ -45,7 +45,7 @@ public class Preprocessor extends SwingWorker<Void, Integer>{
 		ArrayList<Column> columns = new ArrayList<>();
 
 		SwingUpdater.appendJTextAreaText(mainFrame.getTextAreaPreprocessorStatus(), "PROCESS: Reading input files. . .\n");
-		questionList = cp.readQuestions(varDesFilePath, true);
+		questionList = cp.readQuestions(varDesFilePath);
 		
 		
 		ArrayList<Entry> oldEntries = cp.readCSV(header, columns, rawFilePath, 1);
